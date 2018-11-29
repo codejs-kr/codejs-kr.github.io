@@ -6,7 +6,7 @@ class DevelopmentTemplate extends Component {
     const { children } = this.props;
 
     return (
-      <div>
+      <div className="container">
         { children }
       </div>
     );

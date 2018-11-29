@@ -5,8 +5,6 @@ import 'statics/scss/main.scss';
 
 class App extends Component {
   render() {
-    console.log('여기다', process.env);
-
     return (
       <BrowserRouter>
         <Fragment>

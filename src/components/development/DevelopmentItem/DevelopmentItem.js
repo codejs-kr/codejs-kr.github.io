@@ -4,9 +4,10 @@ import './DevelopmentItem.scss';
 class DevelopmentItem extends Component {
   render() {
     return (
-      <div>
-        DevelopmentItem
-      </div>
+      <a href="#" className="thumbnail">
+        <h2>Title</h2>
+        <img src="#" alt="#" />
+      </a>
     );
   }
 }

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { PageTemplate } from 'components';
 
 class About extends Component {
   render() {
     return (
-      <div>
+      <PageTemplate>
         About
-      </div>
+      </PageTemplate>
     );
   }
 }

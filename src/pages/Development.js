@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import { PageTemplate } from 'components';
+import { PageTemplate, DevelopmentTemplate } from 'components';
+import { DevelopmentItemContainer } from "containers";
 
 class Development extends Component {
   render() {
     return (
       <PageTemplate>
-        Development
+        <DevelopmentTemplate>
+          <DevelopmentItemContainer />
+        </DevelopmentTemplate>
       </PageTemplate>
     );
   }

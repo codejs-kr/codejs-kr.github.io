@@ -1,0 +1,35 @@
+.thumbnail {
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: 22%;
+  max-width: 300px;
+  margin: 1.2%;
+  border: solid 1px #E4E4E4;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 5px;
+
+  h2 {
+    margin: 0;
+    padding: 2% 0 2% 2%;
+    background: black;
+    font-weight: normal;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px 5px 0 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: -3px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  &:hover h2 {
+    color: rgba(255,255,255,1);
+  }
+}
