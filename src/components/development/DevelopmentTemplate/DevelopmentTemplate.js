@@ -11,7 +11,9 @@ class DevelopmentTemplate extends Component {
           Development
           <span> :: Simple is Best</span>
         </h1>
-        { children }
+        <article>
+          { children }
+        </article>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { DevelopmentItem } from 'components';
-import { data } from './data.json';
+import data from './data';
 
 class DevelopmentItemContainer extends Component {
   render() {

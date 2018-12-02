@@ -12,7 +12,7 @@ module.exports = {
 
   // 번들 결과
   output: {
-    filename: '[name].[hash].js',
+    filename: '[name].[hash].js'
   },
 
   // 상대 경로 보완
@@ -63,7 +63,6 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              url: false,
               sourceMap: true
             }
           },
