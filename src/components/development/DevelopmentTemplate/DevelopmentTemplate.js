@@ -7,6 +7,10 @@ class DevelopmentTemplate extends Component {
 
     return (
       <div className="container">
+        <h1>
+          Development
+          <span> :: Simple is Best</span>
+        </h1>
         { children }
       </div>
     );

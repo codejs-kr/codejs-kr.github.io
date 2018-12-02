@@ -6,9 +6,11 @@ class Header extends Component {
   render() {
     return (
       <header id="header">
+        <a href="http://www.codejs.co.kr" id="back">← Back to blog</a>
+
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Development</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
