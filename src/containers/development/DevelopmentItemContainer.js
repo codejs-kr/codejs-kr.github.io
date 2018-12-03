@@ -4,7 +4,6 @@ import data from './data';
 
 class DevelopmentItemContainer extends Component {
   render() {
-    console.log('여기다 data', data);
 
     return (
       <Fragment>

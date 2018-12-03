@@ -6,3 +6,4 @@ export { default as PageTemplate } from './base/PageTemplate/PageTemplate';
 // development
 export { default as DevelopmentTemplate } from './development/DevelopmentTemplate/DevelopmentTemplate';
 export { default as DevelopmentItem } from './development/DevelopmentItem/DevelopmentItem';
+export { default as DevelopmentDetailTemplate } from './development/DevelopmentDetailTemplate/DevelopmentDetailTemplate';

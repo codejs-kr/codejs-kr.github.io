@@ -10,7 +10,7 @@ class Header extends Component {
 
         <ul>
           <li>
-            <Link to="/">Development</Link>
+            <Link to="/development">Development</Link>
           </li>
           <li>
             <Link to="/about">About</Link>

@@ -2,22 +2,22 @@ export default [
   {
     "title": "React Evernote (+Firebase DB)",
     "imageURL": require("statics/img/development/thumb-react-evernote.png"),
-    "contentURL": ""
+    "contentURL": "/development/react-evernote"
   },
   {
     "title": "WebRTC 연구실",
     "imageURL": require("statics/img/development/thumb-webrtclab.png"),
-    "contentURL": ""
+    "contentURL": "/development/webrtc-lab"
   },
   {
     "title": "Speech Recognition",
     "imageURL": require("statics/img/development/thumb-stt.png"),
-    "contentURL": ""
+    "contentURL": "https://webrtclab.herokuapp.com/speech-recognition"
   },
   {
     "title": "칭찬합시다 (사내문화정착 프로젝트)",
     "imageURL": require("statics/img/development/thumb-balloon.png"),
-    "contentURL": ""
+    "contentURL": "http://balloon.rsupport.com"
   },
   {
     "title": "RemoteMeeting (화상회의서비스)",

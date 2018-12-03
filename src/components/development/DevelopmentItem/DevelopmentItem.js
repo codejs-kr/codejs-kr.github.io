@@ -1,15 +1,35 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import './DevelopmentItem.scss';
 
 class DevelopmentItem extends Component {
-  render() {
-    const { title, imageURL, contentURL } = this.props;
-
+  getInnerContent = (title, imageURL) => {
     return (
-      <a href="#" className="thumbnail">
+      <Fragment>
         <h2>{title}</h2>
         <img src={imageURL} alt={title} />
-      </a>
+      </Fragment>
+    )
+  };
+
+  render() {
+    const { title, imageURL, contentURL, linkURL } = this.props;
+    const { getInnerContent } = this;
+
+    return (
+      <Fragment>
+        {
+          contentURL.match('http') ? (
+            <a href={contentURL} className="thumbnail" title={title} target="_blank">
+              {getInnerContent(title, imageURL)}
+            </a>
+          ) : (
+            <Link to={contentURL} className="thumbnail" title={title}>
+              {getInnerContent(title, imageURL)}
+            </Link>
+          )
+        }
+      </Fragment>
     );
   }
 }
