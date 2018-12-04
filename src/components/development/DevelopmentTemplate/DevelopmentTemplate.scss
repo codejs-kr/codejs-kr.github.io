@@ -1,20 +1,22 @@
-#codejs h1 {
-  margin-bottom: 20px;
-  text-indent: 10px;
-  color: #fff;
-  border-bottom: solid 1px #fff;
-  //background: url('~statics/img/development/thumb-balloon.png') no-repeat 0 0;
-}
+#page-development {
+  h1 {
+    margin-bottom: 20px;
+    text-indent: 10px;
+    border-bottom: solid 1px #fff;
+    //background: url('~statics/img/development/thumb-balloon.png') no-repeat 0 0;
 
-#codejs h1 span {
-  font-weight: normal;
-  font-size: 14px;
-}
+    span {
+      font-weight: normal;
+      font-size: 14px;
+    }
+  }
 
-.container {
-  padding: 0 30px;
-
-  article {
+  &.container {
     padding: 0 30px;
+
+    article {
+      padding: 0 30px;
+    }
   }
 }
+

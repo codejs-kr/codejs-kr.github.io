@@ -1,0 +1,45 @@
+$fontColor: #333;
+
+#detail-template {
+  h1 {
+    margin-bottom: 40px;
+    text-indent: 10px;
+    border-bottom: solid 1px #2c2c2c;
+    color: $fontColor;
+  }
+
+  &.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+    article {
+      padding: 0 30px;
+    }
+
+    color: $fontColor;
+  }
+
+  .image-wrap {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: 40px;
+    padding-left: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-left: solid 5px #000;
+  }
+}
+
+.image-wrap {
+  height: 350px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+

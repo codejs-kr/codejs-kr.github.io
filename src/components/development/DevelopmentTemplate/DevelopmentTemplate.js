@@ -6,9 +6,10 @@ class DevelopmentTemplate extends Component {
     const { children } = this.props;
 
     return (
-      <div className="container">
+      <div id="page-development" className="container">
         <h1>
-          Development<span> :: Simple is Best</span>
+          Development
+          <span> :: Simple is Best</span>
         </h1>
         <article>
           { children }

@@ -6,7 +6,7 @@ class DevelopmentDetailTemplate extends Component {
     const { children, title } = this.props;
 
     return (
-      <div className="container">
+      <div id="detail-template" className="container">
         <h1>{title}</h1>
         <article>
           { children }
