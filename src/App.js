@@ -1,12 +1,13 @@
 import React, { Component, Fragment } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
 import { About, Development, DevelopmentDetails, NotFound } from 'pages';
 import 'statics/scss/main.scss';
 
 class App extends Component {
   render() {
+
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Fragment>
           <Switch>
             <Route exact path="/" component={Development} />
@@ -16,7 +17,7 @@ class App extends Component {
             <Route component={NotFound} />
           </Switch>
         </Fragment>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
