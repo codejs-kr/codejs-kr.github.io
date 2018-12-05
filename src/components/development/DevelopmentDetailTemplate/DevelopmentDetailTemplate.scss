@@ -1,13 +1,6 @@
 $fontColor: #333;
 
 #detail-template {
-  h1 {
-    margin-bottom: 40px;
-    text-indent: 10px;
-    border-bottom: solid 1px #2c2c2c;
-    color: $fontColor;
-  }
-
   &.container {
     width: 960px;
     margin: 0 auto;
@@ -20,8 +13,19 @@ $fontColor: #333;
     color: $fontColor;
   }
 
+  section {
+    margin-bottom: 80px;
+  }
+
   .image-wrap {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+    text-indent: 10px;
+    border-bottom: solid 1px #2c2c2c;
+    color: $fontColor;
   }
 
   h2 {
@@ -30,6 +34,42 @@ $fontColor: #333;
     font-size: 1.8rem;
     font-weight: 500;
     border-left: solid 5px #000;
+  }
+
+  .list-wrap {
+    ul {
+      margin-left: 25px;
+      list-style: none;
+
+      strong {
+        display: block;
+      }
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+  }
+
+  .more-wrap {
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        display: flex;
+        width: 49%;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #000;
+      }
+    }
   }
 }
 
