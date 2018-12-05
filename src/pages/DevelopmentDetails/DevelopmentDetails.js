@@ -19,7 +19,7 @@ class DevelopmentDetails extends Component {
     }
 
     return (
-      <PageTemplate thema="white">
+      <PageTemplate thema="white" isSubpage>
         {currentPage}
       </PageTemplate>
     );

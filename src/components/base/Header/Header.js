@@ -4,9 +4,17 @@ import './Header.scss';
 
 class Header extends Component {
   render() {
+    const { isSubpage } = this.props;
+
     return (
       <header id="header">
-        <a href="http://www.codejs.co.kr" id="back">← Back to blog</a>
+        {
+          isSubpage ? (
+            <Link to="/development" id="back">← Back to list</Link>
+          ) : (
+            <a href="http://www.codejs.co.kr" id="back">← Back to blog</a>
+          )
+        }
 
         <ul>
           <li>

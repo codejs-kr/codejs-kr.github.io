@@ -4,11 +4,11 @@ import './PageTemplate.scss';
 
 class PageTemplate extends Component {
   render() {
-    const { children, thema } = this.props;
+    const { children, thema, isSubpage } = this.props;
 
     return (
       <div id="page-template" className={thema}>
-        <Header />
+        <Header isSubpage={isSubpage} />
         { children }
         <Footer />
       </div>
