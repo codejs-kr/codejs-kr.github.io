@@ -4,12 +4,12 @@
   margin: 0 10px;
   padding: 10px 20px;
   text-decoration: none;
-  border: solid 1px #333;
+  //border: solid 1px #333;
   border-radius: 8px;
-  color: #000;
-  font-weight: bold;
+  color: #fff;
+  background: #3f5366;
 
   &:hover {
-    background: rgba(0,0,0,0.1);
+    background: #2C3946;
   }
 }

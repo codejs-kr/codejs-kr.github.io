@@ -22,7 +22,7 @@ class ReactEvernote extends Component {
             </li>
             <li>
               <strong>역할</strong>
-              <p>Frontend 개발, Firebase DB 스키마 설계 및 연동</p>
+              <p>웹 어플리케이션 설계 및 개발</p>
             </li>
             <li>
               <strong>주요개발항목</strong>
