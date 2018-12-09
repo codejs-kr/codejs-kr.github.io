@@ -12,17 +12,17 @@ export default [
   {
     "title": "Speech Recognition",
     "imageURL": require("statics/img/development/thumb-stt.png"),
-    "contentURL": "https://webrtclab.herokuapp.com/speech-recognition"
+    "contentURL": "/development/speech-recognition"
   },
   {
     "title": "칭찬합시다 (사내문화정착 프로젝트)",
     "imageURL": require("statics/img/development/thumb-balloon.png"),
-    "contentURL": "http://balloon.rsupport.com"
+    "contentURL": "/development/balloon"
   },
   {
     "title": "RemoteMeeting (화상회의서비스)",
     "imageURL": require("statics/img/development/thumb-remotemeeting.png"),
-    "contentURL": ""
+    "contentURL": "/development/remote-meeting"
   },
   {
     "title": "WebRTC 관한 발표 자료",

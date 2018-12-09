@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import { DevelopmentDetailTemplate } from 'components';
 
-class ReactEvernote extends Component {
+class RemoteMeeting extends Component {
   render() {
     return (
-      <DevelopmentDetailTemplate title="React Evernote">
-        <section className="image-wrap">
-          <img src={require("statics/img/development/react-evernote/main.png")} alt="React Evernote" />
+      <DevelopmentDetailTemplate title="RemoteMeeting">
+        <section className="image-wrap center">
+          <img src={require("statics/img/development/remote-meeting/main.png")} alt="RemoteMeeting" />
         </section>
 
         <h2>
-          React와 Firebase에 관심을 갖던 시기에 두가지를 활용해서 무언가를 만들어 보고 싶었다.<br />
-          그래서 평소에 자주 사용하는 Evernote를 구현해 보기로 하고 조금씩 작업을 시작해 보았다.
+          리모트미팅...
         </h2>
 
         <section className="list-wrap">
@@ -36,8 +35,7 @@ class ReactEvernote extends Component {
         </section>
 
         <section className="button-wrap">
-          <a href="http://play.codejs.co.kr/react-evernote" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/react-evernote" className="button" target="_blank">Github</a>
+          <a href="https://remotemeeting.com" className="button" target="_blank">Live</a>
         </section>
 
         <section className="more-wrap">
@@ -52,4 +50,4 @@ class ReactEvernote extends Component {
   }
 }
 
-export default ReactEvernote;
+export default RemoteMeeting;

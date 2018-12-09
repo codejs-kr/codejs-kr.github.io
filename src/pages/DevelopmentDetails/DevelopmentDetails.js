@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { PageTemplate, DevelopmentDetailTemplate } from 'components';
-import { ReactEvernote, WebrtcLab } from 'pages';
+import {
+  ReactEvernote,
+  WebrtcLab,
+  SpeechRecognition,
+  Balloon,
+  RemoteMeeting,
+} from 'pages';
 
 class DevelopmentDetails extends Component {
   render() {
@@ -15,6 +21,15 @@ class DevelopmentDetails extends Component {
         break;
       case 'webrtc-lab':
         currentPage = <WebrtcLab />;
+        break;
+      case 'speech-recognition':
+        currentPage = <SpeechRecognition />;
+        break;
+      case 'balloon':
+        currentPage = <Balloon />;
+        break;
+      case 'remote-meeting':
+        currentPage = <RemoteMeeting />;
         break;
     }
 
