@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentPagingContainer } from 'containers';
 
 class ReactEvernote extends Component {
   render() {
+    const name = "React Evernote";
+
     return (
-      <DevelopmentDetailTemplate title="React Evernote">
+      <DevelopmentDetailTemplate title={name}>
         <section className="image-wrap">
-          <img src={require("statics/img/development/react-evernote/main.png")} alt="React Evernote" />
+          <img src={require("statics/img/development/react-evernote/main.png")} alt={name} />
         </section>
 
         <h2>
@@ -43,8 +46,7 @@ class ReactEvernote extends Component {
         <section className="more-wrap">
           <h3>More Projects</h3>
           <div>
-            <a>A</a>
-            <a>B</a>
+            <DevelopmentPagingContainer name={name} />
           </div>
         </section>
       </DevelopmentDetailTemplate>

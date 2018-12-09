@@ -13,7 +13,8 @@ $borderSize: 6px;
   text-decoration: none;
   font-size: 0;
 
-  h2 {
+  strong {
+    display: block;
     margin: 0;
     padding: 2px 0 2px 5px;
     background: black;
@@ -30,7 +31,7 @@ $borderSize: 6px;
     width: 100%;
   }
 
-  &:hover h2 {
+  &:hover strong {
     color: rgba(255,255,255,1);
   }
 }

@@ -6,7 +6,7 @@ class DevelopmentItem extends Component {
   getInnerContent = (title, imageURL) => {
     return (
       <Fragment>
-        <h2>{title}</h2>
+        <strong>{title}</strong>
         <img src={imageURL} alt={title} />
       </Fragment>
     )

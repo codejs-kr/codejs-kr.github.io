@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentPagingContainer } from 'containers';
 
 class WebrtcLab extends Component {
   render() {
+    const name = "WebRTC 연구실";
+
     return (
-      <DevelopmentDetailTemplate title="WebRTC 연구실">
+      <DevelopmentDetailTemplate title={name}>
         <section className="image-wrap x-center">
-          <img src={require("statics/img/development/webrtc-lab/main.png")} alt="WebRTC 연구실" />
+          <img src={require("statics/img/development/webrtc-lab/main.png")} alt={name} />
         </section>
 
         <h2>
@@ -45,8 +48,7 @@ class WebrtcLab extends Component {
         <section className="more-wrap">
           <h3>More Projects</h3>
           <div>
-            <a>A</a>
-            <a>B</a>
+            <DevelopmentPagingContainer name={name} />
           </div>
         </section>
       </DevelopmentDetailTemplate>

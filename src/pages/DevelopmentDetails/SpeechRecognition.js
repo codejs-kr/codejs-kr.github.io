@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentPagingContainer } from 'containers';
 
 class SpeechRecognition extends Component {
   render() {
+    const name = "Speech Recognition";
+
     return (
-      <DevelopmentDetailTemplate title="Speech Recognition">
+      <DevelopmentDetailTemplate title={name}>
         <section className="image-wrap center">
-          <img src={require("statics/img/development/stt/main.png")} alt="Speech Recognition" />
+          <img src={require("statics/img/development/stt/main.png")} alt={name} />
         </section>
 
         <h2>
@@ -44,8 +47,7 @@ class SpeechRecognition extends Component {
         <section className="more-wrap">
           <h3>More Projects</h3>
           <div>
-            <a>A</a>
-            <a>B</a>
+            <DevelopmentPagingContainer name={name} />
           </div>
         </section>
       </DevelopmentDetailTemplate>

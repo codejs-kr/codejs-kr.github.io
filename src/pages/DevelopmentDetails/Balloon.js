@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentPagingContainer } from 'containers';
 
 class Balloon extends Component {
   render() {
+    const name = "칭찬합시다";
+
     return (
-      <DevelopmentDetailTemplate title="칭찬합시다 (사내문화정착 프로젝트)">
+      <DevelopmentDetailTemplate title={`${name} (사내문화정착 프로젝트)`}>
         <section className="image-wrap x-center">
-          <img src={require("statics/img/development/balloon/main.png")} alt="칭찬합시다" />
+          <img src={require("statics/img/development/balloon/main.png")} alt={name} />
         </section>
 
         <h2>
@@ -45,8 +48,7 @@ class Balloon extends Component {
         <section className="more-wrap">
           <h3>More Projects</h3>
           <div>
-            <a>A</a>
-            <a>B</a>
+            <DevelopmentPagingContainer name={name} />
           </div>
         </section>
       </DevelopmentDetailTemplate>
