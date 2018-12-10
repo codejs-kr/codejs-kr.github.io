@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentPagingContainer } from 'containers';
 
 class RemoteMeeting extends Component {
   render() {
+    const name = "RemoteMeeting";
+
     return (
-      <DevelopmentDetailTemplate title="RemoteMeeting">
+      <DevelopmentDetailTemplate title={name}>
         <section className="image-wrap center">
-          <img src={require("statics/img/development/remote-meeting/main.png")} alt="RemoteMeeting" />
+          <img src={require("statics/img/development/remote-meeting/main.png")} alt={name} />
         </section>
 
         <h2>
@@ -40,10 +43,7 @@ class RemoteMeeting extends Component {
 
         <section className="more-wrap">
           <h3>More Projects</h3>
-          <div>
-            <a>A</a>
-            <a>B</a>
-          </div>
+          <DevelopmentPagingContainer name={name} />
         </section>
       </DevelopmentDetailTemplate>
     );

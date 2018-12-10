@@ -22,91 +22,91 @@ export default [
   {
     "title": "RemoteMeeting (화상회의서비스)",
     "imageURL": require("statics/img/development/thumb-remotemeeting.png"),
-    "contentURL": "/development/remote-meeting"
+    "contentURL": "/development/remotemeeting"
   },
   {
     "title": "WebRTC 관한 발표 자료",
     "imageURL": require("statics/img/development/thumb-webrtc.png"),
-    "contentURL": ""
+    "contentURL": "/development/webrtc-presentation"
   },
   {
     "title": "JavaScript Localization (다국어처리)",
     "imageURL": require("statics/img/development/thumb-localization.png"),
-    "contentURL": ""
+    "contentURL": "/development/localization"
   },
   {
     "title": "HTML5 File API 활용",
     "imageURL": require("statics/img/development/thumb-file-upload.png"),
-    "contentURL": ""
+    "contentURL": "/development/file-api"
   },
   {
     "title": "3D image slider",
     "imageURL": require("statics/img/development/thumb-css3-effect.png"),
-    "contentURL": ""
+    "contentURL": "/development/image-slider"
   },
   {
     "title": "WOL Guide Site",
     "imageURL": require("statics/img/development/thumb-wol-guide.png"),
-    "contentURL": ""
+    "contentURL": "/development/remotewol"
   },
   {
     "title": "Canvas Case",
     "imageURL": require("statics/img/development/thumb-canvas-case.png"),
-    "contentURL": ""
+    "contentURL": "/development/canvas-case"
   },
   {
     "title": "FrontEnd Convention (responsive)",
     "imageURL": require("statics/img/development/thumb-responsive-convention.png"),
-    "contentURL": ""
+    "contentURL": "/development/frontend-convension-ver2"
   },
   {
     "title": "Book Transform",
     "imageURL": require("statics/img/development/thumb-transform.png"),
-    "contentURL": ""
+    "contentURL": "/development/book-transform"
   },
   {
     "title": "RemoteWOL",
     "imageURL": require("statics/img/development/thumb-wol.png"),
-    "contentURL": ""
+    "contentURL": "/development/remotewol"
   },
   {
     "title": "NateOn 내 PC제어 리뉴얼",
     "imageURL": require("statics/img/development/thumb-nateon.png"),
-    "contentURL": ""
+    "contentURL": "/development/nateon-mypc"
   },
   {
     "title": "DropBox Tour Book",
     "imageURL": require("statics/img/development/thumb-dropbox.png"),
-    "contentURL": ""
+    "contentURL": "/development/dropbox-tour-book"
   },
 	{
 		"title": "RemoteView Admin UI Templates",
 		"imageURL": require("statics/img/development/thumb-remoteview-admin.png"),
-		"contentURL": ""
+		"contentURL": "/development/remoteview-admin"
 	},
 	{
 		"title": "RemoteView Mobile",
 		"imageURL": require("statics/img/development/thumb-remoteview-mobile.png"),
-		"contentURL": ""
+		"contentURL": "/development/remoteview-personal"
 	},
 	{
 		"title": "iPad Smart Cover",
 		"imageURL": require("statics/img/development/thumb-ipad.png"),
-		"contentURL": ""
+    "contentURL": "/development/ipad-smart-cover"
 	},
 	{
 		"title": "FrontEnd Convention",
 		"imageURL": require("statics/img/development/thumb-convention.png"),
-		"contentURL": ""
+    "contentURL": "/development/frontend-convension-ver1"
 	},
 	{
 		"title": "RemoteView Business",
 		"imageURL": require("statics/img/development/thumb-remoteview-business.png"),
-		"contentURL": ""
+		"contentURL": "/development/remoteview-business"
 	},
 	{
 		"title": "RemoteView Personal",
 		"imageURL": require("statics/img/development/thumb-remoteview-personal.png"),
-		"contentURL": ""
+		"contentURL": "/development/remoteview-personal"
 	}
 ];

@@ -39,15 +39,20 @@ class DevelopmentPagingContainer extends Component {
     return result;
   };
 
+  moveTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   render() {
     const { name } = this.props;
-    const { searchIndex, filterData } = this;
+    const { searchIndex, filterData, moveTop } = this;
     const index = searchIndex(data, name);
     const listData = filterData(data, index);
     console.log('확인 name', name, index);
+    moveTop();
 
     return (
-      <Fragment>
+      <div>
         {
           listData.map((item, index) => {
             return (
@@ -60,7 +65,7 @@ class DevelopmentPagingContainer extends Component {
             )
           })
         }
-      </Fragment>
+      </div>
     );
   }
 }

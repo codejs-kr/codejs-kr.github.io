@@ -47,9 +47,7 @@ class Balloon extends Component {
 
         <section className="more-wrap">
           <h3>More Projects</h3>
-          <div>
-            <DevelopmentPagingContainer name={name} />
-          </div>
+          <DevelopmentPagingContainer name={name} />
         </section>
       </DevelopmentDetailTemplate>
     );
