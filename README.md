@@ -1,4 +1,4 @@
-# codeJS play ground
+# codeJS playground
 
 - About
 - Development (실험실, 상용)
