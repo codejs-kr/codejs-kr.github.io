@@ -9,7 +9,7 @@ class RemoteMeeting extends Component {
     return (
       <DevelopmentDetailTemplate title={name}>
         <section className="image-wrap center">
-          <img src={require("statics/img/development/remote-meeting/main.png")} alt={name} />
+          <img src={require("statics/img/development/remotemeeting/main.png")} alt={name} />
         </section>
 
         <h2>
@@ -20,7 +20,7 @@ class RemoteMeeting extends Component {
           <ul>
             <li>
               <strong>개발년도</strong>
-              <p>2017</p>
+              <p>2014 ~ 현재</p>
             </li>
             <li>
               <strong>역할</strong>

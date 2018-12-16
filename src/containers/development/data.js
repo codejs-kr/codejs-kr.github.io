@@ -1,8 +1,8 @@
 export default [
   {
-    "title": "React Evernote (+Firebase DB)",
-    "imageURL": require("statics/img/development/thumb-react-evernote.png"),
-    "contentURL": "/development/react-evernote"
+    "title": "RemoteMeeting (화상회의서비스)",
+    "imageURL": require("statics/img/development/thumb-remotemeeting.png"),
+    "contentURL": "/development/remotemeeting"
   },
   {
     "title": "WebRTC 연구실",
@@ -15,19 +15,19 @@ export default [
     "contentURL": "/development/speech-recognition"
   },
   {
+    "title": "WebRTC 관한 발표 자료",
+    "imageURL": require("statics/img/development/thumb-webrtc.png"),
+    "contentURL": "/development/webrtc-presentation"
+  },
+  {
     "title": "칭찬합시다 (사내문화정착 프로젝트)",
     "imageURL": require("statics/img/development/thumb-balloon.png"),
     "contentURL": "/development/balloon"
   },
   {
-    "title": "RemoteMeeting (화상회의서비스)",
-    "imageURL": require("statics/img/development/thumb-remotemeeting.png"),
-    "contentURL": "/development/remotemeeting"
-  },
-  {
-    "title": "WebRTC 관한 발표 자료",
-    "imageURL": require("statics/img/development/thumb-webrtc.png"),
-    "contentURL": "/development/webrtc-presentation"
+    "title": "React Evernote (+Firebase DB)",
+    "imageURL": require("statics/img/development/thumb-react-evernote.png"),
+    "contentURL": "/development/react-evernote"
   },
   {
     "title": "JavaScript Localization (다국어처리)",

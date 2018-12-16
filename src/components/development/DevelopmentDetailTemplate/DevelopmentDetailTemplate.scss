@@ -31,6 +31,7 @@ $fontColor: #333;
     color: $fontColor;
   }
 
+  .overview,
   h2 {
     margin-bottom: 40px;
     padding-left: 20px;
@@ -40,8 +41,15 @@ $fontColor: #333;
     border-radius: 5px;
   }
 
+  .overview {
+    p {
+      margin-bottom: 15px;
+    }
+  }
+
   h3 {
     font-size: 2rem;
+    margin-bottom: 5px;
   }
 
   .list-wrap {
@@ -56,6 +64,26 @@ $fontColor: #333;
 
     li {
       margin-bottom: 15px;
+    }
+  }
+
+  .features-wrap {
+    dl {
+      margin-bottom: 30px;
+      padding-left: 3px;
+
+      p {
+        margin-bottom: 2px;
+      }
+
+      img {
+        margin-left: 2px;
+        width: 100%;
+      }
+    }
+
+    dt {
+      font-weight: bold;
     }
   }
 
