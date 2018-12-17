@@ -43,7 +43,7 @@ class Balloon extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>Javascript(ES5), SCSS, NodeJS, Express, EJS, MongoDB, Gulp</p>
+              <p>HTML5, Javascript(ES5), SCSS, NodeJS, Express, EJS, MongoDB, Gulp</p>
             </li>
           </ul>
         </section>
@@ -61,7 +61,6 @@ class Balloon extends Component {
               <img src={require("statics/img/development/balloon/main.png")} alt={name} />
             </dd>
           </dl>
-
           <dl>
             <dt>칭찬 메시지 보내기</dt>
             <dd>
@@ -69,7 +68,6 @@ class Balloon extends Component {
               <img src={require("statics/img/development/balloon/feature1.png")} alt="" />
             </dd>
           </dl>
-
           <dl>
             <dt>내가 받은 칭찬 메시지</dt>
             <dd>
@@ -77,7 +75,6 @@ class Balloon extends Component {
               <img src={require("statics/img/development/balloon/feature3.png")} alt={name} />
             </dd>
           </dl>
-
           <dl>
             <dt>칭찬왕 & 칭찬쟁이</dt>
             <dd>
@@ -88,7 +85,6 @@ class Balloon extends Component {
               <img src={require("statics/img/development/balloon/feature2.png")} alt="" />
             </dd>
           </dl>
-
           <dl>
             <dt>사내 문화로 정착</dt>
             <dd>
