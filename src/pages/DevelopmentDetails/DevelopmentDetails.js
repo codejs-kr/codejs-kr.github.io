@@ -6,6 +6,7 @@ import {
   SpeechRecognition,
   Balloon,
   RemoteMeeting,
+  RemoteLive,
   WebrtcPresentation,
   Localization,
   FileAPI,
@@ -45,6 +46,9 @@ class DevelopmentDetails extends Component {
         break;
       case 'remotemeeting':
         currentPage = <RemoteMeeting />;
+        break;
+      case 'remotelive':
+        currentPage = <RemoteLive />;
         break;
       case 'webrtc-presentation':
         currentPage = <WebrtcPresentation />;

@@ -9,7 +9,7 @@ class RemoteMeeting extends Component {
     return (
       <DevelopmentDetailTemplate title={name}>
         <section className="image-wrap center">
-          <img src={require("statics/img/development/remotemeeting/main2.png")} alt={name} />
+          <img src={require("statics/img/development/remotemeeting/main.png")} alt={name} />
         </section>
 
         <section className="overview">
@@ -18,7 +18,7 @@ class RemoteMeeting extends Component {
             제가 다니는 회사는 컴퓨터를 제어하는 서비스가 주를 이루었으며, 저 또한 관련 서비스를 오랜 시간 개발했습니다.
           </p>
           <p>
-            하지만, 저는 컴퓨터를 제어하는 서비스보다 사람 간의 커뮤니케이션 도구를 개발하고 싶다는 생각을 많이 하였고,
+            하지만 저는 컴퓨터를 제어하는 서비스보다 사람 간의 커뮤니케이션 도구를 개발하고 싶다는 생각을 많이 하였고,
             2014년 WebRTC 기술을 알게 된 후 관련 단위 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.
           </p>
           <p>

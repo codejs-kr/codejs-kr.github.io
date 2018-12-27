@@ -35,7 +35,7 @@ $fontColor: #333;
   h2 {
     margin-bottom: 40px;
     padding-left: 20px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     border-left: solid 5px #3f5366;
     border-radius: 5px;
@@ -73,21 +73,23 @@ $fontColor: #333;
     }
 
     dl {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
       padding-left: 3px;
 
       p {
-        margin-bottom: 2px;
+        margin-bottom: 4px;
       }
 
       img {
         margin-left: 1px;
         width: 100%;
+        border: solid 1px rgba(0, 0, 0, 0.1);
       }
     }
 
     dt {
       font-weight: bold;
+      margin-bottom: 4px;
     }
   }
 
@@ -102,6 +104,11 @@ $fontColor: #333;
         height: 200px;
         max-width: 100%;
         border-radius: 0;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+        }
 
         img {
           width: 100%;
@@ -117,6 +124,7 @@ $fontColor: #333;
           width: 100%;
           padding-left: 10px;
           border-radius: 0;
+          z-index: 1;
         }
       }
     }

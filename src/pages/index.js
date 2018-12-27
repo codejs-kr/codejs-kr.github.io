@@ -8,6 +8,7 @@ export { default as ReactEvernote } from './DevelopmentDetails/ReactEvernote';
 export { default as SpeechRecognition } from './DevelopmentDetails/SpeechRecognition';
 export { default as Balloon } from './DevelopmentDetails/Balloon';
 export { default as RemoteMeeting } from './DevelopmentDetails/RemoteMeeting';
+export { default as RemoteLive } from './DevelopmentDetails/RemoteLive';
 
 
 export { default as BookTransform } from './DevelopmentDetails/BookTransform';

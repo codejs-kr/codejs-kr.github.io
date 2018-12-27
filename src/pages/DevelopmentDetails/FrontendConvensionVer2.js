@@ -4,46 +4,90 @@ import { DevelopmentPagingContainer } from 'containers';
 
 class FrontendConvensionVer2 extends Component {
   render() {
-    const name = "FrontEnd Convension (responsive)";
+    const name = "FrontEnd Convension (반응형)";
 
     return (
       <DevelopmentDetailTemplate title={name}>
-        <section className="image-wrap x-center">
-          <img src={require("statics/img/development/webrtc-lab/main.png")} alt={name} />
+        <section className="image-wrap">
+          <img src={require("statics/img/development/rfc/main.png")} alt={name} />
         </section>
 
-        <h2>
-          WebRTC를 이용한 프로젝트를 2년 넘게 진행하면서 참고 자료들이 모두 외국 자료들이라
-          저 또한 언어의 장벽에서 항상 느림보가 돼야만 했습니다.<br />
-          WebRTC 연구실 이란 말은 다소 거창하지만,
-          WebRTC를 배우고 싶어 하는 분들이 조금 더 진입하기 쉽게 하는 것을 목적으로
-          제가 알게 된 정보들을 다듬어서 바로 사용할 수 있는 예제 공간으로 만들었습니다.
-        </h2>
+        <section className="overview">
+          <p>
+            2012년 초 팀 구성원들이 늘어나면서 타당한 코딩룰과
+            자주 사용하는 컴포넌트들을 재사용 가능하게 만들고 싶었습니다.
+            팀에서도 모두 필요성을 알지만 어디서부터 어느것까지 해야할지 막막한 부분이 있었기 때문에
+            이 부분을 당시 트위터 부트스트랩의 구조를 닮아보기로 하고 먼저 사이트 구조를 만들어 공유하였습니다.
+          </p>
+          <p>
+            많이 사용하는 컴포넌트들의 기본형을 만들기로 시작한 프로젝트이며,
+            오픈 이후 팀프로젝트로 발전시켜서 팀사람들과 함께 만들어낸 결과물입니다.
+          </p>
+        </section>
 
         <section className="list-wrap">
           <ul>
             <li>
               <strong>개발년도</strong>
-              <p>2016 ~ 2018</p>
+              <p>2012 ~ 2013</p>
             </li>
             <li>
               <strong>역할</strong>
-              <p>웹 어플리케이션 설계 및 개발</p>
+              <p>사이트 기획, 구조설계, 사이트 개발</p>
             </li>
             <li>
               <strong>주요개발항목</strong>
-              <p>마이크 & 캠 접근하기, 비디오 필터, 1:1 화상회의 등</p>
+              <p>사이트 개발 및 컨벤션 작성, 플러그인, 컴포넌트 다수 개발 등</p>
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>WebRTC, WebSocket, NodeJS, Express, EJS</p>
+              <p>HTML5, CSS3, Javascript, jQuery</p>
             </li>
           </ul>
         </section>
 
         <section className="button-wrap">
-          <a href="https://webrtclab.herokuapp.com" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>
+          <a href="http://www.codejs.co.kr/development/views/convention/index.html" className="button" target="_blank">Live</a>
+          {/*<a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>*/}
+        </section>
+
+        <section className="features-wrap">
+          <h3>Features</h3>
+          <dl>
+            <dt>플러그인</dt>
+            <dd>
+              <p>범용적으로 사용할 공통 UI 플러그인을 공유합니다.</p>
+              <img src={require("statics/img/development/rfc/feature-plugins.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>컴포넌트</dt>
+            <dd>
+              <p>자주 사용되는 UI 컴포넌트도 공유합니다.</p>
+              <img src={require("statics/img/development/rfc/feature-components.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>컨벤션</dt>
+            <dd>
+              <p>웹접근성과 개발자간 협업을 위한 룰을 공유합니다.</p>
+              <img src={require("statics/img/development/rfc/feature-convention.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>최적화</dt>
+            <dd>
+              <p>웹사이트 성능을 향상 시키기 위한 방법을 공유합니다.</p>
+              <img src={require("statics/img/development/rfc/feature-optimization.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>초기버전</dt>
+            <dd>
+              <p>방금까지 소개한 내용은 리뉴얼버전이며,<br />반응형 사이트로 개발하기 이전의 첫번째 버전은 좀 더 날것인 상태의 모습이다. (<a href="http://www.codejs.co.kr/development/views/convention/preVersion/" target="_blank">Live</a>)</p>
+              <img src={require("statics/img/development/rfc/early-version.png")} alt={name} />
+            </dd>
+          </dl>
         </section>
 
         <section className="more-wrap">

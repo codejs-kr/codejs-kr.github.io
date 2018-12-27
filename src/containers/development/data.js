@@ -15,6 +15,11 @@ export default [
     "contentURL": "/development/speech-recognition"
   },
   {
+    "title": "RemoteLive",
+    "imageURL": require("statics/img/development/thumb-remotelive.png"),
+    "contentURL": "/development/remotelive"
+  },
+  {
     "title": "WebRTC 관한 발표 자료",
     "imageURL": require("statics/img/development/thumb-webrtc.png"),
     "contentURL": "/development/webrtc-presentation"
@@ -30,6 +35,36 @@ export default [
     "contentURL": "/development/react-evernote"
   },
   {
+    "title": "FrontEnd Convention",
+    "imageURL": require("statics/img/development/thumb-rfc2.png"),
+    "contentURL": "/development/frontend-convension-ver2"
+  },
+  {
+    "title": "RemoteView Business",
+    "imageURL": require("statics/img/development/thumb-remoteview-business.png"),
+    "contentURL": "/development/remoteview-business"
+  },
+  {
+    "title": "RemoteView Personal",
+    "imageURL": require("statics/img/development/thumb-remoteview-personal.png"),
+    "contentURL": "/development/remoteview-personal"
+  },
+  {
+    "title": "RemoteWOL",
+    "imageURL": require("statics/img/development/thumb-wol.png"),
+    "contentURL": "/development/remotewol"
+  },
+  //{
+  //  "title": "RemoteView Mobile",
+  //  "imageURL": require("statics/img/development/thumb-remoteview-mobile.png"),
+  //  "contentURL": "/development/remoteview-personal"
+  //},
+  {
+    "title": "NateOn 내 PC제어 리뉴얼",
+    "imageURL": require("statics/img/development/thumb-nateon.png"),
+    "contentURL": "/development/nateon-mypc"
+  },
+  {
     "title": "JavaScript Localization (다국어처리)",
     "imageURL": require("statics/img/development/thumb-localization.png"),
     "contentURL": "/development/localization"
@@ -40,14 +75,14 @@ export default [
     "contentURL": "/development/file-api"
   },
   {
+    "title": "Book Transform",
+    "imageURL": require("statics/img/development/thumb-transform.png"),
+    "contentURL": "/development/book-transform"
+  },
+  {
     "title": "3D image slider",
     "imageURL": require("statics/img/development/thumb-css3-effect.png"),
     "contentURL": "/development/image-slider"
-  },
-  {
-    "title": "WOL Guide Site",
-    "imageURL": require("statics/img/development/thumb-wol-guide.png"),
-    "contentURL": "/development/remotewol"
   },
   {
     "title": "Canvas Case",
@@ -55,58 +90,18 @@ export default [
     "contentURL": "/development/canvas-case"
   },
   {
-    "title": "FrontEnd Convention (responsive)",
-    "imageURL": require("statics/img/development/thumb-responsive-convention.png"),
-    "contentURL": "/development/frontend-convension-ver2"
-  },
-  {
-    "title": "Book Transform",
-    "imageURL": require("statics/img/development/thumb-transform.png"),
-    "contentURL": "/development/book-transform"
-  },
-  {
-    "title": "RemoteWOL",
-    "imageURL": require("statics/img/development/thumb-wol.png"),
-    "contentURL": "/development/remotewol"
-  },
-  {
-    "title": "NateOn 내 PC제어 리뉴얼",
-    "imageURL": require("statics/img/development/thumb-nateon.png"),
-    "contentURL": "/development/nateon-mypc"
-  },
-  {
     "title": "DropBox Tour Book",
     "imageURL": require("statics/img/development/thumb-dropbox.png"),
     "contentURL": "/development/dropbox-tour-book"
   },
-	{
-		"title": "RemoteView Admin UI Templates",
-		"imageURL": require("statics/img/development/thumb-remoteview-admin.png"),
-		"contentURL": "/development/remoteview-admin"
-	},
-	{
-		"title": "RemoteView Mobile",
-		"imageURL": require("statics/img/development/thumb-remoteview-mobile.png"),
-		"contentURL": "/development/remoteview-personal"
-	},
 	{
 		"title": "iPad Smart Cover",
 		"imageURL": require("statics/img/development/thumb-ipad.png"),
     "contentURL": "/development/ipad-smart-cover"
 	},
 	{
-		"title": "FrontEnd Convention",
-		"imageURL": require("statics/img/development/thumb-convention.png"),
-    "contentURL": "/development/frontend-convension-ver1"
-	},
-	{
-		"title": "RemoteView Business",
-		"imageURL": require("statics/img/development/thumb-remoteview-business.png"),
-		"contentURL": "/development/remoteview-business"
-	},
-	{
-		"title": "RemoteView Personal",
-		"imageURL": require("statics/img/development/thumb-remoteview-personal.png"),
-		"contentURL": "/development/remoteview-personal"
+		"title": "RemoteView Admin UI Templates",
+		"imageURL": require("statics/img/development/thumb-remoteview-admin.png"),
+		"contentURL": "/development/remoteview-admin"
 	}
 ];

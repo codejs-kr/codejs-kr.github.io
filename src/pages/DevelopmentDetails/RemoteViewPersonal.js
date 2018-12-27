@@ -8,23 +8,30 @@ class RemoteViewPersonal extends Component {
 
     return (
       <DevelopmentDetailTemplate title={name}>
-        <section className="image-wrap x-center">
-          <img src={require("statics/img/development/webrtc-lab/main.png")} alt={name} />
+        <section className="image-wrap center">
+          <img src={require("statics/img/development/remoteview/personal/main.png")} alt={name} />
         </section>
 
-        <h2>
-          WebRTC를 이용한 프로젝트를 2년 넘게 진행하면서 참고 자료들이 모두 외국 자료들이라
-          저 또한 언어의 장벽에서 항상 느림보가 돼야만 했습니다.<br />
-          WebRTC 연구실 이란 말은 다소 거창하지만,
-          WebRTC를 배우고 싶어 하는 분들이 조금 더 진입하기 쉽게 하는 것을 목적으로
-          제가 알게 된 정보들을 다듬어서 바로 사용할 수 있는 예제 공간으로 만들었습니다.
-        </h2>
+        <section className="overview">
+          <p>
+            개인을 위한 리모트뷰 서비스는 제가 담당할 당시 이전 버전 서비스를 완전히 리뉴얼하는
+            프로젝트였으며, 저의 프론트앤드 개발의 씨앗이 되어준 의미있는 프로젝트입니다.
+          </p>
+          <p>
+            회사의 주력 제품이며 재택근무를 가능하게 해주는 유용한 서비스 입니다.<br />
+            원격지에 설치된 PC의 목록이 노출되며, 해당 PC에 접속하면 전용 뷰어가 나타나며
+            뷰어를 통해서 원격지의 PC를 제어 할 수 있습니다.
+          </p>
+          <p>
+            현재는 기업용 서비스와 통합되었습니다.
+          </p>
+        </section>
 
         <section className="list-wrap">
           <ul>
             <li>
               <strong>개발년도</strong>
-              <p>2016 ~ 2018</p>
+              <p>2010 ~ 2013</p>
             </li>
             <li>
               <strong>역할</strong>
@@ -32,18 +39,58 @@ class RemoteViewPersonal extends Component {
             </li>
             <li>
               <strong>주요개발항목</strong>
-              <p>마이크 & 캠 접근하기, 비디오 필터, 1:1 화상회의 등</p>
+              <p>컴퓨터관리, 리포팅 등 브랜드, 어드민 사이트 포함한 전체 기능 개발 담당</p>
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>WebRTC, WebSocket, NodeJS, Express, EJS</p>
+              <p>HTML5, Javascript, jQuery, jQuery mobile</p>
             </li>
           </ul>
         </section>
 
         <section className="button-wrap">
-          <a href="https://webrtclab.herokuapp.com" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>
+          <a href="http://rview.com" className="button" target="_blank">Live</a>
+          <a href="http://www.codejs.co.kr/development/views/m-rview/index.html" className="button" target="_blank">Mobile version Live</a>
+        </section>
+
+        <section className="features-wrap">
+          <h3>Features</h3>
+          <dl>
+            <dt>원격지 PC관리 (아이콘뷰)</dt>
+            <dd>
+              <p>원격지에 설치된 PC의 목록이 노출되며, 대상 PC를 원격제어 하거나 신규로 관리할 PC를 추가 할 수 있습니다.</p>
+              <img src={require("statics/img/development/remoteview/personal/feature-pc-icon.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>원격지 PC관리 (리스트뷰)</dt>
+            <dd>
+              <p>아이콘뷰와 같은 DOM을 CSS만 변경하여 리스트뷰를 만들어 복잡한 렌더링을 최소화 하였습니다.</p>
+              <img src={require("statics/img/development/remoteview/personal/feature-pc-list.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>리포트</dt>
+            <dd>
+              <p>통계 / 사용 내역 / 결제 내역을 한 화면에서 손쉽게 볼 수 있습니다.</p>
+              <img src={require("statics/img/development/remoteview/personal/feature-stats.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>내 정보 관리</dt>
+            <dd>
+              <p>로그인후 정보를 수정하기 위한 기능도 개발하였습니다.</p>
+              <img src={require("statics/img/development/remoteview/personal/feature-setting.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>어드민 사이트</dt>
+            <dd>
+              <p>어드민 사이트는 반복되는 유형이 많기 때문에 템플릿화 하여 개발하였습니다.</p>
+              <img src={require("statics/img/development/remoteview/personal/feature-admin.png")} alt={name} />
+              http://www.codejs.co.kr/development/views/rv-admin/index.html
+            </dd>
+          </dl>
         </section>
 
         <section className="more-wrap">
