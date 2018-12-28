@@ -9,22 +9,21 @@ class NateOnMyPC extends Component {
     return (
       <DevelopmentDetailTemplate title={name}>
         <section className="image-wrap x-center">
-          <img src={require("statics/img/development/webrtc-lab/main.png")} alt={name} />
+          <img src={require("statics/img/development/nateon-mypc/main.png")} alt={name} />
         </section>
 
-        <h2>
-          WebRTC를 이용한 프로젝트를 2년 넘게 진행하면서 참고 자료들이 모두 외국 자료들이라
-          저 또한 언어의 장벽에서 항상 느림보가 돼야만 했습니다.<br />
-          WebRTC 연구실 이란 말은 다소 거창하지만,
-          WebRTC를 배우고 싶어 하는 분들이 조금 더 진입하기 쉽게 하는 것을 목적으로
-          제가 알게 된 정보들을 다듬어서 바로 사용할 수 있는 예제 공간으로 만들었습니다.
-        </h2>
+        <section className="overview">
+          <p>
+            네이트온 내 PC제어 프로젝트는 이미 5년이상 서비스되던 사이트를 리뉴얼하는 프로젝트였습니다.<br />
+            이 서비스에 사용되는 UI를 템플릿화 하였습니다.
+          </p>
+        </section>
 
         <section className="list-wrap">
           <ul>
             <li>
               <strong>개발년도</strong>
-              <p>2016 ~ 2018</p>
+              <p>2012</p>
             </li>
             <li>
               <strong>역할</strong>
@@ -32,18 +31,18 @@ class NateOnMyPC extends Component {
             </li>
             <li>
               <strong>주요개발항목</strong>
-              <p>마이크 & 캠 접근하기, 비디오 필터, 1:1 화상회의 등</p>
+              <p>원격제어 모듈 런쳐, 서비스 전체 UI 개발 등</p>
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>WebRTC, WebSocket, NodeJS, Express, EJS</p>
+              <p>Javascript, jQuery</p>
             </li>
           </ul>
         </section>
 
         <section className="button-wrap">
-          <a href="https://webrtclab.herokuapp.com" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>
+          <a href="http://www.codejs.co.kr/development/views/nateon" className="button" target="_blank">Live Template</a>
+          <a href="http://rsupport.nate.com/rview/r8/main/index.aspx" className="button" target="_blank">Live Service</a>
         </section>
 
         <section className="more-wrap">

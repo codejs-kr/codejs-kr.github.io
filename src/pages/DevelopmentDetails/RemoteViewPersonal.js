@@ -86,9 +86,14 @@ class RemoteViewPersonal extends Component {
           <dl>
             <dt>어드민 사이트</dt>
             <dd>
-              <p>어드민 사이트는 반복되는 유형이 많기 때문에 템플릿화 하여 개발하였습니다.</p>
-              <img src={require("statics/img/development/remoteview/personal/feature-admin.png")} alt={name} />
+              <p>
+                어드민 사이트는 반복되는 유형이 많기 때문에 템플릿화 하여 개발하였습니다.<br />
+                다른 개발자분들도 동일한 규칙으로 작업 할수 있도록 별도 페이지를 구성하여 운영했습니다.
+              </p>
               http://www.codejs.co.kr/development/views/rv-admin/index.html
+              <img src={require("statics/img/development/remoteview/admin/feature-admin-temp1.png")} alt={name} />
+
+              <img src={require("statics/img/development/remoteview/admin/feature-admin-temp2.png")} alt={name} />
             </dd>
           </dl>
         </section>
