@@ -43,7 +43,7 @@ class RemoteViewPersonal extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, Javascript, jQuery, jQuery mobile</p>
+              <p>HTML5, CSS3, JavaScript, jQuery, jQuery mobile, flot.js</p>
             </li>
           </ul>
         </section>

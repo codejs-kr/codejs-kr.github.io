@@ -43,7 +43,7 @@ class Balloon extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, Javascript(ES5), SCSS, NodeJS, Express, EJS, MongoDB, Gulp</p>
+              <p>HTML5, CSS3(SCSS), JavaScript(ES5), NodeJS, Express, EJS, MongoDB, Gulp</p>
             </li>
           </ul>
         </section>

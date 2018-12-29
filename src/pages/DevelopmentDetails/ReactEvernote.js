@@ -33,7 +33,7 @@ class ReactEvernote extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>Javascript(ES6), React, SCSS, Firebase Realtime DB, Webpack</p>
+              <p>HTML5, CSS3(SCSS), JavaScript(ES6), React, Firebase Realtime DB, Webpack</p>
             </li>
           </ul>
         </section>

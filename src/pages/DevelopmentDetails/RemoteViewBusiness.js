@@ -40,7 +40,7 @@ class RemoteViewBusiness extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, Javascript, jQuery</p>
+              <p>HTML5, CSS3, JavaScript, jQuery, flot.js</p>
             </li>
           </ul>
         </section>

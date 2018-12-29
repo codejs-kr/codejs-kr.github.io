@@ -35,7 +35,7 @@ class NateOnMyPC extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>Javascript, jQuery</p>
+              <p>HTML, CSS, JavaScript, jQuery</p>
             </li>
           </ul>
         </section>
