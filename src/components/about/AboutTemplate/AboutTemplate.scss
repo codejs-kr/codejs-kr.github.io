@@ -1,8 +1,58 @@
 #page-about {
   min-height: calc(100vh - 125px);
 
+  .about-container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
   header {
-    height: 240px;
     background: #3f5366;
+
+    .about-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 240px;
+      font-size: 2rem;
+    }
+
+    strong {
+      color: #fff;
+      font-weight: normal;
+    }
+
+    img {
+      position: absolute;
+      bottom: -50px;
+      right: 50px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: solid 1px #000;
+    }
+  }
+
+  article {
+    padding-top: 40px;
+
+    h1, h2 {
+      font-weight: normal;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #959595;
+      margin-bottom: 40px;
+    }
+
+    #description {
+      margin-bottom: 10px;
+    }
   }
 }
