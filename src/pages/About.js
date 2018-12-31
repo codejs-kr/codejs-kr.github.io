@@ -9,7 +9,7 @@ class About extends Component {
           <header>
             <div className="about-container">
               <strong>원인없는 결과란 없다.</strong>
-              <img src="#" alt="profile" />
+              <span id="profile-img" />
             </div>
           </header>
 
