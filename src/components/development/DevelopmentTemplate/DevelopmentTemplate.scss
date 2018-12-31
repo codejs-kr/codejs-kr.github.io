@@ -12,7 +12,10 @@
   }
 
   &.container {
+    min-height: calc(100vh - 172px);
     padding: 0 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 
     article {
       padding: 0 30px;

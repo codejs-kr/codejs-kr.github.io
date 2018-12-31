@@ -4,7 +4,7 @@ import { PageTemplate, AboutTemplate } from 'components';
 class About extends Component {
   render() {
     return (
-      <PageTemplate thema="white" isSubpage>
+      <PageTemplate thema="white">
         <AboutTemplate>
           <header>
             <div className="about-container">

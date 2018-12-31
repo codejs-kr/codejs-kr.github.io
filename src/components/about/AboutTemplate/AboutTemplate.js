@@ -6,7 +6,7 @@ class AboutTemplate extends Component {
     const { children } = this.props;
 
     return (
-      <div id="page-about">
+      <div id="page-about" className="container">
         { children }
       </div>
     );
