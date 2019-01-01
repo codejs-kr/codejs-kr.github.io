@@ -8,23 +8,26 @@ class Localization extends Component {
 
     return (
       <DevelopmentDetailTemplate title={name}>
-        <section className="image-wrap x-center">
-          <img src={require("statics/img/development/webrtc-lab/main.png")} alt={name} />
+        <section className="image-wrap center">
+          <img src={require("statics/img/development/localization/main.png")} alt={name} />
         </section>
 
-        <h2>
-          WebRTC를 이용한 프로젝트를 2년 넘게 진행하면서 참고 자료들이 모두 외국 자료들이라
-          저 또한 언어의 장벽에서 항상 느림보가 돼야만 했습니다.<br />
-          WebRTC 연구실 이란 말은 다소 거창하지만,
-          WebRTC를 배우고 싶어 하는 분들이 조금 더 진입하기 쉽게 하는 것을 목적으로
-          제가 알게 된 정보들을 다듬어서 바로 사용할 수 있는 예제 공간으로 만들었습니다.
-        </h2>
+        <section className="overview">
+          <p>
+            보통 언어 변경을 하면 해당하는 언어를 서버에서 클라이언트로 전달하여 표현합니다.
+            다양한 이유가 있지만 큰 이유 중 하나는 검색 엔진 최적화(SEO) 때문입니다.
+          </p>
+          <p>
+            하지만 특수한 경우에 클라이언트에서만 동적으로 언어 리소스를 처리해야 할 이슈가 있는데<br />
+            당시 구현한 핵심적인 부분을 코드로 정리해두었습니다.
+          </p>
+        </section>
 
         <section className="list-wrap">
           <ul>
             <li>
               <strong>개발년도</strong>
-              <p>2016 ~ 2018</p>
+              <p>2013</p>
             </li>
             <li>
               <strong>역할</strong>
@@ -32,18 +35,17 @@ class Localization extends Component {
             </li>
             <li>
               <strong>주요개발항목</strong>
-              <p>마이크 & 캠 접근하기, 비디오 필터, 1:1 화상회의 등</p>
+              <p>동적 다국어 처리 데모 구현</p>
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>WebRTC, WebSocket, NodeJS, Express, EJS</p>
+              <p>Javascript</p>
             </li>
           </ul>
         </section>
 
         <section className="button-wrap">
-          <a href="https://webrtclab.herokuapp.com" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>
+          <a href="https://jsbin.com/tefolaf/1/edit?js,output" className="button" target="_blank">Live</a>
         </section>
 
         <section className="more-wrap">
