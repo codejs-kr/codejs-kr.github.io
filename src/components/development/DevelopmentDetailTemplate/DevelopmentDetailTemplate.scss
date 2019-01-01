@@ -145,6 +145,12 @@ $fontColor: #333;
     height: 100%;
   }
 
+  &.cover {
+    img {
+      object-fit: cover;
+    }
+  }
+
   &.center {
     img {
       object-position: center center;

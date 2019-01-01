@@ -12,10 +12,10 @@ class ReactEvernote extends Component {
           <img src={require("statics/img/development/react-evernote/main.png")} alt={name} />
         </section>
 
-        <h2>
+        <section className="overview">
           React와 Firebase에 관심을 갖던 시기에 두가지를 활용해서 무언가를 만들어 보고 싶었다.<br />
           그래서 평소에 자주 사용하는 Evernote를 구현해 보기로 하고 조금씩 작업을 시작해 보았다.
-        </h2>
+        </section>
 
         <section className="list-wrap">
           <ul>
