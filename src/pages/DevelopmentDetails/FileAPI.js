@@ -14,10 +14,8 @@ class FileAPI extends Component {
 
         <section className="overview">
           <p>
-            HTML5 File API란 웹 애플리케이션이 로컬 파일의 내용에 접근할 수 있도록 하는 API입니다.
-          </p>
-          <p>
-            큰 특징을 정리한 내용입니다.
+            HTML5 File API란 웹 애플리케이션이 로컬 파일의 내용에 접근할 수 있도록 하는 API입니다.<br />
+            File API의 스펙을 알아 볼겸 만들어 본 예제 입니다.
           </p>
         </section>
 
@@ -28,23 +26,18 @@ class FileAPI extends Component {
               <p>2013</p>
             </li>
             <li>
-              <strong>역할</strong>
-              <p>웹 어플리케이션 설계 및 개발</p>
-            </li>
-            <li>
               <strong>주요개발항목</strong>
-              <p>마이크 & 캠 접근하기, 비디오 필터, 1:1 화상회의 등</p>
+              <p>데모 구현</p>
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>WebRTC, WebSocket, NodeJS, Express, EJS</p>
+              <p>Javascript file API</p>
             </li>
           </ul>
         </section>
 
         <section className="button-wrap">
           <a href="http://www.codejs.co.kr/development/views/file-upload/" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>
         </section>
 
         <section className="more-wrap">
