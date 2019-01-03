@@ -8,42 +8,36 @@ class ImageSlider extends Component {
 
     return (
       <DevelopmentDetailTemplate title={name}>
-        <section className="image-wrap x-center">
-          <img src={require("statics/img/development/webrtc-lab/main.png")} alt={name} />
+        <section className="image-wrap cover">
+          <img src={require("statics/img/development/image-slider/main.png")} alt={name} />
         </section>
 
-        <h2>
-          WebRTC를 이용한 프로젝트를 2년 넘게 진행하면서 참고 자료들이 모두 외국 자료들이라
-          저 또한 언어의 장벽에서 항상 느림보가 돼야만 했습니다.<br />
-          WebRTC 연구실 이란 말은 다소 거창하지만,
-          WebRTC를 배우고 싶어 하는 분들이 조금 더 진입하기 쉽게 하는 것을 목적으로
-          제가 알게 된 정보들을 다듬어서 바로 사용할 수 있는 예제 공간으로 만들었습니다.
-        </h2>
+        <section className="overview">
+          <p>
+            CSS transform을 사용하여 이미지 4컷을 로테이션 시키는 데모를 만들어 보았습니다.<br />
+            perspective로 큐브 모양의 공간감을 표현하였고, transform으로 이미지에 회전할때 원근감을 만들었습니다.
+          </p>
+        </section>
 
         <section className="list-wrap">
           <ul>
             <li>
               <strong>개발년도</strong>
-              <p>2016 ~ 2018</p>
-            </li>
-            <li>
-              <strong>역할</strong>
-              <p>웹 어플리케이션 설계 및 개발</p>
+              <p>2013</p>
             </li>
             <li>
               <strong>주요개발항목</strong>
-              <p>마이크 & 캠 접근하기, 비디오 필터, 1:1 화상회의 등</p>
+              <p>데모 구현</p>
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>WebRTC, WebSocket, NodeJS, Express, EJS</p>
+              <p>CSS3 Transform, Transition, Perspective</p>
             </li>
           </ul>
         </section>
 
         <section className="button-wrap">
-          <a href="https://webrtclab.herokuapp.com" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>
+          <a href="http://www.codejs.co.kr/development/views/css3-effect/" className="button" target="_blank">Live</a>
         </section>
 
         <section className="more-wrap">
