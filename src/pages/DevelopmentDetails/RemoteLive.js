@@ -8,27 +8,15 @@ class RemoteLive extends Component {
 
     return (
       <DevelopmentDetailTemplate title={name}>
-        <section className="image-wrap center">
+        <section className="image-wrap x-center">
           <img src={require("statics/img/development/remotelive/main.png")} alt={name} />
         </section>
 
         <section className="overview">
           <p>
-            리모트미팅은 WebRTC 기반으로 개발한 온라인 화상회의 서비스입니다.<br />
-            제가 다니는 회사는 컴퓨터를 제어하는 서비스가 주를 이루었으며, 저 또한 관련 서비스를 오랜 시간 개발했습니다.
-          </p>
-          <p>
-            하지만 저는 컴퓨터를 제어하는 서비스보다 사람 간의 커뮤니케이션 도구를 개발하고 싶다는 생각을 많이 하였고,
-            2014년 WebRTC 기술을 알게 된 후 관련 단위 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.
-          </p>
-          <p>
-            초기 개발 시행착오와 프로젝트 정식 오픈에 대한 여러 차례의 난관이 찾아왔지만,
-            내가 만들고 싶던 서비스를 회사 주요 제품군으로 만들어내고 싶다는 생각으로 열정을 많이 쏟은 프로젝트입니다.
-            2014년 개발 시작하여, 2015년 무료 버전 오픈, 2017년 상용 버전 오픈하며
-            현재는 일본과 국내에 많은 업체와 사용자가 사용하는 서비스가 되었습니다.
-          </p>
-          <p>
-            리모트미팅은 Web, iOS, Android, 전용 하드웨어 Box와 상호 연결 됩니다.
+            RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 프로젝트였습니다.<br />
+            현재 개발중인 리모트미팅 프로젝트의 디딤돌이된 프로젝트이며,
+            채팅을 동반한 P2P기반의 화상회의를 모듈화하여 기존 회사 서비스에 적용시키는 방법을 제안하였습니다.
           </p>
         </section>
 
@@ -44,11 +32,11 @@ class RemoteLive extends Component {
             </li>
             <li>
               <strong>주요개발항목</strong>
-              <p>화상회의, 화면공유, 문서공유 뷰어, 그리기도구, 채팅, 캡쳐, SDK 등 회의 전체 기능 개발 (라운지, 캘린더)</p>
+              <p>화상회의, 채팅</p>
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, MQTT (WebSocket), Javascript, jQuery, React, SCSS, WebPack, Gulp</p>
+              <p>HTML5, CSS3, WebSocket, Javascript, jQuery</p>
             </li>
           </ul>
         </section>
@@ -60,10 +48,31 @@ class RemoteLive extends Component {
         <section className="features-wrap">
           <h3>Features</h3>
           <dl>
-            <dt>라운지</dt>
+            <dt>title</dt>
             <dd>
-              <p>그룹내 개설된 방을 한눈에 볼 수 있으며, 예약 캘린더와 히스토리 기능을 지원합니다.</p>
-              <img src={require("statics/img/development/remotemeeting/feature-lounge.png")} alt={name} />
+              <p>something...</p>
+              <img src={require("statics/img/development/remotelive/feature-join.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>title</dt>
+            <dd>
+              <p>something...</p>
+              <img src={require("statics/img/development/remotelive/feature-meeting.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>title</dt>
+            <dd>
+              <p>something...</p>
+              <img src={require("statics/img/development/remotelive/feature-webrtc.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>title</dt>
+            <dd>
+              <p>something...</p>
+              <img src={require("statics/img/development/remotelive/feature-integration.png")} alt={name} />
             </dd>
           </dl>
         </section>

@@ -60,10 +60,17 @@ class RemoteMeeting extends Component {
         <section className="features-wrap">
           <h3>Features</h3>
           <dl>
-            <dt>라운지</dt>
+            <dt>라운지 (룸리스트)</dt>
             <dd>
-              <p>그룹내 개설된 방을 한눈에 볼 수 있으며, 예약 캘린더와 히스토리 기능을 지원합니다.</p>
+              <p>그룹내 개설된 회의 목록을 한눈에 볼 수 있습니다.</p>
               <img src={require("statics/img/development/remotemeeting/feature-lounge.png")} alt={name} />
+            </dd>
+          </dl>
+          <dl>
+            <dt>라운지 (캘린더)</dt>
+            <dd>
+              <p>예약 캘린더와 히스토리 기능을 지원합니다.</p>
+              <img src={require("statics/img/development/remotemeeting/feature-calendar1.png")} alt={name} />
             </dd>
           </dl>
           <dl>
