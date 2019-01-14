@@ -43,7 +43,6 @@ class WebrtcPresentation extends Component {
 
         <section className="button-wrap">
           <a href="https://webrtclab.herokuapp.com" className="button" target="_blank">Live</a>
-          <a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>
         </section>
 
         <section className="more-wrap">

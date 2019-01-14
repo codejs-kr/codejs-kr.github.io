@@ -30,10 +30,6 @@ class Localization extends Component {
               <p>2013</p>
             </li>
             <li>
-              <strong>역할</strong>
-              <p>웹 어플리케이션 설계 및 개발</p>
-            </li>
-            <li>
               <strong>주요개발항목</strong>
               <p>동적 다국어 처리 데모 구현</p>
             </li>

@@ -44,7 +44,7 @@ class RemoteMeeting extends Component {
             </li>
             <li>
               <strong>주요개발항목</strong>
-              <p>화상회의, 화면공유, 문서공유 뷰어, 그리기도구, 채팅, 캡쳐, SDK 등 회의 전체 기능 개발 (라운지, 캘린더)</p>
+              <p>화상회의, 화면공유, 문서공유 뷰어, 그리기도구, 채팅, 캡쳐, 모바일 웹뷰 등 회의 전체 기능 및 SDK 개발</p>
             </li>
             <li>
               <strong>사용기술</strong>
