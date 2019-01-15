@@ -48,7 +48,7 @@ class RemoteMeeting extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, CSS3(SCSS), WebRTC, MQTT(WebSocket), Javascript, jQuery, React, SCSS, WebPack, Gulp</p>
+              <p>HTML5, CSS3, WebRTC, MQTT, Javascript(ES6), jQuery, React, WebPack, Gulp</p>
             </li>
           </ul>
         </section>

@@ -37,7 +37,7 @@ class RemoteLive extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>WebSocket, WebRTC, HTML5, CSS3, Javascript, jQuery</p>
+              <p>HTML5, CSS3, WebRTC, WebSocket, Javascript, jQuery</p>
             </li>
           </ul>
         </section>

@@ -24,12 +24,8 @@ class CanvasCase extends Component {
         <section className="list-wrap">
           <ul>
             <li>
-              <strong>개발년도</strong>
+              <strong>발표년도</strong>
               <p>2013</p>
-            </li>
-            <li>
-              <strong>주요개발항목</strong>
-              <p>발표 자료</p>
             </li>
           </ul>
         </section>
