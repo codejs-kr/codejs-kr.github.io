@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer id="footer">
-        &copy; codeJS
+        &copy;codeJS
       </footer>
     );
   }
