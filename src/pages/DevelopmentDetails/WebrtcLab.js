@@ -39,7 +39,7 @@ class WebrtcLab extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, CSS3, WebRTC, WebSocket, NodeJS, Express, EJS</p>
+              <p>HTML5, CSS3, WebRTC, WebSocket, JavaScript, NodeJS, Express, EJS</p>
             </li>
           </ul>
         </section>

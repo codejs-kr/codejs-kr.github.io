@@ -20,7 +20,7 @@ class WebrtcPresentation extends Component {
             WebRTC는 구글이 오픈소스화한 프로젝트에서 기원하였으며,
             그 뒤로 국제 인터넷 표준화 기구(IETF)가 프로토콜 표준화 작업을 수행하였고,
             W3C가 API 정의를 진행하였으며, 음성 통화, 영상 통화, P2P 파일 공유
-            등으로 활용 될 수 있다.
+            등으로 활용될 수 있다.
           </p>
         </section>
 

@@ -15,8 +15,8 @@ class RemoteLive extends Component {
         <section className="overview">
           <p>
             RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 프로젝트였습니다.<br />
-            현재 개발중인 리모트미팅 프로젝트의 디딤돌이된 프로젝트이며,
-            Websocket 채팅과 P2P기반의 화상회의 기능을 모듈화하여
+            현재 개발 중인 리모트미팅 프로젝트의 디딤돌이 된 프로젝트이며,
+            Websocket 채팅과 P2P 기반의 화상회의 기능을 모듈화하여
             기존 회사 서비스에 적용시키는 방법을 제안한 프로젝트입니다.
           </p>
         </section>
@@ -37,7 +37,7 @@ class RemoteLive extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, CSS3, WebRTC, WebSocket, Javascript, jQuery</p>
+              <p>HTML5, CSS3, WebRTC, WebSocket, JavaScript, jQuery</p>
             </li>
           </ul>
         </section>

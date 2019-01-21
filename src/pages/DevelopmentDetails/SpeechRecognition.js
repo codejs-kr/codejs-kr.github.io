@@ -14,9 +14,9 @@ class SpeechRecognition extends Component {
 
         <section className="overview">
           <p>
-            음성 인식 API를 개발에 활용하기 위해 다양하게 테스트 하며 정리한 예제를 공개 합니다.<br />
-            Chrome의 음성 인식 API (Speech Recognition API) 는 크롬이 25버전 부터 지원된 스팩입니다.<br />
-            음성 인식 API 인스턴스 생성 후 간단한 호출로 브라우저에 내장되어 있는 음성인식 API를 사용 할 수 있습니다.
+            음성 인식 API를 개발에 활용하기 위해 다양하게 테스트하며 정리한 예제를 공개합니다.<br />
+            Chrome의 음성 인식 API (Speech Recognition API)는 크롬이 25버전부터 지원된 스펙입니다.<br />
+            음성 인식 API 인스턴스 생성 후 간단한 호출로 브라우저에 내장되어 있는 음성인식 API를 사용할 수 있습니다.
           </p>
         </section>
 

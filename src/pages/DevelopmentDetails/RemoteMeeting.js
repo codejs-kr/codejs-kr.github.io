@@ -22,13 +22,13 @@ class RemoteMeeting extends Component {
             2014년 WebRTC 기술을 알게 된 후 관련 단위 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.
           </p>
           <p>
-            초기 개발 시행착오와 프로젝트 정식 오픈에 대한 여러 차례의 난관이 찾아왔지만,
-            내가 만들고 싶던 서비스를 회사 주요 제품군으로 만들어내고 싶다는 생각으로 열정을 많이 쏟은 프로젝트입니다.
+            초기 개발 시행착오와 프로젝트 정식 오픈까지 여러 차례의 난관이 찾아왔지만,
+            내가 만들고 싶던 서비스를 회사 주요 제품군으로 만들어내고 싶다는 생각으로 많은 열정을 쏟은 프로젝트입니다.
             2014년 개발 시작하여, 2015년 무료 버전 오픈, 2017년 상용 버전 오픈하며
             현재는 일본과 국내에 많은 업체와 사용자가 사용하는 서비스가 되었습니다.
           </p>
           <p>
-            리모트미팅은 Web, iOS, Android, 전용 하드웨어 Box와 상호 연결 됩니다.
+            리모트미팅은 Web, iOS, Android, 전용 하드웨어 Box와 상호 연결됩니다.
           </p>
         </section>
 
@@ -48,7 +48,7 @@ class RemoteMeeting extends Component {
             </li>
             <li>
               <strong>사용기술</strong>
-              <p>HTML5, CSS3, WebRTC, MQTT, Javascript(ES6), jQuery, React, WebPack, Gulp</p>
+              <p>HTML5, CSS3, WebRTC, MQTT, JavaScript(ES6), React, WebPack, Gulp</p>
             </li>
           </ul>
         </section>
@@ -62,42 +62,42 @@ class RemoteMeeting extends Component {
           <dl>
             <dt>라운지 (룸리스트)</dt>
             <dd>
-              <p>그룹내 개설된 회의 목록을 한눈에 볼 수 있습니다.</p>
+              <p>그룹내 개설된 회의 목록을 한눈에 볼 수 있고 간편하게 회의 개설을 할 수 있습니다.</p>
               <img src={require("statics/img/development/remotemeeting/feature-lounge.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>라운지 (캘린더)</dt>
             <dd>
-              <p>예약 캘린더와 히스토리 기능을 지원합니다.</p>
+              <p>예약을 위한 캘린더와 종료된 회의 히스토리를 관리 할 수 있습니다.</p>
               <img src={require("statics/img/development/remotemeeting/feature-calendar1.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>화상회의</dt>
             <dd>
-              <p>상황에 따라 P2P와 MCU 연결 방식으로 최대 14인 까지 동시 지원합니다.</p>
+              <p>상황에 따라 P2P와 MCU 연결 방식으로 최대 14인까지 동시 지원합니다.</p>
               <img src={require("statics/img/development/remotemeeting/feature-conf.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>화면공유</dt>
             <dd>
-              <p>화면공유와 스크린샷 확장프로그램을 개발 하였으며, Screen Share API를 사용하여 회의 중 PC 화면을 공유 할 수 있습니다.</p>
+              <p>화면공유와 스크린샷 확장프로그램을 개발하였으며, Screen Share API를 사용하여 회의 중 PC 화면을 공유할 수 있습니다.</p>
               <img src={require("statics/img/development/remotemeeting/feature-screen.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>문서공유</dt>
             <dd>
-              <p>문서뷰어와 그리기 도구를 자체 개발 하였으며, 다양한 문서 포멧을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.</p>
+              <p>문서 뷰어와 그리기 도구를 자체 개발하였으며, 다양한 문서 포맷을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.</p>
               <img src={require("statics/img/development/remotemeeting/feature-doc.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>채팅</dt>
             <dd>
-              <p>Timeline 인터페이스로 채팅과 상태 메시지가 기록 됩니다.</p>
+              <p>Timeline 인터페이스로 채팅과 상태 메시지가 기록됩니다.</p>
               <img src={require("statics/img/development/remotemeeting/feature-chat.png")} alt={name} />
             </dd>
           </dl>
