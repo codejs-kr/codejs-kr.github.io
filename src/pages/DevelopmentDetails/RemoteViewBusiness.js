@@ -14,13 +14,13 @@ class RemoteViewBusiness extends Component {
 
         <section className="overview">
           <p>
-            리모트뷰 기업용은 선임자에게 오픈전에 인수인계 받아서
-            마무리 개발과 약 3년간의 운영 이슈를 개발한 프로젝트입니다.
+            리모트뷰 기업용은 선임자 퇴사로 오픈전에 인수인계받아서
+            마무리 개발과 약 3년간의 운영 & 개발한 프로젝트입니다.
           </p>
           <p>
-            회사의 주력 제품이며 재택근무를 가능하게 해주는 유용한 서비스 입니다.<br />
+            회사의 주력 제품이며 재택근무를 가능하게 해주는 유용한 서비스입니다.<br />
             원격지에 설치된 PC의 목록이 노출되며, 해당 PC에 접속하면 전용 뷰어가 나타나며
-            뷰어를 통해서 원격지의 PC를 제어 할 수 있습니다.
+            뷰어를 통해서 원격지의 PC를 제어할 수 있습니다.
           </p>
         </section>
 
@@ -61,21 +61,21 @@ class RemoteViewBusiness extends Component {
           <dl>
             <dt>라이브뷰</dt>
             <dd>
-              <p>PC의 화면 이미지를 주기적으로 갱신하여 현재 원격지 PC 화면을 확인 할 수 있습니다.</p>
+              <p>PC의 화면 이미지를 주기적으로 갱신하여 현재 원격지 PC 화면을 확인할 수 있습니다.</p>
               <img src={require("statics/img/development/remoteview/ent/feature-live.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>사용자관리</dt>
             <dd>
-              <p>관리자 / 매니저 / 일반유저 등급으로 나누어 유저를 등록하고 PC와 그룹에 권한을 부여하여 관리 할 수 있습니다.</p>
+              <p>관리자 / 매니저 / 일반 유저 등급으로 나누어 유저를 등록하고 PC와 그룹에 권한을 부여하여 관리할 수 있습니다.</p>
               <img src={require("statics/img/development/remoteview/ent/feature-user.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>통계</dt>
             <dd>
-              <p>접속자의 권한별로 사용한 PC의 접근내역과 통계를 볼 수 있습니다.</p>
+              <p>접속자의 권한별로 사용한 PC의 접근 내역과 통계를 볼 수 있습니다.</p>
               <img src={require("statics/img/development/remoteview/ent/feature-user.png")} alt={name} />
             </dd>
           </dl>

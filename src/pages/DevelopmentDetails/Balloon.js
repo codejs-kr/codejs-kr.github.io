@@ -57,21 +57,21 @@ class Balloon extends Component {
           <dl>
             <dt>로그인</dt>
             <dd>
-              <p>구글 계정 연동 하였고, 계절 마다 자동으로 테마를 변경 되도록 설정함.</p>
+              <p>구글 계정 연동하였고, 계절마다 자동으로 테마를 변경 되도록 개발하였습니다.</p>
               <img src={require("statics/img/development/balloon/main.png")} alt={name} />
             </dd>
           </dl>
           <dl>
             <dt>칭찬 메시지 보내기</dt>
             <dd>
-              <p>매달 7개의 칭찬 풍선이 충전되며, 칭찬 메시지에는 1개의 풍선이 소모 됩니다.</p>
+              <p>매달 7개의 칭찬 풍선이 충전되며, 칭찬 메시지에는 1개의 풍선이 소모됩니다.</p>
               <img src={require("statics/img/development/balloon/feature1.png")} alt="" />
             </dd>
           </dl>
           <dl>
             <dt>내가 받은 칭찬 메시지</dt>
             <dd>
-              <p>본인에게 도착한 칭찬 메시지는 매월 1일 칭찬함에서 열람 할 수 있습니다.</p>
+              <p>본인에게 도착한 칭찬 메시지는 매월 1일 칭찬함에서 열람할 수 있습니다.</p>
               <img src={require("statics/img/development/balloon/feature3.png")} alt={name} />
             </dd>
           </dl>
@@ -80,7 +80,7 @@ class Balloon extends Component {
             <dd>
               <p>
                 매달 칭찬을 많이 받은 사람과 분기별로 칭찬을 많이 받은 사람을 선별하여<br />
-                휴가를 제공 하자는 제안 하였고 회사에서도 흔쾌히 수용하여 주었습니다.
+                휴가를 제공하자는 제안하였고 회사에서도 흔쾌히 수용하여 주었습니다.
               </p>
               <img src={require("statics/img/development/balloon/feature2.png")} alt="" />
             </dd>
@@ -90,7 +90,7 @@ class Balloon extends Component {
             <dd>
               <p>
                 오픈 이후 인사팀에서 추가적으로 아이디어를 내어서<br />
-                휴게 공간에 칭찬왕 나무와 포스터를 게시 하여 좀 더 활성화 시킬 수 있었습니다.
+                휴게 공간에 칭찬왕 나무와 포스터를 게시하여 좀 더 활성화시킬 수 있었습니다.
               </p>
               <img src={require("statics/img/development/balloon/feature4.png")} alt={name} />
             </dd>
