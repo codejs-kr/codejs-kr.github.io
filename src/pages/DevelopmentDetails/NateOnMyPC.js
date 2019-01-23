@@ -14,7 +14,7 @@ class NateOnMyPC extends Component {
 
         <section className="overview">
           <p>
-            네이트온 내 PC제어 프로젝트는 이미 5년이상 서비스되던 사이트를 리뉴얼하는 프로젝트였습니다.<br />
+            네이트온 내 PC제어 프로젝트는 이미 5년 이상 서비스되던 사이트를 리뉴얼하는 프로젝트였습니다.<br />
             이 서비스에 사용되는 UI를 템플릿화 하였습니다.
           </p>
         </section>

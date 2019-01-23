@@ -12,16 +12,15 @@ import {
   FileAPI,
   ImageSlider,
   CanvasCase,
-  FrontendConvensionVer2,
-  FrontendConvensionVer1,
+  FrontendConvension,
   BookTransform,
   RemoteWOL,
   NateOnMyPC,
   DropboxTourBook,
   RemoteViewPersonal,
   RemoteViewBusiness,
-  RemoteViewAdmin,
-  IpadSmartCover
+  IpadSmartCover,
+  ZzangGu
 } from 'pages';
 
 class DevelopmentDetails extends Component {
@@ -65,11 +64,8 @@ class DevelopmentDetails extends Component {
       case 'canvas-case':
         currentPage = <CanvasCase />;
         break;
-      case 'frontend-convension-ver2':
-        currentPage = <FrontendConvensionVer2 />;
-        break;
-      case 'frontend-convension-ver1':
-        currentPage = <FrontendConvensionVer1 />;
+      case 'frontend-convension':
+        currentPage = <FrontendConvension />;
         break;
       case 'book-transform':
         currentPage = <BookTransform />;
@@ -83,9 +79,6 @@ class DevelopmentDetails extends Component {
       case 'dropbox-tour-book':
         currentPage = <DropboxTourBook />;
         break;
-      case 'remoteview-admin':
-        currentPage = <RemoteViewAdmin />;
-        break;
       case 'remoteview-business':
         currentPage = <RemoteViewBusiness />;
         break;
@@ -94,6 +87,9 @@ class DevelopmentDetails extends Component {
         break;
       case 'ipad-smart-cover':
         currentPage = <IpadSmartCover />;
+        break;
+      case 'zzanggu':
+        currentPage = <ZzangGu />;
         break;
     }
 

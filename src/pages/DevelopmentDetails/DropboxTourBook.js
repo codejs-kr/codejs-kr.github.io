@@ -15,7 +15,7 @@ class DropboxTourBook extends Component {
         <section className="overview">
           <p>
             DropBox를 소개하는 간단한 Book UI입니다. 이 페이지를 접한 순간 Simple is Best란 말이 생각나더군요...<br />
-            버튼 클릭시, 페이지를 보여주고 가려주는 간단한 형식이지만, 가독성 및 몰입도가 좋은 UI라 구현해 보았습니다.
+            버튼 클릭 시, 페이지를 보여주고 가려주는 간단한 형식이지만, 가독성 및 몰입도가 좋은 UI라 구현해 보았습니다.
           </p>
         </section>
 

@@ -19,22 +19,24 @@ class DevelopmentPagingContainer extends Component {
 
   filterData = (arr, index) => {
     let result = [];
-    let one;
-    let two;
+    let item1;
+    let item2;
+    let item3;
+    let item4;
 
     if (index === 0) {
-      one = index + 1;
-      two = index + 2;
+      item1 = index + 1;
+      item2 = index + 2;
     } else if ((arr.length - 1) === index) {
-      one = index - 2;
-      two = index - 1;
+      item1 = index - 2;
+      item2 = index - 1;
     } else {
-      one = index - 1;
-      two = index + 1;
+      item1 = index - 1;
+      item2 = index + 1;
     }
 
-    result.push(arr[one]);
-    result.push(arr[two]);
+    result.push(arr[item1]);
+    result.push(arr[item2]);
 
     return result;
   };

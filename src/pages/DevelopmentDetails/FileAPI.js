@@ -15,7 +15,7 @@ class FileAPI extends Component {
         <section className="overview">
           <p>
             HTML5 File API란 웹 애플리케이션이 로컬 파일의 내용에 접근할 수 있도록 하는 API입니다.<br />
-            File API의 스펙을 알아 볼겸 만들어 본 예제 입니다.
+            File API의 스펙을 알아볼 겸 만들어 본 예제입니다.
           </p>
         </section>
 

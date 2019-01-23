@@ -1,5 +1,10 @@
 export default [
   {
+    "title": "짱구",
+    "imageURL": require("statics/img/development/thumb-zzanggu.png"),
+    "contentURL": "/development/zzanggu"
+  },
+  {
     "title": "RemoteMeeting (화상회의서비스)",
     "imageURL": require("statics/img/development/thumb-remotemeeting.png"),
     "contentURL": "/development/remotemeeting"
@@ -37,7 +42,7 @@ export default [
   {
     "title": "FrontEnd Convention",
     "imageURL": require("statics/img/development/thumb-rfc2.png"),
-    "contentURL": "/development/frontend-convension-ver2"
+    "contentURL": "/development/frontend-convension"
   },
   {
     "title": "RemoteView Business",
@@ -54,11 +59,6 @@ export default [
     "imageURL": require("statics/img/development/thumb-wol.png"),
     "contentURL": "/development/remotewol"
   },
-  //{
-  //  "title": "RemoteView Mobile",
-  //  "imageURL": require("statics/img/development/thumb-remoteview-mobile.png"),
-  //  "contentURL": "/development/remoteview-personal"
-  //},
   {
     "title": "NateOn 내 PC제어 리뉴얼",
     "imageURL": require("statics/img/development/thumb-nateon.png"),
@@ -98,10 +98,5 @@ export default [
 		"title": "iPad Smart Cover",
 		"imageURL": require("statics/img/development/thumb-ipad.png"),
     "contentURL": "/development/ipad-smart-cover"
-	},
-	{
-		"title": "RemoteView Admin UI Templates",
-		"imageURL": require("statics/img/development/thumb-remoteview-admin.png"),
-		"contentURL": "/development/remoteview-admin"
 	}
 ];

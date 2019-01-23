@@ -15,7 +15,7 @@ class ImageSlider extends Component {
         <section className="overview">
           <p>
             CSS transform을 사용하여 이미지 4컷을 로테이션 시키는 데모를 만들어 보았습니다.<br />
-            perspective로 큐브 모양의 공간감을 표현하였고, transform으로 이미지에 회전할때 원근감을 만들었습니다.
+            perspective로 큐브 모양의 공간감을 표현하였고, transform으로 이미지에 회전할 때 원근감을 만들었습니다.
           </p>
         </section>
 
