@@ -4,7 +4,7 @@ import { DevelopmentPagingContainer } from 'containers';
 
 class Localization extends Component {
   render() {
-    const name = "Javascript Localization (다국어처리)";
+    const name = "JavaScript Localization";
 
     return (
       <DevelopmentDetailTemplate title={name}>

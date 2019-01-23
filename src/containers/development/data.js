@@ -25,7 +25,7 @@ export default [
     "contentURL": "/development/remotelive"
   },
   {
-    "title": "WebRTC 관한 발표 자료",
+    "title": "WebRTC 발표 자료",
     "imageURL": require("statics/img/development/thumb-webrtc.png"),
     "contentURL": "/development/webrtc-presentation"
   },
@@ -40,7 +40,7 @@ export default [
     "contentURL": "/development/react-evernote"
   },
   {
-    "title": "FrontEnd Convention",
+    "title": "FrontEnd Convension",
     "imageURL": require("statics/img/development/thumb-rfc2.png"),
     "contentURL": "/development/frontend-convension"
   },
@@ -65,7 +65,7 @@ export default [
     "contentURL": "/development/nateon-mypc"
   },
   {
-    "title": "JavaScript Localization (다국어처리)",
+    "title": "JavaScript Localization",
     "imageURL": require("statics/img/development/thumb-localization.png"),
     "contentURL": "/development/localization"
   },

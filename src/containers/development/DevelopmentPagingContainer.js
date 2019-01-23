@@ -7,7 +7,6 @@ class DevelopmentPagingContainer extends Component {
     let result = 0;
 
     arr.some((obj, i) => {
-      console.log('확인 obj', name);
       if (obj.title.match(name)) {
         result = i;
         return true;
@@ -27,16 +26,34 @@ class DevelopmentPagingContainer extends Component {
     if (index === 0) {
       item1 = index + 1;
       item2 = index + 2;
-    } else if ((arr.length - 1) === index) {
-      item1 = index - 2;
-      item2 = index - 1;
-    } else {
+      item3 = index + 3;
+      item4 = index + 4;
+    } else if (index === 1) {
       item1 = index - 1;
       item2 = index + 1;
+      item3 = index + 2;
+      item4 = index + 3;
+    } else if ((arr.length - 1) === index) {
+      item1 = index - 4;
+      item2 = index - 3;
+      item3 = index - 2;
+      item4 = index - 1;
+    } else if ((arr.length - 2) === index) {
+      item1 = index - 3;
+      item2 = index - 2;
+      item3 = index - 1;
+      item4 = index + 1;
+    } else {
+      item1 = index - 2;
+      item2 = index - 1;
+      item3 = index + 1;
+      item4 = index + 2;
     }
 
     result.push(arr[item1]);
     result.push(arr[item2]);
+    result.push(arr[item3]);
+    result.push(arr[item4]);
 
     return result;
   };

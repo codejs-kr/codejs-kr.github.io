@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { DevelopmentDetailTemplate } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
-class FrontendConvensionVer2 extends Component {
+class FrontendConvension extends Component {
   render() {
-    const name = "FrontEnd Convension (반응형)";
+    const name = "FrontEnd Convension";
 
     return (
       <DevelopmentDetailTemplate title={name}>
@@ -103,4 +103,4 @@ class FrontendConvensionVer2 extends Component {
   }
 }
 
-export default FrontendConvensionVer2;
+export default FrontendConvension;
