@@ -85,7 +85,7 @@ export default [
     "contentURL": "/development/image-slider"
   },
   {
-    "title": "Canvas Case",
+    "title": "Canvas Use Cases",
     "imageURL": require("statics/img/development/thumb-canvas-case.png"),
     "contentURL": "/development/canvas-case"
   },
