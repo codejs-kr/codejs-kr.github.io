@@ -22,7 +22,7 @@ class ZzangGu extends Component {
           <ul>
             <li>
               <strong>개발년도</strong>
-              <p>개발중</p>
+              <p>진행중</p>
             </li>
             <li>
               <strong>역할</strong>
