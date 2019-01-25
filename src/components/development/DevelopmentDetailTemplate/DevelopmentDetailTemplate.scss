@@ -85,6 +85,11 @@ $fontColor: #333;
         margin-left: 1px;
         width: 100%;
         border: solid 1px rgba(0, 0, 0, 0.1);
+
+        &.none-fit {
+          object-fit: none;
+          object-position: 0 0;
+        }
       }
     }
 

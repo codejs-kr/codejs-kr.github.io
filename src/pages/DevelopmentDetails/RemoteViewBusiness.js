@@ -55,35 +55,35 @@ class RemoteViewBusiness extends Component {
             <dt>원격지 PC관리</dt>
             <dd>
               <p>원격지에 설치된 PC의 목록이 노출되며, 대상 PC에 접속하여 원격제어를 할 수 있습니다.</p>
-              <img src={require("statics/img/development/remoteview/ent/feature-pc.png")} alt={name} />
+              <img src={require("statics/img/development/remoteview/ent/feature-pc.png")} alt={name} className="none-fit" />
             </dd>
           </dl>
           <dl>
             <dt>라이브뷰</dt>
             <dd>
               <p>PC의 화면 이미지를 주기적으로 갱신하여 현재 원격지 PC 화면을 확인할 수 있습니다.</p>
-              <img src={require("statics/img/development/remoteview/ent/feature-live.png")} alt={name} />
+              <img src={require("statics/img/development/remoteview/ent/feature-live.png")} alt={name} className="none-fit" />
             </dd>
           </dl>
           <dl>
             <dt>사용자관리</dt>
             <dd>
               <p>관리자 / 매니저 / 일반 유저 등급으로 나누어 유저를 등록하고 PC와 그룹에 권한을 부여하여 관리할 수 있습니다.</p>
-              <img src={require("statics/img/development/remoteview/ent/feature-user.png")} alt={name} />
+              <img src={require("statics/img/development/remoteview/ent/feature-user.png")} alt={name} className="none-fit" />
             </dd>
           </dl>
           <dl>
-            <dt>통계</dt>
+            <dt>사용통계</dt>
             <dd>
               <p>접속자의 권한별로 사용한 PC의 접근 내역과 통계를 볼 수 있습니다.</p>
-              <img src={require("statics/img/development/remoteview/ent/feature-user.png")} alt={name} />
+              <img src={require("statics/img/development/remoteview/ent/feature-stats.png")} alt={name} className="none-fit" />
             </dd>
           </dl>
           <dl>
             <dt>환경설정</dt>
             <dd>
               <p>다양한 옵션을 단을 명확하게 나누어 직관적인 UI로 배치하도록 개발하였습니다.</p>
-              <img src={require("statics/img/development/remoteview/ent/feature-setting.png")} alt={name} />
+              <img src={require("statics/img/development/remoteview/ent/feature-setting.png")} alt={name} className="none-fit" />
             </dd>
           </dl>
         </section>
