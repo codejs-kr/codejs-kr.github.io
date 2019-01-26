@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './AboutTemplate.scss';
 
-class AboutTemplate extends Component {
-  render() {
-    const { children } = this.props;
-
-    return (
-      <div id="page-about" className="container">
-        { children }
-      </div>
-    );
-  }
-}
+const AboutTemplate = ({ children }) => {
+  return (
+    <div id="page-about" className="container">
+      { children }
+    </div>
+  );
+};
 
 export default AboutTemplate;
