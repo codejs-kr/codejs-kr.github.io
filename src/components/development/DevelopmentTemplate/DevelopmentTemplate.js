@@ -8,7 +8,7 @@ const DevelopmentTemplate = ({ children }) => {
         Development <span> :: Simple is Best</span>
       </h1>
       <article>
-        { children }
+        {children}
       </article>
     </div>
   );
