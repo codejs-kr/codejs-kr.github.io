@@ -20,9 +20,6 @@ const Header = ({ isSubpage }) => {
         <li>
           <Link to="/about">About</Link>
         </li>
-        <li>
-          <Link to="/vcfccc">NotFound</Link>
-        </li>
       </ul>
     </header>
   );

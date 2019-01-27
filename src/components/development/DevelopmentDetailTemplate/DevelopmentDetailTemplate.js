@@ -4,9 +4,9 @@ import './DevelopmentDetailTemplate.scss';
 const DevelopmentDetailTemplate = ({ children, title }) => {
   return (
     <div id="detail-template" className="container">
-      <h1>{ title }</h1>
+      <h1>{title}</h1>
       <article>
-        { children }
+        {children}
       </article>
     </div>
   );

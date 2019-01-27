@@ -1,8 +1,8 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import './DevelopmentItem.scss';
 
-const DevelopmentItem = ({ title, imageURL, contentURL, linkURL }) => {
+const DevelopmentItem = ({ title, imageURL, contentURL }) => {
   const getInnerContent = (title, imageURL) => {
     return (
       <Fragment>
