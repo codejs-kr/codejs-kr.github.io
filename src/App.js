@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import { About, Development, DevelopmentDetails, NotFound } from 'pages';
 import 'statics/scss/main.scss';
 

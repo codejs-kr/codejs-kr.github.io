@@ -87,7 +87,7 @@ export default [
   {
     "title": "Canvas Use Cases",
     "imageURL": require("statics/img/development/thumb-canvas-case.png"),
-    "contentURL": "/development/canvas-case"
+    "contentURL": "/development/canvas-use-cases"
   },
   {
     "title": "DropBox Tour Book",

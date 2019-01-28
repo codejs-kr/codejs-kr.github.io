@@ -1,8 +1,14 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { DevelopmentItem } from 'components';
 import data from './data';
 
 class DevelopmentPagingContainer extends Component {
+  /**
+   * title로 해당 배열 index 탐색
+   * @param arr
+   * @param name
+   * @returns {number}
+   */
   searchIndex = (arr, name) => {
     let result = 0;
 
@@ -16,48 +22,65 @@ class DevelopmentPagingContainer extends Component {
     return result;
   };
 
-  filterData = (arr, index) => {
+  /**
+   * 페이징에 노출할 데이터 취합
+   * @param arr
+   * @param insertedIndex
+   * @returns {Array}
+   */
+  filterData = (arr, insertedIndex) => {
+    const length = 4;
     let result = [];
-    let item1;
-    let item2;
-    let item3;
-    let item4;
+    let indexArr = [];
 
-    if (index === 0) {
-      item1 = index + 1;
-      item2 = index + 2;
-      item3 = index + 3;
-      item4 = index + 4;
-    } else if (index === 1) {
-      item1 = index - 1;
-      item2 = index + 1;
-      item3 = index + 2;
-      item4 = index + 3;
-    } else if ((arr.length - 1) === index) {
-      item1 = index - 4;
-      item2 = index - 3;
-      item3 = index - 2;
-      item4 = index - 1;
-    } else if ((arr.length - 2) === index) {
-      item1 = index - 3;
-      item2 = index - 2;
-      item3 = index - 1;
-      item4 = index + 1;
+    // 첫번째 (1, 2, 3, 4)
+    if (insertedIndex === 0) {
+      const startIndex = 1;
+      for (let i = startIndex; i <= length; i++) {
+        indexArr.push(insertedIndex + i);
+      }
+    // 두번째 (-1, 1, 2, 3)
+    } else if (insertedIndex === 1) {
+      const startIndex = -1;
+      for (let i = startIndex; i <= startIndex + length; i++) {
+        if (insertedIndex !== i) {
+          indexArr.push(insertedIndex + i);
+        }
+      }
+    // 마지막 (-4, -3, -2, -1)
+    } else if (insertedIndex === (arr.length - 1)) {
+      const startIndex = -4;
+      for (let i = startIndex; i <= startIndex + (length - 1); i++) {
+        indexArr.push(insertedIndex + i);
+      }
+    // 마지막에서 두번째 (-3, -2, -1, 1)
+    } else if (insertedIndex === (arr.length - 2)) {
+      const startIndex = -3;
+      for (let i = startIndex; i <= startIndex + length; i++) {
+        if (i !== 0) {
+          indexArr.push(insertedIndex + i);
+        }
+      }
+    // 기본 양 옆 (-2, -1, 1, 2)
     } else {
-      item1 = index - 2;
-      item2 = index - 1;
-      item3 = index + 1;
-      item4 = index + 2;
+      const startIndex = -2;
+      for (let i = startIndex; i <= startIndex + length; i++) {
+        if (i !== 0) {
+          indexArr.push(insertedIndex + i);
+        }
+      }
     }
 
-    result.push(arr[item1]);
-    result.push(arr[item2]);
-    result.push(arr[item3]);
-    result.push(arr[item4]);
+    indexArr.map((item) => {
+      result.push(arr[item]);
+    });
 
     return result;
   };
 
+  /**
+   * 페이징 이동할때 시작점
+   */
   moveTop = () => {
     window.scrollTo(0, 0);
   };
@@ -67,7 +90,7 @@ class DevelopmentPagingContainer extends Component {
     const { searchIndex, filterData, moveTop } = this;
     const index = searchIndex(data, name);
     const listData = filterData(data, index);
-    console.log('확인 name', name, index);
+
     moveTop();
 
     return (

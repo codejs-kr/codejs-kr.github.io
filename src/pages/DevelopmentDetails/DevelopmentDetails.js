@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { PageTemplate, DevelopmentDetailTemplate } from 'components';
+import { PageTemplate } from 'components';
+import { Redirect } from 'react-router-dom';
 import {
   ReactEvernote,
   WebrtcLab,
@@ -61,7 +62,7 @@ class DevelopmentDetails extends Component {
       case 'image-slider':
         currentPage = <ImageSlider />;
         break;
-      case 'canvas-case':
+      case 'canvas-use-cases':
         currentPage = <CanvasCase />;
         break;
       case 'frontend-convension':
@@ -90,6 +91,9 @@ class DevelopmentDetails extends Component {
         break;
       case 'zzanggu':
         currentPage = <ZzangGu />;
+        break;
+      default:
+        currentPage = <Redirect to="/development" />
         break;
     }
 
