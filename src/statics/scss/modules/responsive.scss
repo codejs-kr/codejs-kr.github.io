@@ -84,10 +84,12 @@
     .image-wrap {
       height: 220px;
 
-      &.s-contain {
-        img {
-          object-fit: contain;
-        }
+      &.s-cover img {
+        object-fit: cover;
+      }
+
+      &.s-contain img {
+        object-fit: contain;
       }
     }
 

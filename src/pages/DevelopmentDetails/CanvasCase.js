@@ -7,7 +7,7 @@ const CanvasCase = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap x-center">
+      <section className="image-wrap cover">
         <img src={require("statics/img/development/canvas-cases/main.png")} alt={name} />
       </section>
 

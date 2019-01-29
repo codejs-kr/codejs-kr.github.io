@@ -80,7 +80,7 @@ export default [
     "contentURL": "/development/book-transform"
   },
   {
-    "title": "3D image slider",
+    "title": "3D Image Slider",
     "imageURL": require("statics/img/development/thumb-css3-effect.png"),
     "contentURL": "/development/image-slider"
   },

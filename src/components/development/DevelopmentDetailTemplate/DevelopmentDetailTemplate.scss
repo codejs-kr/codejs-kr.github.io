@@ -148,16 +148,13 @@ $font-color: #333;
     height: 100%;
   }
 
-  &.cover {
-    img {
-      object-fit: cover;
-    }
+  // 작은 사이즈 화면에서만 동작되는 s-* class
+  &.cover img {
+    object-fit: cover;
   }
 
-  &.contain {
-    img {
-      object-fit: contain;
-    }
+  &.contain img {
+    object-fit: contain;
   }
 
   &.center {

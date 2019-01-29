@@ -7,7 +7,7 @@ const RemoteWOL = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap">
+      <section className="image-wrap s-cover">
         <img src={require("statics/img/development/remotewol/feature-pc-on2.png")} alt={name} />
       </section>
 

@@ -7,7 +7,7 @@ const RemoteViewPersonal = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap center">
+      <section className="image-wrap center s-contain">
         <img src={require("statics/img/development/remoteview/personal/main.png")} alt={name} />
       </section>
 

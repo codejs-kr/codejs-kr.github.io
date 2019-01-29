@@ -7,7 +7,7 @@ const ReactEvernote = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap">
+      <section className="image-wrap s-cover">
         <img src={require("statics/img/development/react-evernote/main.png")} alt={name} />
       </section>
 

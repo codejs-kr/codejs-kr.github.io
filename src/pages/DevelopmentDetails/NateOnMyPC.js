@@ -7,7 +7,7 @@ const NateOnMyPC = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap x-center">
+      <section className="image-wrap x-center s-cover">
         <img src={require("statics/img/development/nateon-mypc/main.png")} alt={name} />
       </section>
 
