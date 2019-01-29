@@ -7,7 +7,7 @@ const ZzangGu = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap center">
+      <section className="image-wrap center m-contain">
         <img src={require("statics/img/development/zzanggu/main.png")} alt={name} />
       </section>
 

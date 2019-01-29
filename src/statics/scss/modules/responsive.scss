@@ -1,0 +1,181 @@
+@import "~statics/scss/modules/variables";
+
+@media screen and (max-width: $breakpoint-base) {
+  #page-detail-template {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mid) {
+  #page-development {
+    article {
+      padding: 0;
+    }
+
+    .thumbnail {
+      width: 30%;
+    }
+  }
+
+  #page-detail-template {
+    h1 {
+      text-indent: 0;
+    }
+    article {
+      padding: 0;
+    }
+
+    .thumbnail {
+
+      strong {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  #page-about {
+    .about-container {
+      width: 100%;
+      padding: 0 30px;
+
+      #profile-img {
+        right: 4%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-small) {
+  $container-padding: 0 15px;
+
+  body {
+    font-size: 1.4rem;
+  }
+
+  #header {
+    padding: $container-padding;
+  }
+
+  #page-development {
+    padding: $container-padding;
+
+    h1 {
+      font-size: 2.4rem;
+      text-indent: 0;
+    }
+
+    .thumbnail {
+      width: 45%;
+
+      strong {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  #page-detail-template {
+    padding: $container-padding;
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .image-wrap {
+      height: 220px;
+
+      &.s-contain {
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+
+    .overview {
+      padding-left: 0;
+      border-width: 0;
+      border-radius: 0;
+      font-size: 1.4rem;
+    }
+
+    .list-wrap ul {
+      margin-left: 0;
+    }
+
+    .button-wrap {
+      display: flex;
+      justify-content: center;
+
+      a {
+        margin: 0 5px;
+        flex-basis: 49%;
+        min-width: auto;
+      }
+    }
+
+    .features-wrap dl {
+      padding-left: 0;
+    }
+
+
+    .more-wrap {
+      div {
+        flex-wrap: wrap;
+
+        .thumbnail {
+          margin-bottom: 10px;
+          width: 48.5%;
+
+          strong {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+
+  #page-about {
+    article {
+      padding-top: 60px;
+
+      h1, h2 {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+
+    .about-container {
+      width: 100%;
+      padding: $container-padding;
+    }
+
+    header {
+      .about-container {
+        height: 150px;
+
+        strong {
+          display: none;
+        }
+
+        #profile-img {
+          right: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-very-small) {
+  #page-development {
+    .thumbnail {
+      width: 46.8%;
+    }
+  }
+}

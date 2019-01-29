@@ -8,6 +8,6 @@ export { default as NotFoundTemplate } from './base/NotFoundTemplate/NotFoundTem
 export { default as AboutTemplate } from './about/AboutTemplate/AboutTemplate';
 
 // development
-export { default as DevelopmentTemplate } from './development/DevelopmentTemplate/DevelopmentTemplate';
+export { default as DevelopmentListTemplate } from './development/DevelopmentListTemplate/DevelopmentListTemplate';
 export { default as DevelopmentItem } from './development/DevelopmentItem/DevelopmentItem';
 export { default as DevelopmentDetailTemplate } from './development/DevelopmentDetailTemplate/DevelopmentDetailTemplate';

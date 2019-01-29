@@ -1,7 +1,7 @@
 import React from 'react';
-import './DevelopmentTemplate.scss';
+import './DevelopmentListTemplate.scss';
 
-const DevelopmentTemplate = ({ children }) => {
+const DevelopmentListTemplate = ({ children }) => {
   return (
     <div id="page-development" className="container">
       <h1>
@@ -14,4 +14,4 @@ const DevelopmentTemplate = ({ children }) => {
   );
 };
 
-export default DevelopmentTemplate;
+export default DevelopmentListTemplate;

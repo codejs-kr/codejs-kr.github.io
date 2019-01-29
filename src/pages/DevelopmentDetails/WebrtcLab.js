@@ -7,7 +7,7 @@ const WebrtcLab = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap x-center">
+      <section className="image-wrap x-center s-contain">
         <img src={require("statics/img/development/webrtc-lab/main.png")} alt={name} />
       </section>
 

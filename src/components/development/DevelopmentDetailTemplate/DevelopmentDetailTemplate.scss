@@ -1,17 +1,17 @@
-$fontColor: #333;
+$font-color: #333;
 
-#detail-template {
+#page-detail-template {
+  width: 960px;
+  margin: 20px auto 50px;
+  padding: 0 30px;
+  color: $font-color;
+
   &.container {
-    width: 960px;
     min-height: calc(100vh - 172px);
-    margin: 20px auto 50px;
-    padding: 0 30px;
+  }
 
-    article {
-      padding: 0 30px;
-    }
-
-    color: $fontColor;
+  article {
+    padding: 0 12px;
   }
 
   section {
@@ -29,7 +29,7 @@ $fontColor: #333;
     margin-bottom: 40px;
     text-indent: 10px;
     border-bottom: solid 1px #ddd;
-    color: $fontColor;
+    color: $font-color;
   }
 
   .overview,
@@ -151,6 +151,12 @@ $fontColor: #333;
   &.cover {
     img {
       object-fit: cover;
+    }
+  }
+
+  &.contain {
+    img {
+      object-fit: contain;
     }
   }
 

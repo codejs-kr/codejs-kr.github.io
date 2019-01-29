@@ -7,7 +7,7 @@ const Balloon = () => {
 
   return (
     <DevelopmentDetailTemplate title={`${name} (사내문화정착 프로젝트)`}>
-      <section className="image-wrap x-center">
+      <section className="image-wrap x-center cover">
         <img src={require("statics/img/development/balloon/main.png")} alt={name} />
       </section>
 

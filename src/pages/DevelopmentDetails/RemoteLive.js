@@ -7,7 +7,7 @@ const RemoteLive = () => {
 
   return (
     <DevelopmentDetailTemplate title={name}>
-      <section className="image-wrap x-center">
+      <section className="image-wrap center cover">
         <img src={require("statics/img/development/remotelive/main.png")} alt={name} />
       </section>
 

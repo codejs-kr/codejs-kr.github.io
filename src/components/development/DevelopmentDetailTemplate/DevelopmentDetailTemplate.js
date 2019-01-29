@@ -3,7 +3,7 @@ import './DevelopmentDetailTemplate.scss';
 
 const DevelopmentDetailTemplate = ({ children, title }) => {
   return (
-    <div id="detail-template" className="container">
+    <div id="page-detail-template" className="container">
       <h1>{title}</h1>
       <article>
         {children}

@@ -1,0 +1,25 @@
+#page-development {
+  padding: 0 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  article {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  &.container {
+    min-height: calc(100vh - 172px);
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    text-indent: 10px;
+    border-bottom: solid 1px #fff;
+
+    span {
+      font-weight: normal;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,16 +1,16 @@
-$borderSize: 6px;
+$border-size: 6px;
 
 .thumbnail {
   //float: left;
   position: relative;
   display: inline-block;
   width: 22%;
-  min-height: 10vw;
+  min-height: 6vw;
   max-width: 300px;
   margin: 1.2%;
   border: solid 1px #E4E4E4;
   overflow: hidden;
-  border-radius: $borderSize;
+  border-radius: $border-size;
   text-decoration: none;
   font-size: 0;
   box-sizing: content-box;
@@ -24,7 +24,7 @@ $borderSize: 6px;
     font-weight: normal;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.6);
-    border-radius: $borderSize $borderSize 0 0;
+    border-radius: $border-size $border-size 0 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
