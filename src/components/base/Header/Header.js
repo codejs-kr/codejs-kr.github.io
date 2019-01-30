@@ -9,7 +9,7 @@ const Header = ({ isSubpage }) => {
         isSubpage ? (
           <Link to="/development" id="back">← Back to list</Link>
         ) : (
-          <a href="http://www.codejs.co.kr" id="back">← Back to blog</a>
+          <a href="http://www.codejs.co.kr" id="back">← Go to blog</a>
         )
       }
 
