@@ -17,11 +17,13 @@ import {
   BookTransform,
   RemoteWOL,
   NateOnMyPC,
+  SamsungRemotePC,
   DropboxTourBook,
   RemoteViewPersonal,
   RemoteViewBusiness,
   IpadSmartCover,
-  ZzangGu
+  ZzangGu,
+  Rsupport
 } from 'pages';
 
 class DevelopmentDetails extends Component {
@@ -77,6 +79,9 @@ class DevelopmentDetails extends Component {
       case 'nateon-mypc':
         currentPage = <NateOnMyPC />;
         break;
+      case 'samsung-remote-pc':
+        currentPage = <SamsungRemotePC />;
+        break;
       case 'dropbox-tour-book':
         currentPage = <DropboxTourBook />;
         break;
@@ -92,8 +97,11 @@ class DevelopmentDetails extends Component {
       case 'zzanggu':
         currentPage = <ZzangGu />;
         break;
+      case 'rsupport':
+        currentPage = <Rsupport />;
+        break;
       default:
-        currentPage = <Redirect to="/development" />
+        currentPage = <Redirect to="/development" />;
         break;
     }
 

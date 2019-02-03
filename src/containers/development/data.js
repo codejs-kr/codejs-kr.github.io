@@ -65,6 +65,11 @@ export default [
     "contentURL": "/development/nateon-mypc"
   },
   {
+    "title": "Samsung Remote PC",
+    "imageURL": require("statics/img/development/remote-pc/main.png"),
+    "contentURL": "/development/samsung-remote-pc"
+  },
+  {
     "title": "JavaScript Localization",
     "imageURL": require("statics/img/development/thumb-localization.png"),
     "contentURL": "/development/localization"
@@ -98,5 +103,10 @@ export default [
 		"title": "iPad Smart Cover",
 		"imageURL": require("statics/img/development/thumb-ipad.png"),
     "contentURL": "/development/ipad-smart-cover"
-	}
+	},
+  {
+    "title": "Rsupport",
+    "imageURL": require("statics/img/development/rsupport/main.png"),
+    "contentURL": "/development/rsupport"
+  }
 ];
