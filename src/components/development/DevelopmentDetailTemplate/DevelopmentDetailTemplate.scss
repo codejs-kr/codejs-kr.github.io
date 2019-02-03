@@ -104,7 +104,7 @@ $font-color: #333;
         margin: 0;
         width: 24.2%;
         height: 100%;
-        padding-bottom: 35px;
+        padding-bottom: 30px;
         box-shadow: none;
         border: solid 1px #E4E4E4;
 
@@ -124,9 +124,9 @@ $font-color: #333;
           bottom: 0;
           left: 0;
           width: 100%;
-          padding-left: 10px;
           border-radius: 0;
           z-index: 1;
+          font-size: 1.4rem;
         }
       }
     }

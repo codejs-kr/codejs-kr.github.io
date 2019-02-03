@@ -1,10 +1,9 @@
 @import "~statics/scss/modules/variables";
 
 .thumbnail {
-  //float: left;
   position: relative;
   display: inline-block;
-  width: 23%;
+  width: 22.5%;
   min-height: 6vw;
   max-width: 300px;
   margin: 1.2%;
@@ -18,7 +17,7 @@
   strong {
     display: block;
     margin: 0;
-    padding: 7px 0 5px 10px;
+    padding: 6px 0 5px 10px;
     background: black;
     text-align: left;
     font-weight: normal;

@@ -66,7 +66,7 @@ export default [
   },
   {
     "title": "Samsung Remote PC",
-    "imageURL": require("statics/img/development/remote-pc/main.png"),
+    "imageURL": require("statics/img/development/thumb-remote-pc.png"),
     "contentURL": "/development/samsung-remote-pc"
   },
   {
@@ -106,7 +106,7 @@ export default [
 	},
   {
     "title": "Rsupport",
-    "imageURL": require("statics/img/development/rsupport/main.png"),
+    "imageURL": require("statics/img/development/thumb-rsupport.png"),
     "contentURL": "/development/rsupport"
   }
 ];
