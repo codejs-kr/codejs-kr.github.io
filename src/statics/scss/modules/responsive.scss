@@ -65,15 +65,22 @@
     padding: $container-padding;
 
     h1 {
-      font-size: 2.4rem;
+      font-size: 2rem;
       text-indent: 0;
     }
 
-    .thumbnail {
-      width: 45%;
+    article {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
 
-      strong {
-        font-size: 1.2rem;
+      .thumbnail {
+        width: 47.5%;
+        margin-bottom: 20px;
+
+        strong {
+          font-size: 1.2rem;
+        }
       }
     }
   }

@@ -1,3 +1,5 @@
+@import "~statics/scss/modules/variables";
+
 #page-about {
   .about-container {
     width: 850px;
@@ -57,7 +59,7 @@
     }
 
     h1 {
-      font-size: 3.5rem;
+      font-size: $title-font-size;
     }
 
     h2 {

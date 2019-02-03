@@ -1,16 +1,16 @@
-$border-size: 6px;
+@import "~statics/scss/modules/variables";
 
 .thumbnail {
   //float: left;
   position: relative;
   display: inline-block;
-  width: 22%;
+  width: 23%;
   min-height: 6vw;
   max-width: 300px;
   margin: 1.2%;
-  border: solid 1px #E4E4E4;
+  box-shadow: $box-shadow-base;
   overflow: hidden;
-  border-radius: $border-size;
+  border-radius: $border-radius-base;
   text-decoration: none;
   font-size: 0;
   box-sizing: content-box;
@@ -18,13 +18,13 @@ $border-size: 6px;
   strong {
     display: block;
     margin: 0;
-    padding: 2px 0 2px 5px;
+    padding: 7px 0 5px 10px;
     background: black;
     text-align: left;
     font-weight: normal;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.6);
-    border-radius: $border-size $border-size 0 0;
+    border-radius: $border-radius-base $border-radius-base 0 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
