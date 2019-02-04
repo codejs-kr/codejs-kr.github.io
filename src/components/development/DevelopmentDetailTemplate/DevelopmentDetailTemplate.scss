@@ -4,7 +4,7 @@ $font-color: #333;
 
 #page-detail-template {
   width: 960px;
-  margin: 40px auto 50px;
+  margin: 60px auto 50px;
   padding: 0 30px;
   color: $font-color;
 
@@ -23,6 +23,8 @@ $font-color: #333;
   }
 
   h1 {
+    margin-bottom: 12px;
+    line-height: 1;
     color: $font-color;
     font-size: $title-font-size;
   }
