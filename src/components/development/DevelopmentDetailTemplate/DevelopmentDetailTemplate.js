@@ -1,5 +1,6 @@
 import React  from 'react';
 import './DevelopmentDetailTemplate.scss';
+import { TopButton } from 'components';
 
 const DevelopmentDetailTemplate = ({ children, title }) => {
   return (
@@ -7,6 +8,7 @@ const DevelopmentDetailTemplate = ({ children, title }) => {
       <h1>{title}</h1>
       <article>
         {children}
+        <TopButton />
       </article>
     </div>
   );

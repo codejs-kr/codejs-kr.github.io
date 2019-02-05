@@ -12,6 +12,10 @@ $font-color: #333;
     min-height: calc(100vh - 172px);
   }
 
+  article {
+    position: relative;
+  }
+
   section {
     margin-bottom: 80px;
   }

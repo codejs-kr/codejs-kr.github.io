@@ -4,6 +4,9 @@ export { default as Footer } from './base/Footer/Footer';
 export { default as PageTemplate } from './base/PageTemplate/PageTemplate';
 export { default as NotFoundTemplate } from './base/NotFoundTemplate/NotFoundTemplate';
 
+// common
+export { default as TopButton } from './common/TopButton/TopButton';
+
 // about
 export { default as AboutTemplate } from './about/AboutTemplate/AboutTemplate';
 
