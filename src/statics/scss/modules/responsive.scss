@@ -34,7 +34,7 @@
   }
 
   #page-about {
-    .about-container {
+    .inner-container {
       width: 100%;
       padding: 0 30px;
 
@@ -54,10 +54,14 @@
 
   #header {
     padding: $container-padding;
+
+    li {
+      margin-left: 15px;
+    }
   }
 
   #back {
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: -0.2px;
   }
 
@@ -165,13 +169,13 @@
       }
     }
 
-    .about-container {
+    .inner-container {
       width: 100%;
       padding: $container-padding;
     }
 
     header {
-      .about-container {
+      .inner-container {
         height: 150px;
 
         strong {
