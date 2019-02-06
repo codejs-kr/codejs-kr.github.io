@@ -4,11 +4,16 @@
   color: #fff;
 
   .container {
-    min-height: calc(100vh - 102px);
+    min-height: calc(100vh - 92px);
   }
 
   &.white {
     background: none;
+    color: #000;
+  }
+
+  &.purple {
+    background: #6f4ec3;
     color: #000;
   }
 }

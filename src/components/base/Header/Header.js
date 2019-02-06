@@ -15,6 +15,9 @@ const Header = ({ isSubpage }) => {
 
       <ul>
         <li>
+          <Link to="/toys">Toys</Link>
+        </li>
+        <li>
           <Link to="/development">Development</Link>
         </li>
         <li>

@@ -33,12 +33,9 @@ $font-color: #333;
     font-size: $title-font-size;
   }
 
-  .overview,
-  h2 {
+  .overview {
     margin-bottom: 40px;
     padding-left: 20px;
-    font-size: 1.6rem;
-    font-weight: 500;
     border-left: solid 4px #3f5366;
   }
 

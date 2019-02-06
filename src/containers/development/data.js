@@ -2,7 +2,9 @@ export default [
   {
     "title": "짱구",
     "imageURL": require("statics/img/development/thumb-zzanggu.png"),
-    "contentURL": "/development/zzanggu"
+    "contentURL": "/development/zzanggu",
+    "github": "https://github.com/dodortus/zzanggu",
+    "state": "toys"
   },
   {
     "title": "RemoteMeeting (화상회의서비스)",

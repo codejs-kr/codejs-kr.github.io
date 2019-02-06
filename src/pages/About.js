@@ -6,14 +6,14 @@ const About = () => {
     <PageTemplate thema="white">
       <AboutTemplate>
         <header>
-          <div className="about-container">
+          <div className="inner-container">
             <strong>원인없는 결과란 없다.</strong>
             <span id="profile-img" />
           </div>
         </header>
 
         <article>
-          <div className="about-container">
+          <div className="inner-container">
             <h1>박정식</h1>
             <h2>Front-End Engineer</h2>
             <p id="description">

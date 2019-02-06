@@ -1,7 +1,7 @@
 @import "~statics/scss/modules/variables";
 
 #page-about {
-  .about-container {
+  .inner-container {
     width: 850px;
     margin: 0 auto;
   }
@@ -19,7 +19,7 @@
       filter: grayscale(100%);
     }
 
-    .about-container {
+    .inner-container {
       position: relative;
       display: flex;
       justify-content: center;

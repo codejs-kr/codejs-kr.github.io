@@ -2,12 +2,12 @@ import React from 'react';
 import { Header, Footer } from 'components';
 import './PageTemplate.scss';
 
-const PageTemplate = ({ children, thema, isSubpage }) => {
+const PageTemplate = ({ children, thema, isSubpage, hideFooter }) => {
   return (
     <div id="page-template" className={thema}>
       <Header isSubpage={isSubpage} />
       { children }
-      <Footer />
+      { !hideFooter && <Footer /> }
     </div>
   );
 };

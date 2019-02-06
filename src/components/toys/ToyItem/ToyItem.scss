@@ -1,0 +1,35 @@
+@import "~statics/scss/modules/variables";
+
+// http://www.agenciesranked.com/createcss3/
+.toy-item {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-size: 0;
+  box-shadow: 1px 1px 5px #000;
+  transition: transform 0.1s ease-in;
+  transform: perspective(650px) rotateX(-18deg) rotateY(44deg) rotateZ(-2deg);
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px #000;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  strong {
+    padding: 0 !important;
+    border-radius: $border-radius-base;
+    text-align: center;
+    display: block;
+  }
+
+  img {
+    display: inline-block;
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+  }
+}
