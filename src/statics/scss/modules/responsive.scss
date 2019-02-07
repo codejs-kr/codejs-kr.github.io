@@ -37,10 +37,16 @@
     .inner-container {
       width: 100%;
       padding: 0 30px;
+    }
 
-      #profile-img {
-        right: 4%;
-      }
+    #profile-img {
+      right: 4%;
+    }
+  }
+
+  #page-toys {
+    .inner-container {
+      width: 100%;
     }
   }
 }
@@ -185,6 +191,15 @@
         #profile-img {
           right: auto;
         }
+      }
+    }
+  }
+
+
+  #page-toys {
+    article {
+      strong {
+        font-size: 2rem;
       }
     }
   }
