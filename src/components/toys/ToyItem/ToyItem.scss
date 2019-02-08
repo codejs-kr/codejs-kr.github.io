@@ -7,7 +7,7 @@
   left: 0;
   font-size: 0;
   box-shadow: 1px 1px 5px #000;
-  transition: transform 0.1s ease-in;
+  transition: transform 0.15s ease-in;
   transform: perspective(650px) rotateX(-18deg) rotateY(44deg) rotateZ(-2deg);
 
   &:hover {

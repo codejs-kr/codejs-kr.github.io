@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Header.scss';
 
 const Header = ({ isSubpage }) => {
@@ -15,13 +15,13 @@ const Header = ({ isSubpage }) => {
 
       <ul>
         <li>
-          <Link to="/toys">Toys</Link>
+          <NavLink  to="/toys" activeClassName="active">Toys</NavLink>
         </li>
         <li>
-          <Link to="/development">Development</Link>
+          <NavLink to="/development" activeClassName="active">Development</NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink to="/about" activeClassName="active">About</NavLink>
         </li>
       </ul>
     </header>
