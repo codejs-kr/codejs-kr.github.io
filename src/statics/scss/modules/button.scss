@@ -7,9 +7,37 @@
   //border: solid 1px #333;
   border-radius: 3px;
   color: #fff;
-  background: #3f5366;
+  background: #415569;
 
   &:hover {
-    background: #2C3946;
+    background: #394c5f;
+
+    &.with-icon {
+      i {
+        font-size: 2.4rem !important;
+      }
+    }
+  }
+
+  // https://fontawesome.com/icons?d=gallery&m=free
+  // https://speckyboy.com/custom-hover-click-effects-css-javascript/
+  &.with-icon {
+    position: relative;
+    padding-right: 6.5rem;
+
+    i {
+      background: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      width: 5rem;
+      height: 100%;
+      font-size: 2.2rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
