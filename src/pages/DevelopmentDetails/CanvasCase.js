@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const CanvasCase = () => {
@@ -30,9 +30,7 @@ const CanvasCase = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://www.codejs.co.kr/development/views/canvas-cases/" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="http://www.codejs.co.kr/development/views/canvas-cases/">Live</A>
       </section>
 
       <section className="more-wrap">

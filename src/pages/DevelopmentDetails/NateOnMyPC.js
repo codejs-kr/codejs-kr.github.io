@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const NateOnMyPC = () => {
@@ -40,12 +40,8 @@ const NateOnMyPC = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://www.codejs.co.kr/development/views/nateon" className="button with-icon" target="_blank">
-          Live Template <i className="fas fa-angle-right" />
-        </a>
-        <a href="http://rsupport.nate.com/rview/r8/main/index.aspx" className="button with-icon" target="_blank">
-          Live Service <i className="fas fa-angle-right" />
-        </a>
+        <A href="http://www.codejs.co.kr/development/views/nateon">Live Template</A>
+        <A href="http://rsupport.nate.com/rview/r8/main/index.aspx">Live Service</A>
       </section>
 
       <section className="more-wrap">

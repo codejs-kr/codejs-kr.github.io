@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const Localization = () => {
@@ -40,9 +40,7 @@ const Localization = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="https://jsbin.com/tefolaf/1/edit?js,output" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="https://jsbin.com/tefolaf/1/edit?js,output">Live</A>
       </section>
 
       <section className="more-wrap">

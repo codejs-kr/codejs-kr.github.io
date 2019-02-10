@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const ImageSlider = () => {
@@ -36,9 +36,7 @@ const ImageSlider = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://www.codejs.co.kr/development/views/css3-effect" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="http://www.codejs.co.kr/development/views/css3-effect/">Live</A>
       </section>
 
       <section className="more-wrap">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const FrontendConvension = () => {
@@ -46,9 +46,7 @@ const FrontendConvension = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://www.codejs.co.kr/development/views/convention/index.html" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="http://www.codejs.co.kr/development/views/convention">Live</A>
       </section>
 
       <section className="features-wrap">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const RemoteViewPersonal = () => {
@@ -48,12 +48,8 @@ const RemoteViewPersonal = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://rview.com" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
-        <a href="http://www.codejs.co.kr/development/views/m-rview/index.html" className="button with-icon" target="_blank">
-          Mobile version Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="http://rview.com">Live</A>
+        <A href="http://www.codejs.co.kr/development/views/m-rview">Mobile version Live</A>
       </section>
 
       <section className="features-wrap">

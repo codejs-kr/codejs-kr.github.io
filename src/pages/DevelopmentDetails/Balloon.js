@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const Balloon = () => {
@@ -48,9 +48,7 @@ const Balloon = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://balloon.rsupport.com" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="http://balloon.rsupport.com">Live</A>
       </section>
 
       <section className="features-wrap">

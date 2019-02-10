@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const RemoteWOL = () => {
@@ -49,9 +49,7 @@ const RemoteWOL = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="https://wol.rview.com/guide" className="button with-icon" target="_blank">
-          Guide Site <i className="fas fa-angle-right" />
-        </a>
+        <A href="https://wol.rview.com/guide">Guide Site</A>
       </section>
 
       <section className="features-wrap">

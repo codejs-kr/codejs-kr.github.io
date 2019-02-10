@@ -6,6 +6,7 @@ export { default as NotFoundTemplate } from './base/NotFoundTemplate/NotFoundTem
 
 // common
 export { default as TopButton } from './common/TopButton/TopButton';
+export { default as A } from './common/A/A';
 
 // about
 export { default as AboutTemplate } from './about/AboutTemplate/AboutTemplate';

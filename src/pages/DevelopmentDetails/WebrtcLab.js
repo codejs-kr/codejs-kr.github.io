@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const WebrtcLab = () => {
@@ -44,12 +44,8 @@ const WebrtcLab = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="https://webrtclab.herokuapp.com" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
-        <a href="https://github.com/dodortus/webrtc-lab" className="button with-icon" target="_blank">
-          Github <i className="fab fa-github" />
-        </a>
+        <A href="https://webrtclab.herokuapp.com">Live</A>
+        <A href="https://github.com/dodortus/webrtc-lab" icon="github">Github</A>
       </section>
 
       <section className="more-wrap">

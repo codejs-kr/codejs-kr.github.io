@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const SpeechRecognition = () => {
@@ -41,12 +41,8 @@ const SpeechRecognition = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="https://webrtclab.herokuapp.com/speech-recognition" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
-        <a href="https://github.com/dodortus/webrtc-lab/tree/master/frontend/views/examples/speech-recognition" className="button with-icon" target="_blank">
-          Github <i className="fab fa-github" />
-        </a>
+        <A href="https://webrtclab.herokuapp.com/speech-recognition">Live</A>
+        <A href="https://github.com/dodortus/webrtc-lab/tree/master/frontend/views/examples/speech-recognition" icon="github">Github</A>
       </section>
 
       <section className="more-wrap">

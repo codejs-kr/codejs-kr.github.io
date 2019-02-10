@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const RemoteMeeting = () => {
@@ -53,9 +53,7 @@ const RemoteMeeting = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="https://remotemeeting.com" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="https://remotemeeting.com">Live</A>
       </section>
 
       <section className="features-wrap">

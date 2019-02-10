@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const RemoteViewBusiness = () => {
@@ -45,9 +45,7 @@ const RemoteViewBusiness = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://rview.com" className="button with-icon" target="_blank">
-          Live <i className="fas fa-angle-right" />
-        </a>
+        <A href="http://rview.com">Live</A>
       </section>
 
       <section className="features-wrap">
