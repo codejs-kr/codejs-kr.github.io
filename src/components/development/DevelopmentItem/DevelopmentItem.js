@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './DevelopmentItem.scss';
 
@@ -27,6 +28,18 @@ const DevelopmentItem = ({ title, imageURL, contentURL }) => {
       }
     </Fragment>
   );
+};
+
+DevelopmentItem.propTypes = {
+  title: PropTypes.string,
+  imageURL: PropTypes.string,
+  contentURL: PropTypes.string
+};
+
+DevelopmentItem.defaultProps = {
+  title: '무제',
+  imageURL: require("statics/img/development/bg-ing.gif"),
+  contentURL: 'http://codejs.co.kr'
 };
 
 export default DevelopmentItem;

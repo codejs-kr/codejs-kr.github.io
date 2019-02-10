@@ -13,7 +13,7 @@ class DevelopmentPagingContainer extends Component {
     let result = 0;
 
     arr.some((obj, i) => {
-      console.log('확인 obj', obj.title)
+      console.log('확인 obj', obj.title);
       if (obj.title.match(name)) {
         result = i;
         return true;
