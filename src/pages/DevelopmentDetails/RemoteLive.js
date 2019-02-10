@@ -41,10 +41,6 @@ const RemoteLive = () => {
         </ul>
       </section>
 
-      {/*<section className="button-wrap">*/}
-        {/*<a href="https://remotemeeting.com" className="button" target="_blank">Live</a>*/}
-      {/*</section>*/}
-
       <section className="features-wrap">
         <h3>Features</h3>
         <dl>

@@ -36,7 +36,9 @@ const IpadSmartCover = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://www.codejs.co.kr/development/views/ipad/" className="button" target="_blank">Live</a>
+        <a href="http://www.codejs.co.kr/development/views/ipad/" className="button with-icon" target="_blank">
+          Live <i className="fas fa-angle-right" />
+        </a>
       </section>
 
       <section className="more-wrap">

@@ -38,8 +38,12 @@ const ReactEvernote = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://play.codejs.co.kr/react-evernote" className="button" target="_blank">Live</a>
-        <a href="https://github.com/dodortus/react-evernote" className="button" target="_blank">Github</a>
+        <a href="http://play.codejs.co.kr/react-evernote" className="button with-icon" target="_blank">
+          Live <i className="fas fa-angle-right" />
+        </a>
+        <a href="https://github.com/dodortus/react-evernote" className="button with-icon" target="_blank">
+          Github <i className="fab fa-github" />
+        </a>
       </section>
 
       <section className="more-wrap">

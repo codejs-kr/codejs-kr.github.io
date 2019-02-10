@@ -46,8 +46,9 @@ const FrontendConvension = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://www.codejs.co.kr/development/views/convention/index.html" className="button" target="_blank">Live</a>
-        {/*<a href="https://github.com/dodortus/webrtc-lab" className="button" target="_blank">Github</a>*/}
+        <a href="http://www.codejs.co.kr/development/views/convention/index.html" className="button with-icon" target="_blank">
+          Live <i className="fas fa-angle-right" />
+        </a>
       </section>
 
       <section className="features-wrap">

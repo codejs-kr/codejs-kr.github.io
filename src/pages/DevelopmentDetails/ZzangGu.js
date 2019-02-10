@@ -32,8 +32,7 @@ const ZzangGu = () => {
 
       <section className="button-wrap">
         <a href="https://github.com/dodortus/zzanggu" className="button with-icon" target="_blank">
-          Github
-          <i className="fab fa-github" />
+          Github <i className="fab fa-github" />
         </a>
       </section>
 

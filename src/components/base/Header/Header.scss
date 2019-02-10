@@ -1,3 +1,7 @@
+$default-color: rgba(255,255,255,0.5);
+$active-color: rgba(255,255,255, 1);
+$hover-color: rgba(255,255,255,0.8);
+
 #header {
   position: relative;
   z-index: 1;
@@ -19,19 +23,41 @@
 
     a {
       display: inline-block;
+      position: relative;
       padding: 0 2px;
       height: 100%;
       line-height: 50px;
       text-decoration: none;
-      color: rgba(255,255,255,0.5);
+      color: $default-color;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        left: 50%;
+        bottom: 0;
+        background-color: $hover-color;
+        transition: all 0.2s ease-in-out;
+      }
 
       &:hover {
-        color: #fff;
+        color: $hover-color;
+
+        &:after {
+          width: 100%;
+          left: 0;
+        }
       }
 
       &.active {
-        color: #fff;
-        border-bottom: solid 3px rgba(255,255,255,0.9);
+        color: $active-color;
+
+        &:after {
+          width: 100%;
+          left: 0;
+          background-color: $active-color;
+        }
       }
     }
   }

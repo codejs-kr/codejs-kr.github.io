@@ -1,18 +1,25 @@
+@import '~statics/scss/modules/variables';
+
 #top-button {
   position: fixed;
   bottom: 80px;
   right: -1px;
-  display: inline-block;
+  display: none;
   width: 40px;
   height: 40px;
-  background: #202124;
-  border: solid 1px #bbb;
+  background: $button-color-deafult;
+  border: 0;
   border-radius: 2px;
   color: #fff;
   z-index: 100;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 
   &:hover {
-    width: 60px;
+    width: 80px;
+    background: $button-color-default-hover;
+  }
+
+  .scrolled & {
+    display: inline-block;
   }
 }

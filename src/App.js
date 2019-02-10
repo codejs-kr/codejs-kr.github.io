@@ -4,8 +4,25 @@ import { Toys, About, Development, DevelopmentDetails, NotFound } from 'pages';
 import 'statics/scss/main.scss';
 
 class App extends Component {
-  render() {
+  constructor(props) {
+    super(props);
 
+    this.init();
+  }
+
+  bindScrollEvent = () => {
+    const body = document.querySelector('body');
+
+    window.onscroll = () => {
+      body.classList[window.scrollY > 160 ? 'add': 'remove']('scrolled');
+    };
+  };
+
+  init = () => {
+    this.bindScrollEvent();
+  };
+
+  render() {
     return (
       <HashRouter>
         <Fragment>

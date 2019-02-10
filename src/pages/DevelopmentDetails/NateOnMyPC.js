@@ -40,8 +40,12 @@ const NateOnMyPC = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="http://www.codejs.co.kr/development/views/nateon" className="button" target="_blank">Live Template</a>
-        <a href="http://rsupport.nate.com/rview/r8/main/index.aspx" className="button" target="_blank">Live Service</a>
+        <a href="http://www.codejs.co.kr/development/views/nateon" className="button with-icon" target="_blank">
+          Live Template <i className="fas fa-angle-right" />
+        </a>
+        <a href="http://rsupport.nate.com/rview/r8/main/index.aspx" className="button with-icon" target="_blank">
+          Live Service <i className="fas fa-angle-right" />
+        </a>
       </section>
 
       <section className="more-wrap">

@@ -1,3 +1,5 @@
+@import '~statics/scss/modules/variables';
+
 .button {
   display: inline-block;
   min-width: 180px;
@@ -7,18 +9,11 @@
   //border: solid 1px #333;
   border-radius: 3px;
   color: #fff;
-  background: #415569;
+  background: $button-color-deafult;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 
-
   &:hover {
-    background: #394c5f;
-
-    &.with-icon {
-      i {
-        font-size: 2.2rem !important;
-      }
-    }
+    background: $button-color-default-hover;
   }
 
   // https://fontawesome.com/icons?d=gallery&m=free

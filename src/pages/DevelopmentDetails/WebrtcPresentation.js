@@ -33,7 +33,9 @@ const WebrtcPresentation = () => {
       </section>
 
       <section className="button-wrap">
-        <a href="https://webrtclab.herokuapp.com/introduction" className="button" target="_blank">Live</a>
+        <a href="https://webrtclab.herokuapp.com/introduction" className="button with-icon" target="_blank">
+          Live <i className="fas fa-angle-right" />
+        </a>
       </section>
 
       <section className="more-wrap">
