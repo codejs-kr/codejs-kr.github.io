@@ -8,19 +8,22 @@
   border-radius: 3px;
   color: #fff;
   background: #415569;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
 
   &:hover {
     background: #394c5f;
 
     &.with-icon {
       i {
-        font-size: 2.4rem !important;
+        font-size: 2.2rem !important;
       }
     }
   }
 
   // https://fontawesome.com/icons?d=gallery&m=free
   // https://speckyboy.com/custom-hover-click-effects-css-javascript/
+  // https://html-css-js.com/css/generator/transform/
   &.with-icon {
     position: relative;
     padding-right: 6.5rem;
@@ -33,7 +36,7 @@
 
       width: 5rem;
       height: 100%;
-      font-size: 2.2rem;
+      font-size: 2rem;
 
       display: flex;
       justify-content: center;
