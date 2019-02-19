@@ -49,7 +49,7 @@ const RemoteViewPersonal = () => {
 
       <section className="button-wrap">
         <A href="http://rview.com">Live</A>
-        <A href="http://www.codejs.co.kr/development/views/m-rview">Mobile version Live</A>
+        <A href="http://www.codejs.co.kr/development/views/m-rview">Mobile ver</A>
       </section>
 
       <section className="features-wrap">
