@@ -15,7 +15,7 @@ const Header = ({ isSubpage }) => {
 
       <ul>
         <li>
-          <NavLink  to="/toys" activeClassName="active">Toys</NavLink>
+          <NavLink  to="/toy" activeClassName="active">Toy</NavLink>
         </li>
         <li>
           <NavLink to="/development" activeClassName="active">Development</NavLink>

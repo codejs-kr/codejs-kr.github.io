@@ -9,10 +9,11 @@ class ToyItemContainer extends Component {
       <Fragment>
         {
           data.map((item, index) => {
-            if (item.state && item.state === 'toys') {
+            if (item.state && item.state === 'toy') {
               return (
                 <ToyItem
                   key={index}
+                  id={item.id}
                   title={item.title}
                   imageURL={item.imageURL}
                   contentURL={item.contentURL}

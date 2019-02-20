@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import { Toys, About, Development, DevelopmentDetails, NotFound } from 'pages';
+import { Toy, About, Development, DevelopmentDetails, NotFound } from 'pages';
 import 'statics/scss/main.scss';
 
 class App extends Component {
@@ -27,8 +27,8 @@ class App extends Component {
       <HashRouter>
         <Fragment>
           <Switch>
-            <Route exact path="/" component={Toys} />
-            <Route exact path="/toys" component={Toys} />
+            <Route exact path="/" component={Toy} />
+            <Route exact path="/toy" component={Toy} />
             <Route exact path="/development" component={Development} />
             <Route path="/development/:name" component={DevelopmentDetails} />
             <Route path="/about" component={About} />

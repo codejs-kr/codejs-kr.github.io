@@ -1,10 +1,19 @@
 export default [
+  //{
+  //  "title": "캔버스",
+  //  "imageURL": require("statics/img/development/thumb-zzanggu.png"),
+  //  "contentURL": "/development/zzanggu",
+  //  "github": "https://github.com/dodortus/zzanggu",
+  //  "state": "toy",
+  //  "id": "canvas"
+  //},
   {
     "title": "짱구",
     "imageURL": require("statics/img/development/thumb-zzanggu.png"),
     "contentURL": "/development/zzanggu",
     "github": "https://github.com/dodortus/zzanggu",
-    "state": "toys"
+    "state": "toy",
+    "id": "zzanggu"
   },
   {
     "title": "RemoteMeeting (화상회의서비스)",

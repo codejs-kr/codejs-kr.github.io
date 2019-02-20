@@ -1,17 +1,16 @@
 @import "~statics/scss/modules/variables";
 
 // http://www.agenciesranked.com/createcss3/
+// http://westciv.com/tools/3Dtransforms/index.html
 .toy-item {
   position: absolute;
-  top: 40px;
-  left: 0;
   font-size: 0;
   box-shadow: 1px 1px 5px #000;
   transition: transform 0.15s ease-in;
   transform: perspective(650px) rotateX(-18deg) rotateY(44deg) rotateZ(-2deg);
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
     box-shadow: 2px 2px 5px #000;
   }
 
@@ -20,10 +19,11 @@
   }
 
   strong {
+    display: block;
     padding: 0 !important;
     border-radius: $border-radius-base;
     text-align: center;
-    display: block;
+    font-size: 1rem;
   }
 
   img {
@@ -31,5 +31,23 @@
     width: 220px;
     height: 140px;
     object-fit: cover;
+  }
+
+
+  &#zzanggu {
+    top: 40px;
+    left: 0;
+  }
+
+  &#canvas {
+    top: 360px;
+    right: 0;
+    transform: perspective(600px) rotateX(-22deg) rotateY(-50deg) rotateZ(2deg);
+    //transform: rotate(24deg) skew(24deg, 0deg);
+
+    img {
+      width: 140px;
+      height: 100px;
+    }
   }
 }

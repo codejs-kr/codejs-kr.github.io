@@ -1,5 +1,5 @@
 export { default as About } from './About';
-export { default as Toys } from './Toys';
+export { default as Toy } from './Toy';
 export { default as NotFound } from './NotFound';
 
 // Development

@@ -11,9 +11,9 @@ export { default as A } from './common/A/A';
 // about
 export { default as AboutTemplate } from './about/AboutTemplate/AboutTemplate';
 
-// toys
-export { default as ToysTemplate } from './toys/ToysTemplate/ToysTemplate';
-export { default as ToyItem } from './toys/ToyItem/ToyItem';
+// toy
+export { default as ToyTemplate } from './toy/ToyTemplate/ToyTemplate';
+export { default as ToyItem } from './toy/ToyItem/ToyItem';
 
 // development
 export { default as DevelopmentListTemplate } from './development/DevelopmentListTemplate/DevelopmentListTemplate';
