@@ -6,7 +6,7 @@ const DropboxTourBook = () => {
   const name = "DropBox Tour Book";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 📘`}>
       <section className="image-wrap cover">
         <img src={require("statics/img/development/dropbox-tour-book/main.png")} alt={name} />
       </section>

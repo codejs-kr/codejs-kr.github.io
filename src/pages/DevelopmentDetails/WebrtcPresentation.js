@@ -6,7 +6,7 @@ const WebrtcPresentation = () => {
   const name = "WebRTC 발표 자료";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 🎙️`}>
       <section className="image-wrap center contain">
         <img src={require("statics/img/development/webrtc/main.jpg")} alt={name} />
       </section>

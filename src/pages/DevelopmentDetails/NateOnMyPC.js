@@ -6,7 +6,7 @@ const NateOnMyPC = () => {
   const name = "NateOn 내 PC제어 리뉴얼";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 📑`}>
       <section className="image-wrap x-center s-cover">
         <img src={require("statics/img/development/nateon-mypc/main.png")} alt={name} />
       </section>

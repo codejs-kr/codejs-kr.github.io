@@ -6,7 +6,7 @@ const RemoteLive = () => {
   const name = "RemoteLive";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 💬`}>
       <section className="image-wrap center cover">
         <img src={require("statics/img/development/remotelive/main.png")} alt={name} />
       </section>

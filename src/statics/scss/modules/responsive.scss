@@ -44,7 +44,7 @@
     }
   }
 
-  #page-toys {
+  #page-toy {
     .inner-container {
       width: 100%;
     }
@@ -99,7 +99,7 @@
     padding: $container-padding;
 
     h1 {
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       font-size: 2rem;
     }
 
@@ -172,6 +172,11 @@
 
       h2 {
         font-size: 1.2rem;
+
+        span {
+          margin-top: 4px;
+          display: block;
+        }
       }
     }
 
@@ -196,7 +201,7 @@
   }
 
 
-  #page-toys {
+  #page-toy {
     article {
       strong {
         font-size: 2rem;

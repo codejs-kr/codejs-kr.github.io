@@ -6,7 +6,7 @@ const SpeechRecognition = () => {
   const name = "Speech Recognition";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 🎤`}>
       <section className="image-wrap center">
         <img src={require("statics/img/development/stt/main.png")} alt={name} />
       </section>

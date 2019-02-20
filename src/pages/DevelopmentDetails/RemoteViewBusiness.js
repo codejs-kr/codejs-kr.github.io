@@ -6,7 +6,7 @@ const RemoteViewBusiness = () => {
   const name = "RemoteView Business";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 📁`}>
       <section className="image-wrap x-center s-cover">
         <img src={require("statics/img/development/remoteview/ent/main.png")} alt={name} />
       </section>

@@ -6,7 +6,7 @@ const ImageSlider = () => {
   const name = "3D Image Slider";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 👀`}>
       <section className="image-wrap cover">
         <img src={require("statics/img/development/image-slider/main.png")} alt={name} />
       </section>

@@ -6,7 +6,7 @@ const Localization = () => {
   const name = "JavaScript Localization";
 
   return (
-    <DevelopmentDetailTemplate title={name}>
+    <DevelopmentDetailTemplate title={`${name} 🌎`}>
       <section className="image-wrap center s-contain">
         <img src={require("statics/img/development/localization/main.png")} alt={name} />
       </section>
