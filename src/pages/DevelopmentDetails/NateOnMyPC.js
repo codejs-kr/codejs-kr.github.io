@@ -3,7 +3,7 @@ import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const NateOnMyPC = () => {
-  const name = "NateOn 내 PC제어 리뉴얼";
+  const name = "네이트온 내 PC제어 리뉴얼";
 
   return (
     <DevelopmentDetailTemplate title={`${name} 📑`}>
@@ -13,8 +13,8 @@ const NateOnMyPC = () => {
 
       <section className="overview">
         <p>
-          네이트온 내 PC제어 프로젝트는 이미 5년 이상 서비스되던 사이트를 리뉴얼하는 프로젝트였습니다.<br />
-          이 서비스에 사용되는 UI를 템플릿화 하였습니다.
+          네이트온 내 PC제어 프로젝트는 이미 5년 이상 서비스 중인 웹사이트를 리뉴얼 및 UI 개선하는 프로젝트였습니다.<br />
+          이 프로젝트에 사용된 UI를 템플릿화하여 적용 후 인수인계 하였습니다.
         </p>
       </section>
 

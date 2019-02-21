@@ -71,7 +71,7 @@ export default [
     "contentURL": "/development/remotewol"
   },
   {
-    "title": "NateOn 내 PC제어 리뉴얼",
+    "title": "네이트온 내 PC제어 리뉴얼",
     "imageURL": require("statics/img/development/thumb-nateon.png"),
     "contentURL": "/development/nateon-mypc"
   },
