@@ -17,7 +17,7 @@ const ReactEvernote = () => {
           그래서 평소에 자주 사용하는 Evernote를 구현해 보기로 하고 조금씩 작업을 시작해 보았습니다.
         </p>
         <p>
-          레이아웃 구조를 Component 단위로 잡았으며 에버노트의 UI요소를 좀 더 가볍고 직관적으로 재작성 하였습니다.
+          에버노트의 UI 컴포넌트들을 좀 더 가볍고 직관적으로 재작성 하였습니다.
         </p>
       </section>
 
@@ -33,7 +33,7 @@ const ReactEvernote = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>노트, 즐겨찾기, 테그 등</p>
+            <p>노트 CRUD, 즐겨찾기, 테그기능 등</p>
           </li>
           <li>
             <strong>사용기술</strong>

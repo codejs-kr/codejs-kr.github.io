@@ -13,11 +13,11 @@ const RemoteViewBusiness = () => {
 
       <section className="overview">
         <p>
-          리모트뷰 기업용은 선임자 퇴사로 오픈전에 인수인계받아서
-          마무리 개발과 약 3년간의 운영 & 개발한 프로젝트입니다.
+          PC원격제어 서비스인 리모트뷰 기업용은 선임자 퇴사로 오픈전에 인수인계받아서
+          마무리 개발과 약 3년간의 운영 및 기능 개발한 프로젝트입니다.
         </p>
         <p>
-          회사의 주력 제품이며 재택근무를 가능하게 해주는 유용한 서비스입니다.<br />
+          회사의 주력 제품이며, 재택근무를 가능하게 해주는 유용한 서비스입니다.<br />
           원격지에 설치된 PC의 목록이 노출되며, 해당 PC에 접속하면 전용 뷰어가 나타나며
           뷰어를 통해서 원격지의 PC를 제어할 수 있습니다.
         </p>
@@ -60,7 +60,7 @@ const RemoteViewBusiness = () => {
         <dl>
           <dt>라이브뷰</dt>
           <dd>
-            <p>PC의 화면 이미지를 주기적으로 갱신하여 현재 원격지 PC 화면을 확인할 수 있습니다.</p>
+            <p>원격지 PC의 화면의 이미지를 주기적으로 전송받아 갱신하여 현재 원격지 PC 화면을 확인할 수 있습니다.</p>
             <img src={require("statics/img/development/remoteview/ent/feature-live.png")} alt={name} className="none-fit" />
           </dd>
         </dl>
@@ -81,7 +81,7 @@ const RemoteViewBusiness = () => {
         <dl>
           <dt>환경설정</dt>
           <dd>
-            <p>다양한 옵션을 단을 명확하게 나누어 직관적인 UI로 배치하도록 개발하였습니다.</p>
+            <p>다양한 옵션을 명확하게 나누어 직관적인 UI로 배치하도록 개발하였습니다.</p>
             <img src={require("statics/img/development/remoteview/ent/feature-setting.png")} alt={name} className="none-fit" />
           </dd>
         </dl>
