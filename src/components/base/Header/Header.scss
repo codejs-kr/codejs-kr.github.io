@@ -16,6 +16,7 @@ $hover-color: rgba(255,255,255,0.8);
   ul {
     height: 100%;
   }
+
   li {
     display: inline-block;
     height: 100%;
@@ -24,10 +25,12 @@ $hover-color: rgba(255,255,255,0.8);
     a {
       display: inline-block;
       position: relative;
-      padding: 0 2px;
+      padding: 0 4px;
+      min-width: 60px;
       height: 100%;
       line-height: 50px;
       text-decoration: none;
+      text-align: center;
       color: $default-color;
 
       &:after {

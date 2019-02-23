@@ -13,7 +13,7 @@ const IpadSmartCover = () => {
 
       <section className="overview">
         <p>
-          2012년 3월 8일 New iPad 발표 후 애플 사이트 둘러보다 재밌는 cover 에니메이션을 발견하여, 제작해봤습니다.<br />
+          2012년 3월 8일 New iPad 발표 후 애플 사이트 둘러보다 재밌는 cover 에니메이션을 발견하여 제작해보았습니다.<br />
           마우스 드래그 액션으로 아이패드 커버를 디테일하게 표현한 부분이 매력적입니다.
         </p>
       </section>

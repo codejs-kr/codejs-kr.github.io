@@ -13,9 +13,9 @@ const Rsupport = () => {
 
       <section className="overview">
         <p>
-          알서포트 회사 브랜드 사이트입니다.
-          5개 국어를 지원하는 사이트로 다국어 처리를 고려하여 확장성있도록 마크업 하였으며
-          마케팅 요구사항에 맞춰 기능 개발과 유지보수 개발을 진행한 프로젝트입니다.
+          알서포트 회사 사이트입니다.
+          5개 국어를 지원하는 사이트로 다국어 처리를 고려하여 UI요소들을 확장 가능하도록 마크업 하였으며,
+          마케팅 요구 사항에 맞춰 기능 개발과 유지 보수 개발을 진행한 프로젝트입니다.
         </p>
       </section>
 
@@ -52,7 +52,7 @@ const Rsupport = () => {
         <dl>
           <dt>특징</dt>
           <dd>
-            <p>제품별 특징 소개 페이지입니다.</p>
+            <p>제품별 특징과 상세 페이지들을 마크업하였습니다.</p>
             <img src={require("statics/img/development/rsupport/feature-products.png")} alt={name} />
           </dd>
         </dl>

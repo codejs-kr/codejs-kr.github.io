@@ -63,6 +63,11 @@
 
     li {
       margin-left: 15px;
+
+      a {
+        min-width: auto;
+        padding: 0 2px;
+      }
     }
   }
 
