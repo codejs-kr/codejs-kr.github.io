@@ -6,7 +6,7 @@ const IpadSmartCover = () => {
   const name = "iPad Smart Cover";
 
   return (
-    <DevelopmentDetailTemplate title={`${name} 🍎`}>
+    <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center contain">
         <img src={require("statics/img/development/ipad-smart-cover/main.png")} alt={name} />
       </section>

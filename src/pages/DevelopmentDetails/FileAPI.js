@@ -6,7 +6,7 @@ const FileAPI = () => {
   const name = "HTML5 File API 활용";
 
   return (
-    <DevelopmentDetailTemplate title={`${name} 💾`}>
+    <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
         <img src={require("statics/img/development/file-api/main.png")} alt={name} />
       </section>

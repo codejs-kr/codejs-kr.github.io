@@ -6,7 +6,7 @@ const BookTransform = () => {
   const name = "Book Transform";
 
   return (
-    <DevelopmentDetailTemplate title={`${name} 📚`}>
+    <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap s-cover">
         <img src={require("statics/img/development/book-transform/main.png")} alt={name} />
       </section>

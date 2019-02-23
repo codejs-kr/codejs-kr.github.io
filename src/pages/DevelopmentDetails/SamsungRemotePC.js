@@ -6,7 +6,7 @@ const SamsungRemotePC = () => {
   const name = "Samsung Remote PC";
 
   return (
-    <DevelopmentDetailTemplate title={`${name} 🙆‍♂️`}>
+    <DevelopmentDetailTemplate title={`${name}️`}>
       <section className="image-wrap center cover">
         <img src={require("statics/img/development/remote-pc/main.png")} alt={name} />
       </section>

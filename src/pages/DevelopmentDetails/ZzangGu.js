@@ -6,7 +6,7 @@ const ZzangGu = () => {
   const name = "짱구";
 
   return (
-    <DevelopmentDetailTemplate title={`${name} 🕹️`}>
+    <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center s-contain">
         <img src={require("statics/img/development/zzanggu/main.png")} alt={name} />
       </section>

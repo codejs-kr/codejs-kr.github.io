@@ -6,7 +6,7 @@ const RemoteMeeting = () => {
   const name = "RemoteMeeting";
 
   return (
-    <DevelopmentDetailTemplate title={`${name} 🤝`}>
+    <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center cover">
         <img src={require("statics/img/development/remotemeeting/main.png")} alt={name} />
       </section>

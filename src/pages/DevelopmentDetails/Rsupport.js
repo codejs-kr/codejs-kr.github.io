@@ -6,7 +6,7 @@ const Rsupport = () => {
   const name = "알서포트 회사 사이트";
 
   return (
-    <DevelopmentDetailTemplate title={`${name} 🔥`}>
+    <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
         <img src={require("statics/img/development/rsupport/main.png")} alt={name} />
       </section>
