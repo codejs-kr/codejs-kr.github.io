@@ -15,7 +15,7 @@ const ZzangGu = () => {
         <p>
           대학교 2학년 때 Java Applet을 이용하여 만들었던 저의 첫 게임입니다.<br />
           당시 이 게임으로 좋은 성적도 받고 처음으로 개발한 게임이다 보니 저에게는 소중한 추억이었습니다.<br />
-          웹개발을 하면서 언젠가 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고,
+          프론트앤드 개발을 하면서 언젠가 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고,
           오래전 코드를 보며 토이프로젝트로 조금씩 재 구현해 보았습니다.
         </p>
       </section>
@@ -28,7 +28,7 @@ const ZzangGu = () => {
           </li>
           <li>
             <strong>역할</strong>
-            <p>게임 설계 및 개발</p>
+            <p>게임 디자인, 설계, 개발</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
@@ -44,6 +44,30 @@ const ZzangGu = () => {
       <section className="button-wrap">
         <A href="https://github.com/dodortus/zzanggu">Live</A>
         <A href="https://github.com/dodortus/zzanggu" icon="github">Github</A>
+      </section>
+
+      <section className="features-wrap">
+        <h3>Features</h3>
+        <dl>
+          <dt>게임준비</dt>
+          <dd>
+            <p>
+              Ready 화면과 함께 게임 Audio가 재생됩니다. Enter 키를 눌러서 게임을 시작할 수 있습니다.
+            </p>
+            <img src={require("statics/img/development/zzanggu/feature-ready.png")} alt={name} />
+          </dd>
+        </dl>
+        <dl>
+          <dt>게임플레이</dt>
+          <dd>
+            <p>
+              키보드를 사용하여 캐릭터를 좌우로 움직여 하늘에서 떨어지는 똥을 피하는 간단한 게임입니다.<br />
+              캐릭터 움직임을 부드럽게 처리하기 위해 requestAnimationFrame을 사용하여 드로잉 처리하였습니다.<br />
+              난이도 처리와 최고 점수 노출, 캐릭터 미끄러짐, 가속 감속 처리를 하여 게임의 재미 요소를 추가하였습니다.
+            </p>
+            <img src={require("statics/img/development/zzanggu/feature-play.png")} alt={name} />
+          </dd>
+        </dl>
       </section>
 
       <section className="more-wrap">
