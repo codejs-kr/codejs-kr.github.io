@@ -27,7 +27,7 @@ const RemoteMeeting = () => {
           현재는 일본과 국내에 많은 업체와 사용자가 사용하는 서비스가 되었습니다.
         </p>
         <p>
-          리모트미팅은 Web, iOS, Android, 전용 하드웨어 Box와 상호 연결됩니다.
+          리모트미팅은 Web, iOS, Android, 전용 하드웨어 제품과 상호 연결됩니다.
         </p>
       </section>
 
@@ -47,7 +47,7 @@ const RemoteMeeting = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, WebRTC, MQTT, JavaScript(ES6), React, WebPack, Gulp</p>
+            <p>HTML5, CSS3, WebRTC, MQTT, JavaScript(ES6), React, Redux, WebPack, Gulp</p>
           </li>
         </ul>
       </section>
@@ -61,7 +61,10 @@ const RemoteMeeting = () => {
         <dl>
           <dt>라운지 (룸리스트)</dt>
           <dd>
-            <p>그룹내 개설된 회의 목록을 한눈에 볼 수 있고 간편하게 회의 개설을 할 수 있습니다.</p>
+            <p>
+              그룹내 개설된 회의 목록을 한눈에 볼 수 있고 간편하게 회의 개설을 할 수 있습니다.<br />
+              Redux로 상태관리 하며, WebSocket으로 회의 상태를 실시간으로 수신하여 목록을 갱신합니다.
+            </p>
             <img src={require("statics/img/development/remotemeeting/feature-lounge.png")} alt={name} />
           </dd>
         </dl>
@@ -75,28 +78,34 @@ const RemoteMeeting = () => {
         <dl>
           <dt>화상회의</dt>
           <dd>
-            <p>상황에 따라 P2P와 MCU 연결 방식으로 최대 14인까지 동시 지원합니다.</p>
+            <p>WebRTC 기반의 회의는 상황에 따라 P2P와 MCU 연결 방식으로 최대 14인까지 동시 지원합니다.</p>
             <img src={require("statics/img/development/remotemeeting/feature-conf.png")} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>화면공유</dt>
           <dd>
-            <p>화면공유와 스크린샷 확장프로그램을 개발하였으며, Screen Share API를 사용하여 회의 중 PC 화면을 공유할 수 있습니다.</p>
+            <p>
+              화면공유와 스크린샷 크롬 확장프로그램을 개발하여 사용중이며,
+              Screen Share API를 사용하여 회의 중 PC 화면을 참여자들에게 공유할 수 있습니다.
+            </p>
             <img src={require("statics/img/development/remotemeeting/feature-screen.png")} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>문서공유</dt>
           <dd>
-            <p>문서 뷰어와 그리기 도구를 자체 개발하였으며, 다양한 문서 포맷을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.</p>
+            <p>
+              문서 뷰어와 그리기 도구를 자체 개발하였으며, 현재 문서 화면은 참여자에게 실시간으로 동기화합니다.<br />
+              다양한 문서 포맷을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.
+            </p>
             <img src={require("statics/img/development/remotemeeting/feature-doc.png")} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>채팅</dt>
           <dd>
-            <p>Timeline 인터페이스로 채팅과 상태 메시지가 기록됩니다.</p>
+            <p>타임라인 인터페이스에는 회의 상태와 채팅 메시지는 기록됩니다.</p>
             <img src={require("statics/img/development/remotemeeting/feature-chat.png")} alt={name} />
           </dd>
         </dl>

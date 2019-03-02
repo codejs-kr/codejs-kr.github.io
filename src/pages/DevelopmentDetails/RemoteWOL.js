@@ -36,7 +36,7 @@ const RemoteWOL = () => {
           </li>
           <li>
             <strong>역할</strong>
-            <p>서비스 기능 및 UI 개발, 하드웨어간 Interface 설계 및 개발</p>
+            <p>웹 어플리케이션 설계 및 개발, 하드웨어간 Interface 설계 및 개발</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
