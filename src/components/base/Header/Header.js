@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './Header.scss';
+import config from 'lib/config';
 
 const Header = ({ isSubpage }) => {
   return (
@@ -14,9 +15,13 @@ const Header = ({ isSubpage }) => {
       }
 
       <ul>
-        <li>
-          <NavLink  to="/toy" activeClassName="active">Toy</NavLink>
-        </li>
+        {
+          config.isDev ? (
+            <li>
+              <NavLink  to="/toy" activeClassName="active">Toy</NavLink>
+            </li>
+          ) : ""
+        }
         <li>
           <NavLink to="/development" activeClassName="active">Development</NavLink>
         </li>

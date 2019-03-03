@@ -25,16 +25,14 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <Fragment>
-          <Switch>
-            <Route exact path="/" component={Toy} />
-            <Route exact path="/toy" component={Toy} />
-            <Route exact path="/development" component={Development} />
-            <Route path="/development/:name" component={DevelopmentDetails} />
-            <Route path="/about" component={About} />
-            <Route component={NotFound} />
-          </Switch>
-        </Fragment>
+        <Switch>
+          <Route exact path="/" component={Development} />
+          <Route exact path="/toy" component={Toy} />
+          <Route exact path="/development" component={Development} />
+          <Route path="/development/:name" component={DevelopmentDetails} />
+          <Route path="/about" component={About} />
+          <Route component={NotFound} />
+        </Switch>
       </HashRouter>
     );
   }

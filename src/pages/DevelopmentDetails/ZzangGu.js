@@ -42,7 +42,7 @@ const ZzangGu = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://github.com/dodortus/zzanggu">개발중</A>
+        <A href="/#/development/zzanggu" icon="flask" target="_self">개발중</A>
         {/*<A href="https://github.com/dodortus/zzanggu" icon="github">Github</A>*/}
       </section>
 

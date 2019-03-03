@@ -1,14 +1,17 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { getAbsPath, rootPath, srcPath, publicPath, distPath } = require('./path');
+const { srcPath, publicPath, distPath } = require('./path');
 
 module.exports = {
   mode: 'development',
 
+  devtool: 'inline-source-map',
+
   // 소스
-  entry: {
-    app: srcPath
-  },
+  entry: [
+    "@babel/polyfill",
+    srcPath
+  ],
 
   // 번들 결과
   output: {
@@ -21,11 +24,10 @@ module.exports = {
       components: srcPath + '/components',
       containers: srcPath + '/containers',
       pages: srcPath + '/pages',
+      lib: srcPath + '/lib',
       statics: srcPath + '/statics'
     }
   },
-
-  devtool: 'inline-source-map',
 
   devServer: {
     hot: true,
@@ -42,9 +44,31 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader'
-        }
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              cacheDirectory: true,
+              presets: [
+                [
+                  "@babel/preset-env",
+                  {
+                    "useBuiltIns": "usage",
+                    "modules": false,  // react hot loader 사용시 modules false 필수
+                    "debug": true
+                  },
+                ],
+                '@babel/preset-react'
+              ],
+              plugins: [
+                "@babel/plugin-syntax-object-rest-spread",      // ES2018
+                "@babel/plugin-transform-async-to-generator",   // ES2017
+                ["@babel/plugin-proposal-class-properties", { "loose": true }],      // 실험적
+                "react-hot-loader/babel" // react-hot-loader은 수정시 state 유지 시켜준다.
+              ]
+            }
+          }
+        ]
       },
       {
         test: /\.html$/,
@@ -69,8 +93,7 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: true,
-              // includePaths: [srcPath + '/statics/scss/modules']  // component SCSS 내부에서 import시 사용하는 path설정.
+              sourceMap: true
             }
           }
         ]
@@ -79,10 +102,7 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/,
         use: [
           {
-            loader: 'file-loader',
-            options: {
-              // outputPath: 'statics/img/'
-            }
+            loader: 'file-loader'
           }
         ]
       }
