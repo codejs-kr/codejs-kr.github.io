@@ -24,6 +24,7 @@ module.exports = {
 
   // 번들 결과 정보
   output: {
+    path: rootPath,
     filename: '[name].[hash].js'
   },
 
@@ -105,7 +106,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: 'img/',
+              outputPath: 'dist/img/',
               name: '[name].[hash].[ext]' // 이 속성을 줘야 SCSS에서의 ~statics/* 이미지들도 빌드시 생성 된다 .
             }
           }
@@ -123,8 +124,7 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin([distPath], {
-      root: rootPath,
-      exclude: ['CNAME']
+      root: rootPath
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
