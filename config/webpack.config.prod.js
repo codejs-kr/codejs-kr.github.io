@@ -24,7 +24,7 @@ module.exports = {
 
   // 번들 결과 정보
   output: {
-    filename: '[name].[hash].js',
+    filename: '[name].[hash].js'
   },
 
   // 상대 경로 보완
