@@ -47,9 +47,11 @@ $hover-color: rgba(255,255,255,0.8);
       &:hover {
         color: $hover-color;
 
-        &:after {
-          width: 100%;
-          left: 0;
+        body.pc & {
+          &:after {
+            width: 100%;
+            left: 0;
+          }
         }
       }
 

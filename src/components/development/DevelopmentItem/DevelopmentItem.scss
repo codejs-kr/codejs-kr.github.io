@@ -17,9 +17,11 @@
   #page-development & {
     transition: transform 0.15s ease-out;
 
-    &:hover {
-      //transform: scale(1.02);
-      transform: translate(0px, -5px);
+    body.pc & {
+      &:hover {
+        //transform: scale(1.02);
+        transform: translate(0px, -5px);
+      }
     }
   }
 

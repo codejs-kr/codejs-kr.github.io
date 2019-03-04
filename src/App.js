@@ -2,23 +2,32 @@ import React, { Component, Fragment } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import { Toy, About, Development, DevelopmentDetails, NotFound } from 'pages';
 import 'statics/scss/main.scss';
+import config from 'lib/config';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
+    this.body = document.querySelector('body');
     this.init();
   }
 
   bindScrollEvent = () => {
-    const body = document.querySelector('body');
-
     window.onscroll = () => {
-      body.classList[window.scrollY > 160 ? 'add': 'remove']('scrolled');
+      this.body.classList[window.scrollY > 160 ? 'add': 'remove']('scrolled');
     };
   };
 
+  checkEnv = () => {
+    this.body.classList.add(config.isMobile ? 'mobile' : 'pc');
+
+    if (!location.hash) {
+      location.hash = '#/development';
+    }
+  };
+
   init = () => {
+    this.checkEnv();
     this.bindScrollEvent();
   };
 
