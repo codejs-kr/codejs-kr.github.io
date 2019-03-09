@@ -21,7 +21,7 @@ class App extends Component {
   checkEnv = () => {
     this.body.classList.add(config.isMobile ? 'mobile' : 'pc');
 
-    if (!location.hash) {
+    if (!location.hash || location.hash.length < 3) {
       location.hash = '#/development';
     }
   };
