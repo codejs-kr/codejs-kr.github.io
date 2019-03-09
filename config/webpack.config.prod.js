@@ -134,6 +134,10 @@ module.exports = {
       filename: "[name].[hash].css",
       chunkFilename: "[id].css"
     }),
-    // new ImageminPlugin()
+    new ImageminPlugin({
+      pngquant: {
+        quality: '90-95'
+      }
+    })
   ]
 };
