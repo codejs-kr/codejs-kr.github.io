@@ -7,6 +7,8 @@ export { default as NotFoundTemplate } from './base/NotFoundTemplate/NotFoundTem
 // common
 export { default as TopButton } from './common/TopButton/TopButton';
 export { default as A } from './common/A/A';
+export { default as LoadingBar } from './common/LoadingBar/LoadingBar';
+export { default as LoadingCircle } from './common/LoadingCircle/LoadingCircle';
 
 // about
 export { default as AboutTemplate } from './about/AboutTemplate/AboutTemplate';

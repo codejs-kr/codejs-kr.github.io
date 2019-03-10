@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import React, { Component, Fragment } from 'react';
+import { withRouter, Route, Switch } from 'react-router-dom';
+import { LoaderContainer } from 'containers';
 import { Toy, About, Development, DevelopmentDetails, NotFound } from 'pages';
 import 'statics/scss/main.scss';
 import config from 'lib/config';
@@ -33,7 +34,7 @@ class App extends Component {
 
   render() {
     return (
-      <HashRouter>
+      <Fragment>
         <Switch>
           <Route exact path="/" component={Development} />
           <Route exact path="/toy" component={Toy} />
@@ -42,7 +43,9 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route component={NotFound} />
         </Switch>
-      </HashRouter>
+
+        <LoaderContainer />
+      </Fragment>
     );
   }
 }

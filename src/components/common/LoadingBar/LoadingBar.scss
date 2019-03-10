@@ -1,0 +1,46 @@
+#loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  visibility: hidden;
+  //opacity: 0;
+  //transition: opacity 0.05s ease-out;
+
+  .loader {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .loader,
+  .loader::before {
+    height: 4px;
+  }
+
+  &.visibllity {
+    visibility: visible;
+    //opacity: 1;
+
+    .loader::before {
+      display: block;
+      position: absolute;
+      content: "";
+      left: -30%;
+      width: 30%;
+      background-color: #6F4EC3;
+      animation: loading 0.4s ease-in 1;
+    }
+  }
+}
+
+@keyframes loading {
+  30% {
+    width: 50%;
+  }
+  100% {
+    left: 100%;
+  }
+}

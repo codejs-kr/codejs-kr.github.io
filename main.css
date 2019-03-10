@@ -126,10 +126,114 @@
   -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
   #top-button:hover {
-    width: 70px;
     background: #2f3337; }
   .scrolled #top-button {
     display: inline-block; }
+
+#loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  visibility: hidden; }
+  #loading-bar .loader {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden; }
+  #loading-bar .loader,
+  #loading-bar .loader::before {
+    height: 4px; }
+  #loading-bar.visibllity {
+    visibility: visible; }
+    #loading-bar.visibllity .loader::before {
+      display: block;
+      position: absolute;
+      content: "";
+      left: -30%;
+      width: 30%;
+      background-color: #6F4EC3;
+      -webkit-animation: loading 0.4s ease-in 1;
+           -o-animation: loading 0.4s ease-in 1;
+              animation: loading 0.4s ease-in 1; }
+
+@-webkit-keyframes loading {
+  30% {
+    width: 50%; }
+  100% {
+    left: 100%; } }
+
+@-o-keyframes loading {
+  30% {
+    width: 50%; }
+  100% {
+    left: 100%; } }
+
+@keyframes loading {
+  30% {
+    width: 50%; }
+  100% {
+    left: 100%; } }
+
+#loader {
+  position: fixed;
+  top: 60px;
+  left: calc(50% - (40px / 2));
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%; }
+
+.spinner {
+  width: 80%;
+  height: 80%;
+  margin: 0;
+  background: transparent;
+  border-top: 4px solid #03A9F4;
+  border-right: 4px solid transparent;
+  border-radius: 50%;
+  -webkit-animation: 0.3s spin linear infinite;
+       -o-animation: 0.3s spin linear infinite;
+          animation: 0.3s spin linear infinite; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0deg);
+       transform: rotate(0deg); }
+  to {
+    -o-transform: rotate(360deg);
+       transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 #page-about .inner-container {
   width: 850px;
