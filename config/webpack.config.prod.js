@@ -25,7 +25,7 @@ module.exports = {
   // 번들 결과 정보
   output: {
     path: rootPath,
-    filename: '[name].[hash].js'
+    filename: '[name].js?ver=[hash]'
   },
 
   // 상대 경로 보완
@@ -131,7 +131,7 @@ module.exports = {
       filename: "./index.html"
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].[hash].css",
+      filename: "[name].css?ver=[hash]",
       chunkFilename: "[id].css"
     }),
     new ImageminPlugin({
