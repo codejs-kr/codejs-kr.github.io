@@ -10,7 +10,7 @@ class LoaderContainer extends Component {
       isLoading: false
     };
 
-    this.interval = 450;
+    this.interval = 500;
     this.bindRouteChangeEvent();
   }
 

@@ -5,8 +5,6 @@
   width: 100%;
   z-index: 1;
   visibility: hidden;
-  //opacity: 0;
-  //transition: opacity 0.05s ease-out;
 
   .loader {
     position: relative;
@@ -17,30 +15,28 @@
 
   .loader,
   .loader::before {
-    height: 4px;
+    height: 5px;
   }
 
   &.visibllity {
     visibility: visible;
-    //opacity: 1;
 
     .loader::before {
       display: block;
       position: absolute;
       content: "";
-      left: -30%;
-      width: 30%;
-      background-color: #6F4EC3;
-      animation: loading 0.4s ease-in 1;
+      left: 0;
+      width: 10%;
+      background: linear-gradient(45deg, rgba(111,78,195,0.1) 0%, rgba(111,78,195,0.7) 40%, rgba(111,78,195,1) 100%);
+      animation: loading 0.5s ease-in 1;
+      //background-color: #6F4EC3;
+      //animation: loading 0.5s ease-in infinite;
     }
   }
 }
 
 @keyframes loading {
-  30% {
-    width: 50%;
-  }
   100% {
-    left: 100%;
+    width: 200%;
   }
 }

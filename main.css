@@ -144,37 +144,33 @@
     overflow: hidden; }
   #loading-bar .loader,
   #loading-bar .loader::before {
-    height: 4px; }
+    height: 5px; }
   #loading-bar.visibllity {
     visibility: visible; }
     #loading-bar.visibllity .loader::before {
       display: block;
       position: absolute;
       content: "";
-      left: -30%;
-      width: 30%;
-      background-color: #6F4EC3;
-      -webkit-animation: loading 0.4s ease-in 1;
-           -o-animation: loading 0.4s ease-in 1;
-              animation: loading 0.4s ease-in 1; }
+      left: 0;
+      width: 10%;
+      background: -webkit-linear-gradient(45deg, rgba(111, 78, 195, 0.1) 0%, rgba(111, 78, 195, 0.7) 40%, #6f4ec3 100%);
+      background: -o-linear-gradient(45deg, rgba(111, 78, 195, 0.1) 0%, rgba(111, 78, 195, 0.7) 40%, #6f4ec3 100%);
+      background: linear-gradient(45deg, rgba(111, 78, 195, 0.1) 0%, rgba(111, 78, 195, 0.7) 40%, #6f4ec3 100%);
+      -webkit-animation: loading 0.5s ease-in 1;
+           -o-animation: loading 0.5s ease-in 1;
+              animation: loading 0.5s ease-in 1; }
 
 @-webkit-keyframes loading {
-  30% {
-    width: 50%; }
   100% {
-    left: 100%; } }
+    width: 200%; } }
 
 @-o-keyframes loading {
-  30% {
-    width: 50%; }
   100% {
-    left: 100%; } }
+    width: 200%; } }
 
 @keyframes loading {
-  30% {
-    width: 50%; }
   100% {
-    left: 100%; } }
+    width: 200%; } }
 
 #loader {
   position: fixed;
