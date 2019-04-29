@@ -65,22 +65,49 @@
     h2 {
       font-size: 1.8rem;
       color: #959595;
-      margin-bottom: 40px;
-
-      span {
-        display: inline-block;
-        margin-left: 5px;
-      }
-    }
-
-    #description {
-      margin-bottom: 10px;
     }
 
     a {
       color: rgba(0,0,0,0.7);
       &:hover {
         color: rgba(0,0,0,1);
+      }
+    }
+
+    .inner-container {
+      section {
+        margin-bottom: 50px;
+      }
+    }
+
+    #profile {
+      h2 {
+        margin-bottom: 40px;
+
+        span {
+          display: inline-block;
+          margin-left: 5px;
+        }
+      }
+
+      #description {
+        margin-bottom: 10px;
+      }
+    }
+
+    #skills {
+      display: flex;
+
+      > div {
+        flex-basis: 26%;
+
+        &:first-child {
+          flex-basis: 22%;
+        }
+      }
+
+      ul {
+        list-style: none;
       }
     }
   }
