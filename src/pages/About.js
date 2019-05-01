@@ -36,7 +36,7 @@ const About = () => {
                 <h3>언어</h3>
                 <ul>
                   <li>JavaScript (ES6+)</li>
-                  <li>CSS3 / SCSS / PostCSS</li>
+                  <li>CSS3 / SASS / PostCSS</li>
                   <li>HTML5</li>
                   <li>Node.js</li>
                   <li>MongoDB</li>
@@ -52,10 +52,10 @@ const About = () => {
                   <li>Socket.io</li>
                   <li>MQTT</li>
                   <li>Firebase</li>
-                  <li>moment</li>
+                  <li>Moment</li>
                   <li>jQuery</li>
-                  <li>Flot charts</li>
-                  <li>Google charts</li>
+                  {/*<li>Flot charts</li>*/}
+                  {/*<li>Google charts</li>*/}
                   <li>Express</li>
                   <li>EJS</li>
                   <li>Nodemailer</li>
@@ -66,16 +66,24 @@ const About = () => {
               <div>
                 <h3>개발도구</h3>
                 <ul>
+                  <li>Webstorm</li>
                   <li>Git / GitFlow</li>
                   <li>SVN</li>
                   <li>Webpack</li>
                   <li>Gulp</li>
                   <li>Nodemon</li>
-                  <li>Webstorm</li>
                   <li>Jest</li>
                   <li>Storybook</li>
                 </ul>
               </div>
+            </section>
+
+            <section id="experience">
+              <div>
+                <h2>Experience</h2>
+              </div>
+              
+              타임라인 형태
             </section>
           </div>
         </article>
