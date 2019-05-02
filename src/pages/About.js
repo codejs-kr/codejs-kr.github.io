@@ -45,7 +45,7 @@ const About = () => {
               </div>
 
               <div>
-                <h3>라이브러리</h3>
+                <h3>라이브러리 / 프레임웤</h3>
                 <ul>
                   <li>React</li>
                   <li>Redux</li>
@@ -83,7 +83,7 @@ const About = () => {
                 <h2>Experience</h2>
               </div>
               
-              타임라인 형태
+              타임라인 형태 (Resume 형태로)
             </section>
           </div>
         </article>
