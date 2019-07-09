@@ -45,7 +45,7 @@ const About = () => {
               </div>
 
               <div>
-                <h3>라이브러리 / 프레임웤</h3>
+                <h3>라이브러리</h3>
                 <ul>
                   <li>React</li>
                   <li>Redux</li>
@@ -54,8 +54,6 @@ const About = () => {
                   <li>Firebase</li>
                   <li>Moment</li>
                   <li>jQuery</li>
-                  {/*<li>Flot charts</li>*/}
-                  {/*<li>Google charts</li>*/}
                   <li>Express</li>
                   <li>EJS</li>
                   <li>Nodemailer</li>
@@ -71,9 +69,9 @@ const About = () => {
                   <li>SVN</li>
                   <li>Webpack</li>
                   <li>Gulp</li>
-                  <li>Nodemon</li>
-                  <li>Jest</li>
                   <li>Storybook</li>
+                  <li>Jest</li>
+                  <li>Nodemon</li>
                 </ul>
               </div>
             </section>
