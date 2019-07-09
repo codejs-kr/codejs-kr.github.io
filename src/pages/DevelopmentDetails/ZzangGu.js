@@ -32,18 +32,18 @@ const ZzangGu = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>Canvas 드로잉 처리, 캐릭터 처리, 미사일 처리, 충돌 처리, 키보드 이벤트 처리, 사운드 처리</p>
+            <p>Canvas 드로잉 처리, 캐릭터 처리, 미사일 처리, 충돌 처리, 키보드 이벤트 처리, 사운드 처리, 점수 기록 처리</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5 Canvas, CSS3, JavaScript(ES6), WebPack</p>
+            <p>HTML5 Canvas, CSS3, JavaScript(ES6), React, WebPack, Firebase Firestore</p>
           </li>
         </ul>
       </section>
 
       <section className="button-wrap">
-        <A href="/#/development/zzanggu" icon="flask" target="_self">개발중</A>
-        {/*<A href="https://github.com/dodortus/zzanggu" icon="github">Github</A>*/}
+        {/*<A href="/#/development/zzanggu" icon="flask" target="_self">개발중</A>*/}
+        <A href="https://inspiring-sammet-2aa742.netlify.com">Live</A>
       </section>
 
       <section className="features-wrap">

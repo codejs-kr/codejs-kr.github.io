@@ -109,6 +109,13 @@ const RemoteMeeting = () => {
             <img src={require("statics/img/development/remotemeeting/feature-chat.png")} alt={name} />
           </dd>
         </dl>
+        <dl>
+          <dt>일본시장</dt>
+          <dd>
+            <p>구성원들의 노력으로 국내 뿐만 아니라 일본에서도 많은 사용자들이 찾는 제품이 되었다.</p>
+            <img src={require("statics/img/development/remotemeeting/feature-jp.jpg")} alt={name} />
+          </dd>
+        </dl>
       </section>
 
       <section className="more-wrap">
