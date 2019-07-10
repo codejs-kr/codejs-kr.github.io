@@ -24,7 +24,7 @@ const ZzangGu = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2016</p>
+            <p>2016, 2019</p>
           </li>
           <li>
             <strong>역할</strong>
