@@ -27,7 +27,7 @@ const About = () => {
               </p>
             </section>
 
-            <section id="skills">
+            <section id="skills" className="division">
               <div>
                 <h2>Skills</h2>
               </div>
@@ -76,12 +76,41 @@ const About = () => {
               </div>
             </section>
 
-            <section id="experience">
+            <section id="experience" className="division">
               <div>
                 <h2>Experience</h2>
               </div>
-              
-              타임라인 형태 (Resume 형태로)
+
+              <div>
+                <ul>
+                  <li>abc</li>
+                  <li>abc</li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="education" className="division">
+              <div>
+                <h2>Education</h2>
+              </div>
+
+              <div>
+                <ul>
+                  <li>React로 구현하는 웹어플리케이션 제작 (2017.12 ~ 2018.3 패스트캠프)</li>
+                  <li>HTML5</li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="certificate" className="division">
+              <div>
+                <h2>Certificate</h2>
+              </div>
+
+              <div>
+                <p>정보처리산업기사</p>
+                <p>컴퓨터그래픽스 운용기능사</p>
+              </div>
             </section>
           </div>
         </article>

@@ -95,15 +95,19 @@
       }
     }
 
-    #skills {
+    .division {
       display: flex;
 
       > div {
-        flex-basis: 26%;
-
         &:first-child {
-          flex-basis: 22%;
+          flex-basis: 22% !important;
         }
+      }
+    }
+
+    #skills {
+      > div {
+        flex-basis: 26%;
 
         color: rgba(0,0,0,0.7);
       }
