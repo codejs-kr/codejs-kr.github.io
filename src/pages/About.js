@@ -118,6 +118,7 @@ const About = () => {
                         <li>WebPack</li>
                       </ul>
                       <A href="/#/development/remotemeeting">상세 보기</A>
+                      <a href="/#/development/remotemeeting" className="button line">상세 보기</a>
                     </div>
                   </li>
                   <li>

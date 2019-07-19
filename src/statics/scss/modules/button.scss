@@ -44,4 +44,11 @@
       align-items: center;
     }
   }
+
+  &.line {
+    background: none;
+    border: solid 1px $button-color-deafult;
+    color: $button-color-deafult !important;
+    box-shadow: none;
+  }
 }
