@@ -48,7 +48,7 @@ const Balloon = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://balloon.rsupport.com">Live</A>
+        <A href="http://balloon.rsupport.com" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="features-wrap">

@@ -6,19 +6,30 @@
   margin: 0 10px;
   padding: 10px 20px;
   text-decoration: none;
-  //border: solid 1px #333;
   border-radius: 3px;
   color: #fff;
-  background: $button-color-deafult;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 
-  &:hover {
-    background: $button-color-default-hover;
+  &.fill {
+    background: $button-color-deafult;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 
-    &.with-icon {
-      i {
-        background: rgba(0, 0, 0, 0.4);
+    &:hover {
+      background: $button-color-default-hover;
+
+      &.with-icon {
+        i {
+          background: rgba(0, 0, 0, 0.4);
+        }
       }
+    }
+  }
+
+  &.line {
+    color: $button-color-deafult !important;
+    border: solid 1px $button-color-deafult;
+
+    &:hover {
+      background: rgba(0,0,0,0.05);
     }
   }
 
@@ -30,7 +41,6 @@
     padding-right: 6.5rem;
 
     i {
-      background: rgba(0, 0, 0, 0.1);
       position: absolute;
       top: 0;
       right: 0;
@@ -42,13 +52,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-  }
 
-  &.line {
-    background: none;
-    border: solid 1px $button-color-deafult;
-    color: $button-color-deafult !important;
-    box-shadow: none;
+    }
+
+    &.fill {
+      i {
+        background: rgba(0, 0, 0, 0.1);
+      }
+    }
   }
 }

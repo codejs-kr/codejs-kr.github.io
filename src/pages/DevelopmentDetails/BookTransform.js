@@ -37,7 +37,7 @@ const BookTransform = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://www.codejs.co.kr/development/views/transform/">Live</A>
+        <A href="http://www.codejs.co.kr/development/views/transform/" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="more-wrap">

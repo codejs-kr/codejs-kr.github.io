@@ -117,8 +117,7 @@ const About = () => {
                         <li>Redux</li>
                         <li>WebPack</li>
                       </ul>
-                      <A href="/#/development/remotemeeting">상세 보기</A>
-                      <a href="/#/development/remotemeeting" className="button line">상세 보기</a>
+                      <A href="/#/development/remotemeeting" icon="default" theme="line">상세 보기</A>
                     </div>
                   </li>
                   <li>
@@ -143,7 +142,7 @@ const About = () => {
                         <li>jQuery</li>
                         <li>Gulp</li>
                       </ul>
-                      <A href="/#/development/remotelive">상세 보기</A>
+                      <A href="/#/development/remotelive" icon="default" theme="line">상세 보기</A>
                     </div>
                   </li>
 
@@ -167,7 +166,7 @@ const About = () => {
                         <li>WebPack</li>
                         <li>Firebase Firestore</li>
                       </ul>
-                      <A href="/#/development/remotemeeting">상세 보기</A>
+                      <A href="/#/development/remotelive" icon="default" theme="line">상세 보기</A>
                     </div>
                   </li>
                 </ul>
