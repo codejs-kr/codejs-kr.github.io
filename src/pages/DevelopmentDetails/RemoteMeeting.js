@@ -53,7 +53,7 @@ const RemoteMeeting = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://remotemeeting.com">Live</A>
+        <A href="https://remotemeeting.com" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="features-wrap">

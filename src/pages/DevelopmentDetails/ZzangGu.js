@@ -43,7 +43,7 @@ const ZzangGu = () => {
 
       <section className="button-wrap">
         {/*<A href="/#/development/zzanggu" icon="flask" target="_self">개발중</A>*/}
-        <A href="https://inspiring-sammet-2aa742.netlify.com">Live</A>
+        <A href="https://inspiring-sammet-2aa742.netlify.com" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="features-wrap">

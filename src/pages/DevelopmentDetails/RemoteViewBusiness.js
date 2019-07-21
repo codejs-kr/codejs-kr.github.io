@@ -45,7 +45,7 @@ const RemoteViewBusiness = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://rview.com">Live</A>
+        <A href="http://rview.com" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="features-wrap">

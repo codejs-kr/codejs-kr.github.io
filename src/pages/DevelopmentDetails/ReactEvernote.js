@@ -43,8 +43,8 @@ const ReactEvernote = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://play.codejs.co.kr/react-evernote">Live</A>
-        <A href="https://github.com/dodortus/react-evernote" icon="github">Github</A>
+        <A href="http://play.codejs.co.kr/react-evernote" theme="fill" icon="default">Live</A>
+        <A href="https://github.com/dodortus/react-evernote" icon="github" theme="fill">Github</A>
       </section>
 
       <section className="more-wrap">

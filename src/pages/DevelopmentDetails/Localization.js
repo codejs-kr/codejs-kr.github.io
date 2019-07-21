@@ -40,7 +40,7 @@ const Localization = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://jsbin.com/tefolaf/1/edit?js,output">Live</A>
+        <A href="https://jsbin.com/tefolaf/1/edit?js,output" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="more-wrap">

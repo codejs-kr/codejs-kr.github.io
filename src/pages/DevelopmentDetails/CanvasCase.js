@@ -30,7 +30,7 @@ const CanvasCase = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://www.codejs.co.kr/development/views/canvas-cases/">Live</A>
+        <A href="http://www.codejs.co.kr/development/views/canvas-cases/" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="more-wrap">

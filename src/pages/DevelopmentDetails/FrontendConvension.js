@@ -47,7 +47,7 @@ const FrontendConvension = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://www.codejs.co.kr/development/views/convention">Live</A>
+        <A href="http://www.codejs.co.kr/development/views/convention" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="features-wrap">

@@ -50,7 +50,7 @@ const RemoteWOL = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://wol.rview.com/guide">Guide Site</A>
+        <A href="https://wol.rview.com/guide" theme="fill" icon="default">Guide Site</A>
       </section>
 
       <section className="features-wrap">

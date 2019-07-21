@@ -44,8 +44,8 @@ const WebrtcLab = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://webrtclab.herokuapp.com">Live</A>
-        <A href="https://github.com/dodortus/webrtc-lab" icon="github">Github</A>
+        <A href="https://webrtclab.herokuapp.com" theme="fill" icon="default">Live</A>
+        <A href="https://github.com/dodortus/webrtc-lab" theme="fill" icon="github">Github</A>
       </section>
 
       <section className="more-wrap">

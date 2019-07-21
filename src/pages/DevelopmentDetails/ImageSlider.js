@@ -36,7 +36,7 @@ const ImageSlider = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://www.codejs.co.kr/development/views/css3-effect/">Live</A>
+        <A href="http://www.codejs.co.kr/development/views/css3-effect/" theme="fill" icon="default">Live</A>
       </section>
 
       <section className="more-wrap">
