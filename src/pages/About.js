@@ -182,11 +182,15 @@ const About = () => {
                 <ul className="list">
                   <li>
                     <p>React로 구현하는 웹어플리케이션 제작</p>
-                    <span>2017.12 ~ 2018.03 패스트캠프</span>
+                    <span>2017.12 ~ 2018.03 패스트캠퍼스</span>
                   </li>
                   <li>
-                    <p>HTML5 블라블라</p>
-                    <span>2017.12 ~ 2018.03 패스트캠프</span>
+                    <p>모바일 웹개발자를 위한 실전 HTML5</p>
+                    <span>2011.10.24 ~ 2011.10.28 한국생산성본부</span>
+                  </li>
+                  <li>
+                    <p>컴퓨터공학</p>
+                    <span>2009.03 ~ 2010.02 학점은행제</span>
                   </li>
                   <li>
                     <p>컴퓨터정보처리학과</p>
@@ -210,6 +214,33 @@ const About = () => {
                   <li>
                     <p>컴퓨터그래픽스 운용기능사</p>
                     <span>2003.04.21 한국산업인력공단</span>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="certificate" className="division">
+              <div>
+                <h2>Awards</h2>
+              </div>
+
+              <div>
+                <ul className="list">
+                  <li>
+                    <p>프로젝트 공로상 (리모트미팅)</p>
+                    <span>2016.12 알서포트</span>
+                  </li>
+                  <li>
+                    <p>DevSwag 개발자 공모전 2위 (칭찬합시다)</p>
+                    <span>2015.10 알서포트</span>
+                  </li>
+                  <li>
+                    <p>프로젝트 공로상 (리모트뷰)</p>
+                    <span>2013.12 알서포트</span>
+                  </li>
+                  <li>
+                    <p>최우수 신규직원상</p>
+                    <span>2012.12 알서포트</span>
                   </li>
                 </ul>
               </div>
