@@ -5,10 +5,11 @@ export { default as PageTemplate } from './base/PageTemplate/PageTemplate';
 export { default as NotFoundTemplate } from './base/NotFoundTemplate/NotFoundTemplate';
 
 // common
-export { default as TopButton } from './common/TopButton/TopButton';
 export { default as A } from './common/A/A';
 export { default as LoadingBar } from './common/LoadingBar/LoadingBar';
 export { default as LoadingCircle } from './common/LoadingCircle/LoadingCircle';
+export { default as TimeLine } from './common/TimeLine/TimeLine';
+export { default as TopButton } from './common/TopButton/TopButton';
 
 // about
 export { default as AboutTemplate } from './about/AboutTemplate/AboutTemplate';

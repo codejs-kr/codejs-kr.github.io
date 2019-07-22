@@ -1,5 +1,6 @@
 import React from 'react';
 import { PageTemplate, AboutTemplate, A } from 'components';
+import { JobsTimeLineContainer } from 'containers';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -88,88 +89,89 @@ const About = () => {
               </div>
 
               <div>
-                <ul className="timeline">
-                  <li>
-                    <div className="flag">
-                      <p>Rsupport</p>
-                      <span>2010.07 ~ 2019.07 현재</span>
-                    </div>
-                    <div>
-                      <h3>리모트미팅</h3>
-                      <span className="info">
-                        <span className="dot-right">웹 프론트엔드 개발</span>
-                        <span className="date">2014.09 ~ 2019.07</span>
-                      </span>
-                    </div>
-                    <div>
-                      <p className="description">
-                        WebRTC 기반 온라인 화상회의 서비스 설계 및 개발을 담당하였습니다.<br />
-                        2014년 WebRTC 기술을 알게 된 후 관련 파일럿 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.
-                      </p>
-                      <ul className="row-list">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>SCSS</li>
-                        <li>WebRTC</li>
-                        <li>MQTT</li>
-                        <li>ES6</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>WebPack</li>
-                      </ul>
-                      <A href="/#/development/remotemeeting" icon="default" theme="line">상세 보기</A>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <h3>리모트라이브</h3>
-                      <span className="info">
-                        <span className="dot-right">웹 프론트엔드 개발</span>
-                        <span className="date">2014.05 ~ 2014.08</span>
-                      </span>
-                    </div>
-                    <div>
-                      <p className="description">
-                        RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 파일럿 프로젝트였습니다.<br />
-                        상용화 된 리모트미팅 프로젝트의 디딤돌이 된 프로젝트이며, Websocket 채팅과 P2P 기반의 화상회의 기능을 모듈화하여 기존 회사 서비스에 적용시키는 방법을 제안한 프로젝트입니다.
-                      </p>
-                      <ul className="row-list">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>WebRTC</li>
-                        <li>WebSocket</li>
-                        <li>ES5</li>
-                        <li>jQuery</li>
-                        <li>Gulp</li>
-                      </ul>
-                      <A href="/#/development/remotelive" icon="default" theme="line">상세 보기</A>
-                    </div>
-                  </li>
+                <JobsTimeLineContainer />
+                {/*<ul className="timeline">*/}
+                  {/*<li>*/}
+                    {/*<div className="flag">*/}
+                      {/*<p>Rsupport</p>*/}
+                      {/*<span>2010.07 ~ 2019.07 현재</span>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                      {/*<h3>리모트미팅</h3>*/}
+                      {/*<span className="info">*/}
+                        {/*<span className="dot-right">웹 프론트엔드 개발</span>*/}
+                        {/*<span className="date">2014.09 ~ 2019.07</span>*/}
+                      {/*</span>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                      {/*<p className="description">*/}
+                        {/*WebRTC 기반 온라인 화상회의 서비스 설계 및 개발을 담당하였습니다.<br />*/}
+                        {/*2014년 WebRTC 기술을 알게 된 후 관련 파일럿 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.*/}
+                      {/*</p>*/}
+                      {/*<ul className="row-list">*/}
+                        {/*<li>HTML5</li>*/}
+                        {/*<li>CSS3</li>*/}
+                        {/*<li>SCSS</li>*/}
+                        {/*<li>WebRTC</li>*/}
+                        {/*<li>MQTT</li>*/}
+                        {/*<li>ES6</li>*/}
+                        {/*<li>React</li>*/}
+                        {/*<li>Redux</li>*/}
+                        {/*<li>WebPack</li>*/}
+                      {/*</ul>*/}
+                      {/*<A href="/#/development/remotemeeting" icon="default" theme="line">상세 보기</A>*/}
+                    {/*</div>*/}
+                  {/*</li>*/}
+                  {/*<li>*/}
+                    {/*<div>*/}
+                      {/*<h3>리모트라이브</h3>*/}
+                      {/*<span className="info">*/}
+                        {/*<span className="dot-right">웹 프론트엔드 개발</span>*/}
+                        {/*<span className="date">2014.05 ~ 2014.08</span>*/}
+                      {/*</span>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                      {/*<p className="description">*/}
+                        {/*RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 파일럿 프로젝트였습니다.<br />*/}
+                        {/*상용화 된 리모트미팅 프로젝트의 디딤돌이 된 프로젝트이며, Websocket 채팅과 P2P 기반의 화상회의 기능을 모듈화하여 기존 회사 서비스에 적용시키는 방법을 제안한 프로젝트입니다.*/}
+                      {/*</p>*/}
+                      {/*<ul className="row-list">*/}
+                        {/*<li>HTML5</li>*/}
+                        {/*<li>CSS3</li>*/}
+                        {/*<li>WebRTC</li>*/}
+                        {/*<li>WebSocket</li>*/}
+                        {/*<li>ES5</li>*/}
+                        {/*<li>jQuery</li>*/}
+                        {/*<li>Gulp</li>*/}
+                      {/*</ul>*/}
+                      {/*<A href="/#/development/remotelive" icon="default" theme="line">상세 보기</A>*/}
+                    {/*</div>*/}
+                  {/*</li>*/}
 
-                  <li>
-                    <div>
-                      <h3>리모트 WOL</h3>
-                      <span className="info">
-                        <span className="dot-right">웹 프론트엔드 개발</span>
-                        <span className="date">2012.09 ~ 2014.09</span>
-                      </span>
-                    </div>
-                    <div>
-                      <p className="description">
-                        RemoteWOL은 전원이 꺼져 있는 PC의 전원을 원격에서 켤 수 있도록 하는 제품입니다. WOL 기능을 지원하는 하드웨어에 작은 Goahead 웹서버가 구성되었고 그 내부에서 하드웨어 동작을 제어 & 관리하는 싱글 페이지 어플리케이션을 개발하였습니다.
-                      </p>
-                      <ul className="row-list">
-                        <li>Canvas</li>
-                        <li>CSS3</li>
-                        <li>ES6</li>
-                        <li>React</li>
-                        <li>WebPack</li>
-                        <li>Firebase Firestore</li>
-                      </ul>
-                      <A href="/#/development/remotelive" icon="default" theme="line">상세 보기</A>
-                    </div>
-                  </li>
-                </ul>
+                  {/*<li>*/}
+                    {/*<div>*/}
+                      {/*<h3>리모트 WOL</h3>*/}
+                      {/*<span className="info">*/}
+                        {/*<span className="dot-right">웹 프론트엔드 개발</span>*/}
+                        {/*<span className="date">2012.09 ~ 2014.09</span>*/}
+                      {/*</span>*/}
+                    {/*</div>*/}
+                    {/*<div>*/}
+                      {/*<p className="description">*/}
+                        {/*RemoteWOL은 전원이 꺼져 있는 PC의 전원을 원격에서 켤 수 있도록 하는 제품입니다. WOL 기능을 지원하는 하드웨어에 작은 Goahead 웹서버가 구성되었고 그 내부에서 하드웨어 동작을 제어 및 관리하는 싱글 페이지 어플리케이션을 개발하였습니다.*/}
+                      {/*</p>*/}
+                      {/*<ul className="row-list">*/}
+                        {/*<li>Canvas</li>*/}
+                        {/*<li>CSS3</li>*/}
+                        {/*<li>ES6</li>*/}
+                        {/*<li>React</li>*/}
+                        {/*<li>WebPack</li>*/}
+                        {/*<li>Firebase Firestore</li>*/}
+                      {/*</ul>*/}
+                      {/*<A href="/#/development/remotelive" icon="default" theme="line">상세 보기</A>*/}
+                    {/*</div>*/}
+                  {/*</li>*/}
+                {/*</ul>*/}
               </div>
             </section>
 
