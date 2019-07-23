@@ -31,7 +31,9 @@ const TimeLineItem = ({ data }) => {
             })
           }
         </ul>
-        <A href={data.link} icon="default" theme="line">상세 보기</A>
+        {
+          data.link && <A href={data.link} icon="default" theme="line">상세 보기</A>
+        }
       </div>
     </li>
   )
