@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageTemplate, AboutTemplate, A } from 'components';
+import { PageTemplate, AboutTemplate, TopButton, A } from 'components';
 import { JobsTimeLineContainer } from 'containers';
 import { Link } from 'react-router-dom';
 
@@ -7,6 +7,7 @@ const About = () => {
   return (
     <PageTemplate thema="white">
       <AboutTemplate>
+        <TopButton />
         <header>
           <div className="inner-container">
             <strong>원인없는 결과란 없다.</strong>
