@@ -42,7 +42,7 @@ const Balloon = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3(SCSS), JavaScript(ES5), NodeJS, Express, EJS, MongoDB, Gulp</p>
+            <p>HTML5, CSS3, SCSS, JavaScript(ES5), jQuery, Gulp, NodeJS, Express, EJS, MongoDB, Cron, Nodemon, Nodemailer</p>
           </li>
         </ul>
       </section>
