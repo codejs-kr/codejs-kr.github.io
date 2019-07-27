@@ -1,4 +1,1 @@
 # codeJS playground
-
-- Development
-- About
