@@ -1,12 +1,12 @@
 import React from 'react';
 import './button.scss';
 
-const A = ({ children, href, target = '_blank', icon, theme }) => {
+const A = ({ children, href, target = '_blank', size = 'medium', icon, theme }) => {
   let iconClass;
 
   if (!icon) {
     return (
-      <a href={href} className={`button ${theme}`} target={target}>
+      <a href={href} className={`button ${theme} ${size}`} target={target}>
         {children}
       </a>
     );
@@ -23,7 +23,7 @@ const A = ({ children, href, target = '_blank', icon, theme }) => {
   }
 
   return (
-    <a href={href} className={`button with-icon ${theme}`} target={target}>
+    <a href={href} className={`button with-icon ${theme} ${size}`} target={target}>
       {children} <i className={iconClass} />
     </a>
   );

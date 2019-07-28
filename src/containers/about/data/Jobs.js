@@ -1,7 +1,8 @@
 export default [
   {
     name: 'Rsupport',
-    date: '2010.07 ~ 2019.07 현재',
+    team: '프론트엔드개발팀',
+    date: '2010.07 ~ 2019 재직',
     list: [
       {
         name: '리모트세미나',
@@ -123,6 +124,20 @@ export default [
           '주로 상담원이 고객의 PC를 제어하는 서비스인 리모트콜의 ASP 유지보수와 서버납품 커스터마이징을 담당하였습니다.',
         link: null,
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
+      },
+    ],
+  },
+  {
+    name: 'Nexon',
+    team: '인프라기술팀',
+    date: '2010.03 ~ 2010.06',
+    list: [
+      {
+        name: '웹오피스',
+        role: '사내 그룹웨어 UI 개발',
+        date: '2010.03 ~ 2010.06',
+        description: '넥슨 전직원이 사용하는 그룹웨어 개발프로젝트에 투입되었으며 UI 개발을 담당하였습니다.',
+        techStack: ['HTML5', 'CSS', 'ES5', 'jQuery'],
       },
     ],
   },

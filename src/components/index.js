@@ -21,4 +21,6 @@ export { default as ToyItem } from './toy/ToyItem/ToyItem';
 // development
 export { default as DevelopmentListTemplate } from './development/DevelopmentListTemplate/DevelopmentListTemplate';
 export { default as DevelopmentItem } from './development/DevelopmentItem/DevelopmentItem';
-export { default as DevelopmentDetailTemplate } from './development/DevelopmentDetailTemplate/DevelopmentDetailTemplate';
+export {
+  default as DevelopmentDetailTemplate,
+} from './development/DevelopmentDetailTemplate/DevelopmentDetailTemplate';
