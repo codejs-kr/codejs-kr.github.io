@@ -73,11 +73,11 @@ export default [
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
       },
       {
-        name: '네이트온 내 PC제어',
+        name: '네이트온 내 PC제어 리뉴얼',
         role: '웹 프론트엔드 개발',
         date: '2012 ~ 2014',
-        description: '내 PC제어 프로젝트는 이미 5년 이상 서비스 중인 서비스를 리뉴얼하는 프로젝트였습니다.',
-        link: '/#/development/remotewol',
+        description: '내 PC제어 프로젝트는 이미 5년 이상 서비스 중인 서비스를 리뉴얼하는 프로젝트였습니다.\n리뉴얼 후 유지보수 개발을 진행하였습니다.',
+        link: '/#/development/nateon-mypc',
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
       },
       {
