@@ -59,7 +59,7 @@ export default [
         role: '웹 프론트엔드 개발',
         date: '2012 ~ 2014.09',
         description:
-          'RemoteWOL은 전원이 꺼져 있는 PC의 전원을 원격에서 켤 수 있도록 하는 제품입니다. WOL 기능을 지원하는 하드웨어에 작은 Goahead 웹서버가 구성되었고 그 내부에서 하드웨어 동작을 제어 & 관리하는 싱글 페이지 어플리케이션을 개발하였습니다.',
+          'RemoteWOL은 전원이 꺼져 있는 PC의 전원을 원격에서 켤 수 있도록 하는 제품입니다. WOL 기능을 지원하는 하드웨어에 작은 Goahead 웹서버와 그 내부에서 하드웨어를 제어 & 관리할 수 있는 싱글 페이지 어플리케이션을 개발하였습니다.',
         link: '/#/development/remotewol',
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
       },
@@ -68,7 +68,7 @@ export default [
         role: '사이트 기획, 설계, 웹 프론트엔드 개발',
         date: '2012 ~ 2013',
         description:
-          '자주 사용하는 컴포넌트들의 기본형을 만들기로 시작한 프로젝트이며, 오픈 이후 팀 프로젝트로 발전시킬 수 있었습니다.',
+          '자주 사용하는 UI 컴포넌트를 만들기로 시작한 프로젝트이며, 오픈 이후 팀 프로젝트로 발전시킬 수 있었습니다.',
         link: '/#/development/frontend-convension',
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
       },
@@ -84,7 +84,7 @@ export default [
         name: '삼성 RemotePC',
         role: '웹 프론트엔드 개발',
         date: '2011.01 ~ ',
-        description: '삼성 직원들이 자신의 PC를 테블릿에서 원격제어 하기위해 개발된 프로젝트입니다.',
+        description: '삼성 직원들이 자신의 PC를 테블릿으로 원격제어 하기위해 개발된 프로젝트입니다.',
         link: '/#/development/samsung-remote-pc',
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
       },
