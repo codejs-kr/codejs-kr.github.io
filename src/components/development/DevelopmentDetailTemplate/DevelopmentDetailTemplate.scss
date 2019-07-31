@@ -101,6 +101,7 @@ $font-color: #333;
     div {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 15px;
 
       a {
         display: inline-block;
@@ -131,6 +132,26 @@ $font-color: #333;
           z-index: 1;
           font-size: 1.4rem;
         }
+      }
+    }
+
+    .back-to-list {
+      display: inline-block;
+      text-decoration: none;
+      color: rgba(0,0,0,0.7);
+
+      padding: 2px 15px;
+      border: solid 1px rgba(0,0,0,0.1);
+      border-radius: 2px;
+
+      &:hover {
+        color: rgba(0,0,0,1);
+        background: rgba(0,0,0,0.02);
+      }
+
+      span {
+        display: inline-block;
+        margin-right: 4px;
       }
     }
   }

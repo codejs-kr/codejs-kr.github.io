@@ -1,5 +1,6 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
+import { Link } from 'react-router-dom';
 import { DevelopmentPagingContainer } from 'containers';
 
 const ZzangGu = () => {
@@ -73,6 +74,9 @@ const ZzangGu = () => {
       <section className="more-wrap">
         <h3>More Projects</h3>
         <DevelopmentPagingContainer name={name} />
+        <Link to="/development" className="back-to-list">
+          <span>←</span>Back to list
+        </Link>
       </section>
     </DevelopmentDetailTemplate>
   );
