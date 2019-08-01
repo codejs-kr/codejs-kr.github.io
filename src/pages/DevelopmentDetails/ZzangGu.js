@@ -1,7 +1,6 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, MoreProjects, A } from 'components';
 import { Link } from 'react-router-dom';
-import { DevelopmentPagingContainer } from 'containers';
 
 const ZzangGu = () => {
   const name = "짱구";
@@ -71,13 +70,7 @@ const ZzangGu = () => {
         </dl>
       </section>
 
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-        <Link to="/development" className="back-to-list">
-          <span>←</span>Back to list
-        </Link>
-      </section>
+      <MoreProjects currentPageName={name} />
     </DevelopmentDetailTemplate>
   );
 };

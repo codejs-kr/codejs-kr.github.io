@@ -141,12 +141,13 @@ $font-color: #333;
       color: rgba(0,0,0,0.7);
 
       padding: 2px 15px;
+      background: rgba(0,0,0,0.01);
       border: solid 1px rgba(0,0,0,0.1);
       border-radius: 2px;
 
       &:hover {
         color: rgba(0,0,0,1);
-        background: rgba(0,0,0,0.02);
+        background: rgba(0,0,0,0.04);
       }
 
       span {
