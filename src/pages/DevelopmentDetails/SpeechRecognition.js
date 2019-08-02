@@ -44,11 +44,6 @@ const SpeechRecognition = () => {
         <A href="https://webrtclab.herokuapp.com/speech-recognition" theme="fill" icon="default">Live</A>
         <A href="https://github.com/dodortus/webrtc-lab/tree/master/frontend/views/examples/speech-recognition" theme="fill" icon="github">Github</A>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };

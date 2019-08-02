@@ -38,11 +38,6 @@ const FileAPI = () => {
       <section className="button-wrap">
         <A href="http://www.codejs.co.kr/development/views/file-upload/" theme="fill" icon="default">Live</A>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };

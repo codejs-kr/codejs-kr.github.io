@@ -43,11 +43,6 @@ const NateOnMyPC = () => {
         <A href="http://www.codejs.co.kr/development/views/nateon" theme="fill" icon="default">Live Template</A>
         <A href="http://rsupport.nate.com/rview/r8/main/index.aspx" theme="fill" icon="default">Live Service</A>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };

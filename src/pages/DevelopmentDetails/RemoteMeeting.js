@@ -117,11 +117,6 @@ const RemoteMeeting = () => {
           </dd>
         </dl>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };

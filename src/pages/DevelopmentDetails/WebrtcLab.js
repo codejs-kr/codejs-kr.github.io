@@ -47,11 +47,6 @@ const WebrtcLab = () => {
         <A href="https://webrtclab.herokuapp.com" theme="fill" icon="default">Live</A>
         <A href="https://github.com/dodortus/webrtc-lab" theme="fill" icon="github">Github</A>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };

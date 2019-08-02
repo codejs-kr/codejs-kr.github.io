@@ -35,11 +35,6 @@ const WebrtcPresentation = () => {
       <section className="button-wrap">
         <A href="https://webrtclab.herokuapp.com/introduction" theme="fill" icon="default">Live</A>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };

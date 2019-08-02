@@ -1,6 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, MoreProjects, A } from 'components';
-import { Link } from 'react-router-dom';
+import { DevelopmentDetailTemplate, A } from 'components';
 
 const ZzangGu = () => {
   const name = "짱구";
@@ -69,8 +68,6 @@ const ZzangGu = () => {
           </dd>
         </dl>
       </section>
-
-      <MoreProjects currentPageName={name} />
     </DevelopmentDetailTemplate>
   );
 };

@@ -38,11 +38,6 @@ const ImageSlider = () => {
       <section className="button-wrap">
         <A href="http://www.codejs.co.kr/development/views/css3-effect/" theme="fill" icon="default">Live</A>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };

@@ -46,11 +46,6 @@ const ReactEvernote = () => {
         <A href="http://play.codejs.co.kr/react-evernote" theme="fill" icon="default">Live</A>
         <A href="https://github.com/dodortus/react-evernote" icon="github" theme="fill">Github</A>
       </section>
-
-      <section className="more-wrap">
-        <h3>More Projects</h3>
-        <DevelopmentPagingContainer name={name} />
-      </section>
     </DevelopmentDetailTemplate>
   );
 };
