@@ -95,7 +95,7 @@ export default [
         description:
           '회사의 주력 제품이며 PC를 원격에서 접속하여 재택근무를 가능하게 해주는 유용한 서비스입니다.\n' +
           '원격지에 설치된 PC의 목록이 노출되며, 해당 PC에 접속하면 전용 뷰어를 통해서 PC를 제어할 수 있습니다.',
-        link: '/#/development/remoteview-enterprise',
+        link: '/#/development/remoteview-business',
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery', 'jQuery.ui', 'flot.js'],
       },
       {

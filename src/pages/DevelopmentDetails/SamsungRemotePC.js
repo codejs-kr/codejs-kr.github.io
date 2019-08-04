@@ -3,7 +3,7 @@ import { DevelopmentDetailTemplate } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const SamsungRemotePC = () => {
-  const name = "Samsung Remote PC";
+  const name = "삼성 Remote PC";
 
   return (
     <DevelopmentDetailTemplate title={`${name}️`}>
