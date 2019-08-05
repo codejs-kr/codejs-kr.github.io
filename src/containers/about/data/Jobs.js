@@ -7,8 +7,8 @@ export default [
       {
         name: '리모트세미나',
         role: '웹 프론트엔드 개발',
-        date: '2019.01 ~ 2019',
-        description: 'WebRTC 기반 세미나 서비스의 초기 프로토타입 개발을 진행하였습니다.',
+        date: '2019.01 ~ 2019.05',
+        description: 'WebRTC 기반 온라인 세미나 서비스의 프로토타입 개발을 진행하였습니다.',
         link: '/#/development/remotemeeting',
         techStack: ['React', 'Redux', 'WebRTC', 'MQTT', 'ES6', 'HTML5', 'CSS3', 'SCSS', 'WebPack'],
       },
