@@ -93,9 +93,19 @@ const About = () => {
               </div>
             </section>
 
-            <section id="experience" className="division">
+            <section id="experience" className="division timeline-section">
               <div>
                 <h2>Experience</h2>
+              </div>
+
+              <div>
+                <JobsTimeLineContainer />
+              </div>
+            </section>
+
+            <section id="toy" className="division timeline-section">
+              <div>
+                <h2>Toy Projects</h2>
               </div>
 
               <div>
@@ -153,7 +163,7 @@ const About = () => {
               </div>
             </section>
 
-            <section id="certificate" className="division">
+            <section id="awards" className="division">
               <div>
                 <h2>Awards</h2>
               </div>
