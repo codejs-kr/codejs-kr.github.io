@@ -122,6 +122,10 @@
     }
 
     .timeline-section {
+      margin-bottom: 120px !important;
+      padding-bottom: 120px;
+      border-bottom: solid 3px rgba(0,0,0,0.05);
+
       > div {
         &:last-child {
           flex-basis: 78%;

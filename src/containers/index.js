@@ -3,5 +3,3 @@ export { default as DevelopmentItemContainer } from './development/DevelopmentIt
 export { default as DevelopmentPagingContainer } from './development/DevelopmentPagingContainer';
 export { default as ToyItemContainer } from './toy/ToyItemContainer';
 
-export { default as JobsTimeLineContainer } from './about/JobsTimeLineContainer';
-

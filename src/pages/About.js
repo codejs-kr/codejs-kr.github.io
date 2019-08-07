@@ -1,7 +1,7 @@
 import React from 'react';
-import { PageTemplate, AboutTemplate, TopButton, A } from 'components';
-import { JobsTimeLineContainer } from 'containers';
-import { Link } from 'react-router-dom';
+import { PageTemplate, AboutTemplate, TopButton, TimeLine } from 'components';
+import jobsData from "statics/data/jobs";
+import toysData from "statics/data/toys";
 
 const About = () => {
   return (
@@ -99,7 +99,7 @@ const About = () => {
               </div>
 
               <div>
-                <JobsTimeLineContainer />
+                <TimeLine data={jobsData} />
               </div>
             </section>
 
@@ -109,7 +109,7 @@ const About = () => {
               </div>
 
               <div>
-                <JobsTimeLineContainer />
+                <TimeLine data={toysData} />
               </div>
             </section>
 
