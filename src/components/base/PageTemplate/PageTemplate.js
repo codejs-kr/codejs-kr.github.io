@@ -6,8 +6,8 @@ const PageTemplate = ({ children, thema, isSubpage, hideFooter }) => {
   return (
     <div id="page-template" className={thema}>
       <Header isSubpage={isSubpage} />
-      { children }
-      { !hideFooter && <Footer /> }
+      {children}
+      {!hideFooter && <Footer />}
     </div>
   );
 };

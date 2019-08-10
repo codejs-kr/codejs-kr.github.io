@@ -1,10 +1,10 @@
 // 파일 생성 관련
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // 코드 압축 관련
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const { rootPath, srcPath, distPath } = require('./path');
@@ -17,15 +17,12 @@ module.exports = {
   devtool: 'none', // hidden-source-map
 
   // 소스
-  entry: [
-    "@babel/polyfill",
-    srcPath
-  ],
+  entry: ['@babel/polyfill', srcPath],
 
   // 번들 결과 정보
   output: {
     path: rootPath,
-    filename: '[name].js?ver=[hash]'
+    filename: '[name].js?ver=[hash]',
   },
 
   // 상대 경로 보완
@@ -34,9 +31,9 @@ module.exports = {
       components: srcPath + '/components',
       containers: srcPath + '/containers',
       pages: srcPath + '/pages',
-      lib: srcPath + '/lib',
-      statics: srcPath + '/statics'
-    }
+      helpers: srcPath + '/helpers',
+      statics: srcPath + '/statics',
+    },
   },
 
   // 모듈 로더
@@ -52,53 +49,53 @@ module.exports = {
               cacheDirectory: true,
               presets: [
                 [
-                  "@babel/preset-env",
+                  '@babel/preset-env',
                   {
-                    "useBuiltIns": "usage"
+                    useBuiltIns: 'usage',
                   },
                 ],
-                '@babel/preset-react'
+                '@babel/preset-react',
               ],
               plugins: [
-                "@babel/plugin-syntax-object-rest-spread",      // ES2018
-                "@babel/plugin-transform-async-to-generator",   // ES2017
-                ["@babel/plugin-proposal-class-properties", { "loose": true }]      // 실험적
-              ]
-            }
-          }
-        ]
+                '@babel/plugin-syntax-object-rest-spread', // ES2018
+                '@babel/plugin-transform-async-to-generator', // ES2017
+                ['@babel/plugin-proposal-class-properties', { loose: true }], // 실험적
+              ],
+            },
+          },
+        ],
       },
       {
         test: /\.html$/,
         use: [
           {
-            loader: "html-loader"
-          }
-        ]
+            loader: 'html-loader',
+          },
+        ],
       },
       {
         test: /\.(scss)$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
+            loader: MiniCssExtractPlugin.loader,
           },
           {
             loader: 'css-loader',
             options: {
-              sourceMap: true
-            }
+              sourceMap: true,
+            },
           },
           {
-            loader: 'postcss-loader'
+            loader: 'postcss-loader',
           },
           {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
               // includePaths: [srcPath + '/statics/scss/modules']  // component SCSS 내부에서 import시 사용하는 path설정.
-            }
-          }
-        ]
+            },
+          },
+        ],
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -107,37 +104,34 @@ module.exports = {
             loader: 'file-loader',
             options: {
               outputPath: 'dist/img/',
-              name: '[name].[hash].[ext]' // 이 속성을 줘야 SCSS에서의 ~statics/* 이미지들도 빌드시 생성 된다 .
-            }
-          }
-        ]
-      }
-    ]
+              name: '[name].[hash].[ext]', // 이 속성을 줘야 SCSS에서의 ~statics/* 이미지들도 빌드시 생성 된다 .
+            },
+          },
+        ],
+      },
+    ],
   },
 
   optimization: {
-    minimizer: [
-      new UglifyJsPlugin({ cache: true, parallel: true, sourceMap: true }),
-      new OptimizeCSSAssetsPlugin()
-    ]
+    minimizer: [new UglifyJsPlugin({ cache: true, parallel: true, sourceMap: true }), new OptimizeCSSAssetsPlugin()],
   },
 
   plugins: [
     new CleanWebpackPlugin([distPath], {
-      root: rootPath
+      root: rootPath,
     }),
     new HtmlWebpackPlugin({
-      template: "./public/index.html",
-      filename: "./index.html"
+      template: './public/index.html',
+      filename: './index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].css?ver=[hash]",
-      chunkFilename: "[id].css"
+      filename: '[name].css?ver=[hash]',
+      chunkFilename: '[id].css',
     }),
     new ImageminPlugin({
       pngquant: {
-        quality: '90-95'
-      }
-    })
-  ]
+        quality: '90-95',
+      },
+    }),
+  ],
 };

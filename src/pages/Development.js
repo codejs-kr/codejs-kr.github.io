@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageTemplate, DevelopmentListTemplate } from 'components';
-import { DevelopmentItemContainer } from "containers";
+import { DevelopmentItemContainer } from 'containers';
 
 const Development = () => {
   return (

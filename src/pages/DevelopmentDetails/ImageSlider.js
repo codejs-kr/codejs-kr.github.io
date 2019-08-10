@@ -3,17 +3,18 @@ import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const ImageSlider = () => {
-  const name = "3D Image Slider";
+  const name = '3D Image Slider';
 
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <img src={require("statics/img/development/image-slider/main.png")} alt={name} />
+        <img src={require('statics/img/development/image-slider/main.png')} alt={name} />
       </section>
 
       <section className="overview">
         <p>
-          CSS transform을 사용하여 이미지 4컷을 로테이션 시키는 데모를 만들어 보았습니다.<br />
+          CSS transform을 사용하여 이미지 4컷을 로테이션 시키는 데모를 만들어 보았습니다.
+          <br />
           perspective로 큐브 모양의 공간감을 표현하였고, transform으로 이미지에 회전할 때 원근감을 만들었습니다.
         </p>
       </section>
@@ -36,7 +37,9 @@ const ImageSlider = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://www.codejs.co.kr/development/views/css3-effect/" theme="fill" icon="default">Live</A>
+        <A href="http://www.codejs.co.kr/development/views/css3-effect/" theme="fill" icon="default">
+          Live
+        </A>
       </section>
     </DevelopmentDetailTemplate>
   );

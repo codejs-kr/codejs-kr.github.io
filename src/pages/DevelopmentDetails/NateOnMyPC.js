@@ -3,18 +3,18 @@ import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const NateOnMyPC = () => {
-  const name = "네이트온 내 PC제어 리뉴얼";
+  const name = '네이트온 내 PC제어 리뉴얼';
 
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap x-center s-cover">
-        <img src={require("statics/img/development/nateon-mypc/main.png")} alt={name} />
+        <img src={require('statics/img/development/nateon-mypc/main.png')} alt={name} />
       </section>
 
       <section className="overview">
         <p>
-          네이트온 내 PC제어 프로젝트는 이미 5년 이상 서비스 중인 웹사이트를 리뉴얼 및 UI 개선하는 프로젝트였습니다.<br />
-          이 프로젝트에 사용된 UI를 템플릿화하여 적용 후 인수인계 하였습니다.
+          네이트온 내 PC제어 프로젝트는 이미 5년 이상 서비스 중인 웹사이트를 리뉴얼 및 UI 개선하는 프로젝트였습니다.
+          <br />이 프로젝트에 사용된 UI를 템플릿화하여 적용 후 인수인계 하였습니다.
         </p>
       </section>
 
@@ -40,8 +40,12 @@ const NateOnMyPC = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://www.codejs.co.kr/development/views/nateon" theme="fill" icon="default">Live Template</A>
-        <A href="http://rsupport.nate.com/rview/r8/main/index.aspx" theme="fill" icon="default">Live Service</A>
+        <A href="http://www.codejs.co.kr/development/views/nateon" theme="fill" icon="default">
+          Live Template
+        </A>
+        <A href="http://rsupport.nate.com/rview/r8/main/index.aspx" theme="fill" icon="default">
+          Live Service
+        </A>
       </section>
     </DevelopmentDetailTemplate>
   );

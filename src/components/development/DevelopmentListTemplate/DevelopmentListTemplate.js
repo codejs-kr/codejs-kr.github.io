@@ -7,9 +7,7 @@ const DevelopmentListTemplate = ({ children }) => {
       <h1>
         Development <span> :: Simple is Best</span>
       </h1>
-      <article>
-        {children}
-      </article>
+      <article>{children}</article>
     </div>
   );
 };

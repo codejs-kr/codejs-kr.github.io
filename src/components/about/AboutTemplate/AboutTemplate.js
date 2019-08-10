@@ -4,7 +4,7 @@ import './AboutTemplate.scss';
 const AboutTemplate = ({ children }) => {
   return (
     <div id="page-about" className="container">
-      { children }
+      {children}
     </div>
   );
 };

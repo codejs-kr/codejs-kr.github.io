@@ -3,22 +3,21 @@ import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const ReactEvernote = () => {
-  const name = "React Evernote";
+  const name = 'React Evernote';
 
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap s-cover">
-        <img src={require("statics/img/development/react-evernote/main.png")} alt={name} />
+        <img src={require('statics/img/development/react-evernote/main.png')} alt={name} />
       </section>
 
       <section className="overview">
         <p>
-          React와 Firebase에 관심을 갖던 시기에 두가지를 활용해서 무언가를 만들어 보고 싶었습니다<br />
+          React와 Firebase에 관심을 갖던 시기에 두가지를 활용해서 무언가를 만들어 보고 싶었습니다
+          <br />
           그래서 평소에 자주 사용하는 Evernote를 구현해 보기로 하고 조금씩 작업을 시작해 보았습니다.
         </p>
-        <p>
-          에버노트의 UI 컴포넌트들을 좀 더 가볍고 직관적으로 재작성 하였습니다.
-        </p>
+        <p>에버노트의 UI 컴포넌트들을 좀 더 가볍고 직관적으로 재작성 하였습니다.</p>
       </section>
 
       <section className="list-wrap">
@@ -43,8 +42,12 @@ const ReactEvernote = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://play.codejs.co.kr/react-evernote" theme="fill" icon="default">Live</A>
-        <A href="https://github.com/dodortus/react-evernote" icon="github" theme="fill">Github</A>
+        <A href="http://play.codejs.co.kr/react-evernote" theme="fill" icon="default">
+          Live
+        </A>
+        <A href="https://github.com/dodortus/react-evernote" icon="github" theme="fill">
+          Github
+        </A>
       </section>
     </DevelopmentDetailTemplate>
   );

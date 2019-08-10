@@ -1,4 +1,4 @@
-import React  from 'react';
+import React from 'react';
 import './DevelopmentDetailTemplate.scss';
 import { TopButton, MoreProjects } from 'components';
 

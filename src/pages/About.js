@@ -1,7 +1,7 @@
 import React from 'react';
 import { PageTemplate, AboutTemplate, TopButton, TimeLine } from 'components';
-import jobsData from "statics/data/jobs";
-import toysData from "statics/data/toys";
+import jobsData from 'statics/data/jobs';
+import toysData from 'statics/data/toys';
 
 const About = () => {
   return (

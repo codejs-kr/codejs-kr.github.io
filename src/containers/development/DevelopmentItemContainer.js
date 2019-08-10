@@ -4,21 +4,13 @@ import data from './data';
 
 class DevelopmentItemContainer extends Component {
   render() {
-
     return (
       <Fragment>
-        {
-          data.map((item, index) => {
-            return (
-              <DevelopmentItem
-                key={index}
-                title={item.title}
-                imageURL={item.imageURL}
-                contentURL={item.contentURL}
-              />
-            )
-          })
-        }
+        {data.map((item, index) => {
+          return (
+            <DevelopmentItem key={index} title={item.title} imageURL={item.imageURL} contentURL={item.contentURL} />
+          );
+        })}
       </Fragment>
     );
   }

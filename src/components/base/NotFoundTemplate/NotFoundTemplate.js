@@ -4,7 +4,7 @@ import './NotFoundTemplate.scss';
 const NotFoundTemplate = ({ children }) => {
   return (
     <div id="page-notfound" className="container">
-      { children }
+      {children}
     </div>
   );
 };

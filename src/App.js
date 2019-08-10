@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import { withRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { LoaderContainer } from 'containers';
 import { Toy, About, Development, DevelopmentDetails, NotFound } from 'pages';
 import 'statics/scss/main.scss';
-import config from 'lib/config';
+import config from 'helpers/config';
 
 class App extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class App extends Component {
 
   bindScrollEvent = () => {
     window.onscroll = () => {
-      this.body.classList[window.scrollY > 160 ? 'add': 'remove']('scrolled');
+      this.body.classList[window.scrollY > 160 ? 'add' : 'remove']('scrolled');
     };
   };
 
@@ -51,4 +51,3 @@ class App extends Component {
 }
 
 export default App;
-

@@ -3,5 +3,5 @@ const isMobile = !!navigator.userAgent.match(/Android|webOS|iPhone|iPad|iPod|Bla
 
 export default {
   isDev,
-  isMobile
+  isMobile,
 };

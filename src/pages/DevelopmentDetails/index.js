@@ -23,7 +23,7 @@ import {
   RemoteViewBusiness,
   IpadSmartCover,
   ZzangGu,
-  Rsupport
+  Rsupport,
 } from 'pages';
 
 class DevelopmentDetails extends Component {

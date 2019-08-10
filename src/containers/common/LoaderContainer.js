@@ -1,13 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import { LoadingBar, LoadingCircle } from 'components';
-import { withRouter } from "react-router-dom";
+import { withRouter } from 'react-router-dom';
 
 class LoaderContainer extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      isLoading: false
+      isLoading: false,
     };
 
     this.interval = 500;
@@ -16,19 +16,19 @@ class LoaderContainer extends Component {
 
   showLoader = () => {
     this.setState({
-      isLoading: true
+      isLoading: true,
     });
   };
 
   hideLoader = () => {
     this.setState({
-      isLoading: false
+      isLoading: false,
     });
   };
 
   bindRouteChangeEvent = () => {
     this.routerListener = this.props.history.listen((location, action) => {
-      console.log("routeChangeEvent", location, action);
+      console.log('routeChangeEvent', location, action);
 
       this.showLoader();
       setTimeout(this.hideLoader, this.interval);

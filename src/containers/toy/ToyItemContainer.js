@@ -4,25 +4,22 @@ import data from 'containers/development/data';
 
 class ToyItemContainer extends Component {
   render() {
-
     return (
       <Fragment>
-        {
-          data.map((item, index) => {
-            if (item.state && item.state === 'toy') {
-              return (
-                <ToyItem
-                  key={index}
-                  id={item.id}
-                  title={item.title}
-                  imageURL={item.imageURL}
-                  contentURL={item.contentURL}
-                  github={item.github}
-                />
-              )
-            }
-          })
-        }
+        {data.map((item, index) => {
+          if (item.state && item.state === 'toy') {
+            return (
+              <ToyItem
+                key={index}
+                id={item.id}
+                title={item.title}
+                imageURL={item.imageURL}
+                contentURL={item.contentURL}
+                github={item.github}
+              />
+            );
+          }
+        })}
       </Fragment>
     );
   }

@@ -40,7 +40,7 @@ class DevelopmentPagingContainer extends Component {
       for (let i = startIndex; i <= length; i++) {
         indexArr.push(insertedIndex + i);
       }
-    // 두번째 (-1, 1, 2, 3)
+      // 두번째 (-1, 1, 2, 3)
     } else if (insertedIndex === 1) {
       const startIndex = -1;
       for (let i = startIndex; i <= startIndex + length; i++) {
@@ -48,21 +48,21 @@ class DevelopmentPagingContainer extends Component {
           indexArr.push(insertedIndex + i);
         }
       }
-    // 마지막 (-4, -3, -2, -1)
-    } else if (insertedIndex === (arr.length - 1)) {
+      // 마지막 (-4, -3, -2, -1)
+    } else if (insertedIndex === arr.length - 1) {
       const startIndex = -4;
       for (let i = startIndex; i <= startIndex + (length - 1); i++) {
         indexArr.push(insertedIndex + i);
       }
-    // 마지막에서 두번째 (-3, -2, -1, 1)
-    } else if (insertedIndex === (arr.length - 2)) {
+      // 마지막에서 두번째 (-3, -2, -1, 1)
+    } else if (insertedIndex === arr.length - 2) {
       const startIndex = -3;
       for (let i = startIndex; i <= startIndex + length; i++) {
         if (i !== 0) {
           indexArr.push(insertedIndex + i);
         }
       }
-    // 기본 양 옆 (-2, -1, 1, 2)
+      // 기본 양 옆 (-2, -1, 1, 2)
     } else {
       const startIndex = -2;
       for (let i = startIndex; i <= startIndex + length; i++) {
@@ -97,18 +97,11 @@ class DevelopmentPagingContainer extends Component {
 
     return (
       <div>
-        {
-          listData.map((item, index) => {
-            return (
-              <DevelopmentItem
-                key={index}
-                title={item.title}
-                imageURL={item.imageURL}
-                contentURL={item.contentURL}
-              />
-            )
-          })
-        }
+        {listData.map((item, index) => {
+          return (
+            <DevelopmentItem key={index} title={item.title} imageURL={item.imageURL} contentURL={item.contentURL} />
+          );
+        })}
       </div>
     );
   }

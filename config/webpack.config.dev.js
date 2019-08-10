@@ -8,14 +8,11 @@ module.exports = {
   devtool: 'inline-source-map',
 
   // 소스
-  entry: [
-    "@babel/polyfill",
-    srcPath
-  ],
+  entry: ['@babel/polyfill', srcPath],
 
   // 번들 결과
   output: {
-    filename: '[name].[hash].js'
+    filename: '[name].[hash].js',
   },
 
   // 상대 경로 보완
@@ -24,18 +21,16 @@ module.exports = {
       components: srcPath + '/components',
       containers: srcPath + '/containers',
       pages: srcPath + '/pages',
-      lib: srcPath + '/lib',
-      statics: srcPath + '/statics'
-    }
+      helpers: srcPath + '/helpers',
+      statics: srcPath + '/statics',
+    },
   },
 
   devServer: {
     hot: true,
     inline: true,
     port: 3007,
-    contentBase: [
-      distPath
-    ],
+    contentBase: [distPath],
   },
 
   // 모듈 로더
@@ -51,62 +46,62 @@ module.exports = {
               cacheDirectory: true,
               presets: [
                 [
-                  "@babel/preset-env",
+                  '@babel/preset-env',
                   {
-                    "useBuiltIns": "usage",
-                    "modules": false,  // react hot loader 사용시 modules false 필수
-                    "debug": true
+                    useBuiltIns: 'usage',
+                    modules: false, // react hot loader 사용시 modules false 필수
+                    debug: true,
                   },
                 ],
-                '@babel/preset-react'
+                '@babel/preset-react',
               ],
               plugins: [
-                "@babel/plugin-syntax-object-rest-spread",      // ES2018
-                "@babel/plugin-transform-async-to-generator",   // ES2017
-                ["@babel/plugin-proposal-class-properties", { "loose": true }],      // 실험적
-                "react-hot-loader/babel" // react-hot-loader은 수정시 state 유지 시켜준다.
-              ]
-            }
-          }
-        ]
+                '@babel/plugin-syntax-object-rest-spread', // ES2018
+                '@babel/plugin-transform-async-to-generator', // ES2017
+                ['@babel/plugin-proposal-class-properties', { loose: true }], // 실험적
+                'react-hot-loader/babel', // react-hot-loader은 수정시 state 유지 시켜준다.
+              ],
+            },
+          },
+        ],
       },
       {
         test: /\.html$/,
         use: [
           {
-            loader: "html-loader"
-          }
-        ]
+            loader: 'html-loader',
+          },
+        ],
       },
       {
         test: /\.(scss)$/,
         use: [
           {
-            loader: 'style-loader'
+            loader: 'style-loader',
           },
           {
             loader: 'css-loader',
             options: {
-              sourceMap: true
-            }
+              sourceMap: true,
+            },
           },
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: true
-            }
-          }
-        ]
+              sourceMap: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
         use: [
           {
-            loader: 'file-loader'
-          }
-        ]
-      }
-    ]
+            loader: 'file-loader',
+          },
+        ],
+      },
+    ],
   },
 
   // 캐싱
@@ -116,18 +111,18 @@ module.exports = {
         commons: {
           test: /[\\/]node_modules[\\/]/,
           name: 'vendors',
-          chunks: 'all'
-        }
-      }
-    }
+          chunks: 'all',
+        },
+      },
+    },
   },
 
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: "./public/index.html",
-      filename: "./index.html",
-      showErrors: true
-    })
-  ]
+      template: './public/index.html',
+      filename: './index.html',
+      showErrors: true,
+    }),
+  ],
 };

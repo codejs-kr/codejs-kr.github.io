@@ -3,17 +3,18 @@ import { DevelopmentDetailTemplate, A } from 'components';
 import { DevelopmentPagingContainer } from 'containers';
 
 const FileAPI = () => {
-  const name = "HTML5 File API 활용";
+  const name = 'HTML5 File API 활용';
 
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <img src={require("statics/img/development/file-api/main.png")} alt={name} />
+        <img src={require('statics/img/development/file-api/main.png')} alt={name} />
       </section>
 
       <section className="overview">
         <p>
-          HTML5 File API란 웹 애플리케이션이 로컬 파일의 내용에 접근할 수 있도록 하는 API입니다.<br />
+          HTML5 File API란 웹 애플리케이션이 로컬 파일의 내용에 접근할 수 있도록 하는 API입니다.
+          <br />
           File API의 스펙을 알아볼 겸 만들어 본 예제입니다.
         </p>
       </section>
@@ -36,7 +37,9 @@ const FileAPI = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="http://www.codejs.co.kr/development/views/file-upload/" theme="fill" icon="default">Live</A>
+        <A href="http://www.codejs.co.kr/development/views/file-upload/" theme="fill" icon="default">
+          Live
+        </A>
       </section>
     </DevelopmentDetailTemplate>
   );
