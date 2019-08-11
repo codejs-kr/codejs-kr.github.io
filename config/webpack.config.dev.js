@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { srcPath, publicPath, distPath } = require('./path');
+const { srcPath, distPath } = require('./path');
 
 module.exports = {
   mode: 'development',
@@ -37,7 +37,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: [
           {

@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const ImageSlider = () => {
   const name = '3D Image Slider';

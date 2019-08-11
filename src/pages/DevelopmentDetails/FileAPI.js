@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const FileAPI = () => {
   const name = 'HTML5 File API 활용';

@@ -20,7 +20,7 @@ const About = () => {
             <section id="profile">
               <h1>박정식</h1>
               <h2>
-                Front-End Engineer{' '}
+                Front-End Engineer
                 <span role="img" aria-label="like it">
                   💻 🌏 🐘 🍺 🙏
                 </span>
@@ -81,14 +81,14 @@ const About = () => {
                 <h3>개발도구</h3>
                 <ul>
                   <li>Webstorm</li>
-                  <li>Git / GitFlow</li>
+                  <li>Git / Github flow</li>
                   <li>SVN</li>
                   <li>Webpack</li>
                   <li>Parcel</li>
                   <li>Gulp</li>
+                  <li>BrowserSync</li>
                   <li>Storybook</li>
                   <li>Jest</li>
-                  {/*<li>Nodemon</li>*/}
                 </ul>
               </div>
             </section>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const WebrtcPresentation = () => {
   const name = 'WebRTC 발표 자료';

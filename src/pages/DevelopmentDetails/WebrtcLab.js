@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const WebrtcLab = () => {
   const name = 'WebRTC 연구실';
@@ -38,7 +37,7 @@ const WebrtcLab = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, WebRTC, WebSocket, JavaScript, NodeJS, Express, EJS</p>
+            <p>WebRTC, WebSocket, ES6, HTML5, CSS3, NodeJS, Express, EJS</p>
           </li>
         </ul>
       </section>

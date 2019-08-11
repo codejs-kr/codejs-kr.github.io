@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const RemoteLive = () => {
   const name = 'RemoteLive';

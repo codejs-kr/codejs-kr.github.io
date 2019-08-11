@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const RemoteViewPersonal = () => {
   const name = 'RemoteView Personal';
@@ -14,7 +13,7 @@ const RemoteViewPersonal = () => {
       <section className="overview">
         <p>
           개인 사용자들을 위한 PC원격제어 서비스인 리모트뷰는 제가 담당할 당시 이전 버전 서비스를 완전히 리뉴얼하는
-          프로젝트였으며, 저의 프론트앤드 개발의 씨앗이 되어준 의미 있는 프로젝트입니다.
+          프로젝트였으며, 저의 프론트엔드 개발의 씨앗이 되어준 의미 있는 프로젝트입니다.
         </p>
         <p>
           회사의 주력 제품이며 재택근무를 가능하게 해주는 유용한 서비스입니다.

@@ -17,7 +17,7 @@ const ZzangGu = () => {
           당시 이 게임을 개발하며 밤도 새보고, 처음 개발한 게임이다 보니 많은 시행착오를 겪게 해준 저에게는 소중한
           추억이었습니다.
           <br />
-          프론트앤드 개발을 하면서 언젠간 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고 오래전 코드를 보며
+          프론트엔드 개발을 하면서 언젠간 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고 오래전 코드를 보며
           토이프로젝트로 조금씩 재 구현해 보았습니다.
         </p>
       </section>
@@ -40,7 +40,7 @@ const ZzangGu = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5 Canvas, CSS3, JavaScript(ES6), React, WebPack, Firebase Firestore</p>
+            <p>React, ES6, Canvas, CSS3, WebPack, Firebase Firestore</p>
           </li>
         </ul>
       </section>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const NateOnMyPC = () => {
   const name = '네이트온 내 PC제어 리뉴얼';

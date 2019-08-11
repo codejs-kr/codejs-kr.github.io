@@ -1,6 +1,5 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A } from 'components';
-import { DevelopmentPagingContainer } from 'containers';
 
 const FrontendConvension = () => {
   const name = '프론트엔드 컨벤션 사이트 개발';
