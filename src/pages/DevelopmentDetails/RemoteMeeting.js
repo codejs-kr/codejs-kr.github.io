@@ -41,11 +41,14 @@ const RemoteMeeting = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>화상회의, 화면공유, 문서공유 뷰어, 그리기도구, 채팅, 캡쳐, 모바일 웹뷰 등 회의 전체 기능 및 SDK 개발</p>
+            <p>
+              화상회의, 화면공유, 문서공유 뷰어, Canvas 그리기도구, 채팅, 캡쳐, 모바일 웹뷰 등 회의 전체 기능 및 SDK
+              개발
+            </p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, WebRTC, MQTT, JavaScript(ES6), React, Redux, WebPack, Gulp</p>
+            <p>React, Redux, WebRTC, MQTT, ES6, Canvas, HTML5, CSS3, SCSS, WebPack</p>
           </li>
         </ul>
       </section>
@@ -97,7 +100,8 @@ const RemoteMeeting = () => {
           <dt>문서공유</dt>
           <dd>
             <p>
-              문서 뷰어와 그리기 도구를 자체 개발하였으며, 현재 문서 화면은 참여자에게 실시간으로 동기화합니다.
+              문서 뷰어와 Canvas 그리기 도구를 자체 개발하였으며, 주최자의 문서 화면은 참여자에게 실시간으로
+              동기화합니다.
               <br />
               다양한 문서 포맷을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.
             </p>

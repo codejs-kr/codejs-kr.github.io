@@ -20,7 +20,7 @@ export default [
           'WebRTC 기반 온라인 화상회의 서비스 설계 및 개발을 담당하였습니다.\n' +
           '2014년 WebRTC 기술을 알게 된 후 관련 파일럿 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.',
         link: '/#/development/remotemeeting',
-        techStack: ['React', 'Redux', 'WebRTC', 'MQTT', 'ES6', 'HTML5', 'CSS3', 'SCSS', 'WebPack'],
+        techStack: ['React', 'Redux', 'WebRTC', 'MQTT', 'ES6', 'Canvas', 'HTML5', 'CSS3', 'SCSS', 'WebPack'],
       },
       {
         name: '칭찬합시다',
