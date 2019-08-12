@@ -48,48 +48,50 @@ const About = () => {
                 <h2>Skills</h2>
               </div>
 
-              <div>
-                <h3>언어</h3>
-                <ul>
-                  <li>JavaScript (ES6+)</li>
-                  <li>CSS3 / SASS / PostCSS</li>
-                  <li>HTML5</li>
-                  <li>Node.js</li>
-                  <li>MongoDB</li>
-                  <li>TypeScript</li>
-                </ul>
-              </div>
+              <div className="skill-item-wrap">
+                <div>
+                  <h3>언어</h3>
+                  <ul>
+                    <li>JavaScript (ES6+)</li>
+                    <li>CSS3 / SASS / PostCSS</li>
+                    <li>HTML5</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                    <li>TypeScript</li>
+                  </ul>
+                </div>
 
-              <div>
-                <h3>라이브러리</h3>
-                <ul>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>ReactNative</li>
-                  <li>jQuery</li>
-                  <li>Socket.io</li>
-                  <li>MQTT</li>
-                  <li>Firebase</li>
-                  <li>Express</li>
-                  <li>EJS</li>
-                  {/*<li>Cron</li>*/}
-                  {/*<li>Nodemailer</li>*/}
-                </ul>
-              </div>
+                <div>
+                  <h3>라이브러리</h3>
+                  <ul>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>ReactNative</li>
+                    <li>jQuery</li>
+                    <li>Socket.io</li>
+                    <li>MQTT</li>
+                    <li>Firebase</li>
+                    <li>Express</li>
+                    <li>EJS</li>
+                    {/*<li>Cron</li>*/}
+                    {/*<li>Nodemailer</li>*/}
+                  </ul>
+                </div>
 
-              <div>
-                <h3>개발도구</h3>
-                <ul>
-                  <li>Webstorm</li>
-                  <li>Git / Github flow</li>
-                  <li>SVN</li>
-                  <li>Webpack</li>
-                  <li>Parcel</li>
-                  <li>Gulp</li>
-                  <li>BrowserSync</li>
-                  <li>Storybook</li>
-                  <li>Jest</li>
-                </ul>
+                <div>
+                  <h3>개발도구</h3>
+                  <ul>
+                    <li>Webstorm</li>
+                    <li>Git / Github flow</li>
+                    <li>SVN</li>
+                    <li>Webpack</li>
+                    <li>Parcel</li>
+                    <li>Gulp</li>
+                    <li>BrowserSync</li>
+                    <li>Storybook</li>
+                    <li>Jest</li>
+                  </ul>
+                </div>
               </div>
             </section>
 
@@ -133,7 +135,7 @@ const About = () => {
                     <span>2009.08 교육과학기술부 학점은행제</span>
                   </li>
                   <li>
-                    <p>교환학생 (Technology training program)</p>
+                    <p>국제교류학생 (Technology training program)</p>
                     <span>2008.01 ~ 2008.02 하와이 카피올라니대학</span>
                   </li>
                   <li>

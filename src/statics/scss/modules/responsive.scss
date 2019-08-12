@@ -1,4 +1,4 @@
-@import "~statics/scss/modules/variables";
+@import '~statics/scss/modules/variables';
 
 @media screen and (max-width: $breakpoint-base) {
   #page-detail-template {
@@ -26,21 +26,9 @@
     }
 
     .thumbnail {
-
       strong {
         font-size: 1.4rem;
       }
-    }
-  }
-
-  #page-about {
-    .inner-container {
-      width: 100%;
-      padding: 0 30px;
-    }
-
-    #profile-img {
-      right: 4%;
     }
   }
 
@@ -52,8 +40,6 @@
 }
 
 @media screen and (max-width: $breakpoint-small) {
-  $container-padding: 0 15px;
-
   body {
     font-size: 1.4rem;
   }
@@ -146,7 +132,6 @@
       padding-left: 0;
     }
 
-
     .more-wrap {
       div {
         flex-wrap: wrap;
@@ -162,49 +147,6 @@
       }
     }
   }
-
-  #page-about {
-    article {
-      padding-top: 60px;
-
-      h1, h2 {
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-
-      h2 {
-        font-size: 1.2rem;
-
-        span {
-          margin-top: 4px;
-          display: block;
-        }
-      }
-    }
-
-    .inner-container {
-      width: 100%;
-      padding: $container-padding;
-    }
-
-    header {
-      .inner-container {
-        height: 150px;
-
-        strong {
-          display: none;
-        }
-
-        #profile-img {
-          right: auto;
-        }
-      }
-    }
-  }
-
 
   #page-toy {
     article {

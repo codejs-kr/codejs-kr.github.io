@@ -26,14 +26,13 @@
 
     h3 {
       display: inline-block;
+      margin-right: 10px;
       margin-bottom: 2px;
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.9);
     }
 
     .info {
-      margin-left: 10px;
       display: inline-block;
-      font-weight: 600;
       font-size: 1.4rem;
       color: rgba(0, 0, 0, 0.8);
       background: rgba(0, 0, 0, 0.05);
@@ -77,6 +76,7 @@
     .row-list {
       margin-bottom: 16px;
       font-size: 1.4rem;
+      color: rgba(0, 0, 0, 0.8);
     }
 
     &::before {

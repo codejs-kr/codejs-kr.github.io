@@ -1,5 +1,6 @@
 $breakpoint-very-small: 424px;
 $breakpoint-small: 500px;
+$breakpoint-tablet: 768px;
 $breakpoint-mid: 900px;
 $breakpoint-base: 960px;
 
@@ -10,4 +11,7 @@ $box-shadow-weak: 0 0 1px 0 rgba(0, 0, 0, 0.1);
 
 $button-color-deafult: #495057;
 $button-color-default-hover: #2f3337;
-$button-color-confirm-hover: #339AF0;
+$button-color-confirm-hover: #339af0;
+
+// layout
+$container-padding: 0 15px;

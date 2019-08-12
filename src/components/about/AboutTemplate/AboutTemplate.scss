@@ -119,16 +119,23 @@
     #skills {
       h3 {
         margin-bottom: 5px;
+        color: rgba(0, 0, 0, 0.8);
       }
 
-      > div {
-        flex-basis: 26%;
-
+      .skill-item-wrap {
+        flex-basis: 78%;
         color: rgba(0, 0, 0, 0.7);
+        display: flex;
+
+        > div {
+          flex-direction: row;
+          flex-basis: 34%;
+        }
       }
 
       ul {
         list-style: none;
+        line-height: 1.7;
       }
     }
 
@@ -157,6 +164,124 @@
 
       span {
         color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-mid) {
+    .inner-container {
+      width: 100%;
+      padding: 0 30px;
+    }
+
+    #profile-img {
+      right: 4%;
+    }
+
+    .timeline {
+      .flag {
+        left: -22.5vw;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    .division {
+      flex-direction: column;
+
+      > div:first-child {
+        margin-bottom: 18px;
+
+        h2 {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .timeline {
+      margin-left: 5px;
+
+      // TODO 테블릿 사이즈에서 스타일 노출되도록 수정필요
+      .flag {
+        display: none;
+      }
+    }
+
+    #skills {
+      .skill-item-wrap {
+        div:nth-child(1),
+        div:nth-child(2) {
+          flex-basis: 45%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-small) {
+    article {
+      padding-top: 60px;
+
+      #profile {
+        h1,
+        h2 {
+          text-align: center;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.2rem;
+
+          span {
+            margin-top: 4px;
+            display: block;
+          }
+        }
+      }
+    }
+
+    .inner-container {
+      width: 100%;
+      padding: $container-padding;
+    }
+
+    header {
+      .inner-container {
+        height: 150px;
+
+        strong {
+          display: none;
+        }
+
+        #profile-img {
+          right: auto;
+        }
+      }
+    }
+
+    #skills {
+      .skill-item-wrap {
+        div:nth-child(2) {
+          margin-right: 5px;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .timeline {
+      .info {
+        font-weight: 400;
+        font-size: 1.1rem;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .dot-right {
+        &::after {
+          margin-top: 8px;
+        }
       }
     }
   }
