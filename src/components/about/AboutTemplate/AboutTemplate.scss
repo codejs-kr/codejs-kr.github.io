@@ -65,7 +65,7 @@
 
     h2 {
       font-size: 1.8rem;
-      color: #959595;
+      color: #000;
     }
 
     a {
@@ -85,14 +85,24 @@
       h2 {
         margin-bottom: 40px;
 
-        span {
-          display: inline-block;
+        i {
           margin-left: 12px;
         }
       }
 
+      i {
+        display: inline-block;
+        font-style: normal;
+      }
+
       #description {
         margin-bottom: 10px;
+      }
+
+      #email-info {
+        i {
+          margin-right: 5px;
+        }
       }
     }
 
@@ -131,6 +141,10 @@
         &:last-child {
           flex-basis: 78%;
         }
+      }
+
+      h2 {
+        margin-top: 6px;
       }
     }
   }

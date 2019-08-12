@@ -23,19 +23,9 @@ export default [
         techStack: ['React', 'Redux', 'WebRTC', 'MQTT', 'ES6', 'HTML5', 'CSS3', 'SCSS', 'WebPack'],
       },
       {
-        name: '리모트라이브',
-        role: '웹 프론트엔드 개발',
-        date: '2014.05 ~ 2014.08',
-        description:
-          'RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 파일럿 프로젝트였습니다.\n' +
-          '상용화 된 리모트미팅 프로젝트의 디딤돌이 된 프로젝트이며, Websocket 채팅과 P2P 기반의 화상회의 기능을 모듈화하여 기존 회사 서비스에 적용시키는 방법을 제안한 프로젝트입니다.',
-        link: '/#/development/remotelive',
-        techStack: ['WebRTC', 'Node.js', 'Socket.io', 'ES5', 'HTML5', 'CSS3', 'jQuery', 'Gulp'],
-      },
-      {
         name: '칭찬합시다',
         role: '기획, 디자인, 프론트엔드, 백엔드 개발',
-        date: '2015 ~ 2014.09',
+        date: '2015.04 ~ 2015.10',
         description:
           '한 달간 자신에게 전달된 메시지는 다음 달 1일에 공개하도록 했으며, 바로 확인할 수 있는 메신저가 아닌 편지를 받는 듯한 느낌을 주려고 기획했습니다.',
         link: '/#/development/balloon',
@@ -53,6 +43,16 @@ export default [
           'Nodemon',
           'Nodemailer',
         ],
+      },
+      {
+        name: '리모트라이브',
+        role: '웹 프론트엔드 개발',
+        date: '2014.05 ~ 2014.08',
+        description:
+          'RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 파일럿 프로젝트였습니다.\n' +
+          '상용화 된 리모트미팅 프로젝트의 디딤돌이 된 프로젝트이며, Websocket 채팅과 P2P 기반의 화상회의 기능을 모듈화하여 기존 회사 서비스에 적용시키는 방법을 제안한 프로젝트입니다.',
+        link: '/#/development/remotelive',
+        techStack: ['WebRTC', 'Node.js', 'Socket.io', 'ES5', 'HTML5', 'CSS3', 'jQuery', 'Gulp'],
       },
       {
         name: '리모트WOL',

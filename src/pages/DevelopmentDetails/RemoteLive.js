@@ -35,7 +35,7 @@ const RemoteLive = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, WebRTC, WebSocket, JavaScript, jQuery</p>
+            <p>WebRTC, Node.js, Socket.io, ES5, HTML5, CSS3, jQuery, Gulp</p>
           </li>
         </ul>
       </section>
@@ -52,21 +52,21 @@ const RemoteLive = () => {
         <dl>
           <dt>영상과 채팅</dt>
           <dd>
-            <p>WebRTC로 연결된 화면이 보이며, 채팅도 주고 받을 수 있습니다.</p>
+            <p>WebRTC로 연결된 카메라 화면이 보이며, 채팅도 주고 받을 수 있습니다.</p>
             <img src={require('statics/img/development/remotelive/feature-meeting.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>WebRTC에 대한 간략소개</dt>
           <dd>
-            <p>2014년엔 WebRTC가 국내에 많이 사용되지 않던 시기라서 간단한 소개도 작성했습니다.</p>
+            <p>2014년엔 WebRTC가 국내에 많이 알려지지 않던 시기라서 간단한 소개를 덧붙였습니다.</p>
             <img src={require('statics/img/development/remotelive/feature-webrtc.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>자사 서비스와의 연동 제안</dt>
           <dd>
-            <p>모듈화한 기능들을 자사 서비스에 연동하여 채팅 및 화상회의를 할 수 있도록 제안하였습니다.</p>
+            <p>모듈화하여 자사 서비스에 연동하여 채팅 및 화상회의를 할 수 있도록 제안하였습니다.</p>
             <img src={require('statics/img/development/remotelive/feature-integration.png')} alt={name} />
           </dd>
         </dl>
