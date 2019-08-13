@@ -31,7 +31,7 @@ const RemoteSeminar = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>화상회의, 화면공유, 문서공유 뷰어, Canvas 그리기도구, 채팅 개발</p>
+            <p>세미나 기능 개발, 화면공유, 문서공유 뷰어, Canvas 그리기도구, 채팅 개발</p>
           </li>
           <li>
             <strong>사용기술</strong>
