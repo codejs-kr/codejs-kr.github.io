@@ -22,7 +22,7 @@ const SamsungRemotePC = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2012</p>
+            <p>2013</p>
           </li>
           <li>
             <strong>역할</strong>
@@ -49,6 +49,20 @@ const SamsungRemotePC = () => {
           </dd>
         </dl>
         <dl>
+          <dt>PC관리</dt>
+          <dd>
+            <p>연동된 PC의 상태를 확인 관리할 수 있습니다.</p>
+            <img src={require('statics/img/development/remote-pc/feature-pc.png')} alt={name} />
+          </dd>
+        </dl>
+        <dl>
+          <dt>멀티 디바이스</dt>
+          <dd>
+            <p>다양한 디바이스 환경에서 확인 가능하도록 크로스브라우징 하였습니다.</p>
+            <img src={require('statics/img/development/remote-pc/feature-devices.png')} alt={name} />
+          </dd>
+        </dl>
+        <dl>
           <dt>상품정보</dt>
           <dd>
             <p>간단한 소개 페이지의 마크업입니다.</p>
@@ -63,20 +77,6 @@ const SamsungRemotePC = () => {
               개발하였습니다.
             </p>
             <img src={require('statics/img/development/remote-pc/feature-faq.png')} alt={name} />
-          </dd>
-        </dl>
-        <dl>
-          <dt>PC관리</dt>
-          <dd>
-            <p>연동된 PC의 상태를 확인 관리할 수 있습니다.</p>
-            <img src={require('statics/img/development/remote-pc/feature-pc.png')} alt={name} />
-          </dd>
-        </dl>
-        <dl>
-          <dt>멀티 디바이스</dt>
-          <dd>
-            <p>다양한 디바이스 환경에서 확인 가능하도록 크로스브라우징 하였습니다.</p>
-            <img src={require('statics/img/development/remote-pc/feature-devices.png')} alt={name} />
           </dd>
         </dl>
       </section>

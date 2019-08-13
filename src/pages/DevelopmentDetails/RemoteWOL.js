@@ -30,7 +30,7 @@ const RemoteWOL = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2012 ~ 2013</p>
+            <p>2013 ~ 2014</p>
           </li>
           <li>
             <strong>역할</strong>
@@ -42,7 +42,7 @@ const RemoteWOL = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, JavaScript, jQuery</p>
+            <p>HTML5, CSS3, JavaScript, jQuery, Gulp</p>
           </li>
         </ul>
       </section>

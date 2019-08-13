@@ -39,7 +39,7 @@ const RemoteViewBusiness = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, JavaScript, jQuery, jQuery.ui, flot.js</p>
+            <p>HTML5, CSS3, JavaScript, jQuery, jQuery.ui, flot chart</p>
           </li>
         </ul>
       </section>

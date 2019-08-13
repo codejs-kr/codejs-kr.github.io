@@ -21,7 +21,7 @@ const NateOnMyPC = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2012</p>
+            <p>2013 ~ 2014</p>
           </li>
           <li>
             <strong>역할</strong>

@@ -8,6 +8,7 @@ import {
   Balloon,
   RemoteMeeting,
   RemoteLive,
+  RemoteSeminar,
   WebrtcPresentation,
   Localization,
   FileAPI,
@@ -51,6 +52,9 @@ class DevelopmentDetails extends Component {
         break;
       case 'remotelive':
         currentPage = <RemoteLive />;
+        break;
+      case 'remoteseminar':
+        currentPage = <RemoteSeminar />;
         break;
       case 'webrtc-presentation':
         currentPage = <WebrtcPresentation />;

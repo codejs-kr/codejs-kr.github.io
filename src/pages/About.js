@@ -26,14 +26,14 @@ const About = () => {
                 </i>
               </h2>
               <p id="description">
-                Rsupport라는 회사에서 프론트엔드 개발자로 일하고 있으며, 2010년부터 실무자로써 프로젝트를 진행하고
-                있습니다.
+                Rsupport라는 회사에서 프론트엔드 개발자로 재직중이며 2010년 부터 실무를 담당하고 있습니다.
                 <br />
-                React를 주로 사용하고 있으며, 현재 진행 중인 프로젝트는 리모트미팅(WebRTC 기반 화상회의 서비스)입니다.
+                React를 주로 사용하며, 현재 진행 중인 프로젝트는 리모트미팅(WebRTC 기반 화상회의 서비스)입니다.
                 <br />
                 <br />
                 구두를 만드는 사람이 편한 구두를 만드는 방법을 고민하듯,
-                <br />저 또한 사용하기 쉬운 서비스를 만들고자 UX/UI에 대한 고민을 많이하는 편입니다.
+                <br />
+                사용하기 쉬운 서비스를 만들고자 UX/UI에 대한 고민을 많이하는 편입니다.
               </p>
               <p id="email-info">
                 <i role="img" aria-label="email">
@@ -57,7 +57,7 @@ const About = () => {
                     <li>HTML5</li>
                     <li>Node.js</li>
                     <li>MongoDB</li>
-                    <li>TypeScript</li>
+                    {/* <li>TypeScript</li> */}
                   </ul>
                 </div>
 
@@ -66,6 +66,7 @@ const About = () => {
                   <ul>
                     <li>React</li>
                     <li>Redux</li>
+                    <li>Next.js</li>
                     <li>ReactNative</li>
                     <li>jQuery</li>
                     <li>Socket.io</li>
@@ -82,6 +83,7 @@ const About = () => {
                   <h3>개발도구</h3>
                   <ul>
                     <li>Webstorm</li>
+                    <li>VS Code</li>
                     <li>Git / Github flow</li>
                     <li>SVN</li>
                     <li>Webpack</li>
@@ -97,7 +99,7 @@ const About = () => {
 
             <section id="experience" className="division timeline-section">
               <div>
-                <h2>Experience</h2>
+                <h2>Work experience</h2>
               </div>
 
               <div>
@@ -132,7 +134,7 @@ const About = () => {
                   </li>
                   <li>
                     <p>컴퓨터공학 학사</p>
-                    <span>2009.08 교육과학기술부 학점은행제</span>
+                    <span>2009.03 ~ 2009.08 교육과학기술부 학점은행제</span>
                   </li>
                   <li>
                     <p>국제교류학생 (Technology training program)</p>
