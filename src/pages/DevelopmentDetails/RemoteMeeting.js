@@ -22,8 +22,8 @@ const RemoteMeeting = () => {
           있었습니다.
         </p>
         <p>
-          초기 개발 시행착오와 프로젝트 정식 오픈까지 여러 차례의 난관이 찾아왔지만, 내가 만들고 싶던 서비스를 회사 주요
-          제품군으로 만들어내고 싶다는 생각으로 많은 열정을 쏟은 프로젝트입니다. 2014년 개발 시작하여, 2015년 무료 버전
+          초기 개발 시행착오와 프로젝트 정식 오픈까지 여러 난관이 찾아왔지만, 내가 만들고 싶던 서비스를 회사 주요
+          제품으로 만들어내고 싶다는 생각으로 많은 열정을 쏟은 프로젝트입니다. 2014년 개발 시작하여, 2015년 무료 버전
           오픈, 2017년 상용 버전 오픈하며 현재는 일본과 국내에 많은 업체와 사용자가 사용하는 서비스가 되었습니다.
         </p>
         <p>리모트미팅은 Web, iOS, Android, 전용 하드웨어 제품과 상호 연결됩니다.</p>
@@ -76,7 +76,7 @@ const RemoteMeeting = () => {
           <dt>라운지 (캘린더)</dt>
           <dd>
             <p>예약을 위한 캘린더와 종료된 회의 히스토리를 관리 할 수 있습니다.</p>
-            <img src={require('statics/img/development/remotemeeting/feature-calendar1.png')} alt={name} />
+            <img src={require('statics/img/development/remotemeeting/feature-calendar.png')} alt={name} />
           </dd>
         </dl>
         <dl>
@@ -89,10 +89,7 @@ const RemoteMeeting = () => {
         <dl>
           <dt>화면공유</dt>
           <dd>
-            <p>
-              화면공유와 스크린샷 크롬 확장프로그램을 개발하여 사용중이며, Screen Share API를 사용하여 회의 중 PC 화면을
-              참여자들에게 공유할 수 있습니다.
-            </p>
+            <p>화면공유와 스크린샷 크롬 확장프로그램을 개발하여 회의 중 PC화면을 참여자들에게 공유할 수 있습니다.</p>
             <img src={require('statics/img/development/remotemeeting/feature-screen.png')} alt={name} />
           </dd>
         </dl>
@@ -101,7 +98,7 @@ const RemoteMeeting = () => {
           <dd>
             <p>
               문서 뷰어와 Canvas 그리기 도구를 자체 개발하였으며, 주최자의 문서 화면은 참여자에게 실시간으로
-              동기화합니다.
+              동기화됩니다.
               <br />
               다양한 문서 포맷을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.
             </p>
@@ -111,8 +108,8 @@ const RemoteMeeting = () => {
         <dl>
           <dt>채팅</dt>
           <dd>
-            <p>타임라인 인터페이스에는 회의 상태와 채팅 메시지는 기록됩니다.</p>
-            <img src={require('statics/img/development/remotemeeting/feature-chat.png')} alt={name} />
+            <p>타임라인 인터페이스에는 회의 상태 변화에 대한 내용이 노출되고, 채팅 메시지를 주고 받을 수 있습니다.</p>
+            <img src={require('statics/img/development/remotemeeting/feature-chat2.png')} alt={name} />
           </dd>
         </dl>
         <dl>

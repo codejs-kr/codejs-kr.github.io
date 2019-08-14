@@ -6,8 +6,8 @@ const RemoteWOL = () => {
 
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
-      <section className="image-wrap s-cover">
-        <img src={require('statics/img/development/remotewol/feature-pc-on2.png')} alt={name} />
+      <section className="image-wrap contain x-right">
+        <img src={require('statics/img/development/remotewol/main.jpg')} alt={name} />
       </section>
 
       <section className="overview">
@@ -90,7 +90,9 @@ const RemoteWOL = () => {
         <dl>
           <dt>RemoteView 서비스에서 관리</dt>
           <dd>
-            <p>RemoteView에 연동하면 WOL장비 에이전트가 노출되며 전체전원 켜기 또는 개별 PC의 전원을 켤 수 있습니다.</p>
+            <p>
+              RemoteView에 연동하면 WOL장비 에이전트가 노출되며 전체 전원 켜기 또는 개별로 PC 전원을 켤 수 있습니다.
+            </p>
             <img src={require('statics/img/development/remotewol/feature-rv-pc-on.png')} alt={name} />
           </dd>
         </dl>

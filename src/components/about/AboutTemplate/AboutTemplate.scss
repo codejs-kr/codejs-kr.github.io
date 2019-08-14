@@ -86,12 +86,12 @@
         margin-bottom: 40px;
         color: #959595;
 
-        i {
+        span {
           margin-left: 12px;
         }
       }
 
-      i {
+      span {
         display: inline-block;
         font-style: normal;
       }
@@ -101,8 +101,8 @@
       }
 
       #email-info {
-        i {
-          margin-right: 5px;
+        span {
+          margin-right: 4px;
         }
       }
     }

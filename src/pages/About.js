@@ -21,9 +21,9 @@ const About = () => {
               <h1>박정식</h1>
               <h2>
                 Front-End Engineer
-                <i role="img" aria-label="like it">
+                <span role="img" aria-label="like it">
                   💻 🌏 🐘 🍺 🙏
-                </i>
+                </span>
               </h2>
               <p id="description">
                 Rsupport라는 회사에서 프론트엔드 개발자로 재직중이며 2010년 부터 실무를 담당하고 있습니다.
@@ -36,9 +36,9 @@ const About = () => {
                 사용하기 쉬운 서비스를 만들고자 UX/UI에 대한 고민을 많이하는 편입니다.
               </p>
               <p id="email-info">
-                <i role="img" aria-label="email">
+                <span role="img" aria-label="email">
                   📧
-                </i>
+                </span>
                 <a href="mailto:dodortus@gmail.com">dodortus@gmail.com</a>
               </p>
             </section>
