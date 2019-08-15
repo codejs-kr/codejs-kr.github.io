@@ -27,11 +27,11 @@ const RemoteViewBusiness = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2011 ~ 2014</p>
+            <p>2011.08 ~ 2014.08</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 어플리케이션 유지보수 및 기능 개발</p>
+            <p>웹 프론트엔드 개발</p>
           </li>
           <li>
             <strong>주요개발항목</strong>

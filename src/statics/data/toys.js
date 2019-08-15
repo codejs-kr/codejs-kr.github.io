@@ -2,12 +2,20 @@ export default [
   {
     name: '짱구',
     role: '웹 어플리케이션 설계 및 개발',
-    date: '2016, 2019',
+    date: '2019',
     description:
       '대학교 2학년 때 Java Applet을 이용하여 만들었던 저의 첫 게임입니다.\n' +
-      '프론트엔드 개발을 하면서 언젠간 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고 오래전 코드를 보며 토이프로젝트로 조금씩 재 구현해 보았습니다.',
+      '프론트엔드 개발을 하면서 언젠간 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고 오래전 코드를 보며 토이프로젝트로 재 구현해 보았습니다.',
     link: '/#/development/zzanggu',
     techStack: ['React', 'ES6', 'Canvas', 'CSS3', 'WebPack', 'Firebase Firestore'],
+  },
+  {
+    name: 'Speech Recognition',
+    role: '웹 어플리케이션 설계 및 개발',
+    date: '2017',
+    description: '음성 인식 API를 개발에 활용하기 위해 테스트하며 정리한 내용을 예제로 만들어 보았습니다.',
+    link: '/#/development/speech-recognition',
+    techStack: ['Javascript speech recognition API'],
   },
   {
     name: 'WebRTC 연구실',
@@ -19,17 +27,9 @@ export default [
     techStack: ['WebRTC', 'WebSocket', 'ES6', 'HTML5', 'CSS3', 'NodeJS', 'Express', 'EJS'],
   },
   {
-    name: 'Speech Recognition',
-    role: '웹 어플리케이션 설계 및 개발',
-    date: '2017',
-    description: '음성 인식 API를 개발에 활용하기 위해 테스트하며 정리한 내용을 예제로 만들어 보았습니다.',
-    link: '/#/development/speech-recognition',
-    techStack: ['Javascript speech recognition API'],
-  },
-  {
     name: 'React Evernote',
     role: '웹 어플리케이션 설계 및 개발',
-    date: '2017',
+    date: '2016 ~ 2017',
     description:
       'React와 Firebase에 관심을 갖던 시기에 두가지를 활용해서 무언가를 만들어 보고 싶었습니다.\n그래서 평소에 자주 사용하는 Evernote를 구현해 보기로 하고 조금씩 작업을 시작해 보았습니다.',
     link: '/#/development/react-evernote',
@@ -41,6 +41,6 @@ export default [
     date: '2013',
     description: 'CSS3 Transform 속성을 활용하여 만든 멋진 UI를 보고 한눈에 반해서 코드 분석 후 만들어 보았습니다.',
     link: '/#/development/book-transform',
-    techStack: ['CSS3 Transform', 'Transition', 'HTML5'],
+    techStack: ['Transform', 'Transition', 'HTML5'],
   },
 ];

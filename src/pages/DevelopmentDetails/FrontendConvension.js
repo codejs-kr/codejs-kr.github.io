@@ -28,11 +28,11 @@ const FrontendConvension = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2012 ~ 2013</p>
+            <p>2012.11 ~ 2014.12</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>사이트 기획, 구조 설계 및 개발</p>
+            <p>기획, 설계, 웹 프론트엔드 개발</p>
           </li>
           <li>
             <strong>주요개발항목</strong>

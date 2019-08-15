@@ -23,7 +23,7 @@ const ReactEvernote = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2017</p>
+            <p>2016 ~ 2017</p>
           </li>
           <li>
             <strong>역할</strong>
@@ -35,7 +35,7 @@ const ReactEvernote = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3(SCSS), JavaScript(ES6), React, Firebase Realtime DB, Webpack</p>
+            <p>React, ES6, HTML5, SCSS, Webpack, Firebase Realtime DB</p>
           </li>
         </ul>
       </section>

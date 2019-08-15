@@ -28,15 +28,15 @@ const RemoteViewPersonal = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2010 ~ 2013</p>
+            <p>2010.09 ~ 2013.09</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 어플리케이션 설계 및 개발</p>
+            <p>웹 프론트엔드 개발</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>컴퓨터관리, 리포팅 등 브랜드, 어드민 사이트 포함한 전체 기능 및 UI 개발 담당</p>
+            <p>컴퓨터관리, 리포팅, 브랜드, 어드민 사이트 포함한 전체 기능 및 UI 개발 담당</p>
           </li>
           <li>
             <strong>사용기술</strong>

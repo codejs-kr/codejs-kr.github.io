@@ -31,11 +31,11 @@ const Balloon = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2015 ~ 현재</p>
+            <p>2015.04 ~ 2015.12</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>기획, 디자인, 웹 어플리케이션 설계 및 개발</p>
+            <p>기획, 디자인, 프론트엔드, 백엔드 개발</p>
           </li>
           <li>
             <strong>주요개발항목</strong>

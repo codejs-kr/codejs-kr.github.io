@@ -24,11 +24,11 @@ const Rsupport = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2010 ~ 2011</p>
+            <p>2010.08 ~ 2011.01</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 사이트 마크업 및 UI 개발</p>
+            <p>웹 프론트엔드 개발</p>
           </li>
           <li>
             <strong>주요개발항목</strong>

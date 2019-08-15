@@ -9,8 +9,8 @@ export default [
         role: '웹 프론트엔드 개발',
         date: '2019.01 ~ 2019.08',
         description:
-          '온라인 미팅 제품에 이어 세미나 제품을 회사에서 신규서비스로 출시를 준비중입니다. WebRTC 기반으로 설계되어 기존에 제가 담당하던 리모트미팅과 구조상 유사점이 많아 제품 프로토타입 개발을 담당하였습니다.',
-        link: '/#/development/remoteseminar',
+          '온라인 미팅 제품에 이어 세미나 제품을 회사에서 신규서비스로 출시를 준비중입니다.\nWebRTC 기반으로 설계되어 기존에 담당하던 리모트미팅과 구조상 유사점이 많아 제품 프로토타입 개발을 담당하였습니다.',
+        // link: '/#/development/remoteseminar',
         techStack: [
           'React',
           'Redux',
@@ -38,7 +38,7 @@ export default [
       {
         name: '칭찬합시다',
         role: '기획, 디자인, 프론트엔드, 백엔드 개발',
-        date: '2015.04 ~ 2015.10',
+        date: '2015.04 ~ 2015.12',
         description:
           '회사에서 서로가 따뜻한 동력이 되었으면 하는 마음에 기획한 프로젝트입니다. 한 달간 자신에게 전달된 메시지는 다음 달 1일에 공개하도록 했으며, 바로 확인할 수 있는 메신저가 아닌 아날로그 감성의 편지를 주고 받는 느낌을 주려고 기획했습니다.',
         link: '/#/development/balloon',
@@ -59,7 +59,7 @@ export default [
       },
       {
         name: '리모트라이브',
-        role: '웹 프론트엔드 개발',
+        role: '기획, 프론트엔드, 백엔드 개발',
         date: '2014.04 ~ 2014.08',
         description:
           'RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 파일럿 프로젝트였습니다.\n' +
@@ -86,7 +86,7 @@ export default [
       // },
       {
         name: '프론트엔드 컨벤션 사이트 개발',
-        role: '사이트 기획, 설계, 웹 프론트엔드 개발',
+        role: '기획, 설계, 웹 프론트엔드 개발',
         date: '2012.11 ~ 2014.12',
         description:
           '코딩 컨벤션을 공유하고 Bootstrap 같은 자주 사용하는 UI 컴포넌트를 만들기로 시작한 프로젝트이며, 오픈 이후 팀 프로젝트로 발전시킬 수 있었습니다.',
@@ -123,7 +123,7 @@ export default [
         techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery', 'jQuery mobile', 'flot chart'],
       },
       {
-        name: '알서포트닷컴 다국어 리뉴얼',
+        name: '알서포트닷컴 리뉴얼',
         role: '웹 프론트엔드 개발',
         date: '2010.08 ~ 2011.01',
         description:

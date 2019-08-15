@@ -27,7 +27,7 @@ const BookTransform = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>데모 구현</p>
+            <p>웹 프론트엔드 개발</p>
           </li>
           <li>
             <strong>사용기술</strong>
