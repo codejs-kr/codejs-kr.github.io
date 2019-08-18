@@ -84,7 +84,7 @@ const About = () => {
                   <ul>
                     <li>VSCode</li>
                     <li>Webstorm</li>
-                    <li>Git / Github fl3ow</li>
+                    <li>Git / Github flow</li>
                     <li>SVN</li>
                     <li>Webpack</li>
                     <li>Parcel</li>
