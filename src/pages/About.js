@@ -82,9 +82,9 @@ const About = () => {
                 <div>
                   <h3>개발도구</h3>
                   <ul>
+                    <li>VSCode</li>
                     <li>Webstorm</li>
-                    <li>VS Code</li>
-                    <li>Git / Github flow</li>
+                    <li>Git / Github fl3ow</li>
                     <li>SVN</li>
                     <li>Webpack</li>
                     <li>Parcel</li>

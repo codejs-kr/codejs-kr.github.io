@@ -69,8 +69,8 @@ const Balloon = () => {
           <dt>칭찬 메시지 보내기</dt>
           <dd>
             <p>
-              매달 7개의 칭찬 풍선이 충전되며, 칭찬 메시지에는 1개의 풍선이 소모됩니다. (개인 정보 보호 차원에 일부
-              모자이크 처리함)
+              매달 7개의 칭찬 풍선이 충전되며, 칭찬 메시지에는 1개의 풍선이 소모됩니다. (신상 보호 차원에 일부 모자이크
+              처리함)
             </p>
             <img src={require('statics/img/development/balloon/feature1.png')} alt="" />
           </dd>

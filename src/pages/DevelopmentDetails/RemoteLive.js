@@ -35,7 +35,7 @@ const RemoteLive = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>WebRTC, Node.js, Socket.io, ES5, HTML5, CSS3, jQuery, Gulp</p>
+            <p>WebRTC, Socket.io, ES5, HTML5, CSS3, jQuery, Gulp, Node.js, Express, EJS</p>
           </li>
         </ul>
       </section>
