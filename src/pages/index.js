@@ -1,9 +1,27 @@
-export { default as About } from './About';
-export { default as Toy } from './Toy';
-export { default as NotFound } from './NotFound';
+import React from 'react';
+import Loadable from 'react-loadable';
 
-// Development
+const Loading = () => {
+  return <div>로딩중...</div>;
+};
+
+export const About = Loadable({
+  loader: () => import('./About'),
+  loading: Loading,
+});
+
+export const Toy = Loadable({
+  loader: () => import('./Toy'),
+  loading: Loading,
+});
+
+// One depth pages
+// export { default as About } from './About';
+// export { default as Toy } from './Toy';
+export { default as NotFound } from './NotFound';
 export { default as Development } from './Development';
+
+// Development details
 export { default as DevelopmentDetails } from './DevelopmentDetails';
 export { default as ReactEvernote } from './DevelopmentDetails/ReactEvernote';
 export { default as SpeechRecognition } from './DevelopmentDetails/SpeechRecognition';

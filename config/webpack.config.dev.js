@@ -56,6 +56,7 @@ module.exports = {
                 '@babel/preset-react',
               ],
               plugins: [
+                '@babel/plugin-syntax-dynamic-import',
                 '@babel/plugin-syntax-object-rest-spread', // ES2018
                 '@babel/plugin-transform-async-to-generator', // ES2017
                 ['@babel/plugin-proposal-class-properties', { loose: true }], // 실험적
