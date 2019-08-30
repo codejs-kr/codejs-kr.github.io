@@ -1,3 +1,3 @@
-# codeJS playground
+# PlayGround
 
 http://play.codejs.co.kr
