@@ -40,6 +40,18 @@ const About = () => {
                   📧
                 </span>
                 <a href="mailto:dodortus@gmail.com">dodortus@gmail.com</a>
+                <br />
+                {/* <span role="img" aria-label="open-book">
+                  ⚡
+                </span>
+                <a href="//codejs.co.kr">Blog</a>
+                <br /> */}
+                <span role="img" aria-label="open-book">
+                  📖
+                </span>
+                <a href="https://github.com/dodortus" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>
               </p>
             </section>
 
