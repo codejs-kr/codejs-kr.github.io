@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import './Header.scss';
 import config from 'helpers/config';
+import './Header.scss';
 
 const Header = ({ isSubpage }) => {
   return (
