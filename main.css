@@ -68,6 +68,8 @@
     margin-right: 8px; }
   #back:hover {
     text-decoration: underline; }
+  #back[href='http://www.codejs.co.kr'] {
+    visibility: hidden; }
 
 #footer {
   padding-bottom: 20px;
