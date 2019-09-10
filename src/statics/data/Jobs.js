@@ -1,6 +1,6 @@
 export default [
   {
-    name: 'Rsupport',
+    name: 'Rsupport 💼',
     team: '프론트엔드개발팀',
     date: '2010.07 ~ 2019 재직중',
     list: [
@@ -143,7 +143,7 @@ export default [
     ],
   },
   {
-    name: 'Nexon',
+    name: 'Nexon 💼',
     team: '인프라기술팀',
     date: '2010.03 ~ 2010.06',
     list: [
