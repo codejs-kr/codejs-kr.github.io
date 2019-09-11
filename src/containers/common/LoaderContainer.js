@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { LoadingBar, LoadingCircle } from 'components';
 import { withRouter } from 'react-router-dom';
 
@@ -12,6 +12,10 @@ class LoaderContainer extends Component {
 
     this.interval = 500;
     this.bindRouteChangeEvent();
+  }
+
+  componentWillUnmount() {
+    this.routerListener();
   }
 
   showLoader = () => {
@@ -35,18 +39,10 @@ class LoaderContainer extends Component {
     });
   };
 
-  componentWillUnmount() {
-    this.routerListener();
-  }
-
   render() {
     const { isLoading } = this.state;
 
-    return (
-      <Fragment>
-        <LoadingBar isLoading={isLoading} />
-      </Fragment>
-    );
+    return <LoadingBar isLoading={isLoading} />;
   }
 }
 

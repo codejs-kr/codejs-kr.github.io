@@ -13,7 +13,6 @@ class DevelopmentPagingContainer extends Component {
     let result = 0;
 
     arr.some((obj, i) => {
-      console.log('확인 obj', obj.title);
       if (obj.title.match(name)) {
         result = i;
         return true;
@@ -91,7 +90,7 @@ class DevelopmentPagingContainer extends Component {
     const { searchIndex, filterData, moveTop } = this;
     const index = searchIndex(data, name);
     const listData = filterData(data, index);
-    console.log('확인 index', name, index, listData);
+    // console.log('확인 index', name, index, listData);
 
     moveTop();
 
