@@ -31,7 +31,7 @@ const Balloon = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2015.04 ~ 2015.12</p>
+            <p>2015.03 ~ 2015.12</p>
           </li>
           <li>
             <strong>역할</strong>

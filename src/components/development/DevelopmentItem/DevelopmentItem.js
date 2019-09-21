@@ -8,7 +8,7 @@ const DevelopmentItem = ({ title, imageURL, contentURL }) => {
     return (
       <Fragment>
         <strong>{title}</strong>
-        <img src={imageURL} alt={title} />
+        <img src={imageURL} alt={title} loading="lazy" />
       </Fragment>
     );
   };
