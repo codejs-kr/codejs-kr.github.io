@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { LoaderContainer } from 'containers';
-import { Toy, About, Development, DevelopmentDetails, NotFound } from 'pages';
-import 'statics/scss/main.scss';
+import { Toy, About, Development, Loading, DevelopmentDetails, NotFound } from 'pages';
 import config from 'helpers/config';
+import 'statics/scss/main.scss';
 
 class App extends Component {
   constructor(props) {
@@ -12,6 +12,11 @@ class App extends Component {
     this.body = document.querySelector('body');
     this.init();
   }
+
+  init = () => {
+    this.checkEnv();
+    this.bindScrollEvent();
+  };
 
   bindScrollEvent = () => {
     window.onscroll = () => {
@@ -27,22 +32,19 @@ class App extends Component {
     }
   };
 
-  init = () => {
-    this.checkEnv();
-    this.bindScrollEvent();
-  };
-
   render() {
     return (
       <Fragment>
-        <Switch>
-          <Route exact path="/" component={Development} />
-          <Route exact path="/toy" component={Toy} />
-          <Route exact path="/development" component={Development} />
-          <Route path="/development/:name" component={DevelopmentDetails} />
-          <Route path="/about" component={About} />
-          <Route component={NotFound} />
-        </Switch>
+        <Suspense fallback={<Loading />}>
+          <Switch>
+            <Route exact path="/" component={Development} />
+            <Route exact path="/toy" component={Toy} />
+            <Route exact path="/development" component={Development} />
+            <Route path="/development/:name" component={DevelopmentDetails} />
+            <Route path="/about" component={About} />
+            <Route component={NotFound} />
+          </Switch>
+        </Suspense>
 
         <LoaderContainer />
       </Fragment>
