@@ -1,4 +1,4 @@
-@import "~statics/scss/modules/variables";
+@import '~statics/scss/modules/variables';
 
 .thumbnail {
   position: relative;
@@ -46,7 +46,7 @@
 
   &:hover {
     strong {
-      color: rgba(255,255,255,1);
+      color: rgba(255, 255, 255, 1);
     }
   }
 }
