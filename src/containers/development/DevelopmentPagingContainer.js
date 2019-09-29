@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { DevelopmentItem } from 'components';
+import utils from 'helpers/utils';
 import data from './data';
 
 class DevelopmentPagingContainer extends Component {
@@ -78,21 +79,14 @@ class DevelopmentPagingContainer extends Component {
     return result;
   };
 
-  /**
-   * 페이징 이동할때 시작점
-   */
-  moveTop = () => {
-    window.scrollTo(0, 0);
-  };
-
   render() {
     const { name } = this.props;
-    const { searchIndex, filterData, moveTop } = this;
+    const { searchIndex, filterData } = this;
     const index = searchIndex(data, name);
     const listData = filterData(data, index);
     // console.log('확인 index', name, index, listData);
 
-    moveTop();
+    utils.moveTop();
 
     return (
       <div>

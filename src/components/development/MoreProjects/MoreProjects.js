@@ -1,20 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { DevelopmentPagingContainer } from 'containers';
-
-function moveTop() {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-  });
-}
+import utils from 'helpers/utils';
 
 const MoreProjects = ({ currentPageName }) => {
   return (
     <section className="more-wrap">
       <h3>More Projects</h3>
       <DevelopmentPagingContainer name={currentPageName} />
-      <Link to="/development" className="back-to-list" onClick={moveTop}>
+      <Link to="/development" className="back-to-list" onClick={utils.moveTop}>
         <span>←</span>Back to list
       </Link>
     </section>
