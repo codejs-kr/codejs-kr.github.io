@@ -4,6 +4,11 @@ import utils from 'helpers/utils';
 import data from './data';
 
 class DevelopmentPagingContainer extends Component {
+  constructor(props) {
+    super(props);
+
+    this.ITEM_COUNT = 4;
+  }
   /**
    * title로 해당 배열 index 탐색
    * @param arr
@@ -30,20 +35,20 @@ class DevelopmentPagingContainer extends Component {
    * @returns {Array}
    */
   filterData = (arr, insertedIndex) => {
-    const length = 4;
+    const { ITEM_COUNT } = this;
     let result = [];
     let indexArr = [];
 
     // 첫번째 (1, 2, 3, 4)
     if (insertedIndex === 0) {
       const startIndex = 1;
-      for (let i = startIndex; i <= length; i++) {
+      for (let i = startIndex; i <= ITEM_COUNT; i++) {
         indexArr.push(insertedIndex + i);
       }
       // 두번째 (-1, 1, 2, 3)
     } else if (insertedIndex === 1) {
       const startIndex = -1;
-      for (let i = startIndex; i <= startIndex + length; i++) {
+      for (let i = startIndex; i <= startIndex + ITEM_COUNT; i++) {
         if (insertedIndex !== i) {
           indexArr.push(insertedIndex + i);
         }
@@ -51,13 +56,13 @@ class DevelopmentPagingContainer extends Component {
       // 마지막 (-4, -3, -2, -1)
     } else if (insertedIndex === arr.length - 1) {
       const startIndex = -4;
-      for (let i = startIndex; i <= startIndex + (length - 1); i++) {
+      for (let i = startIndex; i <= startIndex + (ITEM_COUNT - 1); i++) {
         indexArr.push(insertedIndex + i);
       }
       // 마지막에서 두번째 (-3, -2, -1, 1)
     } else if (insertedIndex === arr.length - 2) {
       const startIndex = -3;
-      for (let i = startIndex; i <= startIndex + length; i++) {
+      for (let i = startIndex; i <= startIndex + ITEM_COUNT; i++) {
         if (i !== 0) {
           indexArr.push(insertedIndex + i);
         }
@@ -65,7 +70,7 @@ class DevelopmentPagingContainer extends Component {
       // 기본 양 옆 (-2, -1, 1, 2)
     } else {
       const startIndex = -2;
-      for (let i = startIndex; i <= startIndex + length; i++) {
+      for (let i = startIndex; i <= startIndex + ITEM_COUNT; i++) {
         if (i !== 0) {
           indexArr.push(insertedIndex + i);
         }
