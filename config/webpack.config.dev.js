@@ -125,5 +125,6 @@ module.exports = {
       filename: './index.html',
       showErrors: true,
     }),
+    new webpack.ProgressPlugin(),
   ],
 };

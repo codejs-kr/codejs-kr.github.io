@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 // 파일 생성 관련
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -138,5 +140,6 @@ module.exports = {
         quality: '90-95',
       },
     }),
+    new webpack.ProgressPlugin(),
   ],
 };
