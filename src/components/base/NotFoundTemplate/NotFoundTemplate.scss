@@ -1,12 +1,28 @@
+@import '~statics/scss/modules/variables';
+
 #page-notfound {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
+  background-image: linear-gradient(0deg, #202124, #0f0e30);
 
-  span {
-    display: block;
-    font-size: 10rem;
+  h1 {
+    line-height: 1.2;
+    font-size: 30rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+    background: url('~statics/img/about/bg.jpg') no-repeat center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  @media screen and (max-width: $breakpoint-small) {
+    h1 {
+      font-size: 15rem;
+    }
   }
 }
