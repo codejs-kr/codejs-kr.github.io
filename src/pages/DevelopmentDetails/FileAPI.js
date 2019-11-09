@@ -40,6 +40,15 @@ const FileAPI = () => {
           Live
         </A>
       </section>
+
+      <section className="features-wrap">
+        <dl>
+          <dt>Preview</dt>
+          <dd>
+            <img src={require('statics/img/development/file-api/preview.gif')} alt={name} />
+          </dd>
+        </dl>
+      </section>
     </DevelopmentDetailTemplate>
   );
 };
