@@ -65,7 +65,7 @@ const About = () => {
                   <h3>언어</h3>
                   <ul>
                     <li>JavaScript (ES6+)</li>
-                    <li>CSS3 / SASS / PostCSS</li>
+                    <li>CSS3 / SCSS / PostCSS</li>
                     <li>HTML5</li>
                     <li>Node.js</li>
                     <li>MongoDB</li>
