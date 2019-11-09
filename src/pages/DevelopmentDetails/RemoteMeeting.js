@@ -33,7 +33,7 @@ const RemoteMeeting = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2014.09 ~ 2019.08</p>
+            <p>2014.09 ~ 2019.11</p>
           </li>
           <li>
             <strong>역할</strong>
@@ -42,7 +42,8 @@ const RemoteMeeting = () => {
           <li>
             <strong>주요개발항목</strong>
             <p>
-              화상회의, 화면공유, 문서공유 뷰어, Canvas 그리기도구, 채팅, 캡쳐, 모바일 웹뷰 등 회의 전체 기능 및 SDK
+              {/* WebRTC Handler */}
+              화상회의기능, 화면공유, 문서공유 뷰어, Canvas 그리기도구, 채팅, 캡쳐, 모바일 웹뷰 등 회의 전체 기능 및 SDK
               개발
             </p>
           </li>

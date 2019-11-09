@@ -55,6 +55,12 @@ const ZzangGu = () => {
       <section className="features-wrap">
         <h3>Features</h3>
         <dl>
+          <dt>Preview</dt>
+          <dd>
+            <img src={require('statics/img/development/zzanggu/preview.gif')} alt={name} />
+          </dd>
+        </dl>
+        <dl>
           <dt>게임준비</dt>
           <dd>
             <p>Ready 화면과 함께 게임 Audio가 재생됩니다. Enter 키를 눌러서 게임을 시작할 수 있습니다.</p>

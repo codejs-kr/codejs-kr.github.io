@@ -59,10 +59,10 @@ const Balloon = () => {
       <section className="features-wrap">
         <h3>Features</h3>
         <dl>
-          <dt>로그인</dt>
+          <dt>로그인 & 계절 테마</dt>
           <dd>
             <p>구글 계정 연동하였고, 계절마다 자동으로 테마를 변경 되도록 개발하였습니다.</p>
-            <img src={require('statics/img/development/balloon/main.png')} alt={name} />
+            <img src={require('statics/img/development/balloon/main.gif')} alt={name} />
           </dd>
         </dl>
         <dl>
@@ -97,7 +97,7 @@ const Balloon = () => {
           <dt>누적된 칭찬</dt>
           <dd>
             <p>2015년 오픈 후 지금도 운영중이며 현재까지 누적된 칭찬갯수입니다.</p>
-            <img src={require('statics/img/development/balloon/feature5.png')} alt="" />
+            <img src={require('statics/img/development/balloon/feature5.gif')} alt="" />
           </dd>
         </dl>
         <dl>

@@ -40,6 +40,15 @@ const IpadSmartCover = () => {
           Live
         </A>
       </section>
+
+      <section className="features-wrap">
+        <dl>
+          <dt>Preview</dt>
+          <dd>
+            <img src={require('statics/img/development/ipad-smart-cover/preview.gif')} alt={name} />
+          </dd>
+        </dl>
+      </section>
     </DevelopmentDetailTemplate>
   );
 };
