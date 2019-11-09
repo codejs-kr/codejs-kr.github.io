@@ -1,7 +1,7 @@
 {
   "author": "dodortus",
   "name": "dodortus.github.io",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "codeJS Playground",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
