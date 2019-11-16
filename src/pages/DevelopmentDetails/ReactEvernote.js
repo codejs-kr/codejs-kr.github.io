@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const ReactEvernote = () => {
   const name = 'React Evernote';
@@ -7,7 +7,7 @@ const ReactEvernote = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap s-cover">
-        <img src={require('statics/img/development/react-evernote/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/react-evernote/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -53,7 +53,7 @@ const ReactEvernote = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img src={require('statics/img/development/react-evernote/preview.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/react-evernote/preview.gif')} alt={name} />
           </dd>
         </dl>
       </section>

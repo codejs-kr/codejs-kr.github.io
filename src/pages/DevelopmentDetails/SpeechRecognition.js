@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const SpeechRecognition = () => {
   const name = 'Speech Recognition';
@@ -7,7 +7,7 @@ const SpeechRecognition = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center">
-        <img src={require('statics/img/development/stt/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/stt/main.png')} alt={name} />
       </section>
 
       <section className="overview">

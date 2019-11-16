@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const FrontendConvension = () => {
   const name = '프론트엔드 컨벤션 사이트 개발';
@@ -7,7 +7,7 @@ const FrontendConvension = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}️`}>
       <section className="image-wrap s-cover">
-        <img src={require('statics/img/development/rfc/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/rfc/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -57,28 +57,28 @@ const FrontendConvension = () => {
           <dt>플러그인</dt>
           <dd>
             <p>범용적으로 사용할 공통 UI 플러그인을 공유합니다.</p>
-            <img src={require('statics/img/development/rfc/feature-plugins.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/rfc/feature-plugins.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>컴포넌트</dt>
           <dd>
             <p>자주 사용되는 UI 컴포넌트도 공유합니다.</p>
-            <img src={require('statics/img/development/rfc/feature-components.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/rfc/feature-components.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>컨벤션</dt>
           <dd>
             <p>웹 접근성과 개발자 간 협업을 위한 룰을 공유합니다.</p>
-            <img src={require('statics/img/development/rfc/feature-convention.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/rfc/feature-convention.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>최적화</dt>
           <dd>
             <p>웹사이트 성능을 향상시키기 위한 방법을 공유합니다.</p>
-            <img src={require('statics/img/development/rfc/feature-optimization.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/rfc/feature-optimization.png')} alt={name} />
           </dd>
         </dl>
         <dl>
@@ -93,7 +93,7 @@ const FrontendConvension = () => {
               </a>
               )
             </p>
-            <img src={require('statics/img/development/rfc/early-version.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/rfc/early-version.png')} alt={name} />
           </dd>
         </dl>
       </section>

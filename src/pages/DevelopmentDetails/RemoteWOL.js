@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const RemoteWOL = () => {
   const name = 'RemoteWOL';
@@ -7,7 +7,7 @@ const RemoteWOL = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap contain x-right">
-        <img src={require('statics/img/development/remotewol/main.jpg')} alt={name} />
+        <ImageLoader src={require('statics/img/development/remotewol/main.jpg')} alt={name} />
       </section>
 
       <section className="overview">

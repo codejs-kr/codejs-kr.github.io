@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const RemoteViewPersonal = () => {
   const name = 'RemoteView Personal';
@@ -7,7 +7,7 @@ const RemoteViewPersonal = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center s-contain">
-        <img src={require('statics/img/development/remoteview/personal/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/remoteview/personal/main.png')} alt={name} />
       </section>
 
       <section className="overview">

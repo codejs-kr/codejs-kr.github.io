@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, ImageLoader } from 'components';
 
 const Rsupport = () => {
   const name = '알서포트닷컴 사이트 개발';
@@ -7,7 +7,7 @@ const Rsupport = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <img src={require('statics/img/development/rsupport/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/rsupport/main.png')} alt={name} />
       </section>
 
       <section className="overview">

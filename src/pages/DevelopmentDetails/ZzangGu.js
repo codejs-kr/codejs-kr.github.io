@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const ZzangGu = () => {
   const name = '짱구';
@@ -7,7 +7,7 @@ const ZzangGu = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center s-contain">
-        <img src={require('statics/img/development/zzanggu/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/zzanggu/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -46,7 +46,6 @@ const ZzangGu = () => {
       </section>
 
       <section className="button-wrap">
-        {/*<A href="/#/development/zzanggu" icon="flask" target="_self">개발중</A>*/}
         <A href="https://inspiring-sammet-2aa742.netlify.com" theme="fill" icon="default">
           Live
         </A>
@@ -57,14 +56,14 @@ const ZzangGu = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img src={require('statics/img/development/zzanggu/preview.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/zzanggu/preview.gif')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>게임준비</dt>
           <dd>
             <p>Ready 화면과 함께 게임 Audio가 재생됩니다. Enter 키를 눌러서 게임을 시작할 수 있습니다.</p>
-            <img src={require('statics/img/development/zzanggu/feature-ready.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/zzanggu/feature-ready.png')} alt={name} />
           </dd>
         </dl>
         <dl>
@@ -77,7 +76,7 @@ const ZzangGu = () => {
               <br />
               난이도 처리와 최고 점수 노출, 캐릭터 미끄러짐, 가속 감속 처리를 하여 게임의 재미 요소를 추가하였습니다.
             </p>
-            <img src={require('statics/img/development/zzanggu/feature-play.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/zzanggu/feature-play.png')} alt={name} />
           </dd>
         </dl>
       </section>

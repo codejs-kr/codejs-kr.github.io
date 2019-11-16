@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const IpadSmartCover = () => {
   const name = 'iPad Smart Cover';
@@ -7,7 +7,7 @@ const IpadSmartCover = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center contain">
-        <img src={require('statics/img/development/ipad-smart-cover/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/ipad-smart-cover/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -45,7 +45,7 @@ const IpadSmartCover = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img src={require('statics/img/development/ipad-smart-cover/preview.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/ipad-smart-cover/preview.gif')} alt={name} />
           </dd>
         </dl>
       </section>

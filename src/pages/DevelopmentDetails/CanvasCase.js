@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const CanvasCase = () => {
   const name = 'Canvas Use Cases';
@@ -7,7 +7,7 @@ const CanvasCase = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <img src={require('statics/img/development/canvas-cases/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/canvas-cases/main.png')} alt={name} />
       </section>
 
       <section className="overview">

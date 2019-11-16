@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const Balloon = () => {
   const name = '칭찬합시다';
@@ -7,7 +7,7 @@ const Balloon = () => {
   return (
     <DevelopmentDetailTemplate title={`${name} (사내문화정착 프로젝트)️`}>
       <section className="image-wrap x-center cover">
-        <img src={require('statics/img/development/balloon/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/balloon/main.png')} alt={name} theme="white" />
       </section>
 
       <section className="overview">
@@ -62,7 +62,7 @@ const Balloon = () => {
           <dt>로그인 & 계절 테마</dt>
           <dd>
             <p>구글 계정 연동하였고, 계절마다 자동으로 테마를 변경 되도록 개발하였습니다.</p>
-            <img src={require('statics/img/development/balloon/main.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/balloon/main.gif')} alt={name} theme="white" />
           </dd>
         </dl>
         <dl>
@@ -72,14 +72,14 @@ const Balloon = () => {
               매달 7개의 칭찬 풍선이 충전되며, 칭찬 메시지에는 1개의 풍선이 소모됩니다. (신상 보호 차원에 일부 모자이크
               처리함)
             </p>
-            <img src={require('statics/img/development/balloon/feature1.png')} alt="" />
+            <ImageLoader src={require('statics/img/development/balloon/feature1.png')} alt={name} theme="white" />
           </dd>
         </dl>
         <dl>
           <dt>내가 받은 칭찬 메시지</dt>
           <dd>
             <p>본인에게 도착한 칭찬 메시지는 매월 1일 칭찬함에서 열람할 수 있습니다.</p>
-            <img src={require('statics/img/development/balloon/feature3.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/balloon/feature3.png')} alt={name} theme="white" />
           </dd>
         </dl>
         <dl>
@@ -90,14 +90,14 @@ const Balloon = () => {
               <br />
               휴가를 제공하자는 제안하였고 회사에서도 흔쾌히 수용하여 주었습니다.
             </p>
-            <img src={require('statics/img/development/balloon/feature2.png')} alt="" />
+            <ImageLoader src={require('statics/img/development/balloon/feature2.png')} alt={name} theme="white" />
           </dd>
         </dl>
         <dl>
           <dt>누적된 칭찬</dt>
           <dd>
             <p>2015년 오픈 후 지금도 운영중이며 현재까지 누적된 칭찬갯수입니다.</p>
-            <img src={require('statics/img/development/balloon/feature5.gif')} alt="" />
+            <ImageLoader src={require('statics/img/development/balloon/feature5.gif')} alt={name} theme="white" />
           </dd>
         </dl>
         <dl>
@@ -108,7 +108,7 @@ const Balloon = () => {
               <br />
               휴게 공간에 칭찬왕 나무와 이달의 발표 포스터를 게시하여 좀 더 활성화시킬 수 있었습니다.
             </p>
-            <img src={require('statics/img/development/balloon/feature4.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/balloon/feature4.png')} alt={name} theme="white" />
           </dd>
         </dl>
       </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const Localization = () => {
   const name = 'JavaScript Localization';
@@ -7,7 +7,7 @@ const Localization = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center s-contain">
-        <img src={require('statics/img/development/localization/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/localization/main.png')} alt={name} />
       </section>
 
       <section className="overview">

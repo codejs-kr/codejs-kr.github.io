@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const RemoteMeeting = () => {
   const name = 'RemoteMeeting';
@@ -7,7 +7,7 @@ const RemoteMeeting = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center cover">
-        <img src={require('statics/img/development/remotemeeting/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/remotemeeting/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -70,28 +70,28 @@ const RemoteMeeting = () => {
               <br />
               Redux로 상태관리 하며, WebSocket으로 회의 상태를 실시간으로 수신하여 목록을 갱신합니다.
             </p>
-            <img src={require('statics/img/development/remotemeeting/feature-lounge.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-lounge.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>라운지 (캘린더)</dt>
           <dd>
             <p>예약을 위한 캘린더와 종료된 회의 히스토리를 관리 할 수 있습니다.</p>
-            <img src={require('statics/img/development/remotemeeting/feature-calendar.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-calendar.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>화상회의</dt>
           <dd>
             <p>WebRTC 기반의 회의는 상황에 따라 P2P와 MCU 연결 방식으로 최대 14인까지 동시 지원합니다.</p>
-            <img src={require('statics/img/development/remotemeeting/feature-conf.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-conf.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>화면공유</dt>
           <dd>
             <p>화면공유와 스크린샷 크롬 확장프로그램을 개발하여 회의 중 PC화면을 참여자들에게 공유할 수 있습니다.</p>
-            <img src={require('statics/img/development/remotemeeting/feature-screen.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-screen.png')} alt={name} />
           </dd>
         </dl>
         <dl>
@@ -103,21 +103,21 @@ const RemoteMeeting = () => {
               <br />
               다양한 문서 포맷을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.
             </p>
-            <img src={require('statics/img/development/remotemeeting/feature-doc.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-doc.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>채팅</dt>
           <dd>
             <p>타임라인 인터페이스에는 회의 상태 변화에 대한 내용이 노출되고, 채팅 메시지를 주고 받을 수 있습니다.</p>
-            <img src={require('statics/img/development/remotemeeting/feature-chat2.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-chat2.png')} alt={name} />
           </dd>
         </dl>
         <dl>
           <dt>일본시장</dt>
           <dd>
             <p>구성원들의 노력으로 국내 뿐만 아니라 일본에서도 많은 사용자들이 찾는 제품이 되었다.</p>
-            <img src={require('statics/img/development/remotemeeting/feature-jp.jpg')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-jp.jpg')} alt={name} />
           </dd>
         </dl>
       </section>

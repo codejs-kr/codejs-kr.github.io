@@ -3,14 +3,12 @@ import Img from 'react-image';
 import { LoadingCircle } from 'components';
 import './ImageLoader.scss';
 
-const ImageLoader = ({ src, alt, theme = 'dark', loader }) => {
-  // console.log('ImageLoader', src);
-
+const ImageLoader = ({ src, alt, theme = 'white', loader }) => {
   if (!loader) {
     loader = <DefaultLoading theme={theme} />;
   }
 
-  // return <DefaultLoading theme={theme} />;
+  // return loader; // for test
   return <Img src={src} alt={alt} loader={loader} />;
 };
 

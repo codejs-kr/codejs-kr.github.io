@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const RemoteSeminar = () => {
   const name = 'RemoteSeminar';
@@ -7,7 +7,7 @@ const RemoteSeminar = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center cover">
-        <img src={require('statics/img/development/remotemeeting/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/remotemeeting/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -56,7 +56,7 @@ const RemoteSeminar = () => {
               <br />
               Redux로 상태관리 하며, WebSocket으로 회의 상태를 실시간으로 수신하여 목록을 갱신합니다.
             </p>
-            <img src={require('statics/img/development/remotemeeting/feature-lounge.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-lounge.png')} alt={name} />
           </dd>
         </dl>
       </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const BookTransform = () => {
   const name = 'Book cover animation';
@@ -7,7 +7,7 @@ const BookTransform = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap s-cover">
-        <img src={require('statics/img/development/book-transform/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/book-transform/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -46,7 +46,7 @@ const BookTransform = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img src={require('statics/img/development/book-transform/preview.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/book-transform/preview.gif')} alt={name} />
           </dd>
         </dl>
       </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const DropboxTourBook = () => {
   const name = 'DropBox Tour Book';
@@ -7,7 +7,7 @@ const DropboxTourBook = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <img src={require('statics/img/development/dropbox-tour-book/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/dropbox-tour-book/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -46,11 +46,7 @@ const DropboxTourBook = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img
-              src={require('statics/img/development/dropbox-tour-book/preview.gif')}
-              alt={name}
-              className="no-border"
-            />
+            <ImageLoader src={require('statics/img/development/dropbox-tour-book/preview.gif')} alt={name} />
           </dd>
         </dl>
       </section>

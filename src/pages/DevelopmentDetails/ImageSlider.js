@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const ImageSlider = () => {
   const name = '3D Image Slider';
@@ -7,7 +7,7 @@ const ImageSlider = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <img src={require('statics/img/development/image-slider/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/image-slider/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -45,7 +45,7 @@ const ImageSlider = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img src={require('statics/img/development/image-slider/preview.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/image-slider/preview.gif')} alt={name} />
           </dd>
         </dl>
       </section>

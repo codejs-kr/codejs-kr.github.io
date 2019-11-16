@@ -3,7 +3,7 @@ import './LoadingCircle.scss';
 
 const LoadingCircle = () => {
   return (
-    <div id="loading-circle">
+    <div className="loading-circle">
       <div className="spinner" />
     </div>
   );

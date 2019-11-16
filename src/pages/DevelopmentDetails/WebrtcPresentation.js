@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const WebrtcPresentation = () => {
   const name = 'WebRTC 발표 자료';
@@ -7,7 +7,7 @@ const WebrtcPresentation = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center contain">
-        <img src={require('statics/img/development/webrtc/main.jpg')} alt={name} />
+        <ImageLoader src={require('statics/img/development/webrtc/main.jpg')} alt={name} />
       </section>
 
       <section className="overview">
@@ -38,7 +38,7 @@ const WebrtcPresentation = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img src={require('statics/img/development/webrtc/preview.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/webrtc/preview.gif')} alt={name} />
           </dd>
         </dl>
       </section>

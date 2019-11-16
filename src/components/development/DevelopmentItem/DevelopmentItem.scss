@@ -52,15 +52,10 @@
 
   .loader {
     position: relative;
-
-    img {
-      position: relative;
-      z-index: 1;
-    }
+    min-height: 100px;
 
     span {
       position: absolute;
-      z-index: 2;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -68,7 +63,6 @@
       height: 100%;
       color: rgba(255, 255, 255, 0.3);
       font-size: 10px;
-      line-height: 2;
     }
   }
 }

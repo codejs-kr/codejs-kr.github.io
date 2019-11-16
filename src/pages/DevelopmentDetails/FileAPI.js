@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 
 const FileAPI = () => {
   const name = 'HTML5 File API 활용';
@@ -7,7 +7,7 @@ const FileAPI = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <img src={require('statics/img/development/file-api/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/file-api/main.png')} alt={name} />
       </section>
 
       <section className="overview">
@@ -45,7 +45,7 @@ const FileAPI = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <img src={require('statics/img/development/file-api/preview.gif')} alt={name} />
+            <ImageLoader src={require('statics/img/development/file-api/preview.gif')} alt={name} />
           </dd>
         </dl>
       </section>

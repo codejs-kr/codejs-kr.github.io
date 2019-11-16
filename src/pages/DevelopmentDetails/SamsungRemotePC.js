@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate } from 'components';
+import { DevelopmentDetailTemplate, ImageLoader } from 'components';
 
 const SamsungRemotePC = () => {
   const name = '삼성 Remote PC';
@@ -7,7 +7,7 @@ const SamsungRemotePC = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}️`}>
       <section className="image-wrap center cover">
-        <img src={require('statics/img/development/remote-pc/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/remote-pc/main.png')} alt={name} />
       </section>
 
       <section className="overview">
