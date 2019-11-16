@@ -6,6 +6,7 @@ export { default as NotFoundTemplate } from './base/NotFoundTemplate/NotFoundTem
 
 // common
 export { default as A } from './common/A/A';
+export { default as ImageLoader } from './common/ImageLoader/ImageLoader';
 export { default as LoadingBar } from './common/LoadingBar/LoadingBar';
 export { default as LoadingCircle } from './common/LoadingCircle/LoadingCircle';
 export { default as TimeLine } from './common/TimeLine/TimeLine';

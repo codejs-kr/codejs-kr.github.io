@@ -1,15 +1,23 @@
-#loader {
-  position: fixed;
-  top: 60px;
-  left: calc(50% - (40px / 2));
-  //left: 10px;
-  width: 40px;
-  height: 40px;
+$color-blue: #03a9f4;
+$color-purple: rgba(111, 78, 195, 1);
+$bg-color: rgba(0, 0, 0, 0.5);
+$size: 40px;
+
+#loading-circle {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,0.5);
+  width: $size;
+  height: $size;
+  background: $bg-color;
   border-radius: 50%;
+
+  &.absolute {
+    position: fixed;
+    top: 60px;
+    //left: 10px;
+    left: calc(50% - (40px / 2));
+  }
 }
 
 .spinner {
@@ -17,7 +25,7 @@
   height: 80%;
   margin: 0;
   background: transparent;
-  border-top: 4px solid #03A9F4;
+  border-top: 4px solid $color-purple;
   border-right: 4px solid transparent;
   border-radius: 50%;
   animation: 0.3s spin linear infinite;

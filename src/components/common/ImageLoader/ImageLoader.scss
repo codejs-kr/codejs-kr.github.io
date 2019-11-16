@@ -1,0 +1,12 @@
+.image-default-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  height: 100%;
+  background: #fff;
+
+  &.dark {
+    background: #202124;
+  }
+}
