@@ -9,7 +9,8 @@ const MoreProjects = ({ currentPageName }) => {
       <h3>More Projects</h3>
       <DevelopmentPagingContainer name={currentPageName} />
       <Link to="/development" className="back-to-list" onClick={utils.moveTop}>
-        <span>←</span>Back to list
+        <i className="fas fa-angle-left" />
+        Back to list
       </Link>
     </section>
   );

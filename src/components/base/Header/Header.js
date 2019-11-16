@@ -8,7 +8,8 @@ const Header = ({ isSubpage }) => {
     <header id="header">
       {isSubpage ? (
         <Link to="/development" id="back">
-          <span>←</span>Back to list
+          <i className="fas fa-angle-left" />
+          Back to list
         </Link>
       ) : (
         <a href="http://www.codejs.co.kr" id="back">
