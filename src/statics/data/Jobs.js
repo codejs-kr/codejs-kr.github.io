@@ -11,7 +11,7 @@ export default [
         description:
           '온라인 미팅 제품에 이어 세미나 제품을 회사에서 신규서비스로 출시를 준비중입니다.\n' +
           'WebRTC 기반으로 설계되어 기존에 담당하던 리모트미팅과 구조상 유사점이 많아 제품 프로토타입 개발과 알파버전 개발을 담당하였습니다.',
-        // link: '/#/development/remoteseminar',
+        link: '/#/development/remoteseminar',
         techStack: [
           'React',
           'Redux',

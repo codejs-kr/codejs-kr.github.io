@@ -16,6 +16,11 @@ export default [
     id: 'zzanggu',
   },
   {
+    title: 'RemoteSeminar',
+    imageURL: require('statics/img/development/thumb-remoteseminar.png'),
+    contentURL: '/development/remoteseminar',
+  },
+  {
     title: 'RemoteMeeting (화상회의서비스)',
     imageURL: require('statics/img/development/thumb-remotemeeting.png'),
     contentURL: '/development/remotemeeting',

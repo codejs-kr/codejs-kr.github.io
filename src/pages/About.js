@@ -121,7 +121,7 @@ const About = () => {
 
             <section id="toy" className="division timeline-section">
               <div>
-                <h2>Toy projects</h2>
+                <h2>Toy projects 🕹️</h2>
               </div>
 
               <div>
