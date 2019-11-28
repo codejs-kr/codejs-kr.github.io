@@ -1,5 +1,6 @@
 $color-blue: #03a9f4;
 $color-purple: rgba(111, 78, 195, 1);
+$color-black: rgb(100, 100, 100);
 $bg-color: rgba(0, 0, 0, 0.5);
 $size: 40px;
 
@@ -25,10 +26,10 @@ $size: 40px;
   height: 80%;
   margin: 0;
   background: transparent;
-  border-top: 4px solid $color-purple;
+  border-top: 4px solid $color-black;
   border-right: 4px solid transparent;
   border-radius: 50%;
-  animation: 0.3s spin linear infinite;
+  animation: 0.7s spin linear infinite;
 }
 
 @keyframes spin {
