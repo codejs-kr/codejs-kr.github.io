@@ -10,7 +10,8 @@ const About = () => {
         <TopButton />
         <header>
           <div className="inner-container">
-            <strong>원인없는 결과란 없다.</strong>
+            <strong>일단 만들면 미래가 바뀐다.</strong>
+            {/* <strong>원인없는 결과란 없다.</strong> */}
             <span id="profile-img" />
           </div>
         </header>
