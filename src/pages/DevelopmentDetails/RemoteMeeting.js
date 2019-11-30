@@ -63,18 +63,18 @@ const RemoteMeeting = () => {
       <section className="features-wrap">
         <h3>Features</h3>
         <dl>
-          <dt>라운지 (룸리스트)</dt>
+          <dt>룸리스트</dt>
           <dd>
             <p>
               그룹내 개설된 회의 목록을 한눈에 볼 수 있고 간편하게 회의 개설을 할 수 있습니다.
               <br />
               Redux로 상태관리 하며, WebSocket으로 회의 상태를 실시간으로 수신하여 목록을 갱신합니다.
             </p>
-            <ImageLoader src={require('statics/img/development/remotemeeting/feature-lounge.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-room-list.gif')} alt={name} />
           </dd>
         </dl>
         <dl>
-          <dt>라운지 (캘린더)</dt>
+          <dt>캘린더</dt>
           <dd>
             <p>예약을 위한 캘린더와 종료된 회의 히스토리를 관리 할 수 있습니다.</p>
             <ImageLoader src={require('statics/img/development/remotemeeting/feature-calendar.png')} alt={name} />
@@ -98,18 +98,27 @@ const RemoteMeeting = () => {
           <dt>문서공유</dt>
           <dd>
             <p>
-              문서 뷰어와 Canvas 그리기 도구를 자체 개발하였으며, 주최자의 문서 화면은 참여자에게 실시간으로
-              동기화됩니다.
-              <br />
-              다양한 문서 포맷을 지원하기 위해 Third party 문서 변환기를 사용하고 있습니다.
+              문서 뷰어를 자체 개발하였습니다. 페이지 이동 및 확대 축소를 제공하며 주최자의 컨트롤에 의해 참여자에게
+              실시간으로 동기화됩니다.
             </p>
             <ImageLoader src={require('statics/img/development/remotemeeting/feature-doc.png')} alt={name} />
           </dd>
         </dl>
         <dl>
+          <dt>그리기</dt>
+          <dd>
+            <p>
+              Canvas를 활용하여 그리기 도구를 개발하였습니다. 마우스를 빠르게 움직일때 곡선이 각이 지는 현상이 있는데 이
+              증상을 개선하기 위해 Background Canvas에서 좌표간 중간 곡선을 생성하여 Foreground Canvas에 표현하는
+              방식으로 부드러운 곡선을 구현하였습니다.
+            </p>
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-drawing.gif')} alt={name} />
+          </dd>
+        </dl>
+        <dl>
           <dt>채팅</dt>
           <dd>
-            <p>타임라인 인터페이스에는 회의 상태 변화에 대한 내용이 노출되고, 채팅 메시지를 주고 받을 수 있습니다.</p>
+            <p>타임라인 인터페이스에는 회의 이벤트 로그가 남고 사용자간 채팅을 할 수 있습니다.</p>
             <ImageLoader src={require('statics/img/development/remotemeeting/feature-chat2.png')} alt={name} />
           </dd>
         </dl>
