@@ -2,17 +2,24 @@ import React from 'react';
 import { A } from 'components';
 import './TimeLine.scss';
 
-const TimeLineFlag = ({ name, team, date }) => {
+const TimeLine = ({ data }) => {
+  // console.log('TimeLine', data);
+
   return (
-    <div className="flag">
-      <p>{name}</p>
-      <p>{team}</p>
-      <span>{date}</span>
-    </div>
+    <ul className="timeline">
+      {data.map((oneDepth, i) => {
+        if (oneDepth.list) {
+          // console.log('확인 oneDepth', oneDepth);
+          return oneDepth.list.map((twoDepth, j) => {
+            return <TimeLineItem key={j} flag={j === 0 ? oneDepth : null} data={twoDepth} />;
+          });
+        } else {
+          return <TimeLineItem key={i} data={oneDepth} />;
+        }
+      })}
+    </ul>
   );
 };
-
-const TechStackItem = ({ name }) => <li>{name}</li>;
 
 const TimeLineItem = ({ flag, data }) => {
   return (
@@ -42,22 +49,16 @@ const TimeLineItem = ({ flag, data }) => {
   );
 };
 
-const TimeLine = ({ data }) => {
-  // console.log('TimeLine', data);
+const TimeLineFlag = ({ name, team, date }) => {
   return (
-    <ul className="timeline">
-      {data.map((oneDepth, i) => {
-        if (oneDepth.list) {
-          // console.log('확인 oneDepth', oneDepth);
-          return oneDepth.list.map((twoDepth, j) => {
-            return <TimeLineItem key={j} flag={j === 0 ? oneDepth : null} data={twoDepth} />;
-          });
-        } else {
-          return <TimeLineItem key={i} data={oneDepth} />;
-        }
-      })}
-    </ul>
+    <div className="flag">
+      <p>{name}</p>
+      <p>{team}</p>
+      <span>{date}</span>
+    </div>
   );
 };
+
+const TechStackItem = ({ name }) => <li>{name}</li>;
 
 export default TimeLine;
