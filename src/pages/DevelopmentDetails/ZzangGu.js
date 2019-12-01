@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import toys from 'statics/data/toys';
+import utils from 'helpers/utils';
+
+const name = '짱구';
+const data = utils.findProjectData(toys, name);
 
 const ZzangGu = () => {
-  const name = '짱구';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center s-contain">
@@ -26,21 +29,19 @@ const ZzangGu = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2016, 2019</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>게임 디자인, 설계, 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>
-              Canvas 드로잉 처리, 캐릭터 처리, 미사일 처리, 충돌 처리, 키보드 이벤트 처리, 사운드 처리, 점수 기록 처리
-            </p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>React, ES6, Canvas, CSS3, WebPack, Firebase Firestore</p>
+            <p>{data.techStack.join(', ')}</p>
           </li>
         </ul>
       </section>

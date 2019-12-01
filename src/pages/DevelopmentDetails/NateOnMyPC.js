@@ -1,8 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '네이트온 내 PC제어 리뉴얼';
+const data = utils.findProjectData(jobs, name);
 
 const NateOnMyPC = () => {
-  const name = '네이트온 내 PC제어 리뉴얼';
 
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
@@ -11,30 +15,27 @@ const NateOnMyPC = () => {
       </section>
 
       <section className="overview">
-        <p>
-          네이트온 내 PC제어 프로젝트는 이미 5년 이상 서비스 중인 웹사이트를 리뉴얼 및 UI 개선하는 프로젝트였습니다.
-          <br />이 프로젝트에 사용된 UI를 템플릿화하여 적용 후 인수인계 하였습니다.
-        </p>
+        <p>{data.description}</p>
       </section>
 
       <section className="list-wrap">
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2012.03 ~ 2012.10</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>원격제어 모듈 런쳐, 서비스 전체 UI 개발 등</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML, CSS, JavaScript, jQuery</p>
-          </li>
+            <p>{data.techStack.join(', ')}</p>
+          </li> 
         </ul>
       </section>
 

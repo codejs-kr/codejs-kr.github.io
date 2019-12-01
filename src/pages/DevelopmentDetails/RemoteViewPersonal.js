@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '리모트뷰 개인용';
+const data = utils.findProjectData(jobs, name);
 
 const RemoteViewPersonal = () => {
-  const name = 'RemoteView Personal';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center s-contain">
@@ -25,23 +28,23 @@ const RemoteViewPersonal = () => {
       </section>
 
       <section className="list-wrap">
-        <ul>
+      <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2010.09 ~ 2013.09</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>컴퓨터관리, 리포팅, 브랜드, 어드민 사이트 포함한 전체 기능 및 UI 개발 담당</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, JavaScript, jQuery, jQuery mobile, flot.js</p>
-          </li>
+            <p>{data.techStack.join(', ')}</p>
+          </li> 
         </ul>
       </section>
 

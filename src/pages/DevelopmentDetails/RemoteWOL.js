@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = 'RemoteWOL';
+const data = utils.findProjectData(jobs, name);
 
 const RemoteWOL = () => {
-  const name = 'RemoteWOL';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap contain x-right">
@@ -12,9 +15,7 @@ const RemoteWOL = () => {
 
       <section className="overview">
         <p>
-          RemoteWOL은 전원이 꺼져 있는 PC의 전원을 원격에서 켤 수 있도록 하는 제품입니다. WOL 기능을 지원하는 하드웨어에
-          작은 Goahead 웹서버가 구성되었고 그 내부에서 하드웨어 동작을 제어 & 관리하는 싱글 페이지 어플리케이션을
-          개발하였습니다.
+          RemoteWOL은 전원이 꺼져 있는 PC의 전원을 원격에서 켤 수 있도록 하는 제품입니다. WOL 기능을 지원하는 하드웨어에 작은 Goahead 웹서버와 그 내부에서 하드웨어를 제어 & 관리할 수 있는 싱글 페이지 어플리케이션을 개발하였습니다.
         </p>
         <p>
           다수의 PC를 제어하는 환경에서 사용되는 서비스로 RemoteView라는 원격 제어 서비스와 연동해서 전원 제어까지
@@ -30,7 +31,7 @@ const RemoteWOL = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2013.02 ~ 2014.03</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
@@ -38,11 +39,11 @@ const RemoteWOL = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>관리 UI, 하드웨어 설정 구현 등</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, JavaScript, jQuery, Gulp</p>
+            <p>{data.techStack.join(', ')}</p>
           </li>
         </ul>
       </section>

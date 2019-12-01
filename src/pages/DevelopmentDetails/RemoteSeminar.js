@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '리모트세미나';
+const data = utils.findProjectData(jobs, name);
 
 const RemoteSeminar = () => {
-  const name = 'RemoteSeminar';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
@@ -11,31 +14,26 @@ const RemoteSeminar = () => {
       </section>
 
       <section className="overview">
-        <p>
-          온라인 미팅 제품에 이어 세미나 제품을 회사에서 신규서비스로 출시를 준비중입니다.
-          <br />
-          WebRTC 기반으로 설계되어 기존에 담당하던 리모트미팅과 구조상 유사점이 많아 제품 초기 프로토타입 개발과
-          알파버전 개발을 담당하였습니다.
-        </p>
+        <p>{data.description}</p>
       </section>
 
       <section className="list-wrap">
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2019.01 ~ 2019.10</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>프로토타입 설계, WebRTC 연동 개발, 화면공유, 문서공유 뷰어, 그리기도구, 채팅 개발</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>React, Redux, WebRTC, MQTT, ES6, Canvas, HTML5, CSS3, SCSS, CSS modules, WebPack</p>
+            <p>{data.techStack.join(', ')}</p>
           </li>
         </ul>
       </section>

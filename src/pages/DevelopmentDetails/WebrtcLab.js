@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import toys from 'statics/data/toys';
+import utils from 'helpers/utils';
+
+const name = 'WebRTC 연구실';
+const data = utils.findProjectData(toys, name);
 
 const WebrtcLab = () => {
-  const name = 'WebRTC 연구실';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap x-center s-contain">
@@ -25,19 +28,19 @@ const WebrtcLab = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2016 ~ 2018</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 어플리케이션 설계 및 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>마이크 & 캠 접근하기, 비디오 필터, 1:1 화상회의 등</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>WebRTC, WebSocket, ES6, HTML5, CSS3, NodeJS, Express, EJS</p>
+            <p>{data.techStack.join(', ')}</p>
           </li>
         </ul>
       </section>

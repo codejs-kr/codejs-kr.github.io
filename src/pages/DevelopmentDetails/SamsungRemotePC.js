@@ -34,7 +34,7 @@ const SamsungRemotePC = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML, CSS, JavaScript, jQuery</p>
+            <p>HTML5, CSS3, ES5, jQuery</p>
           </li>
         </ul>
       </section>

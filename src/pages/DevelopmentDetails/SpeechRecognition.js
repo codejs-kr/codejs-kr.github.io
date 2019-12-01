@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import toys from 'statics/data/toys';
+import utils from 'helpers/utils';
+
+const name = 'Speech Recognition';
+const data = utils.findProjectData(toys, name);
 
 const SpeechRecognition = () => {
-  const name = 'Speech Recognition';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center">
@@ -24,19 +27,19 @@ const SpeechRecognition = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2017</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>Speech recognition, Text to speech 예제 등</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>Javascript speech recognition API</p>
+            <p>{data.techStack.join(', ')}</p>
           </li>
         </ul>
       </section>

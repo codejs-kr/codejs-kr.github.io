@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '프론트엔드 컨벤션 사이트';
+const data = utils.findProjectData(jobs, name);
 
 const FrontendConvension = () => {
-  const name = '프론트엔드 컨벤션 사이트 개발';
-
   return (
     <DevelopmentDetailTemplate title={`${name}️`}>
       <section className="image-wrap s-cover">
@@ -28,20 +31,20 @@ const FrontendConvension = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2012.11 ~ 2014.12</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>기획, 설계, 웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>사이트 개발 및 컨벤션 작성, 플러그인, 컴포넌트 다수 개발 등</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, JavaScript, jQuery</p>
-          </li>
+            <p>{data.techStack.join(', ')}</p>
+          </li> 
         </ul>
       </section>
 

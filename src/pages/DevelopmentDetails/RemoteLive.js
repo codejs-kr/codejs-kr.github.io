@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '리모트라이브';
+const data = utils.findProjectData(jobs, name);
 
 const RemoteLive = () => {
-  const name = 'RemoteLive';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap x-center cover">
@@ -11,32 +14,27 @@ const RemoteLive = () => {
       </section>
 
       <section className="overview">
-        <p>
-          RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 프로젝트였습니다.
-          <br />
-          현재 개발 중인 리모트미팅 프로젝트의 디딤돌이 된 프로젝트이며, Websocket 채팅과 P2P 기반의 화상회의 기능을
-          모듈화하여 기존 회사 서비스에 적용시키는 방법을 제안한 프로젝트입니다.
-        </p>
+        <p>{data.description}</p>
       </section>
 
       <section className="list-wrap">
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2014.04 ~ 2014.08</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>기획, 프론트엔드, 백엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>화상회의, 채팅</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>WebRTC, Socket.io, ES5, HTML5, CSS3, jQuery, Gulp, Node.js, Express, EJS</p>
-          </li>
+            <p>{data.techStack.join(', ')}</p>
+          </li> 
         </ul>
       </section>
 

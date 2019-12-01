@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '알서포트닷컴 리뉴얼';
+const data = utils.findProjectData(jobs, name);
 
 const Rsupport = () => {
-  const name = '알서포트닷컴 사이트 개발';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
@@ -12,10 +15,8 @@ const Rsupport = () => {
 
       <section className="overview">
         <p>
-          알서포트 회사 공식 사이트 개발 프로젝트입니다.
-          <br />
-          5개 국어를 지원하는 사이트로 다국어 처리를 고려하여 UI 요소들을 확장 가능하도록 마크업 하였습니다.
-          <br />
+          {data.description}
+          &nbsp;
           오픈 후 마케팅 요구 사항에 맞춰 기능 개발과 유지 보수 개발을 진행한 프로젝트입니다.
         </p>
       </section>
@@ -24,20 +25,20 @@ const Rsupport = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2010.08 ~ 2011.01</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>다국어 확장성을 고려한 마크업, Slide UI, Tab UI, 비디오플레이어 연동, 다국어 처리</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML, CSS, JavaScript, jQuery</p>
-          </li>
+            <p>{data.techStack.join(', ')}</p>
+          </li> 
         </ul>
       </section>
 

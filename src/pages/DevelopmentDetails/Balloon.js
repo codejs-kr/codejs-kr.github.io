@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '칭찬합시다';
+const data = utils.findProjectData(jobs, name);
 
 const Balloon = () => {
-  const name = '칭찬합시다';
-
   return (
     <DevelopmentDetailTemplate title={`${name} (사내문화정착 프로젝트)️`}>
       <section className="image-wrap x-center cover">
@@ -31,22 +34,20 @@ const Balloon = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2015.03 ~ 2015.12</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>기획, 디자인, 프론트엔드, 백엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>구글 계정 연동, 메시징 처리, 데이터 암호화, 스케줄링, 자동 메일 발송, 어드민, REST API 개발</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>
-              HTML5, CSS3, SCSS, JavaScript(ES5), jQuery, Gulp, NodeJS, Express, EJS, MongoDB, Cron, Nodemon, Nodemailer
-            </p>
-          </li>
+            <p>{data.techStack.join(', ')}</p>
+          </li> 
         </ul>
       </section>
 

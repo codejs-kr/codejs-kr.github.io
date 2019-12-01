@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '리모트뷰 기업용';
+const data = utils.findProjectData(jobs, name);
 
 const RemoteViewBusiness = () => {
-  const name = 'RemoteView Business';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap x-center s-cover">
@@ -26,20 +29,20 @@ const RemoteViewBusiness = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2011.08 ~ 2014.08</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>UI 렌더러, 다이얼로그, 컨텍스트메뉴, 드레그 액션, 기능별 CRUD 비동기 로직 개발 등</p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, JavaScript, jQuery, jQuery.ui, flot chart</p>
-          </li>
+            <p>{data.techStack.join(', ')}</p>
+          </li> 
         </ul>
       </section>
 

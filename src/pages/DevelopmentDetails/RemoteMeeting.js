@@ -1,9 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import jobs from 'statics/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '리모트미팅';
+const data = utils.findProjectData(jobs, name);
 
 const RemoteMeeting = () => {
-  const name = 'RemoteMeeting';
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center cover">
@@ -33,23 +36,19 @@ const RemoteMeeting = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2014.09 ~ 2019.12 현재</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>
-              {/* WebRTC Handler */}
-              화상회의기능, 화면공유, 문서공유 뷰어, Canvas 그리기도구, 채팅, 캡쳐, 모바일 웹뷰 등 회의 전체 기능 및
-              WebRTC 연동 모듈 개발
-            </p>
+            <p>{data.devItems.join(', ')}</p>
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>React, Redux, WebRTC, MQTT, ES6, Canvas, HTML5, CSS3, SCSS, WebPack</p>
+            <p>{data.techStack.join(', ')}</p>
           </li>
         </ul>
       </section>
