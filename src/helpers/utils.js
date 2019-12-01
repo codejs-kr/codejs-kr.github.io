@@ -19,6 +19,33 @@ export const moveTop = (options) => {
   });
 };
 
+/**
+ * 프로젝트 상세 정보를 반환
+ * @param {*} data
+ * @param {*} id
+ */
+export const findProjectData = (data, name) => {
+  console.log('findProjectData :', data, name);
+  let result;
+
+  data.some((target) => {
+    const list = target.list;
+
+    if (list) {
+      return list.some((project) => {
+        if (project.name === name) {
+          return (result = project);
+        }
+      });
+    } else if (target.name === name) {
+      return (result = target);
+    }
+  });
+
+  return result;
+};
+
 export default {
   moveTop,
+  findProjectData,
 };
