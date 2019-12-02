@@ -45,10 +45,25 @@ const RemoteSeminar = () => {
       </section>
 
       <section className="features-wrap">
+        <h3>Features</h3>
+        <dl>
+          <dt>현재 Beta 서비스 준비중입니다.</dt>
+          <dd>
+            <ImageLoader src={require('statics/img/development/remoteseminar/feature1.png')} alt={name} />
+          </dd>
+        </dl>
         <dl>
           <dt>Preview</dt>
           <dd>
-            <ImageLoader src={require('statics/img/development/remoteseminar/feature1.png')} alt={name} />
+            <p>
+              지난 4월 일본에서 시연했던 프로토타입 버전입니다.
+              <br />
+              발표자가 문서, 스크린, 유튜브 공유를 자유롭게 할 수 있는 웹 어플리케이션입니다.
+            </p>
+            <video autoPlay muted loop poster={require('statics/img/development/remoteseminar/poster.jpg')}>
+              <source src={require('statics/img/development/remoteseminar/preview.mp4')} type="video/mp4" />
+              Not support video source
+            </video>
           </dd>
         </dl>
       </section>

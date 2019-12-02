@@ -25,7 +25,7 @@ export const moveTop = (options) => {
  * @param {*} id
  */
 export const findProjectData = (data, name) => {
-  console.log('findProjectData :', data, name);
+  // console.log('findProjectData :', data, name);
   let result;
 
   data.some((target) => {

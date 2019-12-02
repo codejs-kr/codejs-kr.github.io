@@ -107,8 +107,8 @@ const RemoteMeeting = () => {
           <dt>그리기</dt>
           <dd>
             <p>
-              Canvas를 활용하여 그리기 도구를 개발하였습니다. 마우스를 빠르게 움직일때 곡선이 각이 지는 현상이 있는데 이
-              증상을 개선하기 위해 Background Canvas에서 좌표간 중간 곡선을 생성하여 Foreground Canvas에 표현하는
+              Canvas를 활용하여 그리기 도구를 개발하였습니다. 마우스를 빠르게 움직일 때 곡선이 각이 지는 현상이 있는데
+              그 증상을 개선하기 위해 Background Canvas에서 좌표 간 중간 곡선을 생성하여 Foreground Canvas에 표현하는
               방식으로 부드러운 곡선을 구현하였습니다.
             </p>
             <ImageLoader src={require('statics/img/development/remotemeeting/feature-drawing.gif')} alt={name} />

@@ -1,5 +1,24 @@
 export default [
   {
+    name: '심플 채팅',
+    role: '웹 어플리케이션 설계 및 개발',
+    date: '2019',
+    description:
+      '대학교 2학년 때 Java Applet을 이용하여 만들었던 저의 첫 게임입니다.\n' +
+      '프론트엔드 개발을 하면서 언젠간 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고 오래전 코드를 보며 토이프로젝트로 재 구현해 보았습니다.',
+    link: '/#/development/zzanggu',
+    devItems: [
+      'Canvas 드로잉 처리',
+      '캐릭터 처리',
+      '미사일 처리',
+      '충돌 처리',
+      '키보드 이벤트 처리',
+      '사운드 처리',
+      '스코어 처리',
+    ],
+    techStack: ['React', 'ES6', 'Canvas', 'CSS3', 'WebPack', 'Firebase Firestore'],
+  },
+  {
     name: '짱구',
     role: '웹 어플리케이션 설계 및 개발',
     date: '2016, 2019',

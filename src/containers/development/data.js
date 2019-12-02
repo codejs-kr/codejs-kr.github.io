@@ -1,12 +1,17 @@
 export default [
-  //{
-  //  "title": "캔버스",
-  //  "imageURL": require("statics/img/development/thumb-zzanggu.png"),
-  //  "contentURL": "/development/zzanggu",
-  //  "github": "https://github.com/dodortus/zzanggu",
-  //  "state": "toy",
-  //  "id": "canvas"
-  //},
+  {
+    title: '심플 채팅',
+    imageURL: require('statics/img/development/thumb-simple-chat.png'),
+    contentURL: '/development/simple-chat',
+    github: 'https://github.com/dodortus/simple-chat',
+    state: 'toy',
+    id: 'simple-chat',
+  },
+  {
+    title: '리모트미팅 (화상회의서비스)',
+    imageURL: require('statics/img/development/thumb-remotemeeting.png'),
+    contentURL: '/development/remotemeeting',
+  },
   {
     title: '짱구',
     imageURL: require('statics/img/development/thumb-zzanggu.png'),
@@ -16,14 +21,9 @@ export default [
     id: 'zzanggu',
   },
   {
-    title: 'RemoteSeminar',
+    title: '리모트세미나',
     imageURL: require('statics/img/development/thumb-remoteseminar.png'),
     contentURL: '/development/remoteseminar',
-  },
-  {
-    title: 'RemoteMeeting (화상회의서비스)',
-    imageURL: require('statics/img/development/thumb-remotemeeting.png'),
-    contentURL: '/development/remotemeeting',
   },
   {
     title: 'WebRTC 연구실',
@@ -36,7 +36,7 @@ export default [
     contentURL: '/development/speech-recognition',
   },
   {
-    title: 'RemoteLive',
+    title: '리모트라이브',
     imageURL: require('statics/img/development/thumb-remotelive.png'),
     contentURL: '/development/remotelive',
   },

@@ -24,6 +24,7 @@ import RemoteViewPersonal from './RemoteViewPersonal';
 import RemoteViewBusiness from './RemoteViewBusiness';
 import IpadSmartCover from './IpadSmartCover';
 import ZzangGu from './ZzangGu';
+import SimpleChat from './SimpleChat';
 import Rsupport from './Rsupport';
 
 const DevelopmentDetails = ({ match }) => {
@@ -97,6 +98,9 @@ const DevelopmentDetails = ({ match }) => {
       break;
     case 'zzanggu':
       currentPage = <ZzangGu />;
+      break;
+    case 'simple-chat':
+      currentPage = <SimpleChat />;
       break;
     case 'rsupport':
       currentPage = <Rsupport />;
