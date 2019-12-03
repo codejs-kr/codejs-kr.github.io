@@ -84,14 +84,16 @@ class DevelopmentPagingContainer extends Component {
     return result;
   };
 
+  componentDidMount() {
+    utils.moveTop();
+  }
+
   render() {
     const { name } = this.props;
     const { searchIndex, filterData } = this;
     const index = searchIndex(data, name);
     const listData = filterData(data, index);
     // console.log('확인 index', name, index, listData);
-
-    utils.moveTop();
 
     return (
       <div>

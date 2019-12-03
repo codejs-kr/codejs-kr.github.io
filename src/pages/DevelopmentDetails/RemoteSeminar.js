@@ -58,7 +58,7 @@ const RemoteSeminar = () => {
             <p>
               지난 4월 일본에서 시연했던 프로토타입 버전입니다.
               <br />
-              발표자가 문서, 스크린, 유튜브 공유를 자유롭게 할 수 있는 웹 어플리케이션입니다.
+              발표자가 문서, 스크린, 유튜브 공유를 자유롭게 프리젠테이션 할 수 있는 웹 어플리케이션입니다.
             </p>
             <video autoPlay muted loop poster={require('statics/img/development/remoteseminar/poster.jpg')}>
               <source src={require('statics/img/development/remoteseminar/preview.mp4')} type="video/mp4" />

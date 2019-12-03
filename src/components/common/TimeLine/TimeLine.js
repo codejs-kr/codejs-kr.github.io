@@ -1,5 +1,6 @@
 import React from 'react';
 import { A } from 'components';
+import { Link } from 'react-router-dom';
 import './TimeLine.scss';
 
 const TimeLine = ({ data }) => {
@@ -40,9 +41,11 @@ const TimeLineItem = ({ flag, data }) => {
           })}
         </ul>
         {data.link && (
-          <A href={data.link} size="small" icon="default" theme="line">
-            상세 보기
-          </A>
+          <Link to={data.link}>
+            <A size="small" icon="default" theme="line">
+              상세 보기
+            </A>
+          </Link>
         )}
       </div>
     </li>
