@@ -9,7 +9,7 @@ const data = utils.findProjectData(toys, name);
 const SimpleChat = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
-      <section className="image-wrap cover">
+      <section className="image-wrap cover x-center">
         <ImageLoader src={require('statics/img/development/simple-chat/main.jpg')} alt={name} />
       </section>
 
