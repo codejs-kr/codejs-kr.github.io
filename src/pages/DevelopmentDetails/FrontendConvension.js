@@ -3,12 +3,12 @@ import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
 import jobs from 'statics/data/jobs';
 import utils from 'helpers/utils';
 
-const name = '프론트엔드 컨벤션 사이트';
+const name = '프론트엔드 컨벤션 사이트️';
 const data = utils.findProjectData(jobs, name);
 
 const FrontendConvension = () => {
   return (
-    <DevelopmentDetailTemplate title={`${name}️`}>
+    <DevelopmentDetailTemplate title={name}>
       <section className="image-wrap s-cover">
         <ImageLoader src={require('statics/img/development/rfc/main.png')} alt={name} />
       </section>
@@ -44,7 +44,7 @@ const FrontendConvension = () => {
           <li>
             <strong>사용기술</strong>
             <p>{data.techStack.join(', ')}</p>
-          </li> 
+          </li>
         </ul>
       </section>
 

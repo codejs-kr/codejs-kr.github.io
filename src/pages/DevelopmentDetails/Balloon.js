@@ -8,7 +8,7 @@ const data = utils.findProjectData(jobs, name);
 
 const Balloon = () => {
   return (
-    <DevelopmentDetailTemplate title={`${name} (사내문화정착 프로젝트)️`}>
+    <DevelopmentDetailTemplate title={name}>
       <section className="image-wrap x-center cover">
         <ImageLoader src={require('statics/img/development/balloon/main.png')} alt={name} theme="white" />
       </section>
@@ -47,7 +47,7 @@ const Balloon = () => {
           <li>
             <strong>사용기술</strong>
             <p>{data.techStack.join(', ')}</p>
-          </li> 
+          </li>
         </ul>
       </section>
 

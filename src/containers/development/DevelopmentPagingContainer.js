@@ -9,6 +9,11 @@ class DevelopmentPagingContainer extends Component {
 
     this.ITEM_COUNT = 4;
   }
+
+  componentDidMount() {
+    utils.moveTop();
+  }
+
   /**
    * title로 해당 배열 index 탐색
    * @param arr
@@ -19,11 +24,13 @@ class DevelopmentPagingContainer extends Component {
     let result = 0;
 
     arr.some((obj, i) => {
+      // console.log('obj', obj.title, i);
       if (obj.title.match(name)) {
         result = i;
         return true;
       }
     });
+    // console.log('searchIndex', name, result);
 
     return result;
   };
@@ -35,6 +42,7 @@ class DevelopmentPagingContainer extends Component {
    * @returns {Array}
    */
   filterData = (arr, insertedIndex) => {
+    console.log('filterData :', arr, insertedIndex);
     const { ITEM_COUNT } = this;
     let result = [];
     let indexArr = [];
@@ -45,12 +53,17 @@ class DevelopmentPagingContainer extends Component {
       for (let i = startIndex; i <= ITEM_COUNT; i++) {
         indexArr.push(insertedIndex + i);
       }
-      // 두번째 (-1, 1, 2, 3)
+      // 두번째 (0, 2, 3, 4)
     } else if (insertedIndex === 1) {
       const startIndex = -1;
       for (let i = startIndex; i <= startIndex + ITEM_COUNT; i++) {
         if (insertedIndex !== i) {
-          indexArr.push(insertedIndex + i);
+          let _index = insertedIndex + i;
+          if (insertedIndex === _index) {
+            _index++;
+          }
+
+          indexArr.push(_index);
         }
       }
       // 마지막 (-4, -3, -2, -1)
@@ -83,10 +96,6 @@ class DevelopmentPagingContainer extends Component {
 
     return result;
   };
-
-  componentDidMount() {
-    utils.moveTop();
-  }
 
   render() {
     const { name } = this.props;

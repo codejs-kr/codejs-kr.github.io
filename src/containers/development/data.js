@@ -56,22 +56,22 @@ export default [
     contentURL: '/development/react-evernote',
   },
   {
-    title: 'FrontEnd Convension',
+    title: '프론트엔드 컨벤션 사이트️',
     imageURL: require('statics/img/development/thumb-rfc2.png'),
     contentURL: '/development/frontend-convension',
   },
   {
-    title: 'RemoteView Business',
+    title: '리모트뷰 기업용',
     imageURL: require('statics/img/development/thumb-remoteview-business.png'),
     contentURL: '/development/remoteview-business',
   },
   {
-    title: 'RemoteView Personal',
+    title: '리모트뷰 개인용',
     imageURL: require('statics/img/development/thumb-remoteview-personal.png'),
     contentURL: '/development/remoteview-personal',
   },
   {
-    title: 'RemoteWOL',
+    title: '리모트WOL',
     imageURL: require('statics/img/development/thumb-wol.png'),
     contentURL: '/development/remotewol',
   },
@@ -81,7 +81,7 @@ export default [
     contentURL: '/development/nateon-mypc',
   },
   {
-    title: 'Samsung Remote PC',
+    title: '삼성 Remote PC️',
     imageURL: require('statics/img/development/thumb-remote-pc.png'),
     contentURL: '/development/samsung-remote-pc',
   },
@@ -96,7 +96,7 @@ export default [
     contentURL: '/development/file-api',
   },
   {
-    title: 'Book Transform',
+    title: 'Book cover animation',
     imageURL: require('statics/img/development/thumb-transform.png'),
     contentURL: '/development/book-transform',
   },
@@ -121,7 +121,7 @@ export default [
     contentURL: '/development/ipad-smart-cover',
   },
   {
-    title: 'Rsupport',
+    title: '알서포트닷컴 리뉴얼',
     imageURL: require('statics/img/development/thumb-rsupport.png'),
     contentURL: '/development/rsupport',
   },
