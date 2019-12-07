@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { PageTemplate, AboutTemplate, TopButton, TimeLine } from 'components';
 import jobsData from 'statics/data/jobs';
 import toysData from 'statics/data/toys';
 import utils from 'helpers/utils';
 
-const About = () => {
+const setScroll = () => {
   const scrollInfo = utils.getStorageScroll();
 
   if (scrollInfo && scrollInfo.about) {
-    console.log('About 스크롤', scrollInfo.about);
+    utils.moveTop({ top: scrollInfo.about.top });
   }
+};
+
+const About = () => {
+  useEffect(() => {
+    setScroll();
+  });
 
   return (
     <PageTemplate thema="white">
