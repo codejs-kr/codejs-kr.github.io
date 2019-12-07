@@ -25,7 +25,7 @@
     "react/prefer-stateless-function": 1,
     "react/prop-types": 0,
     "react/no-array-index-key": 0,
-    "react/sort-comp": 1,
+    "react/sort-comp": 0,
     "react/jsx-closing-bracket-location": 1,
     "react/jsx-tag-closing-location": 0,
     "react/jsx-wrap-multilines": 1,
