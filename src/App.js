@@ -3,6 +3,8 @@ import { Route, Switch } from 'react-router-dom';
 import { LoaderContainer } from 'containers';
 import { Toy, About, Development, Loading, DevelopmentDetails, NotFound } from 'pages';
 import config from 'helpers/config';
+import utils from 'helpers/utils';
+import _ from 'lodash';
 import 'statics/scss/main.scss';
 
 class App extends Component {
@@ -18,18 +20,29 @@ class App extends Component {
     this.bindScrollEvent();
   };
 
-  bindScrollEvent = () => {
-    window.onscroll = () => {
-      this.body.classList[window.scrollY > 160 ? 'add' : 'remove']('scrolled');
-    };
-  };
-
   checkEnv = () => {
     this.body.classList.add(config.isMobile ? 'mobile' : 'pc');
 
     if (!location.hash || location.hash.length < 3) {
       location.hash = '#/development';
     }
+  };
+
+  onScroll = () => {
+    console.log('onScroll', window.scrollY);
+    this.body.classList[window.scrollY > 160 ? 'add' : 'remove']('scrolled');
+
+    utils.setStorageScroll({
+      page: location.hash.replace('#/', ''),
+      top: window.scrollY,
+    });
+  };
+
+  bindScrollEvent = () => {
+    const { onScroll } = this;
+    const interval = 150;
+
+    window.onscroll = _.debounce(onScroll, interval);
   };
 
   render() {

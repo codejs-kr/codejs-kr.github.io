@@ -1,4 +1,32 @@
 /**
+ * 페이지 스크롤 정보를 스토리지에 저장합니다.
+ */
+export const setStorageScroll = (data) => {
+  console.log('setStorageScroll', data);
+
+  const { page, top } = data;
+  const savedData = JSON.parse(sessionStorage.getItem('scrollInfo'));
+  const scrollInfo = {
+    ...savedData,
+    [page]: {
+      top,
+    },
+  };
+
+  sessionStorage.setItem('scrollInfo', JSON.stringify(scrollInfo));
+};
+
+/**
+ * 페이지 스크롤 정보를 스토리지에서 추출합니다.
+ */
+export const getStorageScroll = () => {
+  const data = JSON.parse(sessionStorage.getItem('scrollInfo'));
+  console.log('getStorageScroll', data);
+
+  return data;
+};
+
+/**
  * window 스크롤을 이동합니다.
  */
 export const moveTop = (options) => {
@@ -48,4 +76,6 @@ export const findProjectData = (data, name) => {
 export default {
   moveTop,
   findProjectData,
+  getStorageScroll,
+  setStorageScroll,
 };

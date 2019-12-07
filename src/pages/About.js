@@ -2,8 +2,15 @@ import React from 'react';
 import { PageTemplate, AboutTemplate, TopButton, TimeLine } from 'components';
 import jobsData from 'statics/data/jobs';
 import toysData from 'statics/data/toys';
+import utils from 'helpers/utils';
 
 const About = () => {
+  const scrollInfo = utils.getStorageScroll();
+
+  if (scrollInfo && scrollInfo.about) {
+    console.log('About 스크롤', scrollInfo.about);
+  }
+
   return (
     <PageTemplate thema="white">
       <AboutTemplate>
@@ -105,6 +112,7 @@ const About = () => {
                     <li>BrowserSync</li>
                     <li>Storybook</li>
                     <li>Jest</li>
+                    {/* <li>Cypress</li> */}
                   </ul>
                 </div>
               </div>
