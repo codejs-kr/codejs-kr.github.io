@@ -69,7 +69,10 @@ const RemoteMeeting = () => {
               <br />
               Redux로 상태관리 하며, WebSocket으로 회의 상태를 실시간으로 수신하여 목록을 갱신합니다.
             </p>
-            <ImageLoader src={require('statics/img/development/remotemeeting/feature-room-list.gif')} alt={name} />
+            <video autoPlay muted loop>
+              <source src={require('statics/img/development/remotemeeting/feature-room-list.mp4')} type="video/mp4" />
+              Not support video source
+            </video>
           </dd>
         </dl>
         <dl>
