@@ -96,7 +96,7 @@ export default [
       //   techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
       // },
       {
-        name: '프론트엔드 컨벤션 사이트️',
+        name: '프론트엔드 컨벤션 사이트',
         role: '기획, 설계, 웹 프론트엔드 개발',
         date: '2012.11 ~ 2014.12',
         description:

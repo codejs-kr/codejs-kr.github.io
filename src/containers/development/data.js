@@ -56,7 +56,7 @@ export default [
     contentURL: '/development/react-evernote',
   },
   {
-    title: '프론트엔드 컨벤션 사이트️',
+    title: '프론트엔드 컨벤션 사이트',
     imageURL: require('statics/img/development/thumb-rfc2.png'),
     contentURL: '/development/frontend-convension',
   },
