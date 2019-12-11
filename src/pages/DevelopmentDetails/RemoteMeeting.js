@@ -125,6 +125,15 @@ const RemoteMeeting = () => {
           </dd>
         </dl>
         <dl>
+          <dt>Preview</dt>
+          <dd>
+            <video autoPlay muted loop>
+              <source src={require('statics/img/development/remotemeeting/preview.mp4')} type="video/mp4" />
+              Not support video source
+            </video>
+          </dd>
+        </dl>
+        <dl>
           <dt>일본시장</dt>
           <dd>
             <p>회사와 팀의 노력으로 국내 뿐만 아니라 일본에서도 많은 사용자들이 찾는 제품이 되었습니다.</p>
