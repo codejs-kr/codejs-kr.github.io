@@ -127,6 +127,7 @@ const RemoteMeeting = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
+            <p>간단한 시연 영상입니다.</p>
             <video autoPlay muted loop>
               <source src={require('statics/img/development/remotemeeting/preview.mp4')} type="video/mp4" />
               Not support video source
