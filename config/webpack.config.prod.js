@@ -139,9 +139,9 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin([distPath], {
-      root: rootPath,
-    }),
+    // new CleanWebpackPlugin([distPath], {
+    //   root: rootPath,
+    // }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
       filename: './index.html',
