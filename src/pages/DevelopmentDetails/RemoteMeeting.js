@@ -1,6 +1,6 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
-import jobs from 'statics/data/jobs';
+import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
 const name = '리모트미팅';
@@ -67,7 +67,7 @@ const RemoteMeeting = () => {
             <p>
               그룹내 개설된 회의 목록을 한눈에 볼 수 있고 간편하게 회의 개설을 할 수 있습니다.
               <br />
-              Redux로 상태관리 하며, WebSocket으로 회의 상태를 실시간으로 수신하여 목록을 갱신합니다.
+              Redux로 상태관리 하며, WebSocket으로 회의 개설 상태를 실시간으로 수신하여 목록을 갱신합니다.
             </p>
             <video autoPlay muted loop>
               <source src={require('statics/img/development/remotemeeting/feature-room-list.mp4')} type="video/mp4" />

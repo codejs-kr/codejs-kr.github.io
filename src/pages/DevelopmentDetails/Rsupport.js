@@ -1,6 +1,6 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, ImageLoader } from 'components';
-import jobs from 'statics/data/jobs';
+import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
 const name = '알서포트닷컴 리뉴얼';
@@ -16,8 +16,7 @@ const Rsupport = () => {
       <section className="overview">
         <p>
           {data.description}
-          &nbsp;
-          오픈 후 마케팅 요구 사항에 맞춰 기능 개발과 유지 보수 개발을 진행한 프로젝트입니다.
+          &nbsp; 오픈 후 마케팅 요구 사항에 맞춰 기능 개발과 유지 보수 개발을 진행한 프로젝트입니다.
         </p>
       </section>
 
@@ -38,7 +37,7 @@ const Rsupport = () => {
           <li>
             <strong>사용기술</strong>
             <p>{data.techStack.join(', ')}</p>
-          </li> 
+          </li>
         </ul>
       </section>
 

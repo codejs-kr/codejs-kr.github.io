@@ -1,6 +1,6 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
-import jobs from 'statics/data/jobs';
+import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
 const name = '리모트뷰 기업용';
@@ -42,7 +42,7 @@ const RemoteViewBusiness = () => {
           <li>
             <strong>사용기술</strong>
             <p>{data.techStack.join(', ')}</p>
-          </li> 
+          </li>
         </ul>
       </section>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
-import jobs from 'statics/data/jobs';
+import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
 const name = '프론트엔드 컨벤션 사이트';

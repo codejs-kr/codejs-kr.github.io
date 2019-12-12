@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { PageTemplate, AboutTemplate, TopButton, TimeLine } from 'components';
-import jobsData from 'statics/data/jobs';
-import toysData from 'statics/data/toys';
+import jobsData from 'pages/data/jobs';
+import toysData from 'pages/data/toys';
 import utils from 'helpers/utils';
 
 const setScroll = () => {

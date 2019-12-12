@@ -1,6 +1,6 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
-import jobs from 'statics/data/jobs';
+import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
 const name = '리모트뷰 개인용';
@@ -28,7 +28,7 @@ const RemoteViewPersonal = () => {
       </section>
 
       <section className="list-wrap">
-      <ul>
+        <ul>
           <li>
             <strong>개발년도</strong>
             <p>{data.date}</p>
@@ -44,7 +44,7 @@ const RemoteViewPersonal = () => {
           <li>
             <strong>사용기술</strong>
             <p>{data.techStack.join(', ')}</p>
-          </li> 
+          </li>
         </ul>
       </section>
 

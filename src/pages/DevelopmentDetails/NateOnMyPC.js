@@ -1,13 +1,12 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
-import jobs from 'statics/data/jobs';
+import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
 const name = '네이트온 내 PC제어 리뉴얼';
 const data = utils.findProjectData(jobs, name);
 
 const NateOnMyPC = () => {
-
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap x-center s-cover">
@@ -35,7 +34,7 @@ const NateOnMyPC = () => {
           <li>
             <strong>사용기술</strong>
             <p>{data.techStack.join(', ')}</p>
-          </li> 
+          </li>
         </ul>
       </section>
 

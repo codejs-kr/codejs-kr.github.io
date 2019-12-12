@@ -57,7 +57,10 @@ const ZzangGu = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <ImageLoader src={require('statics/img/development/zzanggu/preview.gif')} alt={name} />
+            <video autoPlay muted loop>
+              <source src={require('statics/img/development/zzanggu/preview.mp4')} type="video/mp4" />
+              Not support video source
+            </video>
           </dd>
         </dl>
         <dl>
