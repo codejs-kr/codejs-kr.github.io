@@ -1,6 +1,6 @@
 import React from 'react';
 import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
-import toys from 'statics/data/toys';
+import toys from 'pages/data/toys';
 import utils from 'helpers/utils';
 
 const name = 'React Evernote';
