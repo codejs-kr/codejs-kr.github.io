@@ -12,7 +12,7 @@ const ImageLoader = ({ src, alt, theme = 'white', loader }) => {
   return <Img src={src} alt={alt} loader={loader} />;
 };
 
-const DefaultLoading = ({ theme }) => (
+export const DefaultLoading = ({ theme }) => (
   <div className={`image-default-loading ${theme}`}>
     <LoadingCircle />
   </div>

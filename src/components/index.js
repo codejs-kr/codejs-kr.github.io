@@ -11,6 +11,7 @@ export { default as LoadingBar } from './common/LoadingBar/LoadingBar';
 export { default as LoadingCircle } from './common/LoadingCircle/LoadingCircle';
 export { default as TimeLine } from './common/TimeLine/TimeLine';
 export { default as TopButton } from './common/TopButton/TopButton';
+export { default as VideoLoader } from './common/VideoLoader/VideoLoader';
 
 // about
 export { default as AboutTemplate } from './about/AboutTemplate/AboutTemplate';
