@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader } from 'components';
 
 const ImageSlider = () => {
   const name = '3D Image Slider';
@@ -45,10 +45,7 @@ const ImageSlider = () => {
         <dl>
           <dt>Preview</dt>
           <dd>
-            <video autoPlay muted loop>
-              <source src={require('statics/img/development/image-slider/preview.mp4')} type="video/mp4" />
-              Not support video source
-            </video>
+            <VideoLoader src={require('statics/img/development/image-slider/preview.mp4')} />
           </dd>
         </dl>
       </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader } from 'components';
 import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
@@ -69,10 +69,7 @@ const RemoteMeeting = () => {
               <br />
               Redux로 상태관리 하며, WebSocket으로 회의 개설 상태를 실시간으로 수신하여 목록을 갱신합니다.
             </p>
-            <video autoPlay muted loop>
-              <source src={require('statics/img/development/remotemeeting/feature-room-list.mp4')} type="video/mp4" />
-              Not support video source
-            </video>
+            <VideoLoader src={require('statics/img/development/remotemeeting/feature-room-list.mp4')} />
           </dd>
         </dl>
         <dl>
@@ -128,10 +125,7 @@ const RemoteMeeting = () => {
           <dt>Preview</dt>
           <dd>
             <p>간단한 시연 영상입니다.</p>
-            <video autoPlay muted loop>
-              <source src={require('statics/img/development/remotemeeting/preview.mp4')} type="video/mp4" />
-              Not support video source
-            </video>
+            <VideoLoader src={require('statics/img/development/remotemeeting/preview.mp4')} />
           </dd>
         </dl>
         <dl>

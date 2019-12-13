@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader } from 'components';
 import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
@@ -60,10 +60,7 @@ const RemoteSeminar = () => {
               <br />
               발표자가 문서, 스크린, 유튜브 공유를 자유롭게 프리젠테이션 할 수 있는 웹 어플리케이션입니다.
             </p>
-            <video autoPlay muted loop poster={require('statics/img/development/remoteseminar/poster.jpg')}>
-              <source src={require('statics/img/development/remoteseminar/preview.mp4')} type="video/mp4" />
-              Not support video source
-            </video>
+            <VideoLoader src={require('statics/img/development/remoteseminar/preview.mp4')} />
           </dd>
         </dl>
       </section>
