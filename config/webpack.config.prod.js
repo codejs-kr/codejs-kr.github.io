@@ -129,9 +129,9 @@ module.exports = {
           compress: {
             drop_console: true,
           },
-          output: {
-            comments: true,
-          },
+          // output: {
+          //   comments: false, // 추가시 빌드버전 오류남
+          // },
         },
       }),
       new OptimizeCSSAssetsPlugin(),
