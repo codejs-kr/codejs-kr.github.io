@@ -130,7 +130,7 @@ module.exports = {
             drop_console: true,
           },
           output: {
-            comments: false,
+            comments: true,
           },
         },
       }),
@@ -139,9 +139,9 @@ module.exports = {
   },
 
   plugins: [
-    // new CleanWebpackPlugin([distPath], {
-    //   root: rootPath,
-    // }),
+    new CleanWebpackPlugin([distPath], {
+      root: rootPath,
+    }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
       filename: './index.html',
