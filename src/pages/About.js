@@ -95,6 +95,7 @@ const About = () => {
                     <li>Next.js</li>
                     <li>ReactNative</li>
                     <li>jQuery</li>
+                    <li>Handlebars</li>
                     <li>Socket.io</li>
                     <li>MQTT</li>
                     <li>Firebase</li>
@@ -117,8 +118,8 @@ const About = () => {
                     <li>Gulp</li>
                     <li>BrowserSync</li>
                     <li>Storybook</li>
+                    <li>Cypress</li>
                     <li>Jest</li>
-                    {/* <li>Cypress</li> */}
                   </ul>
                 </div>
               </div>

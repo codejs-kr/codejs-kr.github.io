@@ -2,23 +2,12 @@ export default [
   {
     name: 'Rsupport 💼',
     team: '프론트엔드개발팀',
-    date: '2010.07 ~ 2019 재직중',
+    date: '2010.07 ~ 2020 재직중',
     list: [
-      {
-        name: '리모트세미나',
-        role: '웹 프론트엔드 개발',
-        date: '2019.01 ~ 2019.10',
-        description:
-          '온라인 미팅 제품에 이어 세미나 제품을 회사에서 신규서비스로 출시를 준비중입니다.\n' +
-          'WebRTC 기반으로 설계되어 기존에 담당하던 리모트미팅과 구조상 유사점이 많아 제품 초기 프로토타입 개발과 알파버전 개발을 담당하였습니다.',
-        link: '/development/remoteseminar',
-        devItems: ['프로토타입 설계', 'WebRTC 연동 개발', '화면공유', '문서공유 뷰어', '그리기도구', '채팅 개발'],
-        techStack: ['React', 'Redux', 'WebRTC', 'MQTT', 'ES6', 'Canvas', 'HTML5', 'SCSS', 'CSS modules', 'WebPack'],
-      },
       {
         name: '리모트미팅',
         role: '웹 프론트엔드 개발',
-        date: '2014.09 ~ 2019.12 현재',
+        date: '2014.09 ~ 2020 (현재)',
         description:
           'WebRTC 기반 온라인 화상회의 서비스 클라이언트 설계 및 개발을 담당하였습니다.\n' +
           '2014년 WebRTC 기술을 이용한 파일럿 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.',
@@ -33,7 +22,30 @@ export default [
           '모바일 웹뷰',
           '회의 전체 기능 및 WebRTC 연동 모듈 개발',
         ],
-        techStack: ['React', 'Redux thunk', 'WebRTC', 'MQTT', 'ES6', 'Canvas', 'HTML5', 'SCSS', 'WebPack'],
+        techStack: ['React', 'Redux thunk', 'WebRTC', 'WebSocket', 'MQTT', 'ES6', 'Canvas', 'HTML5', 'SCSS', 'WebPack'],
+      },
+      {
+        name: '리모트세미나',
+        role: '웹 프론트엔드 개발',
+        date: '2019.01 ~ 2019.10',
+        description:
+          '온라인 미팅 제품에 이어 세미나 제품을 회사에서 신규서비스로 출시를 준비중입니다.\n' +
+          'WebRTC 기반으로 설계되어 기존에 담당하던 리모트미팅과 구조상 유사점이 많아 제품 초기 프로토타입 개발과 알파버전 개발을 담당하였습니다.',
+        link: '/development/remoteseminar',
+        devItems: ['프로토타입 설계', 'WebRTC 연동 개발', '화면공유', '문서공유 뷰어', '그리기도구', '채팅 개발'],
+        techStack: [
+          'React',
+          'Redux',
+          'WebRTC',
+          'WebSocket',
+          'MQTT',
+          'ES6',
+          'Canvas',
+          'HTML5',
+          'SCSS',
+          'CSS modules',
+          'WebPack',
+        ],
       },
       {
         name: '칭찬합시다',
@@ -103,7 +115,7 @@ export default [
           '코딩 컨벤션을 공유하고 Bootstrap 같은 자주 사용하는 UI 컴포넌트를 만들기로 시작한 프로젝트이며, 오픈 이후 팀 프로젝트로 발전시킬 수 있었습니다.',
         link: '/development/frontend-convension',
         devItems: ['사이트 개발 및 컨벤션 작성', '플러그인 개발', '컴포넌트 개발 등'],
-        techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery'],
+        techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery', 'Handlebars'],
       },
       {
         name: '네이트온 내 PC제어 리뉴얼',
@@ -124,7 +136,7 @@ export default [
           '원격지에 설치된 PC의 목록이 노출되며, 해당 PC에 접속하면 전용 뷰어를 통해서 PC를 제어할 수 있습니다.',
         link: '/development/remoteview-business',
         devItems: ['전체 UI 렌더러', '다이얼로그', '컨텍스트메뉴', '드레그 액션', '기능별 CRUD 비동기 로직 개발 등'],
-        techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery', 'jQuery.ui', 'flot chart'],
+        techStack: ['HTML5', 'CSS3', 'ES5', 'jQuery', 'jQuery.ui', 'Handlebars', 'flot chart'],
       },
       {
         name: '리모트뷰 개인용',
@@ -168,7 +180,9 @@ export default [
         name: '웹오피스',
         role: '사내 그룹웨어 UI 개발',
         date: '2010.03 ~ 2010.06',
-        description: '넥슨 전직원이 사용하는 그룹웨어 개발프로젝트에서 UI 개발을 담당하였습니다.',
+        description:
+          '넥슨 전직원이 사용하는 그룹웨어 개발프로젝트에서 UI 개발을 담당하였습니다.\n' +
+          'UI 공통 스타일 가이드를 만들어 범용적으로 사용 가능하게 하였습니다.',
         devItems: ['UI 컴포넌트화'],
         techStack: ['HTML5', 'CSS', 'ES5', 'jQuery'],
       },
