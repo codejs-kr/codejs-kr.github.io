@@ -1,5 +1,5 @@
 import React from 'react';
-import { A } from 'components';
+import { A, RowList } from 'components';
 import { Link } from 'react-router-dom';
 import './TimeLine.scss';
 
@@ -35,11 +35,7 @@ const TimeLineItem = ({ flag, data }) => {
       </div>
       <div>
         <p className="description">{data.description}</p>
-        <ul className="row-list">
-          {data.techStack.map((name, i) => {
-            return <TechStackItem key={i} name={name} />;
-          })}
-        </ul>
+        <RowList data={data.techStack} />
         {data.link && (
           <Link to={data.link}>
             <A size="small" icon="default" theme="line">
@@ -61,7 +57,5 @@ const TimeLineFlag = ({ name, team, date }) => {
     </div>
   );
 };
-
-const TechStackItem = ({ name }) => <li>{name}</li>;
 
 export default TimeLine;
