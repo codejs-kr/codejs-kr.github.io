@@ -3,16 +3,20 @@ import { A, RowList } from 'components';
 import { Link } from 'react-router-dom';
 import './TimeLine.scss';
 
-const TimeLine = ({ data }) => {
+const TimeLine = ({ data, hidden = [] }) => {
   // console.log('TimeLine', data);
 
   return (
     <ul className="timeline">
       {data.map((oneDepth, i) => {
+        // 노출 제외 항목
         if (oneDepth.list) {
           // console.log('확인 oneDepth', oneDepth);
           return oneDepth.list.map((twoDepth, j) => {
-            return <TimeLineItem key={j} flag={j === 0 ? oneDepth : null} data={twoDepth} />;
+            // 프로젝트 숨김 항목 제외
+            if (!checkInclude(hidden, twoDepth.name)) {
+              return <TimeLineItem key={j} flag={j === 0 ? oneDepth : null} data={twoDepth} />;
+            }
           });
         } else {
           return <TimeLineItem key={i} data={oneDepth} />;
@@ -20,6 +24,19 @@ const TimeLine = ({ data }) => {
       })}
     </ul>
   );
+};
+
+/**
+ * 배열에 항목이 포함되어 있는지 확인한다.
+ * @param {data} array
+ * @param {string} name
+ */
+const checkInclude = (data, name) => {
+  if (data.length && data.includes(name)) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const TimeLineItem = ({ flag, data }) => {
