@@ -1,0 +1,19 @@
+.row-list {
+  li {
+    display: inline-block;
+    margin-bottom: 0 !important;
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.8);
+
+    &::before {
+      display: inline-block;
+      margin: 10px 5px 0 2px;
+      content: ' ';
+      width: 6px;
+      height: 6px;
+      border-radius: 2px;
+      background: #333333;
+      vertical-align: top;
+    }
+  }
+}
