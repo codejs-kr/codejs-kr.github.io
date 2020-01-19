@@ -7,7 +7,7 @@ export default [
       'WebSocket를 활용한 웹 채팅 토이프로젝트입니다.\n' +
       'React로 UI 컴포넌트를 구현하였고 Redux rematch framework로 상태 관리 하도록 개발하였습니다.',
     link: '/development/simple-chat',
-    devItems: ['UI 개발', '라우팅', 'Socket message handler'],
+    devItems: ['전체 UI 개발', 'WebSocket 핸들러', '라우팅', '서버사이드 등'],
     techStack: ['React', 'Redux rematch', 'ES6', 'SCSS', 'WebPack', 'NodeJS', 'Socket.io'],
   },
   {

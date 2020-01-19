@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader, RowList } from 'components';
 
 const IpadSmartCover = () => {
   const name = 'iPad Smart Cover';
@@ -30,7 +30,7 @@ const IpadSmartCover = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, jQuery grab</p>
+            <RowList data={['HTML5', 'CSS3', 'jQuery grab']} />
           </li>
         </ul>
       </section>

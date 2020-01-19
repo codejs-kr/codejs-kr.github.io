@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader, RowList } from 'components';
 import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
@@ -29,11 +29,11 @@ const RemoteSeminar = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>{data.devItems.join(', ')}</p>
+            <RowList data={data.devItems} />
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>{data.techStack.join(', ')}</p>
+            <RowList data={data.techStack} />
           </li>
         </ul>
       </section>

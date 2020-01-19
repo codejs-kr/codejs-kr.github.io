@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, RowList } from 'components';
 
 const DropboxTourBook = () => {
   const name = 'DropBox Tour Book';
@@ -31,7 +31,7 @@ const DropboxTourBook = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, jQuery</p>
+            <RowList data={['HTML5', 'CSS3', 'jQuery']} />
           </li>
         </ul>
       </section>

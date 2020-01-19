@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader, RowList } from 'components';
 
 const ImageSlider = () => {
   const name = '3D Image Slider';
@@ -30,7 +30,7 @@ const ImageSlider = () => {
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>CSS3 Transform, Transition, Perspective</p>
+            <RowList data={['CSS3 Transform', 'Transition', 'Perspective']} />
           </li>
         </ul>
       </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader } from 'components';
+import { DevelopmentDetailTemplate, A, ImageLoader, VideoLoader, RowList } from 'components';
 import jobs from 'pages/data/jobs';
 import utils from 'helpers/utils';
 
@@ -15,7 +15,7 @@ const RemoteMeeting = () => {
 
       <section className="overview">
         <p>
-          리모트미팅은 WebRTC 기반으로 개발한 온라인 화상회의 서비스입니다.
+          리모트미팅은 WebRTC · WebSocket 기반으로 개발한 온라인 화상회의 서비스입니다.
           <br />
           제가 다니는 회사는 컴퓨터를 제어하는 서비스가 주를 이루었으며, 저 또한 관련 서비스를 오랜 시간 개발했습니다.
         </p>
@@ -44,11 +44,11 @@ const RemoteMeeting = () => {
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>{data.devItems.join(', ')}</p>
+            <RowList data={data.devItems} />
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>{data.techStack.join(', ')}</p>
+            <RowList data={data.techStack} />
           </li>
         </ul>
       </section>

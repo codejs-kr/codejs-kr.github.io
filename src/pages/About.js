@@ -131,7 +131,7 @@ const About = () => {
               </div>
 
               <div>
-                <TimeLine data={jobsData} />
+                <TimeLine data={jobsData} hidden={['삼성 RemotePC']} />
               </div>
             </section>
 

@@ -1,9 +1,12 @@
 import React from 'react';
-import { DevelopmentDetailTemplate, ImageLoader } from 'components';
+import { DevelopmentDetailTemplate, ImageLoader, RowList } from 'components';
+import jobs from 'pages/data/jobs';
+import utils from 'helpers/utils';
+
+const name = '삼성 RemotePC';
+const data = utils.findProjectData(jobs, name);
 
 const SamsungRemotePC = () => {
-  const name = '삼성 Remote PC';
-
   return (
     <DevelopmentDetailTemplate title={`${name}️`}>
       <section className="image-wrap center cover">
@@ -22,19 +25,19 @@ const SamsungRemotePC = () => {
         <ul>
           <li>
             <strong>개발년도</strong>
-            <p>2013</p>
+            <p>{data.date}</p>
           </li>
           <li>
             <strong>역할</strong>
-            <p>웹 프론트엔드 개발</p>
+            <p>{data.role}</p>
           </li>
           <li>
             <strong>주요개발항목</strong>
-            <p>원격제어 에이전트 설치 및 관리 메뉴 개발, 서비스 전체 마크업 개발</p>
+            <RowList data={data.devItems} />
           </li>
           <li>
             <strong>사용기술</strong>
-            <p>HTML5, CSS3, ES5, jQuery</p>
+            <RowList data={data.techStack} />
           </li>
         </ul>
       </section>
