@@ -99,7 +99,8 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
-              // includePaths: [srcPath + '/statics/scss/modules']  // component SCSS 내부에서 import시 사용하는 path설정.
+              includePaths: [srcPath + '/statics/scss/modules'], // component SCSS 내부에서 import시 사용하는 path설정.
+              data: '@import "variables.scss";', // 변수 전역에서 사용하도록 설정
             },
           },
         ],

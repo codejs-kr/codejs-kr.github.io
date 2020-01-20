@@ -1,5 +1,3 @@
-@import '~statics/scss/modules/variables';
-
 .button {
   display: inline-block;
   min-width: 180px;
@@ -16,7 +14,7 @@
 
   &.fill {
     background: $button-color-deafult;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 
     &:hover {
       background: $button-color-default-hover;
@@ -34,7 +32,7 @@
     border: solid 1px $button-color-deafult;
 
     &:hover {
-      background: rgba(0,0,0,0.04);
+      background: rgba(0, 0, 0, 0.04);
     }
   }
 
