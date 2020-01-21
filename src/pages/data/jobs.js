@@ -15,13 +15,14 @@ export default [
         devItems: [
           'WebRTC 모듈',
           'WebSocket 핸들러',
-          '화상회의기능',
+          'Video Audio 핸들러',
           '화면공유',
-          '문서공유 뷰어',
+          '문서뷰어',
           'Canvas 그리기도구',
           '채팅',
-          '브라우저 캡쳐',
-          '회의 전체 기능',
+          '회의록',
+          '초대기능',
+          '크롬 캡쳐 확장프로그램',
           '모바일 웹뷰',
           '실시간 룸리스트',
           '예약 캘린더',
@@ -42,13 +43,22 @@ export default [
       },
       {
         name: '리모트세미나',
-        role: '웹 프론트엔드 개발',
+        role: '프로토타입 설계, 웹 프론트엔드 개발',
         date: '2019.01 ~ 2019.10',
         description:
           '온라인 미팅 제품에 이어 세미나 제품을 회사에서 신규서비스로 출시를 준비중입니다.\n' +
           'WebRTC 기반으로 설계되어 기존에 담당하던 리모트미팅과 구조상 유사점이 많아 제품 초기 프로토타입 개발과 알파버전 개발을 담당하였습니다.',
         link: '/development/remoteseminar',
-        devItems: ['프로토타입 설계', 'WebRTC 모듈', '화면공유', '문서공유 뷰어', '그리기도구', '채팅 개발'],
+        devItems: [
+          'WebRTC 모듈',
+          'WebSocket 핸들러',
+          'Video Audio 핸들러',
+          '화면공유',
+          '문서뷰어',
+          '그리기도구',
+          '업로더',
+          '채팅 등',
+        ],
         techStack: [
           'React',
           'Redux',
@@ -75,7 +85,7 @@ export default [
           '구글 계정 연동',
           '메시징 처리',
           '데이터 암호화',
-          '스케줄링',
+          '스케줄러',
           '자동 메일 발송',
           '관리자 페이지',
           'REST API 개발',
@@ -104,7 +114,7 @@ export default [
           'RemoteLive는 WebRTC 기반의 서비스의 가능성을 검토하기 위한 파일럿 프로젝트였습니다.\n' +
           '상용화 된 리모트미팅 프로젝트의 디딤돌이 된 프로젝트이며, Websocket 채팅과 P2P 기반의 화상회의 기능을 모듈화하여 기존 회사 서비스에 적용시키는 방법을 제안한 프로젝트입니다.',
         link: '/development/remotelive',
-        devItems: ['화상회의 개발', '채팅 개발 등'],
+        devItems: ['WebRTC 모듈', 'WebSocket 핸들러', '화상회의', '채팅 등'],
         techStack: [
           'WebRTC',
           'Socket.io',
@@ -126,7 +136,14 @@ export default [
         description:
           'RemoteWOL은 전원이 꺼져 있는 PC의 전원을 원격에서 켤 수 있도록 하는 제품입니다. WOL 기능을 지원하는 하드웨어에 작은 Goahead 웹서버와 그 내부에서 하드웨어를 제어 & 관리할 수 있는 싱글 페이지 어플리케이션을 개발하였습니다.',
         link: '/development/remotewol',
-        devItems: ['관리 화면 UI', '하드웨어 설정', '서비스 전체 기능 및 UI 개발 담당'],
+        devItems: [
+          '관리 화면 UI',
+          '동적 렌더러',
+          '하드웨어 설정 기능',
+          '시스템 로그',
+          '다이얼로그',
+          '서비스 전체 기능 및 UI 개발 담당',
+        ],
         techStack: ['HTML5', 'CSS3', 'ES5', 'Ajax', 'jQuery', 'Gulp'],
       },
       {
@@ -147,7 +164,7 @@ export default [
         description:
           '코딩 컨벤션을 공유하고 Bootstrap 같은 자주 사용하는 UI 컴포넌트를 만들기로 시작한 프로젝트이며, 오픈 이후 팀 프로젝트로 발전시킬 수 있었습니다.',
         link: '/development/frontend-convension',
-        devItems: ['사이트 개발 및 컨벤션 작성', '플러그인 개발', '컴포넌트 개발 등'],
+        devItems: ['사이트 개발', '컨벤션 작성', '플러그인 개발', '컴포넌트 개발 등'],
         techStack: ['HTML5', 'CSS3', 'ES5', 'Ajax', 'jQuery', 'Handlebars'],
       },
       {
@@ -170,11 +187,15 @@ export default [
         link: '/development/remoteview-business',
         devItems: [
           '원격 컴퓨터관리 기능',
-          '동적 UI 렌더러',
+          '이미지 라이브 뷰어',
+          '동적 렌더러',
           '다이얼로그',
           '컨텍스트메뉴',
-          '드레그 액션',
+          '트리뷰',
+          '리포팅 차트',
+          '드레그 & 드롭 기능',
           '기능별 CRUD 비동기 로직 개발 등',
+          '서비스 전체 기능 및 UI 개발 담당',
         ],
         techStack: ['HTML5', 'CSS3', 'ES5', 'Ajax', 'jQuery', 'jQuery.ui', 'Handlebars', 'flot chart'],
       },
@@ -202,7 +223,7 @@ export default [
         description:
           '회사 공식 사이트 리뉴얼 프로젝트입니다. 5개 국어를 지원하는 사이트로 다국어 처리를 고려하여 UI 요소들을 확장 가능하도록 개발 하였습니다.',
         link: '/development/rsupport',
-        devItems: ['전체 마크업', 'Slider UI', 'Tab UI', '동영상 플레이어 연동', '회원가입', '다국어 처리 등'],
+        devItems: ['사이트 전체 마크업', 'Slider UI', 'Tab UI', '동영상 플레이어 연동', '회원가입', '다국어 처리 등'],
         techStack: ['HTML5', 'CSS3', 'ES5', 'Ajax', 'jQuery'],
       },
       {

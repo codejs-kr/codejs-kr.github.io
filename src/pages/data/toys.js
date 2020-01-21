@@ -7,7 +7,7 @@ export default [
       'WebSocket를 활용한 웹 채팅 토이프로젝트입니다.\n' +
       'React로 UI 컴포넌트를 구현하였고 Redux rematch framework로 상태 관리 하도록 개발하였습니다.',
     link: '/development/simple-chat',
-    devItems: ['전체 UI 개발', 'WebSocket 핸들러', '라우팅', '서버사이드 등'],
+    devItems: ['레이아웃 & 모션', '프로필 셀렉터', '채팅', '참여자 목록', 'WebSocket 핸들러', '라우팅 등'],
     techStack: ['React', 'Redux rematch', 'ES6', 'SCSS', 'WebPack', 'NodeJS', 'Socket.io'],
   },
   {
@@ -19,7 +19,7 @@ export default [
       '프론트엔드 개발을 하면서 언젠간 당시 게임을 웹 버전으로 구현해 보고 싶다는 생각하였고 오래전 코드를 보며 토이프로젝트로 재 구현해 보았습니다.',
     link: '/development/zzanggu',
     devItems: [
-      'Canvas 드로잉 처리',
+      'Canvas 드로잉 핸들러',
       '캐릭터 처리',
       '미사일 처리',
       '충돌 처리',
@@ -45,7 +45,7 @@ export default [
     description:
       'WebRTC를 배우고 싶어 하는 분들이 조금 더 진입하기 쉽게 하는 것을 목적으로 제가 알게 된 정보들을 다듬어서 바로 사용할 수 있는 예제 공간으로 만들어 보았습니다.',
     link: '/development/webrtc-lab',
-    devItems: ['마이크 & 캠 접근하기', '비디오 필터', '1:1 화상회의 등'],
+    devItems: ['마이크 & 캠 접근하기', '비디오 필터', '이미지 캡쳐', '1:1 화상회의 등'],
     techStack: ['WebRTC', 'WebSocket', 'ES6', 'HTML5', 'CSS3', 'NodeJS', 'Express', 'EJS'],
   },
   {
@@ -64,7 +64,7 @@ export default [
     date: '2013',
     description: 'CSS3 Transform 속성을 활용하여 만든 멋진 UI를 보고 한눈에 반해서 코드 분석 후 만들어 보았습니다.',
     link: '/development/book-transform',
-    devItems: ['노트 CRUD', '즐겨찾기', '테그기능 등'],
+    // devItems: ['노트 CRUD', '즐겨찾기', '테그기능 등'],
     techStack: ['CSS3 Transform', 'Transition', 'HTML5'],
   },
 ];
