@@ -45,7 +45,7 @@ export default [
     description:
       'WebRTC를 배우고 싶어 하는 분들이 조금 더 진입하기 쉽게 하는 것을 목적으로 제가 알게 된 정보들을 다듬어서 바로 사용할 수 있는 예제 공간으로 만들어 보았습니다.',
     link: '/development/webrtc-lab',
-    devItems: ['마이크 & 캠 접근하기', '비디오 필터', '이미지 캡쳐', '1:1 화상회의 등'],
+    devItems: ['마이크 & 캠 접근하기', '비디오 필터', '이미지 캡쳐', '화면 공유', '1:1 화상회의 등'],
     techStack: ['WebRTC', 'WebSocket', 'ES6', 'HTML5', 'CSS3', 'NodeJS', 'Express', 'EJS'],
   },
   {
@@ -55,7 +55,7 @@ export default [
     description:
       'React와 Firebase에 관심을 갖던 시기에 두가지를 활용해서 무언가를 만들어 보고 싶었습니다.\n그래서 평소에 자주 사용하는 Evernote를 구현해 보기로 하고 조금씩 작업을 시작해 보았습니다.',
     link: '/development/react-evernote',
-    devItems: ['노트 CRUD', '즐겨찾기', '테그기능 등'],
+    devItems: ['노트 CRUD', '즐겨찾기', '테그기능', 'Cloud DB 핸들러 등'],
     techStack: ['React', 'ES6', 'HTML5', 'SCSS', 'WebPack', 'Firebase Realtime DB'],
   },
   {
