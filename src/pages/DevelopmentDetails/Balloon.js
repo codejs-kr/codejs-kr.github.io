@@ -79,7 +79,7 @@ const Balloon = () => {
         <dl>
           <dt>칭찬 알림 메일</dt>
           <dd>
-            <p>기분좋은 기다림을 주기 위해 칭찬 도착 알림 메일이 발송되고, 메시지는 다음달 1일에 공개됩니다.</p>
+            <p>기분좋은 기다림의 칭찬 도착 알림 메일이 발송되고, 메시지는 다음달 1일에 공개됩니다.</p>
             <ImageLoader src={require('statics/img/development/balloon/feature-mail.png')} alt={name} theme="white" />
           </dd>
         </dl>
