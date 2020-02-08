@@ -62,7 +62,9 @@ const Balloon = () => {
         <dl>
           <dt>로그인 & 계절 테마</dt>
           <dd>
-            <p>구글 계정 연동하였고, 계절마다 자동으로 테마를 변경 되도록 개발하였습니다.</p>
+            <p>
+              회사 구글 계정을 연동하여 별도 가입없이 사용가능하며, 계절마다 자동으로 테마가 변경 되도록 개발하였습니다.
+            </p>
             <ImageLoader src={require('statics/img/development/balloon/main.gif')} alt={name} theme="white" />
           </dd>
         </dl>
@@ -77,9 +79,9 @@ const Balloon = () => {
           </dd>
         </dl>
         <dl>
-          <dt>칭찬 알림 메일</dt>
+          <dt>칭찬 도착 알림 메일</dt>
           <dd>
-            <p>기분좋은 기다림의 칭찬 도착 알림 메일이 발송되고, 메시지는 다음달 1일에 공개됩니다.</p>
+            <p>먼저 기분좋은 알림 메일이 발송되고, 메시지는 다음달 1일에 당사자에게만 공개됩니다.</p>
             <ImageLoader src={require('statics/img/development/balloon/feature-mail.png')} alt={name} theme="white" />
           </dd>
         </dl>
@@ -104,7 +106,7 @@ const Balloon = () => {
         <dl>
           <dt>누적된 칭찬</dt>
           <dd>
-            <p>2015년 오픈 후 지금도 운영중이며 현재까지 누적된 칭찬갯수입니다.</p>
+            <p>2015년 오픈 후 현재도 운영중이며 지금까지 누적된 칭찬갯수입니다.</p>
             <ImageLoader src={require('statics/img/development/balloon/feature5.gif')} alt={name} theme="white" />
           </dd>
         </dl>
