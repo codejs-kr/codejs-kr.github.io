@@ -82,7 +82,7 @@ const RemoteMeeting = () => {
         <dl>
           <dt>화상회의</dt>
           <dd>
-            <p>WebRTC 기반의 회의는 상황에 따라 P2P와 MCU 연결 방식으로 최대 14인까지 동시 지원합니다.</p>
+            <p>WebRTC 기반의 회의는 상황에 따라 P2P와 MCU 연결 방식으로 최대 30인까지 동시 지원합니다.</p>
             <ImageLoader src={require('statics/img/development/remotemeeting/feature-conf.png')} alt={name} />
           </dd>
         </dl>
