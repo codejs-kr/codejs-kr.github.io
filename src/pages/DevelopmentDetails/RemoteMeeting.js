@@ -87,6 +87,15 @@ const RemoteMeeting = () => {
           </dd>
         </dl>
         <dl>
+          <dt>최대 30인 동시참여</dt>
+          <dd>
+            <p>
+              참여자 수에 따라 레이아웃이 다이나믹하게 변경되며, 최대 30인까지 동시에 참여하여 회의를 할 수 있습니다.
+            </p>
+            <VideoLoader src={require('statics/img/development/remotemeeting/feature-participants.mp4')} />
+          </dd>
+        </dl>
+        <dl>
           <dt>화면공유</dt>
           <dd>
             <p>화면공유와 스크린샷 크롬 확장프로그램을 개발하여 회의 중 PC화면을 참여자들에게 공유할 수 있습니다.</p>
