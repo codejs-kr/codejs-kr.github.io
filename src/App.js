@@ -29,7 +29,7 @@ class App extends Component {
   };
 
   onScroll = () => {
-    console.log('onScroll', window.scrollY);
+    // console.log('onScroll', window.scrollY);
     this.body.classList[window.scrollY > 160 ? 'add' : 'remove']('scrolled');
 
     utils.setStorageScroll({

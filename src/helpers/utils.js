@@ -2,7 +2,7 @@
  * 페이지 스크롤 정보를 스토리지에 저장합니다.
  */
 export const setStorageScroll = (data) => {
-  console.log('setStorageScroll', data);
+  // console.log('setStorageScroll', data);
 
   const { page, top } = data;
   const savedData = JSON.parse(sessionStorage.getItem('scrollInfo'));
@@ -21,7 +21,7 @@ export const setStorageScroll = (data) => {
  */
 export const getStorageScroll = () => {
   const data = JSON.parse(sessionStorage.getItem('scrollInfo'));
-  console.log('getStorageScroll', data);
+  // console.log('getStorageScroll', data);
 
   return data;
 };
