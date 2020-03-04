@@ -92,7 +92,7 @@ const RemoteMeeting = () => {
             <p>
               참여자 수에 따라 레이아웃이 다이나믹하게 변경되며, 최대 30인까지 동시에 참여하여 회의를 할 수 있습니다.
             </p>
-            <VideoLoader src={require('statics/img/development/remotemeeting/feature-participants.mp4')} delay={1000} />
+            <VideoLoader src={require('statics/img/development/remotemeeting/feature-participants.mp4')} />
           </dd>
         </dl>
         <dl>
@@ -134,7 +134,7 @@ const RemoteMeeting = () => {
           <dt>Preview</dt>
           <dd>
             <p>간단한 시연 영상입니다.</p>
-            <VideoLoader src={require('statics/img/development/remotemeeting/preview.mp4')} delay={1500} />
+            <VideoLoader src={require('statics/img/development/remotemeeting/preview.mp4')} />
           </dd>
         </dl>
         <dl>

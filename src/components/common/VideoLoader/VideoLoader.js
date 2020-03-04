@@ -1,32 +1,28 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { InView } from 'react-intersection-observer';
 import { DefaultLoading } from '../ImageLoader/ImageLoader';
-import './VideoLoader.scss';
 import '../ImageLoader/ImageLoader.scss';
+import './VideoLoader.scss';
 
-const VideoLoader = ({ src, delay = 500 }) => {
+const VideoLoader = ({ src }) => {
   const [isLoaded, setLoad] = useState(false);
   const className = isLoaded ? 'loaded' : 'loading';
   const videoEl = React.createRef();
 
-  useEffect(() => {
-    if (isLoaded) {
-      console.log('videoEl', videoEl);
-      setTimeout(() => {
-        if (videoEl.current) {
-          videoEl.current.play();
-        }
-      }, delay);
-    }
-  }, [isLoaded]);
-
   return (
-    <>
+    <InView
+      onChange={(inView) => {
+        const video = videoEl.current;
+        video[inView ? 'play' : 'pause']();
+        // console.log('Inview:', inView, video.currentTime);
+      }}
+    >
       {!isLoaded && <DefaultLoading />}
-      <video className={className} muted loop onCanPlay={() => setLoad(true)} ref={videoEl}>
+      <video ref={videoEl} className={className} muted loop onCanPlay={() => setLoad(true)}>
         <source src={src} type="video/mp4" />
         비디오를 지원하지 않습니다.
       </video>
-    </>
+    </InView>
   );
 };
 
