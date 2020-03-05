@@ -10,7 +10,7 @@ const RemoteMeeting = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap center cover">
-        <ImageLoader src={require('statics/img/development/remotemeeting/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/remotemeeting/main.jpg')} alt={name} />
       </section>
 
       <section className="overview">
@@ -83,7 +83,7 @@ const RemoteMeeting = () => {
           <dt>화상회의</dt>
           <dd>
             <p>WebRTC 기반의 회의는 상황에 따라 P2P와 MCU 연결 방식으로 최대 30인까지 동시 지원합니다.</p>
-            <ImageLoader src={require('statics/img/development/remotemeeting/feature-conf.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-conf.jpg')} alt={name} />
           </dd>
         </dl>
         <dl>
@@ -99,7 +99,7 @@ const RemoteMeeting = () => {
           <dt>화면공유</dt>
           <dd>
             <p>화면공유와 스크린샷 크롬 확장프로그램을 개발하여 회의 중 PC화면을 참여자들에게 공유할 수 있습니다.</p>
-            <ImageLoader src={require('statics/img/development/remotemeeting/feature-screen.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-screen.jpg')} alt={name} />
           </dd>
         </dl>
         <dl>
@@ -127,7 +127,7 @@ const RemoteMeeting = () => {
           <dt>채팅</dt>
           <dd>
             <p>타임라인 인터페이스에는 회의 이벤트 로그가 남고 사용자간 채팅을 할 수 있습니다.</p>
-            <ImageLoader src={require('statics/img/development/remotemeeting/feature-chat2.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remotemeeting/feature-chat2.jpg')} alt={name} />
           </dd>
         </dl>
         <dl>

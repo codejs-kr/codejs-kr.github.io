@@ -10,7 +10,7 @@ const RemoteSeminar = () => {
   return (
     <DevelopmentDetailTemplate title={`${name}`}>
       <section className="image-wrap cover">
-        <ImageLoader src={require('statics/img/development/remoteseminar/main.png')} alt={name} />
+        <ImageLoader src={require('statics/img/development/remoteseminar/main.jpg')} alt={name} />
       </section>
 
       <section className="overview">
@@ -49,7 +49,7 @@ const RemoteSeminar = () => {
         <dl>
           <dt>현재 Beta 서비스 준비중입니다.</dt>
           <dd>
-            <ImageLoader src={require('statics/img/development/remoteseminar/feature1.png')} alt={name} />
+            <ImageLoader src={require('statics/img/development/remoteseminar/feature1.jpg')} alt={name} />
           </dd>
         </dl>
         <dl>
