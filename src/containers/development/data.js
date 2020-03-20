@@ -46,7 +46,7 @@ export default [
     contentURL: '/development/webrtc-presentation',
   },
   {
-    title: '칭찬합시다 (사내문화정착 프로젝트)',
+    title: '칭찬합시다 (사내 분위기 개선 프로젝트)',
     imageURL: require('statics/img/development/thumb-balloon.png'),
     contentURL: '/development/balloon',
   },
