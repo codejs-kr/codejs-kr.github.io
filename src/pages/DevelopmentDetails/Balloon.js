@@ -102,9 +102,9 @@ const Balloon = () => {
           <dt>칭찬왕 & 칭찬쟁이</dt>
           <dd>
             <p>
-              매달 칭찬을 많이 받은 사람과 분기별로 칭찬을 많이 받은 사람을 선별하여
+              매달 칭찬을 많이 받은 사람과 분기별로 칭찬을 많이 한 사람을 선별하여 휴가를 제공하자는 제안을 하였고,
               <br />
-              휴가를 제공하자는 제안하였고 회사에서도 흔쾌히 수용하여 주었습니다.
+              회사에서도 개발 취지를 공감하여 현재까지 130명 이상 휴가를 제공하였습니다.
             </p>
             <ImageLoader src={require('statics/img/development/balloon/feature2.jpg')} alt={name} theme="white" />
           </dd>
