@@ -3,11 +3,8 @@
  * @param page
  */
 function sendGA(page) {
-  if (page.match('home')) {
-    return false;
-  }
-  ga('send', 'pageview', { page: page });
   console.log('sendGA', page);
+  ga('send', 'pageview', { page: page });
 }
 
 export default sendGA;
