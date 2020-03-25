@@ -1,9 +1,10 @@
 import React, { Component, Fragment, Suspense } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, withRouter } from 'react-router-dom';
 import { LoaderContainer } from 'containers';
 import { Toy, About, Development, Loading, DevelopmentDetails, NotFound } from 'pages';
 import config from 'helpers/config';
 import utils from 'helpers/utils';
+import sendGA from 'helpers/ga-handler';
 import _ from 'lodash';
 import 'statics/scss/main.scss';
 
@@ -45,6 +46,16 @@ class App extends Component {
     window.onscroll = _.debounce(onScroll, interval);
   };
 
+  componentDidMount() {
+    const { location } = this.props;
+    sendGA(location.pathname);
+  }
+
+  componentDidUpdate() {
+    const { location } = this.props;
+    sendGA(location.pathname);
+  }
+
   render() {
     return (
       <Fragment>
@@ -65,4 +76,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
