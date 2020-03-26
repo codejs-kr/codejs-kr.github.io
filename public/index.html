@@ -42,16 +42,16 @@
     <meta property="og:description" content="FrontEnd Development playground" />
     <meta property="og:image" content="http://www.codejs.co.kr/wp-content/uploads/2018/07/codejs-logo-v2.png" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script src="https://www.googletagmanager.com/gtag/js?id=UA-25879758-1"></script>
+    <!-- Google Analytics -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-25879758-1');
+      // prettier-ignore
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+      ga.l = +new Date();
+      ga('create', 'UA-25879758-1', 'auto');
+      ga('send', 'pageview');
     </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
   </head>
   <body>
     <div id="codejs"></div>
