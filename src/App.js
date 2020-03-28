@@ -47,13 +47,11 @@ class App extends Component {
   };
 
   componentDidMount() {
-    const { location } = this.props;
-    sendGA(location.pathname);
+    sendGA(this.props.location.pathname);
   }
 
   componentDidUpdate() {
-    const { location } = this.props;
-    sendGA(location.pathname);
+    sendGA(this.props.location.pathname);
   }
 
   render() {
