@@ -24,13 +24,12 @@ class DevelopmentPagingContainer extends Component {
     let result = 0;
 
     arr.some((obj, i) => {
-      // console.log('obj', obj.title, i);
+      // console.log('arr.some', obj.title, i);
       if (obj.title.match(name)) {
         result = i;
         return true;
       }
     });
-    // console.log('searchIndex', name, result);
 
     return result;
   };
@@ -102,7 +101,6 @@ class DevelopmentPagingContainer extends Component {
     const { searchIndex, filterData } = this;
     const index = searchIndex(data, name);
     const listData = filterData(data, index);
-    // console.log('확인 index', name, index, listData);
 
     return (
       <div>
