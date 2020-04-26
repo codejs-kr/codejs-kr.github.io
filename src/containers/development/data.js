@@ -9,7 +9,7 @@ export default [
   },
   {
     title: '리모트미팅 (화상회의서비스)',
-    imageURL: require('statics/img/development/thumb-remotemeeting.png'),
+    imageURL: require('statics/img/development/thumb-remotemeeting.jpg'),
     contentURL: '/development/remotemeeting',
   },
   {
