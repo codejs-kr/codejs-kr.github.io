@@ -1,13 +1,55 @@
 export default [
+  // {
+  //   name: 'Kakaopay 💼',
+  //   team: '',
+  //   date: '2020.05 ~ 재직중',
+  //   list: [
+  //     {
+  //       name: '카카오페이',
+  //       role: '웹 프론트엔드 개발',
+  //       date: '2020.05 ~ 2020 (현재)',
+  //       description: '카카오페이 홈 · 자산관리 · 혜택 서비스의 웹프론트엔드 개발을 담당하고 있습니다.',
+  //       link: '/development/remotemeeting',
+  //       devItems: [
+  //         'WebRTC 모듈',
+  //         'WebSocket 핸들러',
+  //         'Video Audio 핸들러',
+  //         '화면공유',
+  //         '문서뷰어',
+  //         'Canvas 그리기도구',
+  //         '채팅',
+  //         '회의록',
+  //         '초대기능',
+  //         '크롬 캡쳐 확장프로그램',
+  //         '모바일 웹뷰',
+  //         '실시간 룸리스트',
+  //         '예약 캘린더',
+  //       ],
+  //       techStack: [
+  //         'React',
+  //         'Redux thunk',
+  //         'WebRTC',
+  //         'WebSocket',
+  //         'MQTT',
+  //         'ES6',
+  //         'Ajax',
+  //         'Canvas',
+  //         'HTML5',
+  //         'SCSS',
+  //         'WebPack',
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     name: 'Rsupport 💼',
     team: '프론트엔드개발팀',
-    date: '2010.07 ~ 2020 재직중',
+    date: '2010.07 ~ 2020.05',
     list: [
       {
         name: '리모트미팅',
         role: '웹 프론트엔드 개발',
-        date: '2014.09 ~ 2020 (현재)',
+        date: '2014.09 ~ 2020.05',
         description:
           'WebRTC · WebSocket 기반 온라인 화상회의 서비스 클라이언트 설계 및 개발을 담당하였습니다.\n' +
           '2014년 WebRTC 기술을 이용한 파일럿 프로젝트를 주도한 것을 시작으로 리모트미팅 프로젝트의 시작을 함께 할 수 있었습니다.',
