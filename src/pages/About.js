@@ -79,11 +79,11 @@ const About = () => {
                   <h3>언어</h3>
                   <ul>
                     <li>JavaScript (ES6+)</li>
+                    <li>TypeScript</li>
                     <li>CSS3 / SCSS / PostCSS</li>
                     <li>HTML5</li>
                     <li>Node.js</li>
                     <li>MongoDB</li>
-                    {/* <li>TypeScript</li> */}
                   </ul>
                 </div>
 
@@ -92,6 +92,7 @@ const About = () => {
                   <ul>
                     <li>React</li>
                     <li>Redux</li>
+                    {/* <li>Mobx</li> */}
                     <li>Next.js</li>
                     <li>ReactNative</li>
                     <li>jQuery</li>
