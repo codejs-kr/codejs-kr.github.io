@@ -1,15 +1,15 @@
 export default [
   {
     name: 'Kakaopay 💼',
-    team: '',
-    date: '2020.05 ~ 재직중',
+    team: '프론트엔드개발팀',
+    date: '2020.06 ~ 재직중',
     list: [
       {
-        name: '카카오페이 - 내문서함',
+        name: '카카오페이',
         role: '웹 프론트엔드 개발',
-        date: '2020.05 ~ 2020 (현재)',
-        description: '카카오페이 홈 · 자산관리 · 혜택 서비스의 웹프론트엔드 개발을 담당하고 있습니다.',
-        link: '/development/remotemeeting',
+        date: '2020.06 ~ 2020 (현재)',
+        description: '카카오페이 홈 · 자산관리 · 내문서함 서비스의 웹프론트엔드 개발을 담당하고 있습니다.',
+        // link: '/development/remotemeeting',
         devItems: [
           'WebRTC 모듈',
           'WebSocket 핸들러',
@@ -25,19 +25,7 @@ export default [
           '실시간 룸리스트',
           '예약 캘린더',
         ],
-        techStack: [
-          'React',
-          'Redux thunk',
-          'WebRTC',
-          'WebSocket',
-          'MQTT',
-          'ES6',
-          'Ajax',
-          'Canvas',
-          'HTML5',
-          'SCSS',
-          'WebPack',
-        ],
+        techStack: ['Typescript', 'React', 'Redux Saga', 'ES6+', 'Ajax', 'HTML5', 'SCSS', 'WebPack'],
       },
     ],
   },
