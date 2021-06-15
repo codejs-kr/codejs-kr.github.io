@@ -7,7 +7,7 @@ export default [
       {
         name: '카카오페이',
         role: '웹 프론트엔드 개발',
-        date: '2020.06 ~ 2020 (현재)',
+        date: '2020.06 ~ 2021 (현재)',
         description: '카카오페이 홈 · 자산관리 · 내문서함 서비스의 웹프론트엔드 개발을 담당하고 있습니다.',
         // link: '/development/remotemeeting',
         devItems: [
