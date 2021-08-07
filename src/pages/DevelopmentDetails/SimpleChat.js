@@ -42,7 +42,7 @@ const SimpleChat = () => {
         {/* <A href="https://inspiring-sammet-2aa742.netlify.com" theme="fill" icon="default">
           Live
         </A> */}
-        <A href="https://github.com/dodortus/simple-chat" theme="fill" icon="github">
+        <A href="https://github.com/codejs-kr/simple-chat" theme="fill" icon="github">
           Github
         </A>
       </section>

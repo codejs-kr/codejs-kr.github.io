@@ -43,7 +43,7 @@ const ReactEvernote = () => {
         <A href="http://play.codejs.co.kr/react-evernote" theme="fill" icon="default">
           Live
         </A>
-        <A href="https://github.com/dodortus/react-evernote" icon="github" theme="fill">
+        <A href="https://github.com/codejs-kr/react-evernote" icon="github" theme="fill">
           Github
         </A>
       </section>

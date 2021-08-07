@@ -49,7 +49,7 @@ const SpeechRecognition = () => {
           Live
         </A>
         <A
-          href="https://github.com/dodortus/webrtc-lab/tree/master/frontend/views/examples/speech-recognition"
+          href="https://github.com/codejs-kr/webrtc-lab/tree/master/frontend/views/examples/speech-recognition"
           theme="fill"
           icon="github"
         >
