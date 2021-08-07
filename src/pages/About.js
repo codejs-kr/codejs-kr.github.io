@@ -63,7 +63,7 @@ const About = () => {
                 <span role="img" aria-label="open-book">
                   📖
                 </span>
-                <a href="https://github.com/dodortus" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/codejs-kr" target="_blank" rel="noopener noreferrer">
                   Github
                 </a>
               </p>

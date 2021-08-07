@@ -49,7 +49,7 @@ const WebrtcLab = () => {
         <A href="https://webrtclab.herokuapp.com" theme="fill" icon="default">
           Live
         </A>
-        <A href="https://github.com/dodortus/webrtc-lab" theme="fill" icon="github">
+        <A href="https://github.com/codejs-kr/webrtc-lab" theme="fill" icon="github">
           Github
         </A>
       </section>
