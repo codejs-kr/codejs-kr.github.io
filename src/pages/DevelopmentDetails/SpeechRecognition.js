@@ -45,7 +45,11 @@ const SpeechRecognition = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://webrtclab.herokuapp.com/speech-recognition" theme="fill" icon="default">
+        <A
+          href="https://port-0-webrtc-lab-eg4e2alkowmsbp.sel4.cloudtype.app/speech-recognition"
+          theme="fill"
+          icon="default"
+        >
           Live
         </A>
         <A

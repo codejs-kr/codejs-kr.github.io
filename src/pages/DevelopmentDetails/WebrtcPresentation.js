@@ -29,7 +29,7 @@ const WebrtcPresentation = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://webrtclab.herokuapp.com/introduction" theme="fill" icon="default">
+        <A href="https://port-0-webrtc-lab-eg4e2alkowmsbp.sel4.cloudtype.app/introduction" theme="fill" icon="default">
           Live
         </A>
       </section>

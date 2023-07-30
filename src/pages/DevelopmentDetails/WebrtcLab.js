@@ -46,7 +46,7 @@ const WebrtcLab = () => {
       </section>
 
       <section className="button-wrap">
-        <A href="https://webrtclab.herokuapp.com" theme="fill" icon="default">
+        <A href="https://port-0-webrtc-lab-eg4e2alkowmsbp.sel4.cloudtype.app" theme="fill" icon="default">
           Live
         </A>
         <A href="https://github.com/codejs-kr/webrtc-lab" theme="fill" icon="github">
