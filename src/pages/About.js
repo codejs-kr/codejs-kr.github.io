@@ -78,11 +78,11 @@ const About = () => {
                 <div>
                   <h3>언어</h3>
                   <ul>
-                    <li>JavaScript (ES6+)</li>
                     <li>TypeScript</li>
+                    <li>JavaScript (ES6+)</li>
                     <li>CSS3 / SCSS / PostCSS</li>
                     <li>HTML5</li>
-                    <li>Node.js</li>
+                    <li>NodeJS</li>
                     <li>MongoDB</li>
                   </ul>
                 </div>
@@ -91,12 +91,13 @@ const About = () => {
                   <h3>라이브러리</h3>
                   <ul>
                     <li>React</li>
+                    <li>React Query</li>
                     <li>Redux</li>
-                    {/* <li>Mobx</li> */}
-                    <li>Next.js</li>
+                    <li>Zustand</li>
+                    <li>NextJS</li>
                     <li>ReactNative</li>
-                    <li>jQuery</li>
                     <li>Handlebars</li>
+                    <li>jQuery</li>
                     <li>Socket.io</li>
                     <li>MQTT</li>
                     <li>Firebase</li>
@@ -114,6 +115,7 @@ const About = () => {
                     <li>Webstorm</li>
                     <li>Git / Github flow</li>
                     <li>SVN</li>
+                    <li>Vite</li>
                     <li>Webpack</li>
                     <li>Parcel</li>
                     <li>Gulp</li>
