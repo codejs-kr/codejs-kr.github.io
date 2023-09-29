@@ -1,7 +1,7 @@
 {
   "author": "codejs-kr",
   "name": "codejs-playgournd",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "codeJS Playground",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
