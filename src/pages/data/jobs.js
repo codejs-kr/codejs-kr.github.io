@@ -8,14 +8,15 @@ export default [
         name: '자산관리',
         role: '웹 프론트엔드 개발',
         date: '2021.03 ~ 진행중',
-        description: '카카오페이 자산관리의 다양한 서비스를 개발 담당하고 있습니다.',
-        techStack: ['Typescript', 'React', 'React Query', 'Recoil', 'Axios', 'HTML5', 'SCSS', 'Vite'],
+        description:
+          '카카오페이 자산관리의 다양한 서비스를 개발 담당하고 있습니다.\n많은 프로젝트들로 구성된 자산관리 서비스를 효과적으로 관리하기 위해 모노레포로 전체 코드를 마이그레이션 하였으며, 재사용이 가능한 공통 코드들은 internal package로 구성하여 서비스 프로젝트에서 활용이 가능하도록 개발하였습니다.',
+        techStack: ['TurboRepo', 'Typescript', 'React', 'React Query', 'Recoil', 'Axios', 'HTML5', 'SCSS', 'Vite'],
       },
       {
         name: '알림피드',
         role: '웹 프론트엔드 개발',
         date: '2021.02 ~ 2021.05',
-        description: '카카오페이 알림피드 서비스의 웹프론트엔드 개발을 진행했습니다.',
+        description: '카카오페이 알림피드 서비스의 웹프론트엔드 개발을 담당했습니다.',
         techStack: ['Typescript', 'React', 'Redux Saga', 'Axios', 'HTML5', 'SCSS', 'WebPack'],
       },
       {

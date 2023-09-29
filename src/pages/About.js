@@ -40,14 +40,14 @@ const About = () => {
                 </span>
               </h2>
               <p id="description">
-                Kakaopay에서 프론트엔드 개발자로 재직중이며 2010년 부터 실무를 담당하고 있습니다.
+                Kakaopay에서 프론트엔드 개발자로 재직 중이며 2010년부터 실무를 담당하고 있습니다.
                 <br />
                 Typescript와 React를 주로 사용하며 오늘도 재밌게 일하고 있습니다.
                 <br />
                 <br />
-                서비스 개발을 좋아하고, 구두를 만드는 사람이 편한 구두를 만들기 위해 고민하듯,
+                서비스 개발을 좋아하며, 구두를 만드는 사람이 편한 구두를 만들기 위해 고민하듯,
                 <br />
-                사용하기 쉬운 서비스를 만들고자 UX/UI에 대한 고민을 많이 하는 편입니다.
+                사용하기 쉬운 서비스를 만들고자 사용성에 대한 고민도 많이 하는 편입니다.
               </p>
               <p id="email-info">
                 <span role="img" aria-label="email">
@@ -79,8 +79,8 @@ const About = () => {
                   <h3>언어</h3>
                   <ul>
                     <li>TypeScript</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>CSS3 / SCSS / PostCSS</li>
+                    <li>JavaScript</li>
+                    <li>CSS3 / SCSS</li>
                     <li>HTML5</li>
                     <li>NodeJS</li>
                     <li>MongoDB</li>
