@@ -57,12 +57,6 @@ const Balloon = () => {
         </ul>
       </section>
 
-      <section className="button-wrap">
-        <A href="http://balloon.rsupport.com" theme="fill" icon="default">
-          Live
-        </A>
-      </section>
-
       <section className="features-wrap">
         <h3>Features</h3>
         <dl>
