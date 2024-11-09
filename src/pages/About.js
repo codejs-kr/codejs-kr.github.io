@@ -40,14 +40,14 @@ const About = () => {
                 </span>
               </h2>
               <p id="description">
-                Kakaopay에서 프론트엔드 개발자로 재직 중이며 2010년부터 실무를 담당하고 있습니다.
+                Kakaopay에서 프론트엔드 개발자로 재직중이며, 2010년부터 실무를 담당하고 있습니다.
                 <br />
-                Typescript와 React를 주로 사용하며 오늘도 재밌게 일하고 있습니다.
+                Typescript와 React를 주로 사용하며 오늘도 즐거운 마음으로 일하고 있습니다.
                 <br />
                 <br />
                 서비스 개발을 좋아하며, 구두를 만드는 사람이 편한 구두를 만들기 위해 고민하듯,
                 <br />
-                사용하기 쉬운 서비스를 만들고자 사용성에 대한 고민도 많이 하는 편입니다.
+                사용하기 쉬운 서비스를 만들고자 프로젝트 설계와 사용성에 대한 고민도 함께하고 있습니다.
               </p>
               <p id="email-info">
                 <span role="img" aria-label="email">
@@ -82,27 +82,29 @@ const About = () => {
                     <li>JavaScript</li>
                     <li>CSS3 / SCSS</li>
                     <li>HTML5</li>
-                    <li>NodeJS</li>
+                    <li>Nodejs</li>
                     <li>MongoDB</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3>라이브러리</h3>
+                  <h3>라이브러리 · 프레임웍</h3>
                   <ul>
                     <li>React</li>
-                    <li>React Query</li>
-                    <li>Redux</li>
+                    <li>ReactQuery</li>
                     <li>Zustand</li>
-                    <li>NextJS</li>
-                    <li>ReactNative</li>
-                    <li>Handlebars</li>
-                    <li>jQuery</li>
-                    <li>Socket.io</li>
+                    <li>Rematch</li>
+                    <li>Redux</li>
+                    <li>Recoil</li>
+                    <li>Nextjs</li>
+                    <li>Express</li>
+                    <li>WebSocket</li>
+                    <li>WebRTC</li>
                     <li>MQTT</li>
                     <li>Firebase</li>
-                    <li>Express</li>
-                    <li>EJS</li>
+                    <li>ReactNative</li>
+                    {/* <li>Handlebars</li>
+                    <li>jQuery</li> */}
                     {/*<li>Cron</li>*/}
                     {/*<li>Nodemailer</li>*/}
                   </ul>
@@ -111,10 +113,7 @@ const About = () => {
                 <div>
                   <h3>개발도구</h3>
                   <ul>
-                    <li>VSCode</li>
-                    <li>Webstorm</li>
-                    <li>Git / Github flow</li>
-                    <li>SVN</li>
+                    <li>Turborepo</li>
                     <li>Vite</li>
                     <li>Webpack</li>
                     <li>Parcel</li>
@@ -123,6 +122,12 @@ const About = () => {
                     <li>Storybook</li>
                     <li>Cypress</li>
                     <li>Jest</li>
+                    <li>Sentry</li>
+                    <li>Webvitals</li>
+                    <li>Git</li>
+                    <li>SVN</li>
+                    <li>VSCode</li>
+                    <li>Webstorm</li>
                   </ul>
                 </div>
               </div>
@@ -209,6 +214,10 @@ const About = () => {
 
               <div>
                 <ul className="list">
+                  <li>
+                    <p>최복동 수상 (최고의 복지는 동료상)</p>
+                    <span>2023.12 카카오페이</span>
+                  </li>
                   <li>
                     <p>프로젝트 공로상 (리모트미팅)</p>
                     <span>2016.12 알서포트</span>

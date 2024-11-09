@@ -1,8 +1,13 @@
 {
   "author": "codejs-kr",
   "name": "codejs-playgournd",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "codeJS Playground",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.config.dev.js --open",
+    "restart": "webpack-dev-server --config ./config/webpack.config.dev.js",
+    "build": "webpack --config ./config/webpack.config.prod.js"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "@babel/runtime": "^7.7.2",
@@ -61,10 +66,5 @@
   ],
   "engines": {
     "node": "^12.16.3"
-  },
-  "scripts": {
-    "start": "webpack-dev-server --config ./config/webpack.config.dev.js --open",
-    "restart": "webpack-dev-server --config ./config/webpack.config.dev.js",
-    "build": "webpack --config ./config/webpack.config.prod.js"
   }
 }
